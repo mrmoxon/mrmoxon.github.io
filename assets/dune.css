@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fafafa;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+  
+.left, .center, .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.home-link, .nav-link, .cv-link {
+    text-decoration: none;
+    color: #333;
+    margin: 0 1rem;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover, .home-link:hover, .cv-link:hover {
+    background-color: #f0f0f0;
+}
