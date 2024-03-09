@@ -1,10 +1,14 @@
-A Brief History of Technological Innovation
-Updated: Jul 20, 2022
-
+---
+layout: post
+title:  "A Brief History of Technology"
+date:   2021-12-13 05:39:31 +0000
+categories: innovation
+featured: false
+recommended: false
+---
 I explore below the history of invention, the acceleration of technological innovation, and the driving force behind our unprecedented rate of growth in the 21st century.
 
-
-Contents:
+#### Contents:
 
 	1. Hark! We Accelerate
 
@@ -16,13 +20,11 @@ Contents:
 
 	5. How Close Are We to the Void?
 
+---
 
 1. Hark! We Accelerate
 
- 
-
 A child born today finds themselves a part of a 6,000 year old global civilization the product of millions of years of technological invention. While that child will adapt to survive in modern society, they may not stop to wonder how things got to where they are today and act without the knowledge of our ancestors. For humans, the past is one of accelerating returns to scale where the only thing guaranteed in life (other than death and taxes) is change.
-
 
 The oldest technologies are stone tools (Lomekwi) dating back 3.3 million years. The three original components of technology were anvils (a surface upon which another object is struck), cores (large rocks), and flakes (fragments struck from a core), used in a process called stone-flaking. More advanced stone-flaking enabled "Oldowan" tools, 2.6 million years ago, and later still, Acheulean tools (hand-axes) were developed about 1.76 million years ago. 
 

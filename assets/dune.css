@@ -105,7 +105,7 @@ a:hover {
   }
 
 .essay-entry:hover {
-    background-color: #d1ae92; /* Slightly darker background on hover */
+    background-color: #fafafa; /* Slightly darker background on hover */
     cursor: pointer;
   }
 .essay-entry:first-child {
@@ -120,6 +120,7 @@ a:hover {
 }
 .post-title {
     font-size: 0.8em; /* Adjusted for better readability */
+    letter-spacing: -0.0.2em; 
     flex-grow: 1; /* Adjust bottom margin */
     white-space: nowrap; /* Keeps the title in a single line */
     overflow: hidden; /* Hides overflow */
@@ -130,21 +131,26 @@ a:hover {
 .post-meta {
     color: #333; /* Sets color */
     margin-right: -50px;
-
+    /* width: 100%; */
+    /* justify-content: space-between; Prevents the date from wrapping */
     font-size: 0.6em; /* Adjusts font size */
     flex-shrink: 0; /* Prevents the date from shrinking */
-    text-align: center; /* Centers the text vertically */
+    text-align: right; /* Centers the text vertically */
 }
 
 .post-title.p-name {
     font-size: 1.5em; /* Adjusted for better readability */
     font-weight: bold; /* Bold font weight */
     margin-bottom: 0.5rem; /* Space between title and date */
-    /* wrap */
     white-space: normal; /* Allows the title to wrap */
-
 }
 
+.dt-published {
+    white-space: nowrap; /* Prevents the date from wrapping */
+    margin-right: 0rem;
+    font-weight: bold; /* Bold font weight */
+    font-size: 1.25em;
+}
 
 
 
