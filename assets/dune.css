@@ -26,11 +26,192 @@
     text-decoration: none;
     color: #333;
     margin: 0 1rem;
-    padding: 0.5em 1em;
-    border-radius: 0.2em;
-    transition: background-color 0.3s;
+    padding: 0.5em 1em; /* Adjusted to create space for the underline */
+    background-color: #fafafa;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    position: relative; /* For positioning the pseudo-element */
+    display: inline-block; /* To allow the use of padding */
 }
 
 .nav-link:hover, .home-link:hover, .cv-link:hover {
-    background-color: #f0f0f0;
+    background-color: #f4eee1;
+    color: #302e2c; 
+}
+
+.home-link {
+    font-size: 1.4rem; /* Increase the font size as needed */
+    letter-spacing: -0.05em; /* Decrease the space between letters; adjust as needed */
+    /* ... other styles ... */
+  }
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    width: calc(100% - 2em); /* Width of the text; adjust the subtracted value based on your padding */
+    height: 2px; /* Height of the underline */
+    background-color: currentColor; 
+    position: absolute;
+    color: #5b5b5b;
+    left: 1em; /* Align with the text inside the link */
+    bottom: 7px; /* Adjust to move the underline closer or further from the text */
+  }  
+
+a:hover {
+    background-color: transparent; /* Ensures no background color on hover */
+    text-decoration: none; /* Disables the default underline */
+    position: relative; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for each post entry */
+.essay-entry {
+    /* border: 1px solid #bd9a78; Solid border for the entry */
+    background-color: #f7dfd4; /* Off-white background color */
+    margin-bottom: 1rem; /* Space between entries */
+  }
+    
+.essay-entry a {
+    display: flex;
+    border-top: 1px solid #d4bfaa;
+    border-bottom: 1px solid #d4bfaa;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem; /* Padding for spacing within each entry */
+    background-color: inherit; /* Ensure anchor inherits parent background */
+  }
+
+.essay-entry:hover {
+    background-color: #d1ae92; /* Slightly darker background on hover */
+    cursor: pointer;
+  }
+.essay-entry:first-child {
+    border-top: 0.5px solid #d4bfaa;
+}
+.essay-entry:last-child {
+    border-bottom: 0.5px solid #d4bfaa;
+}
+
+.post-title, .post-meta {
+    margin: 0; /* Resets margin */
+}
+.post-title {
+    font-size: 0.8em; /* Adjusted for better readability */
+    flex-grow: 1; /* Adjust bottom margin */
+    white-space: nowrap; /* Keeps the title in a single line */
+    overflow: hidden; /* Hides overflow */
+    text-overflow: ellipsis; /* Adds ellipsis for overflow text */
+    padding-right: 1rem; /* Adds some space between title and date */
+}
+
+.post-meta {
+    color: #333; /* Sets color */
+    margin-right: -50px;
+
+    font-size: 0.6em; /* Adjusts font size */
+    flex-shrink: 0; /* Prevents the date from shrinking */
+    text-align: center; /* Centers the text vertically */
+}
+
+
+
+
+
+
+
+.post-list-featured {
+    display: flex;
+    flex-direction: column;
+}
+
+.essay-entry-featured-essay {
+    background-color: #d1b394; /* Off-white background color */
+    margin-bottom: 1rem; /* Space between entries */
+}
+
+.essay-entry-featured-essay a {
+    display: flex;
+    border-bottom: 2px solid #987450;
+    border-top: 2px solid #987450;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem; /* Padding for spacing within each entry */
+    background-color: inherit; /* Ensure anchor inherits parent background */
+  }
+
+.featured-icon {
+    margin-right: 1rem; /* Space between icon and title */
+    width: 24px; /* Icon size */
+  }
+    
+/* Hover effects for links within entries */
+.essay-entry:hover .post-title {
+    /* text-decoration: underline; */
+    text-decoration-thickness: 2px; /* Thicker underline */
+    text-underline-offset: 3px; /* Lower underline position */
+  }
+  
+.post-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+ul.post-list, ul.post-list-featured {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes padding that causes indentation */
+  }  
+
+ul.post-list-featured {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+.essay-entry-featured-essay:hover {
+    background-color: #f7dfd4; /* Slightly darker background on hover */
+    cursor: pointer;
+  }
+
+
+
+
+
+.essay-content {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 600px; /* Take up remaining space */
+}
+
+.essay-recommendation-link {
+    color: #613b16 !important; /* Brown */
+    text-decoration: none !important;
+}
+
+.essay-recommendation-link:hover {
+    text-decoration: underline !important; /* Underline on hover for better UX */
 }
