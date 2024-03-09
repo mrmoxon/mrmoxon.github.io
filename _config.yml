@@ -31,6 +31,8 @@ github_username:  mrmoxon
 theme: null
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

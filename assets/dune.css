@@ -91,7 +91,7 @@ a:hover {
     background-color: #f7dfd4; /* Off-white background color */
     margin-bottom: 1rem; /* Space between entries */
   }
-    
+
 .essay-entry a {
     display: flex;
     border-top: 1px solid #d4bfaa;
@@ -151,6 +151,26 @@ a:hover {
     font-weight: bold; /* Bold font weight */
     font-size: 1.25em;
 }
+
+/* .essay-entry {
+    background-color: #fafafa; 
+    margin-bottom: 1rem;
+  }
+.essay-entry a {
+    display: flex;
+    border-top: 1px solid #e5ddd4;
+    border-bottom: 1px solid #e5ddd4;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem; 
+    background-color: inherit; 
+  }
+     */
+
+
+
 
 
 
@@ -224,7 +244,69 @@ ul.post-list-featured {
     color: #613b16 !important; /* Brown */
     text-decoration: none !important;
 }
-
 .essay-recommendation-link:hover {
     text-decoration: underline !important; /* Underline on hover for better UX */
+}
+
+.contact-column a {
+    color: #613b16 !important; /* Brown */
+    text-decoration: none !important;
+}
+.contact-column a:hover {
+    text-decoration: underline !important; /* Underline on hover for better UX */
+}
+
+
+
+
+
+
+
+
+.contact-image {
+    width: 400px; /* Adjusted to fit the image */
+    align-items: center;
+    justify-content: center;
+}
+.twitter {
+    width: 50px; /* Adjusted to fit the icon */
+    margin-right: 1rem; /* Space between icon and text */
+}
+.linkedin {
+    width: 50px; /* Adjusted to fit the icon */
+    margin-right: 1rem; /* Space between icon and text */
+}
+.medium {
+    width: 50px; /* Adjusted to fit the icon */
+    margin-right: 1rem; /* Space between icon and text */
+}
+.github {
+    width: 50px; /* Adjusted to fit the icon */
+    margin-right: 1rem; /* Space between icon and text */
+
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; /* Space between image and social links */
+
+}
+.twitter .linkedin .medium {
+    /* color: #333; Sets color */
+    display: flex;
+    justify-content: center;
+}
+.contact-image .email-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; /* Space between social links and email */
+}
+
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the children (including the a tag) horizontally in the container */
+    text-align: center; /* Centers the text inside the column */
 }
