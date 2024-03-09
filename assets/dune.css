@@ -136,7 +136,14 @@ a:hover {
     text-align: center; /* Centers the text vertically */
 }
 
+.post-title.p-name {
+    font-size: 1.5em; /* Adjusted for better readability */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 0.5rem; /* Space between title and date */
+    /* wrap */
+    white-space: normal; /* Allows the title to wrap */
 
+}
 
 
 

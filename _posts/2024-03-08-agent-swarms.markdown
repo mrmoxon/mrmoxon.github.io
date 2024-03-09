@@ -9,9 +9,7 @@ featured: true
 
 ![Overview](/assets/title-1.webp)
 
----
-
-### Contents
+#### Contents
 1. [Introduction](#part-1-introduction)
 
 2. [Part I: A Brief History of Reasoning in Language Models](#part-1-main-body)

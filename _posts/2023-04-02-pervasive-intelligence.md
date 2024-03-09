@@ -1,8 +1,14 @@
-## Pervasive Intelligence Systems: Learning to Live with AGI
-
+---
+layout: post
+title:  "Pervasive Intelligence: Learning to Live with AGI"
+date:   2023-04-02 05:39:31 +0000
+categories: innovation
+featured: false
+recommended: false
+---
 This is the first part of my [Pervasive Intelligence series](/essays/three-stages-of-agi).
 
-### Contents
+#### Contents
 
 1. [Part I: Irving Good's Prophecy](#part-1)
 

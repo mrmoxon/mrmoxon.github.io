@@ -6,11 +6,9 @@ categories: life
 featured: false
 recommended: true
 ---
-## Fundamentals of Life and Consciousness
-
 I explore below the reductionist stories of life and consciousness, the origin of living organisms, fitness and natural selection, substrate-independent phenomena, and what all this means for us as a species. Warning. Not even a single joke, just purified madness. 
 
-Contents:
+#### Contents:
 
 1. The Story of Life
 
@@ -18,21 +16,13 @@ Contents:
 
 3. Why Substrate Independence is a Big Deal For Us.
 
- 
+---
 
- 
-
-1. The Story of Life
-
- 
+#### 1. The Story of Life
 
 It is one thing to exist, and another thing to philosophise about it. 
 
- 
-
-To start from the basics, living matter arose from non-living matter between 3.5 and 4.28 billion years ago, soon-after the formation of oceans on planet Earth. We have no consensus over how, but the strongest hypothesis suggests a gradual process involving (1) autocatalytic reactions, (2) molecular self-replication, (3) molecular self-assembly, and (4) the emergence of cell membranes. 
-
- 
+To start from the basics, living matter arose from non-living matter between 3.5 and 4.28 billion years ago, soon-after the formation of oceans on planet Earth. We have no consensus over how, but the strongest hypothesis suggests a gradual process involving (1) autocatalytic reactions, (2) molecular self-replication, (3) molecular self-assembly, and (4) the emergence of cell membranes.  
 
 Broadly speaking, life has two properties: 'survival' (metabolism and self-repair) and replication. All living organisms regenerate in accordance to their suitability to these parameters, thus possessing a 'fitness function' by nature. This regenerative process is Darwinian evolution. This function is synonymous to life as we know it, and is even what NASA use to define it "a self-sustaining chemical system capable of Darwinian evolution". 
 

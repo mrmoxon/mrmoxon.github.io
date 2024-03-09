@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Myths, Memes and Uncertainty"
+date:   2022-06-19 05:39:31 +0000
+categories: life
+featured: false
+recommended: true
+---
 ## Human Curiosity: Myths, Memes, and a Distaste for Uncertainty
 
 ### Contents:

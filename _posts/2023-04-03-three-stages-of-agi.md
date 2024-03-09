@@ -1,8 +1,14 @@
-## Pervasive Intelligence: Three-Stages-of-AGI
-
+---
+layout: post
+title:  "Pervasive Intelligence: Three-Stages-of-AGI"
+date:   2023-04-03 05:39:31 +0000
+categories: innovation
+featured: false
+recommended: false
+---
 This is the second part of my [Pervasive Intelligence series](/essays/pervasive-intelligence).
 
-### Contents
+#### Contents
 
 1. [The Route Forward](#part-1)
 

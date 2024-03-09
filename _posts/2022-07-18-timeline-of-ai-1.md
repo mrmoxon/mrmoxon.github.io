@@ -1,6 +1,11 @@
-A Timeline for Artificial Intelligence (i2)
-Updated: Jul 18, 2022
-
+---
+layout: post
+title:  "Timeline of AI"
+date:   2022-07-18 05:39:31 +0000
+categories: innovation
+featured: false
+recommended: true
+---
 The following sections cover machine learning from its infant days to full self-driving. I intend to crystallise how and why computers have developed in the way they have and to give an insight into how and why future machines will be far more advanced. Cover: The AI Pantheon.
 
 
