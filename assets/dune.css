@@ -85,7 +85,7 @@ a:hover {
     flex-direction: column;
 }
 
-.essay-entry {
+/* .essay-entry {
     background-color: #f7dfd4; 
     margin-bottom: 1rem; 
   }
@@ -98,9 +98,9 @@ a:hover {
     align-items: center;
     text-decoration: none;
     color: inherit;
-    padding: 1rem; /* Padding for spacing within each entry */
-    background-color: inherit; /* Ensure anchor inherits parent background */
-  }
+    padding: 1rem; 
+    background-color: inherit; 
+  } */
 
 .essay-entry:hover {
     background-color: #fafafa; /* Slightly darker background on hover */
