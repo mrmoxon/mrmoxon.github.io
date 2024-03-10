@@ -85,11 +85,9 @@ a:hover {
     flex-direction: column;
 }
 
-/* Styles for each post entry */
 .essay-entry {
-    /* border: 1px solid #bd9a78; Solid border for the entry */
-    background-color: #f7dfd4; /* Off-white background color */
-    margin-bottom: 1rem; /* Space between entries */
+    background-color: #f7dfd4; 
+    margin-bottom: 1rem; 
   }
 
 .essay-entry a {
@@ -152,7 +150,7 @@ a:hover {
     font-size: 1.25em;
 }
 
-/* .essay-entry {
+.essay-entry {
     background-color: #fafafa; 
     margin-bottom: 1rem;
   }
@@ -167,7 +165,7 @@ a:hover {
     padding: 1rem; 
     background-color: inherit; 
   }
-     */
+    
 
 
 
