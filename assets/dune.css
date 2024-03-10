@@ -108,10 +108,10 @@ a:hover {
     cursor: pointer;
   }
 .essay-entry:first-child {
-    border-top: 0.5px solid #d4bfaa;
+    border-top: 0.5px solid #fafafa;
 }
 .essay-entry:last-child {
-    border-bottom: 0.5px solid #d4bfaa;
+    border-bottom: 0.5px solid #fafafa;
 }
 
 .post-title, .post-meta {
@@ -119,7 +119,7 @@ a:hover {
 }
 .post-title {
     font-size: 0.8em; /* Adjusted for better readability */
-    letter-spacing: -0.0.2em; 
+    letter-spacing: -0.03em; 
     flex-grow: 1; /* Adjust bottom margin */
     white-space: nowrap; /* Keeps the title in a single line */
     overflow: hidden; /* Hides overflow */
@@ -152,7 +152,7 @@ a:hover {
 }
 
 .essay-entry {
-    background-color: #fce6e6; 
+    background-color: #fcefef; 
     margin-bottom: 1rem;
   }
 .essay-entry a {
@@ -163,7 +163,7 @@ a:hover {
     align-items: center;
     text-decoration: none;
     color: inherit;
-    padding: 1rem; 
+    padding: 1rem;
     background-color: inherit; 
   }
     
