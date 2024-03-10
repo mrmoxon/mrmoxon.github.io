@@ -246,13 +246,7 @@ ul.post-list-featured {
     text-decoration: underline !important; /* Underline on hover for better UX */
 }
 
-.contact-column a {
-    color: #613b16 !important; /* Brown */
-    text-decoration: none !important;
-}
-.contact-column a:hover {
-    text-decoration: underline !important; /* Underline on hover for better UX */
-}
+
 
 
 
@@ -307,4 +301,13 @@ ul.post-list-featured {
     flex-direction: column;
     align-items: center; /* Centers the children (including the a tag) horizontally in the container */
     text-align: center; /* Centers the text inside the column */
+
+}
+
+.contact-column a {
+    color: #613b16 !important; /* Brown */
+    text-decoration: none !important;
+}
+.contact-column a:hover {
+    text-decoration: underline !important; /* Underline on hover for better UX */
 }
