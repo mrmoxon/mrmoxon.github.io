@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pervasive Intelligence: Learning to Live with Advanced Intelligence"
+title:  "Learning to Live with Advanced Intelligence"
 date:   2023-04-02 05:39:31 +0000
 categories: innovation
 featured: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pervasive Intelligence: Three-Stages-of-AGI"
+title:  "Three-Stages-of-AGI"
 date:   2023-04-03 05:39:31 +0000
 categories: innovation
 featured: false
