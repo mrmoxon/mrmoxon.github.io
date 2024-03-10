@@ -157,8 +157,8 @@ a:hover {
   }
 .essay-entry a {
     display: flex;
-    border-top: 1px solid #e5ddd4;
-    border-bottom: 1px solid #e5ddd4;
+    border-top: 1px solid #fafafa;
+    border-bottom: 1px solid #fafafa;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
