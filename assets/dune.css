@@ -103,7 +103,7 @@ a:hover {
   } */
 
 .essay-entry:hover {
-    background-color: #fafafa; /* Slightly darker background on hover */
+    background-color: #f7dfd4; /* Slightly darker background on hover */
     cursor: pointer;
   }
 .essay-entry:first-child {
