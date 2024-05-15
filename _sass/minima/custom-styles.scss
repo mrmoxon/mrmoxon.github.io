@@ -1,0 +1,86 @@
+// // Placeholder to allow defining custom styles that override everything else.
+// // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.site-nav .trigger a:last-child {
+    margin-left: auto; /* Forces the CV link to the right */
+  }  
+
+// /* Header styles */
+// .site-header {
+//     border-top: 5px solid $border-color-03;
+//     border-bottom: 1px solid $border-color-01;
+//     min-height: $spacing-unit * 1.865;
+//     line-height: $base-line-height * $base-font-size * 2.25;
+//     position: relative; // Ensures the navigation icon is positioned relative to this container
+//   }
+  
+// .site-title {
+//     @include relative-font-size(1.625);
+//     font-weight: 300;
+//     letter-spacing: -1px;
+//     margin-bottom: 0;
+//     float: left; // Keeps the title on the left
+
+//     @include media-query($on-palm) {
+//         padding-right: 45px;
+//   }
+
+//   &,
+//   &:visited {
+//     color: $site-title-color; // Ensures title color is consistent
+//   }
+// }
+
+// .site-nav {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   left: 0; // Ensures full width for absolute positioning of items
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding: 0 $spacing-unit * .5; // Adds padding on both sides
+//   background-color: $background-color;
+//   border-radius: 5px;
+
+//   .center-link {
+//     position: absolute;
+//     left: 50%;
+//     transform: translateX(-50%);
+//   }
+
+//   .right-link {
+//     float: right; // Ensures these links float to the right
+//     margin-left: 20px; // Adds space between "Contact" and "CV"
+//   }
+
+//   .page-link {
+//     color: $text-color;
+//     line-height: $base-line-height;
+//     display: block;
+//     padding: 5px 10px;
+
+//     &:not(:last-child) {
+//       margin-right: 0;
+//     }
+//     margin-left: 20px; // Ensures gaps between nav items
+//   }
+
+//   @media screen and (min-width: $on-medium) {
+//     position: static;
+//     float: right;
+//     display: flex;
+//     background-color: inherit;
+//     border: none;
+
+//     .page-link {
+//       display: inline;
+//       padding: 0;
+//       margin-left: 20px; // Adjusts gap on larger screens
+
+//       &:not(:last-child) {
+//         margin-right: 20px; // Ensures proper spacing between links
+//       }
+//     }
+//   }
+// }

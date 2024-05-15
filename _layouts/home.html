@@ -1,0 +1,116 @@
+---
+layout: base
+---
+
+<div class="home">
+  <!-- {%- if page.title -%} -->
+    <!-- <h1 class="page-heading">{{ page.title }}</h1> -->
+  <!-- {%- endif -%} -->
+
+  {{ content }}
+
+  {%- assign essays = site.posts | where: "study", false -%}
+  {%- assign studies = site.posts | where: "study", true -%}
+
+  <!-- {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %} -->
+
+
+    <!-- Section for Essays -->
+    {%- if essays.size > 0 -%}
+    <h2 class="post-list-heading">[essays]</h2>
+    <ul class="post-list">
+      {%- for post in essays -%}
+        <li class="post-item">
+          <div class="post-title-meta">
+            <h3 class="post-title">
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h3>
+            <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
+          </div>
+          {%- if site.show_excerpts -%}
+            <div class="post-excerpt">
+              {{ post.excerpt }}
+            </div>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  <!-- Section for Studies -->
+  {%- if studies.size > 0 -%}
+    <h2 class="post-list-heading">[studies]</h2>
+    <ul class="post-list">
+      {%- for post in studies -%}
+        <li class="post-item">
+          <div class="post-title-meta">
+            <h3 class="post-title">
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h3>
+            <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
+          </div>
+          {%- if site.show_excerpts -%}
+            <div class="post-excerpt">
+              {{ post.excerpt }}
+            </div>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+<!-- 
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+
+      <ul class="post-list">
+        {%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
+        {%- for post in posts -%}
+          <li class="post-item">
+            <div class="post-title-meta">
+              <h3 class="post-title">
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+            </div>
+            {%- if site.show_excerpts -%}
+              <div class="post-excerpt">
+                {{ post.excerpt }}
+              </div>
+            {%- endif -%} 
+          </li>
+        {%- endfor -%}
+      </ul>
+         -->
+
+
+    <!-- {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%} -->
+
+</div>

@@ -1,0 +1,64 @@
+---
+layout: base
+---
+<div class="home">
+
+    <div class="search-container">
+        <input type="text" id="searchBox" placeholder="Search posts..." oninput="searchPosts()">
+        <button onclick="searchPosts()">Search</button>
+        <ul id="searchResults" class="search-results"></ul>
+    </div>
+    
+    {% for category in site.categories %}
+        <h2 class="category-heading">[{{ category[0] }}]</h2>
+        <br>
+        <ul class="post-list">
+        {% for post in category[1] %}
+            <li class="post-item">
+            <div class="post-title-meta">
+                <h3 class="post-title">
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h3>
+                <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
+            </div>
+            {% if post.excerpt %}
+                <div class="post-excerpt">
+                {{ post.excerpt }}
+                </div>
+            {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</div>
+
+<script>
+    function searchPosts() {
+      const searchValue = document.getElementById('searchBox').value.toLowerCase();
+      const resultsContainer = document.getElementById('searchResults');
+      if (searchValue) {
+        fetch('/search_index.json')
+          .then(response => response.json())
+          .then(posts => {
+            let filteredPosts = posts.filter(post => post.title.toLowerCase().includes(searchValue) || post.excerpt.toLowerCase().includes(searchValue));
+            resultsContainer.innerHTML = '';
+            filteredPosts.forEach(post => {
+              const li = document.createElement('li');
+              li.innerHTML = `<a href="${post.url}">${post.title} - ${post.date}</a>`;
+              resultsContainer.appendChild(li);
+            });
+            resultsContainer.style.display = 'block'; // Show results
+          });
+      } else {
+        resultsContainer.style.display = 'none'; // Hide results
+      }
+    }
+
+    // Hide results when clicking outside
+    document.addEventListener('click', function(event) {
+      const isClickInside = document.querySelector('.search-container').contains(event.target);
+      if (!isClickInside) {
+        document.getElementById('searchResults').style.display = 'none';
+      }
+    });
+</script>
