@@ -26,16 +26,17 @@ layout: page
     <li>At the level of civilisation
       <ul>
         <li>universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="no-underline" target="_blank" rel="noopener noreferrer">outlier</a></li>
-        <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="no-underline" target="_blank" rel="noopener noreferrer">democratising</a> intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="no-underline" target="_blank" rel="noopener noreferrer">abundance</a> and quality of life</li>
         <li>sustained flourishing of life is a moral responsibility of intelligence</li>
-        <li>transformers will provide a stable and scalable paradigm for an early AGI by '28</li>
+        <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="no-underline" target="_blank" rel="noopener noreferrer">democratising</a> intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="no-underline" target="_blank" rel="noopener noreferrer">abundance</a> and quality of life, but is only one half of the story</li>
+        <li>longevity necessitates social regenertation, which is hard to get right</li>
       </ul>
     </li>
 
-    <li>The alignment problem defines the core behaviour of society
+    <li>An alignment problem determines the core behaviour of society
       <ul>
         <li>it is the triple point of "paleolithic emotions, medieval institutions and godlike technology<a href="https://www.oxfordreference.com/display/10.1093/acref/9780191826719.001.0001/q-oro-ed4-00016553" class="no-underline" target="_blank" rel="noopener noreferrer">"</a></li>
         <li>pure technology is undesirable, as it regenerates faster than humans ever will</li>
+        <li>transformers may offer a stable and scalable paradigm for an early AGI by '28</li>
       </ul>
     </li>
 
@@ -43,7 +44,7 @@ layout: page
         <ul>
             <li>EMH is weak at best, all opportunities emerge in the gaps of market rationality</li>
             <li>the fate of billions is steered overwhelmingly by the work of a few</li>
-            <li>consolidations of market power are dangerous and wasteful, but optimal for investors</li>
+            <li>consolidations of market power are dangerous and wasteful, but short term optimal for investors</li>
         </ul>
     </li>
 
@@ -51,7 +52,7 @@ layout: page
         <ul>
             <li>ultimate promise of LLMs is agents, ultimate promise of agents is automatic science</li>
             <li>moving to agent(s) improves prompting from <em>"write me an essay"</em> to <em>"run my company"</em> or <em>"build me a dyson syphere"</em></li>
-            <li>digital platforms maximise hyperstimuli and addiction, by choice or by nature. reels/tiktok are 0.5-d <a href="https://twitter.com/oscarmoxon/status/1722378053924397277" class="no-underline" target="_blank" rel="noopener noreferrer">wireheading</a></li>         
+            <li>digital platforms maximise hyperstimuli and addiction, by choice or by nature. reels/tiktok are 0.5-d <a href="https://twitter.com/oscarmoxon/status/1722378053924397277" class="no-underline" target="_blank" rel="noopener noreferrer">wireheading</a></li>
             <li>with LLMs we tread closer to the realm of natural abstraction - next stop: telepathy</li>
         </ul>
     </li>
