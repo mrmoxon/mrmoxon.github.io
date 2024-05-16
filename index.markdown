@@ -28,7 +28,7 @@ layout: page
         <li>universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="no-underline" target="_blank" rel="noopener noreferrer">outlier</a></li>
         <li>sustained flourishing of life is a moral responsibility of intelligence</li>
         <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="no-underline" target="_blank" rel="noopener noreferrer">democratising</a> intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="no-underline" target="_blank" rel="noopener noreferrer">abundance</a> and quality of life, but is only one half of the story</li>
-        <li>longevity necessitates social regenertation, which is hard to get right</li>
+        <li>longevity necessitates social regenertation, which is harder to get right</li>
       </ul>
     </li>
 
