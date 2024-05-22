@@ -35,7 +35,7 @@ layout: page
     <li>An alignment problem determines the core behaviour of society
       <ul>
         <li>it is the triple point of "paleolithic emotions, medieval institutions and godlike technology<a href="https://www.oxfordreference.com/display/10.1093/acref/9780191826719.001.0001/q-oro-ed4-00016553" class="no-underline" target="_blank" rel="noopener noreferrer">"</a></li>
-        <li>pure technology is undesirable, as it regenerates faster than humans <a href="{{ site.posts }}{% link _posts/2022-05-01-substrate-independence.md %}">ever</a> will</li>
+        <li>pure technology is undesirable, as it regenerates faster than humans ever will</li>
         <li>transformers may offer a stable and scalable paradigm for an early AGI by '28</li>
       </ul>
     </li>
