@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - simple-jekyll-search
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
