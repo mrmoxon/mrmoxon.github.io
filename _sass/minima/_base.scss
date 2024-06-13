@@ -279,3 +279,20 @@ table {
             -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
+
+
+
+// Dashboard styles
+
+.twitter-dash-content {
+  .twitter-dash-wrapper {
+    max-width: 100%;
+    padding-right: $spacing-unit * .25;
+    padding-left: $spacing-unit * .25;
+
+    @media screen and (min-width: $on-large) {
+      padding-right: $spacing-unit * .5;
+      padding-left: $spacing-unit * .5;
+    }
+  }  
+}
