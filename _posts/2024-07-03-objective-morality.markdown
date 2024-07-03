@@ -12,7 +12,7 @@ This post explores the philosophy of 'safe superintelligence' in relation to hum
 
 The goal should be to build a Asimov's 'Foundation' repository, imbued with the right values and goals from the outset, so that as it grows in power and influence, it guides humanity away from tyranny and destruction (and towards the a morally utopic win-state).
 
-<br>
+---
 
 [Part 1: Understanding Moral Objectivity](#part-1)
 
@@ -24,7 +24,7 @@ The goal should be to build a Asimov's 'Foundation' repository, imbued with the 
 
 ### Part 1: Moral Objectivity<a id="part-1"></a> 
 
-To start, let's build a basic method to compare everything that matters to conscious beings. In order to do so, we must establish that morality is an objective facet of reality, and recognise that while this implies the existence of objective truths, approximating them in practice is very challenging.
+To start with the axioms and build up, let's consider a basic method to compare everything that matters to conscious beings. In order to do so, we must establish that morality can be an objective facet of reality, and recognise that while this implies the existence of objective truths, approximating them in practice is very challenging.
 
 <br>
 
@@ -52,7 +52,7 @@ To provide context, if you were to imagine your worst possible nightmare reality
 
 Your mind depends on your neural substrate --- the part of your nervous system responsible for thinking --- which reacts more positively to certain conditions than others. For example, if given the choice to experience your worst imaginable nightmare as reality, we can confidently predict that you would find it utterly objectionable, and would prefer virtually any other personal situation. Although it may seem obvious, it is important to acknowledge that your emotions are a product of your physical body, which is influenced by the same conditions as your environment. They occur synchronously and are concurrently observable to third parties.
 
-We instinctively understand that experiences can be compared based on their inherent 'goodness' or 'badness' for those involved. Philosophers formalise this notion through the utilitarian moral framework. While some may dismiss this as subjectively trivial, I contend that these values are far from arbitrary and are in fact empirically grounded truths that hold for all entities capable of experience. To borrow from Sam Harris, we've hit philosophical bedrock with the shovel of a stupid question if we ask 'is the worst possible misery for everyone really bad'?
+Many of us understand the principle that experiences can be compared based on their inherent 'goodness' or 'badness' for those involved. Philosophers formalise this notion through the utilitarian moral framework. While some may dismiss this as subjectively trivial, I contend that these values are often far from arbitrary and are in fact empirically grounded truths that hold for all entities capable of experience. To borrow from Sam Harris, we've hit philosophical bedrock with the shovel of a stupid question if we ask 'is the worst possible misery for everyone really bad'?
 
 So let us formalise this as our basic model of all that matters.
 
@@ -64,15 +64,25 @@ So let us formalise this as our basic model of all that matters.
 
 <br>
 
-Let us [delve](https://www.reddit.com/r/artificial/comments/1c7x6f4/health_of_humanity_in_danger_because_of_chatgpt/) deeper into this concept of objective morality. At one end of this landscape lies the worst measurable hellscape --- a state of maximum suffering for all conscious beings. The other extreme embodies a state of maximum well-being, a kind of apex where the prosperity and positive experience of all conscious entities are at their highest possible value. These extremes are not mere abstractions but represent real, potential states within a shared universe.
+Let us [delve](https://www.reddit.com/r/artificial/comments/1c7x6f4/health_of_humanity_in_danger_because_of_chatgpt/) deeper into this concept of objective morality. At one end of this landscape lies the worst measurable hellscape --- a state of maximum suffering for all conscious beings. The other extreme embodies a state of maximum well-being, a kind of apex where the prosperity and positive experience of all conscious entities are at their highest possible value. These extremes are not mere abstractions but represent real, potential outcomes within a shared universe.
 
-This landscape is composed of a near intractable number of dimensions, and somewhere on it, we exist --- as a genus, species, civilisation, and as individuals. It is a tapestry of qualia that constitutes the well-being of all conscious entities, much in the way Harris [wrote about in 2010](https://en.wikipedia.org/wiki/The_Moral_Landscape). Recognising these objective moral truths is crucial for aligning civilisations towards a common understanding of well-being.
+This landscape is composed of a near intractable number of dimensions, and somewhere on it, we exist --- as a genus, species, civilisation, and as individuals. It is a tapestry of qualia that constitutes the well-being of all conscious entities, much in the way Harris wrote about in [2010](https://en.wikipedia.org/wiki/The_Moral_Landscape). Recognising morality from this perspective is crucial for aligning civilisation towards a common understanding of well-being, for reasons explained later.
 
-To be clear, this perspective isn't fundamentally incompatible from ontological subjectivity (i.e. the fact that our preferences manifest in our minds); instead, the argument is that despite individuals possessing diverse moral intuitions, there exists a moral superposition over all preferences that can be reasoned over empirically. In this model, reality is epistemologically objective, meaning we can meaningfully reason about preferences based on facts. 
+To be clear, this perspective isn't fundamentally incompatible from ontological subjectivity (the fact that our preferences manifest in our minds); instead, the argument is that despite individuals possessing diverse moral intuitions, there exists a moral superposition over all preferences that can be reasoned about empirically. In this model, reality is epistemologically objective, meaning we can meaningfully reason about preferences using a kind of grounded moral calculus. 
 
-By recognising this landscape as a space of possible states, we can apply a game theoretic methodology to optimise for pareto optimal realities --- those in which it's impossible to improve the well-being of any conscious entity without reducing the well-being of another. This approach allows us to compare and contrast various paths through the landscape, towards the most morally beneficial realities we can model.
+#### Game Theoretic Morality
 
-For instance, we might justify temporarily reducing the well-being of some individuals in the short term if it means dramatically improving long-term prospects for all, particularly if such actions reduce the likelihood of falling into suboptimal Nash equilibria. As of 2024, humanity is clearly approaching a critical juncture where certain potential realities may become permanently inaccessible --- as AI is fed back into itself. This chain-of-thought underpins arguments for accelerated timelines to AGI under controlled conditions; the longer we delay, the more options we risk eliminating by tragedy of the commons.
+By recognising this landscape as a space of all possible states, we can apply a game theoretic methodology to optimise our paths towards pareto optimal realities --- those in which it's impossible to improve the well-being of any conscious entity without reducing the well-being of another. In other words, realities where all resources are allocated efficiently for the benefit of thinking entities. With the pareto frontier as the goal, we can then consider other important traits, like the degree of equitability and cohesion of species. 
+
+For instance, we might be able to justify temporarily reducing the well-being of some individuals in the short term if it means dramatically improving long-term prospects for all, particularly if such actions reduce the likelihood of falling into suboptimal Nash equilibria. Government policies are generally geared towards this idea --- 'how can we best spend tax money now to maximise [enter proxy for well-being, e.g. growth] for our country?'
+
+As we approach the singularity (the point in time where technological growth becomes essentially uncontrollable), we near a critical juncture where a large number of possible futures are likely to become rapidly and permanently inaccessible --- upon the advent of AI being meaningfully fed back into itself to boost its own rate of development. This chain-of-thought underpins arguments for accelerating timelines to AGI at times when they're under relatively controlled conditions; the longer we delay, the more open ended the problem becomes, meaning we may find ourselves travelling uncontrollable towards bad Nash equilibria. [[4]](#ref-4)
+
+We should also recognise the points of deeply inequitable well-being, where the cumulative well-being is high, but the potential for a diversity of well-being are lost. These are suboptimal. Pricing in the lost potential of these states and creating qualitative comparisons to other configurations is the purpose of this entire exercise. Until we know better, we should argue in favour of realities where lots of unique cognitive entities exist, because a world teaming with colourful species is one that most of us get great satisfaction from, and we can argue that those species feel the same way. 
+
+<!-- We should recognise these realities as mutually distinct from this moral superposition, for it is very hard to reason about. Would you slay all chimpanzees for the life of a single human? What if it they were the only human left, and they possess the knowledge to build a simulation with 100x more simulated chimpanzees than ever before? To steer clear of these dilemma, our heuristic should bias towards the reality where maximum humans and maximum chimpanzees exist. -->
+
+#### Building Moral Heuristics
 
 Our precise coordinates on this moral landscape remain partially obscured due to the inherent difficulty in discerning objective moral truths when working with an incomplete model. However, we are aware of processes that empirically generate 'progress' in modeling morality, and these should be prioritised. We can leverage these processes to formulate a robust, nuanced utilitarianism that evolves as our understanding of reality becomes more tractable.
 
@@ -227,7 +237,7 @@ All this points to an objective set of dimensions that exist for conscious being
 
 [4]<a id="ref-4"></a> 
 
-[The Moral Landscape, Harris.](https://en.wikipedia.org/wiki/The_Moral_Landscape)
+Bad Nash equilibria could be triggered by, say, a university discovering dangerous model architectures and making them open source before realising how dangerous they are, and rapidly letting them fall into the compute clusters of bad actors.
 
 [5]<a id="ref-5"></a> 
 
