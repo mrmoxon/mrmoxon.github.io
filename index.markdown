@@ -25,9 +25,9 @@ layout: page
 
     <li>At the level of civilisation
       <ul>
-        <li>universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="no-underline" target="_blank" rel="noopener noreferrer">outlier</a></li>
+        <li>universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a></li>
         <li>sustained flourishing of life is a moral responsibility of intelligence</li>
-        <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="no-underline" target="_blank" rel="noopener noreferrer">democratising</a> intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="no-underline" target="_blank" rel="noopener noreferrer">abundance</a> and quality of life, but is only one half of the story</li>
+        <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="custom-link">democratising</a>intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="custom-link">abundance</a> and quality of life, but is only one half of the story</li>
         <li>longevity necessitates social regenertation, which is harder to get right</li>
       </ul>
     </li>
@@ -52,7 +52,7 @@ layout: page
         <ul>
             <li>ultimate promise of LLMs is agents, ultimate promise of agents is automatic science</li>
             <li>moving to agent(s) improves prompting from <em>"write me an essay"</em> to <em>"run my company"</em> or <em>"build me a dyson syphere"</em></li>
-            <li>digital platforms maximise hyperstimuli and addiction, by choice or by nature. reels/tiktok are 0.5-d <a href="https://twitter.com/oscarmoxon/status/1722378053924397277" class="no-underline" target="_blank" rel="noopener noreferrer">wireheading</a></li>
+            <li>digital platforms maximise hyperstimuli and addiction, by choice or by nature. reels/tiktok are 0.5-d <a href="https://twitter.com/oscarmoxon/status/1722378053924397277" class="custom-link">wireheading</a></li>
             <li>with LLMs we tread closer to the realm of natural abstraction - next stop: telepathy</li>
         </ul>
     </li>

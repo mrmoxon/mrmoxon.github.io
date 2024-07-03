@@ -11,6 +11,12 @@
   position: relative;
 }
 
+strong,
+b {
+  font-weight: $bold-font-weight;
+}
+
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
@@ -121,6 +127,13 @@
     }
   }
 }
+
+
+
+
+
+
+
 
 
 
@@ -333,7 +346,7 @@ p img + br + em {
   margin-top: 10px;
   text-align: center;
   transform: scale(0.92);
-  color: #703a18; /* Example: grey text for the caption */
+  color: #84480c; /* Example: grey text for the caption */
 }
 
 
@@ -341,13 +354,16 @@ p img + br + em {
   * Index
   */
 a, a:visited {
-    color: #613b16; /* Brown color similar to other text */
+    color: #84480c; /* Brown color similar to other text */
     text-decoration: none; /* Optional: removes underline from links */
 }
 
 .no-underline {
   text-decoration: none; /* Ensures links with this class have no underline */
 }
+
+
+
 
 @media (min-width: 601px) {
 
@@ -456,4 +472,27 @@ button {
 
 .search-results li:last-child a {
     border-bottom: none;
+}
+
+// Blockquote
+blockquote {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+blockquote::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  color: #000000;
+  // font-weight: bold;
+  font-style: normal;
+}
+
+blockquote:hover::before {
+  color: #715d48;
 }

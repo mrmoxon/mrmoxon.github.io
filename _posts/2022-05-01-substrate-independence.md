@@ -55,31 +55,6 @@ Ultimately, hydrogen, in the right conditions, becomes sociable and self-aware.
 <br>
 *Figure 2. Life from its origin to today.*
 
-
-
-
-<!-- ... 
-
-Inputs/Outputs: inputs are large, outputs are limited to a biological bandwidth the sum of our voice, hand guestures, and facial expressions and very little else. (dance, ) - they are multidimensional, because voice can pack loads of information by theh context and delivery. And behaviour is also heavily multidimensional. 
-
-At the society level, we can model a country of people as an agent with millions of inputs and outputs. At some point the number of outputs grows equivalent to the inputs; they are processed and transformed at an equal rate. 
-
-The axiom of consciousness is really just abstractions, which are converted into computations, which are accumulated in large systems. 
-The brain system is messy and unstructured; we cannot influence it particularly.
-
-But we can try: first by adding more neurons and growing the mass. Then by manipulating it to optimise the quality of computations. This is the advantage of computers. 
-
-...
-
-The goal is to bridge across and transmit our conscious experience, identity, ego, into another more transmittable medium. Neurons have a lifespan and denature or become more vulnerable to diseases that are likely to destroy parts of the brain. 
-
-The key is transmitting this without sacrifing the ways we update; hence the learning process is key to understand. We use action potentials to weaken and harden some synaptic connections in a process called: long term potentiation/depression. This process is unique to us, and different to the algorithms we are training. 
-
-It is important that we learn this recipe before 
-
-... -->
-
-
 <a id="part-2"></a>
 
 #### II. Understanding Substrate-Independence
@@ -99,8 +74,6 @@ For one, waves are substrate-independent; their speed, length, frequency, intens
 The basic tenets of computation are also medium agnostic; the capacity to read and write to memory, perform conditional branching, basic arithmetic, and recursion, are all that is needed for a system to be Turing complete (Turing, 1950). This can be distilled into a minimal set of commands, used by the Brainfuck programming language (>, <, +, -, [, ], ., and ,). These operations allow the system to perform universal computation, meaning it can execute any computation given sufficient time and resources, regardless of the physical substrate. [[2]](#ref-2)
 
 While these phenomena satisfy the basic concept of substrate independence, the matter from which they emerge still govern their nature. In other words, waves made in sand will never behave exactly like waves made in water or oil, despite being comparable along certain dimensions like frequency or intensity. [[3]](#ref-3)
-
-<!-- What we are faced with is that the conscious experience does not arise from any particular arrangement of atoms, but from the dynamic process of their interaction.  -->
 
 <a id="part-3"></a>
 

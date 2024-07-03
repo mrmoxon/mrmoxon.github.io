@@ -1,5 +1,5 @@
 ---
 layout: twitter-dash
-title: "x"
+title: "[x]"
 permalink: /x/
 ---
