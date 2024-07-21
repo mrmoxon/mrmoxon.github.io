@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pervasive Intelligence: Three Stages of AGI"
+title:  "Pervasive Machines: Three Stages of Superintelligence"
 date: 2023-04-02 05:39:31 +0000
 categories: leverage
 study: false
@@ -8,7 +8,7 @@ featured: false
 recommended: false
 ---
 
-This is the second part of my [Pervasive Intelligence series](/leverage/2023/04/02/pervasive-intelligence.html).
+This is the second part of my [Pervasive Machines series](/leverage/2023/04/02/pervasive-intelligence.html).
 
 ### Contents
 

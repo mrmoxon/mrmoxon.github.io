@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pervasive Intelligence: Learning to Live with AGI"
+title: "Pervasive Machines: Learning to Live with Superintelligence"
 date: 2023-04-02 05:39:31 +0000
 categories: leverage
 study: false
@@ -8,7 +8,7 @@ featured: false
 recommended: false
 ---
 
-This is the first part of my [Pervasive Intelligence series](/leverage/2023/04/02/three-stages-of-agi.html).
+This is the first part of my [Pervasive Machines series](/leverage/2023/04/02/three-stages-of-agi.html).
 
 ### Contents
 

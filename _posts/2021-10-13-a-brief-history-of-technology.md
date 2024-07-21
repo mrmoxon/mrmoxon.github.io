@@ -6,8 +6,18 @@ categories: leverage
 study: false
 featured: false
 recommended: false
+show_notice: true
 ---
-I explore below the history of invention, the acceleration of technological innovation, and the driving force behind our unprecedented rate of growth in the 21st century.
+
+{% if page.show_notice %}
+<div style="background-color: #dbb18a; padding: 10px; text-align: center;">
+  <strong style="color: #42260b">Notice: The narrative of across-the-board acceleration, implied under Section II, is overly simplistic; progress has slowed in many areas, with digital technology being the main exception. Many scientific fields have experienced diminishing returns since WWII.</strong>
+</div>
+{% endif %}
+
+<br>
+
+Exploration of the common narrative about the history of invention, the acceleration of technological innovation, and the driving force behind unprecedented growth in the 21st century.
 
 #### Contents:
 
