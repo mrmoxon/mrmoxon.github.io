@@ -2,7 +2,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+  <head>
+    {%- include head.html -%}
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/ico" sizes="64x64" href="{{ '/assets/favicon.ico' | relative_url }}">
+    <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+  </head>
 
   <body>
 
@@ -10,7 +15,7 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
+        {{ content }} 
       </div>
     </main>
 
