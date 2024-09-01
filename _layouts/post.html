@@ -36,3 +36,26 @@ layout: base
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var dropdowns = document.querySelectorAll('.dropdown-toggle');
+    
+    dropdowns.forEach(function(dropdown) {
+      dropdown.addEventListener('click', function() {
+        this.classList.toggle('active');
+        var preview = this.nextElementSibling;
+        var content = preview.nextElementSibling;
+        if (content.style.display === 'block') {
+          content.style.display = 'none';
+          preview.style.display = 'block';
+        } else {
+          content.style.display = 'block';
+          preview.style.display = 'none';
+        }
+      });
+    });
+  });
+  </script>
+  

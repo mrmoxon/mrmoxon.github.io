@@ -10,7 +10,7 @@ study: false
 
 This post explores the philosophy of 'safe superintelligence' in relation to human values. I've long been interested in the notion of objective morality as a unifying framework for civilisation to follow. In this post, I outline a chain of eight links that describe how humanity should behave as we approach superintelligence if we want to build systems that cure disease, end poverty, and shower us with technological bounty. 
 
-The goal should be to build a Asimov's 'Foundation' repository, imbued with the right values and goals from the outset, so that as it grows in power and influence, it guides humanity away from tyranny and destruction (and towards the a morally utopic win-state).
+To distill this essay into a couple sentences: The goal should be to build a Asimov's 'Foundation' repository, imbued with the right values and goals from the outset, so that as it grows in power and influence, it guides humanity away from tyranny and destruction (and towards the a morally utopic win-state). This is premised on a more philosophical basis that for all observed beings, there is a tractable degree of overlap to suggest a moral objective function exists and ought (yes, ought) to be followed.
 
 ---
 
@@ -50,16 +50,47 @@ Here is the initial chain of reasoning:
 
 To provide context, if you were to imagine your worst possible nightmare reality and convey it to another being in a way that they fully understood, we could reasonably assume that they would come to adopt your attitude towards the stimuli you describe. This is because emotions can transfer from one nervous system to another through a memetic process.
 
-Your mind depends on your neural substrate --- the part of your nervous system responsible for thinking --- which reacts more positively to certain conditions than others. For example, if given the choice to experience your worst imaginable nightmare as reality, we can confidently predict that you would find it utterly objectionable, and would prefer virtually any other personal situation. Although it may seem obvious, it is important to acknowledge that your emotions are a product of your physical body, which is influenced by the same conditions as your environment. They occur synchronously and are concurrently observable to third parties.
+Your mind depends on your neural substrate --- the part of your nervous system responsible for thinking --- which reacts more positively to certain conditions than others. For example, if given the choice to experience your worst imaginable nightmare as reality, we can confidently predict that you would find it utterly objectionable, and would prefer virtually any other personal situation. Although it may seem obvious, it is important to acknowledge that your emotions are a product of your physical body, which is influenced by the same conditions as your environment. They occur synchronously and can be observabled by third parties.
 
-Many of us understand the principle that experiences can be compared based on their inherent 'goodness' or 'badness' for those involved. Philosophers formalise this notion through the utilitarian moral framework. While some may dismiss this as subjectively trivial, I contend that these values are often far from arbitrary and are in fact empirically grounded truths that hold for all entities capable of experience. To borrow from Sam Harris, we've hit philosophical bedrock with the shovel of a stupid question if we ask 'is the worst possible misery for everyone really bad'?
+All of us understand the principle that experiences can be compared based on their inherent 'goodness' or 'badness' for those involved. Philosophers formalise this notion through the utilitarian moral framework. While some may dismiss this as subjectively trivial, I contend that these values cannot be dismissed and are in fact empirically grounded truths that hold for all known entities capable of experience. In other words, our emergence through evolution is meaningful, for we enable the universe to experience itself. To borrow from Sam Harris, we've hit philosophical bedrock with the shovel of a stupid question if we ask 'is the worst possible misery for everyone really bad'?
+
+<div class="dropdown">
+  <button class="dropdown-toggle">Further Reasoning (1/9/24)</button>
+  <div class="dropdown-preview">
+    <p>To expand this thought more before we go any further, I want to provide context to this reasoning. This section argues that consciousness, and by extension, moral truths are latent in ... </p>
+  </div>
+  <div class="dropdown-content">
+<p>To expand this thought more before we go any further, I want to provide context to this reasoning. This section argues that consciousness, and by extension, moral truths are latent in the universe and emerge from the complex interactions of simpler systems.</p>
+<p>I. THE NATURE OF EMERGENCE</p>
+<p>"Emergence" describes the mechanisms by which simple components in nature achieve more complexity, and in the process become greater than the sum of all those original parts; when higher-level theories emerge from lower ones.</p>
+<p>In the words of Daniel Dennett, these 'real patterns' have an ontology of their own, existing as objectively real features of our universe, to be understood at their own level of abstraction. In Real Patterns, Dennett writes:</p>
+<blockquote>
+  <p>"Do these same pragmatic considerations apply to the scientific image, widely regarded as the final arbiter of ontology? Science is supposed to carve nature at the joints -- at its real joints, of course. Is it permissible in science to adopt a carving system so simple that it makes sense to tolerate occasional mis-divisions and consequent mispredictions? It happens all the time."</p>
+</blockquote>
+<p>In much the same way that the economic model of a perfectly rational agent often fails when confronted with the complexities of human behaviour --- evidenced by the prevalence of religious belief and irrational devotion --- our simplified models of consciousness and morality may be failing to capture the full richness of these phenomena (Theil's Straussian Moment puts forward an economic and cultural argument).</p>
+<blockquote>
+  <p>"The ubiquitous practice of using idealized models is exactly a matter of trading off reliability and accuracy of prediction against computational tractability. A particularly elegant and handy oversimplification may under some circumstances be irresistible. The use of Newtonian rather than Einsteinian mechanics in most mundane scientific and engineering calculations is an obvious example."</p>
+</blockquote>
+<p>The assumption that different incentives exist and thus morality cannot be universal is an irresistible simplification equal to assuming that no two brains are alike and thus consciousness cannot exist. It fails to bridge the gap between reductionist and holistic views of the universe. While everything can theoretically be reduced to fundamental particles, the patterns that emerge at higher levels of organisation are no less significant.</p>
+<p>A key property of real patterns is universality. For consciousness, this relates to the concept of substrate independence. To hold, you must be able to arrive at the same conclusion from a diversity of underlying structures. As such, human consciousness need not be the sole arbiter of these phenomena; there may be other paths to emergence. If consciousness pervades the universe and is a fundamental feature of it, morality is no different.</p>
+<p>II. THE CONSCIOUS UNIVERSE AND EMERGENT MORALITY</p>
+<p>The emergence of consciousness represents a profound shift in the universe's capacity for self-reflection. Through conscious entities, the cosmos gains the ability to observe and contemplate its own existence. This self-awareness is a latent feature of reality itself, now actualised in our form. To extend the Carl Sagan phrase, we are "star stuff" that has become aware of itself.</p>
+<p>This perspective isn't a retreat to mysticism or a rejection of scientific inquiry. Rather, it acknowledges the limitations of pure reductionism, as articulated in Eliezer Yudkowsky's essay "The Futility of Emergence." While Yudkowsky rightly cautions against using "emergence" as an explanation-stopper, when properly understood, emergence is a powerful tool for comprehending complex phenomena like consciousness and morality.</p>
+<p>Few other perspectives offer an avenue for addressing David Chalmers' "hard problem of consciousness." While we can explain many cognitive functions mechanistically, the subjective experience of consciousness --- the "what it's like" to be conscious --- remains elusive by traditional methods of science. That is a profoundly strong call to action! And the consequence of this inference is that: just as consciousness emerges from neural activity in a way that is not reducible to any single neuron or neural process, morality can be viewed as emerging from the interactions of conscious beings, merely a higher order of complexity. Treating consciousness as an emergent phenomenon allows for a map of the territory: from the intrinsic and subjective through the objective.</p>
+<p>By this logic, intelligence, consciousness, and morality are three real patterns in the universe, emerging from the same interactions at different levels of complexity and distribution. These patterns extend beyond the realm of elementary physics often used by philosophers who have approached this topic.</p>
+<p>The conventional view claims that when a being considers some action worse than another it is merely expressing personal preferences shaped by design --- essentially saying "Boo this, Yay that." This sentiment echoes Hume's assertion that "ought" cannot be derived from "is", Nietzsche's view of moral systems as expressions of power dynamics, and A. J. Ayer's logical positivist stance that moral statements are neither empirically verifiable nor analytic truths.</p>
+<p>If consciousness is to be recognised as property of the universe at all, one must assume there are other latent properties that arise in symposium, and enacted by vehicles of complexity like civilisation composed of many conscious beings. For those who argue the universe is inherently meaningless, I pose this challenge: Conceive of a universe that does have inherent meaning. How would you distinguish it from the one we evolved and became civilised in? The one where we are on the verge of the singularity and Kardashev registration?</p>
+<p>It feels as though these views were formed in a logical vacuum; one failing to grasp the implications of emergent phenomena. If a being were to knowingly press a button that deleted all life including itself, how else could one articulate that except as an objectively evil action, one that eliminates the ability of the universe to experience itself.</p>
+<p>We are not mere passengers in an indifferent cosmos, but active livewires in the universe's journey of moral evolution through social interaction. Any reductionist theory that cannot see that is still grappling with particle interactions and failing to see the forest for the trees.</p>
+  </div>
+</div>
 
 So let us formalise this as our basic model of all that matters.
 
 <br>
 
 <blockquote>
-<i><b>An objective moral landscape exists for all experiential beings.</b></i>
+<i><b>An objective moral landscape exists for experiential beings.</b></i>
 </blockquote>
 
 <br>
