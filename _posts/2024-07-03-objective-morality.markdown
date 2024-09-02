@@ -24,7 +24,7 @@ To distill this essay into a couple sentences: The goal should be to build a Asi
 
 ### Part 1: Moral Objectivity<a id="part-1"></a> 
 
-To start with the axioms and build up, let's consider a basic method to compare everything that matters to conscious beings. In order to do so, we must establish that morality can be an objective facet of reality, and recognise that while this implies the existence of objective truths, approximating them in practice is very challenging.
+To start with the axioms and build up, let's consider a basic method to compare everything that matters to conscious beings. In order to do so, we will establish that suffering and well-ebing are objective facets of reality, and recognise that while this implies the existence of objective truths, approximating them in practice is very challenging.
 
 <br>
 
@@ -35,7 +35,7 @@ Here is the initial chain of reasoning:
 </blockquote>
 
 <blockquote>
-  <i><b>Your conscious experience is therefore a feature of reality itself, emergent from physical processes known to science (but not totally explained by science as it stands).</b><a href="#ref-2">[2]</a></i>
+  <i><b>Your conscious experience is therefore a feature of reality itself. It is emergent from physical processes known to science (but not totally explained by science as it stands).</b><a href="#ref-2">[2]</a></i>
 </blockquote>
 
 <blockquote>
