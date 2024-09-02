@@ -4,8 +4,6 @@ title:  "The Moral Objective Function"
 date:   2024-07-03 18:39:31 +0000
 categories: agents
 study: false
-# recommended: false
-# featured: true
 ---
 
 This post explores the philosophy of 'safe superintelligence' in relation to human values. I've long been interested in the notion of objective morality as a unifying framework for civilisation to follow. In this post, I outline a chain of eight links that describe how humanity should behave as we approach superintelligence if we want to build systems that cure disease, end poverty, and shower us with technological bounty. 
@@ -118,8 +116,6 @@ For instance, we might be able to justify temporarily reducing the well-being of
 As we converge on the singularity (the point in time where technological growth becomes virtually unpredictable or uncontrollable, depending on your definition [[4b]](#ref-4)), we near a critical juncture where a large number of possible futures are likely to become rapidly and permanently inaccessible --- upon the advent of AI being meaningfully fed back into itself to boost its own rate of development. This chain-of-thought underpins arguments for accelerating timelines to AGI at times when they're under relatively controlled conditions; the longer we delay, the more open ended the problem becomes, meaning we may find ourselves travelling uncontrollable towards bad Nash equilibria. [[4c]](#ref-4)
 
 We should also recognise the points of deeply inequitable well-being, where the cumulative well-being is high, but the potential for a diversity of well-being are lost. These lie off the pareto frontier as they are suboptimal in the long-run. Pricing in the lost potential of these states and creating qualitative comparisons to other configurations is the purpose of this entire exercise. Until we know better, we should argue in favour of realities where lots of unique cognitive entities exist, because a world teaming with colourful species is one that most of us get great satisfaction from, and we can argue that those species feel the same way about themselves, and hence morality effects them also.
-
-<!-- We should recognise these realities as mutually distinct from this moral superposition, for it is very hard to reason about. Would you slay all chimpanzees for the life of a single human? What if it they were the only human left, and they possess the knowledge to build a simulation with 100x more simulated chimpanzees than ever before? To steer clear of these dilemma, our heuristic should bias towards the reality where maximum humans and maximum chimpanzees exist. -->
 
 #### Building Moral Heuristics
 
