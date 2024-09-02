@@ -31,15 +31,11 @@ To start with the axioms and build up, let's consider a basic method to compare 
 Here is the initial chain of reasoning:
 
 <blockquote>
-   <i>It is true that you (a being that exists) are reading this essay to yourself. Moreover, you have the ability to perform thinking, feeling, and other actions of the mind. <a href="#ref-1">[1]</a></i>
+   <i>It is a fact that you are reading this essay to yourself. Reading (and all other thinking activities) takes place in a shared reality. <a href="#ref-1">[1]</a></i>
 </blockquote>
 
 <blockquote>
-  <i><b>These are "qualia" derived from neurological activity that is objectively observable. That means third parties have the means to understand your experience.</b> <a href="#ref-2">[2]</a></i>
-</blockquote>
-
-<blockquote>
-  <i><b>In this sense, your thoughts do not exist outside of reality; they are a feature of it.</b> <a href="#ref-3">[3]</a></i>
+  <i><b>Your conscious experience is a fundamental feature of reality, emergent from physical processes known to science.</b><a href="#ref-2">[2]</a></i>
 </blockquote>
 
 <blockquote>
@@ -93,19 +89,19 @@ All of us understand the principle that experiences can be compared based on the
   </div>
 </div>
 
-So let us formalise this as our basic model of all that matters.
+So let us formalise this and explain it.
 
 <br>
 
 <blockquote>
-<i><b>An objective moral landscape exists for experiential beings.</b></i>
+<i><b>An objective, 'moral' landscape exists for experiential beings.</b><a href="#ref-3">[3]</a></i>
 </blockquote>
 
 <br>
 
 Let us [delve](https://www.reddit.com/r/artificial/comments/1c7x6f4/health_of_humanity_in_danger_because_of_chatgpt/) deeper into this concept of objective morality. At one end of this landscape lies the worst measurable hellscape --- a state of maximum suffering for all conscious beings. The other extreme embodies a state of maximum well-being, a kind of apex where the prosperity and positive experience of all conscious entities are at their highest possible value. These extremes are not mere abstractions but represent real, potential outcomes within a shared universe.
 
-This landscape is composed of a near intractable number of dimensions, and somewhere on it, we exist --- as a genus, species, civilisation, and as individuals. It is a tapestry of qualia that constitutes the well-being of all conscious entities, much in the way Harris wrote about in [2010](https://en.wikipedia.org/wiki/The_Moral_Landscape). Recognising morality from this perspective is crucial for aligning civilisation towards a common understanding of well-being, for reasons explained later.
+This landscape is composed of a near intractable number of dimensions, and somewhere on it, we exist --- as a genus, a species, as individuals, but also as tribes, as cities, and as a global civilisation of many strata. It is a tapestry of qualia that constitutes the well-being of all conscious entities, much in the way Harris wrote about in [2010](https://en.wikipedia.org/wiki/The_Moral_Landscape). Recognising morality from this perspective is crucial for aligning civilisation towards a common understanding of well-being, for reasons explained later.
 
 To be clear, this perspective isn't fundamentally incompatible from ontological subjectivity (the fact that our preferences manifest in our minds); instead, the argument is that despite individuals possessing diverse moral intuitions, there exists a moral superposition over all preferences that can be reasoned about empirically. In this model, reality is epistemologically objective, meaning we can meaningfully reason about preferences using a kind of grounded moral calculus. 
 
@@ -113,11 +109,11 @@ To be clear, this perspective isn't fundamentally incompatible from ontological 
 
 By recognising this landscape as a space of all possible states, we can apply a game theoretic methodology to optimise our paths towards pareto optimal realities --- those in which it's impossible to improve the well-being of any conscious entity without reducing the well-being of another. In other words, realities where all resources are allocated efficiently for the benefit of thinking entities. With the pareto frontier as the goal, we can then consider other important traits, like the degree of equitability and cohesion of species. 
 
-For instance, we might be able to justify temporarily reducing the well-being of some individuals in the short term if it means dramatically improving long-term prospects for all, particularly if such actions reduce the likelihood of falling into suboptimal Nash equilibria. Government policies are generally geared towards this idea --- 'how can we best spend tax money now to maximise [enter proxy for well-being, e.g. growth] for our country?'
+For instance, we might be able to justify temporarily reducing the well-being of some individuals in the short term if it means dramatically improving long-term prospects for all, particularly if such actions reduce the likelihood of falling into suboptimal Nash equilibria that cannot be reversed. Government policies are generally geared towards this idea --- 'how can we best spend tax money now in order to maximise [enter proxy for well-being, e.g. growth] for our country?' [[4a]](#ref-4)
 
-As we approach the singularity (the point in time where technological growth becomes essentially uncontrollable), we near a critical juncture where a large number of possible futures are likely to become rapidly and permanently inaccessible --- upon the advent of AI being meaningfully fed back into itself to boost its own rate of development. This chain-of-thought underpins arguments for accelerating timelines to AGI at times when they're under relatively controlled conditions; the longer we delay, the more open ended the problem becomes, meaning we may find ourselves travelling uncontrollable towards bad Nash equilibria. [[4]](#ref-4)
+As we converge on the singularity (the point in time where technological growth becomes virtually unpredictable or uncontrollable, depending on your definition [[4b]](#ref-4)), we near a critical juncture where a large number of possible futures are likely to become rapidly and permanently inaccessible --- upon the advent of AI being meaningfully fed back into itself to boost its own rate of development. This chain-of-thought underpins arguments for accelerating timelines to AGI at times when they're under relatively controlled conditions; the longer we delay, the more open ended the problem becomes, meaning we may find ourselves travelling uncontrollable towards bad Nash equilibria. [[4c]](#ref-4)
 
-We should also recognise the points of deeply inequitable well-being, where the cumulative well-being is high, but the potential for a diversity of well-being are lost. These are suboptimal. Pricing in the lost potential of these states and creating qualitative comparisons to other configurations is the purpose of this entire exercise. Until we know better, we should argue in favour of realities where lots of unique cognitive entities exist, because a world teaming with colourful species is one that most of us get great satisfaction from, and we can argue that those species feel the same way. 
+We should also recognise the points of deeply inequitable well-being, where the cumulative well-being is high, but the potential for a diversity of well-being are lost. These lie off the pareto frontier as they are suboptimal in the long-run. Pricing in the lost potential of these states and creating qualitative comparisons to other configurations is the purpose of this entire exercise. Until we know better, we should argue in favour of realities where lots of unique cognitive entities exist, because a world teaming with colourful species is one that most of us get great satisfaction from, and we can argue that those species feel the same way about themselves, and hence morality effects them also.
 
 <!-- We should recognise these realities as mutually distinct from this moral superposition, for it is very hard to reason about. Would you slay all chimpanzees for the life of a single human? What if it they were the only human left, and they possess the knowledge to build a simulation with 100x more simulated chimpanzees than ever before? To steer clear of these dilemma, our heuristic should bias towards the reality where maximum humans and maximum chimpanzees exist. -->
 
@@ -140,13 +136,13 @@ In the battle against our own four horsemen (disease, famine, war and death), we
 
 By the 21st century, we appear to be on a positive ideological trajectory, having legally abolished slavery, overcome fascist and communist ideologies in favor of a more liberal world order (with a graveyard of lessons), and now openly addressing issues such as sexism, xenophobia, racism, and homophobia. Empirical evidence promotes liberal values like xenophilia, which support the flourishment a planet-sized civilisation comprising hundreds of countries, just as it disproves the viability of slavery in modern circumstances. Compared to the scale of human civilisation, the past hundred years have been remarkably poetic, with the threat of nuclear deterrence ushering in a mostly peaceful period on the world stage.
 
-We cannot ever know that we are being objectively moral, because as long as our assumptions are incomplete, we can only settle on the maximally favoured reality by chance. But it seems that we can fit ever closer approximations of this function, with greater levels of confidence --- based on our empirical understanding of what it means to maximise morality in all its forms.
+We cannot ever know if we are behaving in an objectively moral way, because as long as our assumptions are incomplete, we can only settle on the maximally favoured reality by chance. But fear now: it seems that we can fit ever closer approximations of this function, with greater levels of confidence --- based on our empirical understanding of what it means to maximise morality in all its forms. 
 
 <blockquote>
 <i><b>We can approach the peaks of the moral landscape as one would regress a function. Over time, we can improve our ability to approximate the absolute maxima.</b></i>
 </blockquote>
 
-However, the horsemen continue to plague our species. Now when we fail, it is at unprecidented scales, so the price we pay has increased. Since 1956, there have been 43 genocides, a 70% decline in wildlife abundance, and the construction of an animal harvesting infrastructure of over 6 billion animals for daily consumption (amounting to trillions each year). In other words, as a society, we continue to find it remarkably difficult to candidly pathfind the moral landscape. This difficulty arises because the very quirks that define us as human beings also limit our capacity to apply our moral principles uniformly and consistently. [[5]](#ref-5)
+However, the horsemen continue to plague our species. Now when we fail, it is at unprecidented scales, so the price we pay has increased. Since 1956, there have been 43 genocides, a 70% decline in wildlife abundance (by some metrics), and the construction of an animal harvesting infrastructure of over 6 billion animals for daily consumption (amounting to trillions each year). In other words, as a society, we continue to find it remarkably difficult to candidly pathfind the moral landscape. This difficulty arises because the very quirks that define us as human beings also limit our capacity to apply our moral principles uniformly and consistently. [[5]](#ref-5)
 
 ### Part 2: Superintelligence as a Therapy<a id="part-2"></a> 
 
@@ -173,11 +169,11 @@ Furthermore, I'd argue humans may well represent a superset of ant qualia; and e
 With all of this in mind, we can make the following chain of judgements:
 
 <blockquote>
-<i><b>The moral landscape can be maximised or minimised for all conscious entities.</b></i>
+<i><b>The path from where we are to points of higher morality can be determined using empirical methods and rational inquiry.</b></i>
 </blockquote>
 
 <blockquote>
-<i><b>The path from where we are to points of higher morality can be determined scientifically.</b></i>
+<i><b>The pursuit of collective well-being for all conscious entities is an objective moral good.</b></i>
 </blockquote>
 
 <br>
@@ -270,19 +266,23 @@ Based on empirical research, we can observe all kinds of neurological behaviour 
 
 [3]<a id="ref-3"></a> 
 
-Reinstatement: If I say the "worst possible misery for everyone" is objectively bad, I'm not just talking about physical harm. I'm referring to a state of consciousness that, due to the laws of nature, no conscious being would choose if they understood it fully. Physical harm is a good heuristic (though potentially holds only for some cases), because the sensation of burning is avoided almost universally for natural beings. Death is an even stronger heuristic for this very reason. 
+If I say the "worst possible misery for everyone" is objectively bad, I'm not just talking about physical harm. I'm referring to a state of consciousness that, due to the laws of nature, no conscious being would choose if they understood it fully. Physical harm is a good heuristic (though potentially holds only for some cases), because the sensation of burning is avoided almost universally for natural beings. Death is an even stronger heuristic for this very reason. 
 
 All this points to an objective set of dimensions that exist for conscious beings that serve as the axes of this moral landscape. This concept aligns with consequentialist ethics (particularly hedonistic utilitarianism), but diverges in its emphasis on scientific empiricism as a means of moral investigation.
 
 [4]<a id="ref-4"></a> 
 
-Bad Nash equilibria could be triggered by, say, a university discovering dangerous model architectures and making them open source before realising how dangerous they are, and rapidly letting them fall into the compute clusters of bad actors.
+4a. Though unfortunately more like: 'how can we best spend tax money now to maximise [enter proxy for popularity among those who choose who is in charge] so that we can remain in power longer?' which doesn't necessarily involve a proxy for well-being.
+
+4b. This is my preferred definition as it doesn't necessitate having ASI, only something that behaves well beyond our comprehension.
+
+4c. Bad Nash equilibria could be triggered by, say, a university discovering dangerous model architectures and making them open source before realising how dangerous they are, and rapidly letting them fall into the compute clusters of bad actors.
 
 [5]<a id="ref-5"></a> 
 
 Genocide: [Anderton, Charles H.; Brauer, Jurgen, eds. (2016). Economic Aspects of Genocides, Other Mass Atrocities, and Their Prevention. Oxford University Press. ISBN 978-0-19-937829-6.](https://global.oup.com/academic/product/economic-aspects-of-genocides-other-mass-atrocities-and-their-prevention-9780199378296?cc=us&lang=en&)
 
-Diversity:
+Diversity (page 32 of report; it is a non-weighted average of the change in abundance of every species):
 [https://wwflpr.awsassets.panda.org/downloads/lpr_2022_full_report_1.pdf](https://wwflpr.awsassets.panda.org/downloads/lpr_2022_full_report_1.pdf)
 
 [We also kill two trillion silkworms for silk each year](https://bitesizevegan.org/quantifying-suffering-cruelty-by-the-numbers/)
