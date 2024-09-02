@@ -31,15 +31,15 @@ To start with the axioms and build up, let's consider a basic method to compare 
 Here is the initial chain of reasoning:
 
 <blockquote>
-   <i>It is a fact that you are reading this essay to yourself. Reading (and all other thinking activities) takes place in a shared reality. <a href="#ref-1">[1]</a></i>
+   <i>The act of reading and comprehending these words is a real, observable process occurring in our shared reality. <a href="#ref-1">[1]</a></i>
 </blockquote>
 
 <blockquote>
-  <i><b>Your conscious experience is a fundamental feature of reality, emergent from physical processes known to science.</b><a href="#ref-2">[2]</a></i>
+  <i><b>Your conscious experience is therefore a feature of reality itself, emergent from physical processes known to science (but not totally explained by science as it stands).</b><a href="#ref-2">[2]</a></i>
 </blockquote>
 
 <blockquote>
-  <i><b>Therefore, when you are experiencing pleasure or pain, that emotion is objectively occuring in a shared reality.</b></i>
+  <i><b>Moreover, when you are experiencing pleasure or pain, that emotion is also happening in our shared reality.</b></i>
 </blockquote>
 
 <br>
