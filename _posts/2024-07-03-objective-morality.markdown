@@ -35,7 +35,7 @@ Here is the initial chain of reasoning:
 </blockquote>
 
 <blockquote>
-  <i><b>Your conscious experience is therefore a feature of reality itself. It is emergent from physical processes known to science (but not totally explained by science as it stands).</b><a href="#ref-2">[2]</a></i>
+  <i><b>Your conscious experience is therefore a feature of reality itself. It is emergent from physical processes known to science (but not totally explained by science as it stands). </b><a href="#ref-2">[2]</a></i>
 </blockquote>
 
 <blockquote>
@@ -50,7 +50,7 @@ However, the observability of emotions doesn't guarantee their full interpretabi
 
 This insight is significant as it reveals that social interaction relies on implicit qualities among conscious beings. Emotions can propagate from one nervous system to another through a memetic process, but the fidelity of this transfer depends on the capacity for one to relate.
 
-Despite individual variations in empathy, there's a universal understanding that experiences can be compared based on their inherent 'goodness' or 'badness' for those involved. Philosophers have formalized this concept through utilitarian moral frameworks. While some may dismiss this as subjectively trivial, I argue that moral truths, like consciousness itself, are emergent properties arising from the complex interactions of conscious beings, and that this 
+Despite individual variations in empathy, there's a universal understanding that experiences can be compared based on their inherent 'goodness' or 'badness' for those involved. Philosophers have formalised this concept through utilitarian moral frameworks. While some may dismiss this as subjectively trivial, I argue that moral truths, like consciousness itself, are emergent properties arising from the complex interactions of conscious beings, and that this 
 
 Just as the hard problem of consciousness asks why physical processes give rise to subjective experience, we face a parallel hard problem of morality: why do our experiences of well-being and suffering seem to carry intrinsic moral weight? Both problems point to phenomena that emerge from physical systems yet seem to transcend simple material explanations.
 
@@ -69,7 +69,7 @@ Just as the hard problem of consciousness asks why physical processes give rise 
 </blockquote>
 <p>In much the same way that the economic model of a rational agent fails the moment it is confronted with the complexities of human behaviour (think of the overwhelming prevalence of religious faith and devotion, or any measure of one's otiose beliefs) our simplified models of consciousness and morality may be failing to capture the full richness of these phenomena (Theil's Straussian Moment argues this compellingly). Dennett goes on to say:</p>
 <blockquote>
-  <p>"The ubiquitous practice of using idealized models is exactly a matter of trading off reliability and accuracy of prediction against computational tractability. A particularly elegant and handy oversimplification may under some circumstances be irresistible. The use of Newtonian rather than Einsteinian mechanics in most mundane scientific and engineering calculations is an obvious example."</p>
+  <p>"The ubiquitous practice of using idealised models is exactly a matter of trading off reliability and accuracy of prediction against computational tractability. A particularly elegant and handy oversimplification may under some circumstances be irresistible. The use of Newtonian rather than Einsteinian mechanics in most mundane scientific and engineering calculations is an obvious example."</p>
 </blockquote>
 <p>The assumption that different incentives exist and thus morality cannot be universal is an irresistible simplification equal to assuming that no two brains are alike and thus consciousness cannot exist. It fails to bridge the gap between reductionist and wholistic views of the universe. While everything can theoretically be reduced to fundamental particles, the particle interactions themselves cannot be used to explain everything they induce without compression (and accumulation of compression errors). Moreover, the interactions that emerge at higher levels of organisation are no less significant.</p>
 <p>So lets understand real patterns more. A key property of real patterns is universality. For consciousness, this relates to the concept of substrate independence. To hold, you must be able to arrive at the same conclusion from a diversity of underlying structures. As such, human consciousness need not be the sole arbiter of these phenomena; there may be other paths to emergence. If consciousness pervades the universe and is a fundamental feature of it, morality is no different.</p>
@@ -93,12 +93,12 @@ Just as the hard problem of consciousness asks why physical processes give rise 
   </div>
 </div>
 
-So let us formalise this and explain it.
+So let us formalise this and explore it.
 
 <br>
 
 <blockquote>
-<i><b>An objective, 'moral' landscape exists for experiential beings.</b><a href="#ref-3">[3]</a></i>
+<i><b>An objective, 'moral' landscape exists for experiential beings. </b><a href="#ref-3">[3]</a></i>
 </blockquote>
 
 <br>
