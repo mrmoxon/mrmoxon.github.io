@@ -44,11 +44,15 @@ Here is the initial chain of reasoning:
 
 <br>
 
-To provide context, if you were to imagine your worst possible nightmare reality and convey it to another being in a way that they fully understood, we could reasonably assume that they would come to adopt your attitude towards the stimuli you describe. This is because emotions can transfer from one nervous system to another through a memetic process.
+Your mind depends on your neural substrate --- the part of your nervous system responsible for thinking --- which reacts more positively to certain conditions than others. For example, if given the choice to experience your worst imaginable nightmare as reality, we can confidently predict that you would find it utterly objectionable, because we possess our own substrates that can empathise with yours. Although it may seem obvious, it is important to acknowledge that your emotions are a product of your physical body, which is influenced by the same conditions as your environment. They occur synchronously and can be observed by third parties.
 
-Your mind depends on your neural substrate --- the part of your nervous system responsible for thinking --- which reacts more positively to certain conditions than others. For example, if given the choice to experience your worst imaginable nightmare as reality, we can confidently predict that you would find it utterly objectionable, and would prefer virtually any other personal situation. Although it may seem obvious, it is important to acknowledge that your emotions are a product of your physical body, which is influenced by the same conditions as your environment. They occur synchronously and can be observabled by third parties.
+However, the observability of emotions doesn't guarantee their full interpretability by others. In attempting to convey your worst imaginable nightmare to others, you'd find that some reciprocate your feelings more deeply than others. This varying degree of empathy demonstrates that emotional transfers between beings are limited by their capacity to relate to one another.
 
-All of us understand the principle that experiences can be compared based on their inherent 'goodness' or 'badness' for those involved. Philosophers formalise this notion through the utilitarian moral framework. While some may dismiss this as subjectively trivial, I contend that these values cannot be dismissed and are in fact empirically grounded truths that hold for all known entities capable of experience. In other words, our emergence through evolution is meaningful, for we enable the universe to experience itself. To borrow from Sam Harris, we've hit philosophical bedrock with the shovel of a stupid question if we ask 'is the worst possible misery for everyone really bad'?
+This insight is significant as it reveals that social interaction relies on implicit qualities among conscious beings. Emotions can propagate from one nervous system to another through a memetic process, but the fidelity of this transfer depends on the capacity for one to relate.
+
+Despite individual variations in empathy, there's a universal understanding that experiences can be compared based on their inherent 'goodness' or 'badness' for those involved. Philosophers have formalized this concept through utilitarian moral frameworks. While some may dismiss this as subjectively trivial, I argue that moral truths, like consciousness itself, are emergent properties arising from the complex interactions of conscious beings, and that this 
+
+Just as the hard problem of consciousness asks why physical processes give rise to subjective experience, we face a parallel hard problem of morality: why do our experiences of well-being and suffering seem to carry intrinsic moral weight? Both problems point to phenomena that emerge from physical systems yet seem to transcend simple material explanations.
 
 <div class="dropdown">
   <button class="dropdown-toggle">Further Reasoning (1/9/24)</button>
@@ -83,7 +87,7 @@ All of us understand the principle that experiences can be compared based on the
 
 <p>If consciousness is to be recognised as a property of the universe at all, one must assume there are other latent properties that arise in syncrony, and enacted by systems of great complexity: like civilisation composed of many social, conscious beings (what is higher order than that?). For those who argue the universe is inherently meaningless, I pose this challenge: Conceive of a universe that does have inherent meaning. How would you distinguish it from the one we evolved and became civilised in? The one where we are on the verge of the singularity and Kardashev registration?</p>
 
-<p>It feels as though the views of Hume, Nietzsche and Ayer were formed in a logical vacuum; one failing to grasp the implications of emergent phenomena. If a being were to knowingly press a button that extinguished all life including itself, how else could one articulate that except as an objectively evil action, one that eliminates the ability of the universe to experience itself.</p>
+<p>It feels as though the views of Hume, Nietzsche and Ayer were formed in a logical vacuum; one failing to grasp the implications of emergent phenomena. If a being were to knowingly press a button that extinguished all life including itself, how else could one articulate that except as a bad action unto all those who were deleted, one that eliminates the ability of the universe to experience itself? Or, given that emergence may enable rebirth of new species, what if that button plunged everything into its worst concievable nightmare? To borrow from Sam Harris, we've hit philosophical bedrock with the shovel of a stupid question if we ask 'is the worst possible misery for everyone really bad'?</p>
 
 <p>We are not mere passengers in an indifferent cosmos, but active livewires in the universe's journey of moral evolution through social interaction. Any reductionist theory that cannot see that is still grappling with particle interactions and failing to see the forest for the trees.</p>
   </div>
@@ -322,63 +326,3 @@ These are hugely intractable problems for us.
 [8]<a id="ref-8"></a> 
 
 [The Leopold essay on superalignment.](https://situational-awareness.ai/superalignment/)
-
-<!-- Imagine humans evolved alongside another species of ape through allopatric speciation --- genetically distinct, but considered intellectually equal --- how would we consider approach a dual-alignment problem of this type, and would it be distinct?  -->
-
-<!-- If we build a generation of models in this fashion, then as models get plugged into themselves they would embody these values to the point that there would be little incentive to build superintelligences that don't have these values. They would essentially face the same dilemma and pass this process on. -->
-
-
-
-<!-- In a sense, this gives us time to catch up. If the promised third party superintelligence by 2030 leverages transformers, we will enter a grey area where the AGI is still limited and non-recursive in opportune ways. One alternative approach would be to extend the cognitive faculties of the organic brain; using implants to leverage computer memory, for instance, or porting our mind between substrates to expand our cognitive range and experiential repertoire. This approach explicitly aims to make us of the fact that we arrived at the singularity still in favour of mass cooperation, capable of appreciating the consequences of building adversarial systems that also benevolently collaborate.
-
-This approach would be preferable supposing the stability of a third-party superintelligence were insufficient enough to ensure civilisational safety. It is conceivable that we design a superintelligence that annihilates all other living beings in order to claim their negative entropy. Perhaps that is the purest form of technology, further down the timeline; the one that wins the prisoner's dilemma every single time. This chilling prospect underscores the existential importance of getting the alignment problem right as we expand the parameters of mind. -->
-
-<!-- > Institutions should recognise this shift and gear their policy towards ensuring a balance between a variety of cognitive entities.  -->
-
-<!-- A techno-optimist might argue that other superintelligences are also possible - ones that are explicitly imbued with the cognitive tools and value alignment to reason about ethics in ways we cannot. Such systems would need to be imbued with deep models of consciousness, suffering, and flourishing across all possible minds. Acting benevolently and supporting our cohesive growth may best amplify intelligence in coordinated fashion for all.  -->
-
-
-<!-- By embedding core goals and rewards amongst a topological landscape of nuance, we could trust machines to be our champions in unlocking the full potential of the moral landscape. This embedding of nuance is presently being worked on by research, and this is my argument that this effort may solve the alignment problem.
-
-This is the dual imperative needle that will take all our ingenuity to thread: to expand our minds without losing our humanity and to create superintelligent servants without ceding our agency. But the prize is immense - nothing less than our cosmic stewardship and reaching global moral maximum. -->
-
-
-<!-- and in such a way that our abilities as naturally occurring organisms is entirely encapsulated in their cognitive substrate. 
-
-In this sense, we possess unimaginable ways to maximize well-being and minimize suffering across all the sentient systems that operate on Earth as-is. Future offspring grown through compute should be able to traverse spaces of complexity well beyond the most advanced human. 
-
-- devising novel computational structures to generate entirely new kinds of beneficial experiences and value. Whereas we are limited to tweaking parameters in our small domain, they could author new "rules" and dynamical systems to create currently inconceivable forms of flourishing.
-
-
-Figure 2.
-
-
-That said, humans also have a poor track record of permitting their ancestral neighbours the transcendent environment we know exists. Captivity is the fate of almost every wild animal on earth; some species live exclusively in cages and pens as a spectacle, in order to maintain their captivity or survival in plundered wilds. 
-
-
-This may widen the gap of ability between those who enhance themselves from those who do not, but morally we should remain aligned. The utility function is multi-faceted; we can all thrive without giving way to a single entity. 
-
-For those who would have reservations about surrendering their power to a more advanced, transhumanist force, there is good and bad news. Transhumanism is on the back foot when it comes to advanced intelligent entities. As it happens, we've been better at embedding cognition in-silica than growing our own grey matter. 
-
-
-It's hard to say what behaviours will seem abhorrent to superior cognitive entities, but it will be clear that they too will have pitfalls and suboptimal traits to those who come after. No matter how advanced an entity becomes, it will continue to be a patient of its hardware. 
-
-
-
-
-
-It is conceivable that we design or become a superintelligence that annihilates all other living beings in order to claim their negative entropy. Perhaps that is the purest form of technology, further down the timeline; the one that wins the prisoner's dilemma every single time. 
-
-A techno-optimist might argue that other superintelligences are also possible, one that acts benevolently and supports our cohesive growth and development by amplifying intelligence in coordinated fashion for all. Censorship from the truth has been 
-
-> Institutions should recognise this shift and gear their policy towards ensuring a balance between a variety of cognitive entities. Entities should be taught to "love" -- which is our human way of describing one of the processes we have used to cohere. 
-
-
-
-
-
-
-Objective truths are hard to define, and generally subjective.
-
-Is it an objective truth that if humans never become multi-planetary we will go extinct?
-    • Answer: according to general consensus, we will go extinct either way. But becoming multi-planetary will probably buy us more time.  -->
