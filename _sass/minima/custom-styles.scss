@@ -5,6 +5,55 @@
     margin-left: auto; /* Forces the CV link to the right */
   }  
 
+// Custom list styling for emergence timeline
+.emergence-timeline {
+  list-style: none;
+  counter-reset: timeline-counter;
+  margin-left: 0;
+  padding-left: 2.5em;
+
+  > li {
+    position: relative;
+    margin-bottom: 2em;
+    counter-increment: timeline-counter;
+    
+    // Main timeline item
+    .timeline-item {
+      margin-bottom: 0.5em;
+      font-weight: 500;
+      
+      &::before {
+        content: counter(timeline-counter) ".";
+        position: absolute;
+        left: -2.5em;
+        width: 2em;
+        text-align: right;
+        font-weight: bold;
+      }
+    }
+    
+    // Description text
+    .timeline-description {
+      font-size: 0.95em;
+      color: $brand-color;
+      margin-top: 0.5em;
+      margin-bottom: 1em;
+      line-height: 1.6;
+    }
+    
+    // Unlock highlight
+    b {
+      color: $brand-color;
+    }
+  }
+}
+
+// Navigation styles
+.site-nav .trigger a:last-child {
+  margin-left: auto;
+}
+
+  
 // /* Header styles */
 // .site-header {
 //     border-top: 5px solid $border-color-03;

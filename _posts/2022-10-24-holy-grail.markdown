@@ -8,7 +8,7 @@ featured: false
 recommended: true
 ---
 
-On an infinite rate of innovation, the "most dangerous algoritm" in the world, the new gods of Homo Sapiens, and the tools we can use to automate learning entirely.
+On the concepts of an infinite rate of innovation, the "most dangerous algoritm" in the world, the new gods of Homo Sapiens, and the tools we can use to automate learning entirely.
 
 #### Contents
 
