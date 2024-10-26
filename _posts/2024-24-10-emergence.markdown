@@ -28,7 +28,7 @@ Decades before McCarthy conjectured that <i>"every aspect of learning or any oth
 
 At the heart of this perspective lies the concept of emergence --- when novel patterns and properties arise from complex systems that did not exhibit those properties before. Given its profound implications, and how it feels like the closest thing to magic that science can admit, emergence is a concept that flies surprisingly under the radar even within academia.
 
-Emergence describes the creation of new behaviours that seem to transcend the sum of their parts, and it succinctly describes the causal chain from the formation of matter to human abstraction. Lets quickly map this in accordance to Nick Lane's [Life Ascending](https://nick-lane.net/books/life-ascending-the-ten-great-inventions-of-evolution/) (see [[1]](#ref-1) for a detail timeline):
+Emergence describes the creation of new behaviours that seem to transcend the sum of their parts, and it succinctly describes the causal chain from the formation of matter to human abstraction. Let's quickly map this in accordance to Nick Lane's [Life Ascending](https://nick-lane.net/books/life-ascending-the-ten-great-inventions-of-evolution/) (see [[1]](#ref-1) for a detailed timeline):
 
 1. Distribution of mass energy → spacetime curvature (Unlock: <b>gravity</b>).
 
@@ -90,9 +90,9 @@ Interestingly, however, this isn't always the story. In (d), relationships disco
 
 Three important observations: 
 
-1. Evolution in Picbreeder is one-directional; the states that can evolve into, e.g. cars, will not evolve into more simple states using the same functions applied. This is known as 'divergency', and seems to be a property of the material universe we inhabit [[4]](#ref-4). 
+1. Evolution in Picbreeder is one-directional; the states that can evolve into, e.g., cars, will not evolve into more simple states using the same functions applied. This is known as 'divergency', and seems to be a property of the material universe we inhabit [[4]](#ref-4). 
 
-2. Later-states are not obviously predictable; when one tries to produce a car, they will struggle to achieve this without trial and error. In other words, mastering Picbreeder is very hard.
+2. Later-states are not obviously predictable; when one tries to produce a car, one will struggle to achieve this without trial and error. In other words, mastering Picbreeder is very hard.
 
 3. Intuitively, the "emergent complexity" we observe seems highest in the meso-stages of evolution (the images shown in (d) are only momentary snapshots of longer branches that eventually become disordered).
 
@@ -104,7 +104,7 @@ In the eyes of Professor Karl Friston, systems that persist over time must do mo
 
 In non-living systems, this manifests as the process that shapes systems toward more stable, lower-energy configurations. A water droplet forming a sphere, a crystal growing in a supersaturated solution, or atoms arranging themselves into molecular structures –-- all of these can be viewed as systems minimising their free energy by finding configurations that best match the constraints of their environment. 
 
-In organisms, this manifests as 'active inference', where organisms seek to reduce the error between predicted and actual sensory inputs. They do this either by seeking out or building environments that match their adaptations (their 'internal markov state'), or by developing increasingly sophisticated internal models to handle environmental uncertainty (sensors, instincts, abstraction and the capability to plan). More on this in [part 8](#part-8).
+In organisms, this manifests as 'active inference', where organisms seek to reduce the error between predicted and actual sensory inputs. They do this either by seeking out or building environments that match their adaptations (their 'internal Markov state'), or by developing increasingly sophisticated internal models to handle environmental uncertainty (sensors, instincts, abstraction and the capability to plan). More on this in [part 8](#part-8).
 
 ### Weak and Strong Emergence<a id="part-3"></a>
 
@@ -112,11 +112,11 @@ In order to understand emergence, we must study the properties of dynamical syst
 1. <b>Novelty:</b> A system possesses novelty when it consistently produces artifacts that become less predictable over time with respect to the observer's existing models.
 2. <b>Learnability:</b> A system is learnable when access to more historical data makes its artifacts more predictable - in other words, observation improves understanding.
 
-By this token, our ability to interpret novel systems is a reflection of the capacity of our cognitive substrate to comprehend how these systems work. Some emergent properties yield more easily to investigation, while others remain intractable with respect to human minds, which explains why we see diminishing returns to science as the low-hanging fruit become sparse. In fact, scientific progress would require exponentially more work for any observer, provided they do not upgrade their cognitive faculties.
+By this token, our ability to interpret novel systems is a reflection of the capacity of our cognitive substrate to comprehend how these systems work. While some emergent phenomena are readily comprehensible, others prove stubbornly resistant to human understanding. This cognitive boundary helps explain the law of diminishing returns in scientific discovery --- as the low-hanging fruit become sparse, progress would require exponentially more work for any observer, provided they do not upgrade their cognitive faculties.
 
 When it comes to emergent complexity, we find that this lies along another spectrum:
 
-1. <b>Weakly emergent properties:</b> while novel, can be readily predicted given an understanding if the underlying components and their interactions. For example:
+1. <b>Weakly emergent properties:</b> while novel, future states can be readily predicted given an understanding if the underlying components and their interactions. For example:
 <br>
 <br>
 - <b>Simple molecular properties:</b> The hardness of diamond is a product of the strong covalent bonds in the carbon lattice structure that it consists of. The idea that diamond would be hard is learnable to anyone with the ability to comprehend molecular bonding. This was once an unknown scientific phenomena, but the relationship is now well understood. 
@@ -177,9 +177,9 @@ Suppose, then, we zoomed in, capturing every new structure at every magnificatio
 <br>
 *Without capturing the dynamic nature of a Mandelbrot, any approach you used would be meaningfully deficient [[8]](#ref-8).* 
 
-Lets suppose instead that you could encode the recursive function of the Mandelbrot set into your program, so that now a far small computer program could reproduce this image in 100 or 1000 bytes. Now you would successfully upgrade your representation to one that would be able to inform both the image AND the fractal nature of the Mandelbrot set. 
+Let's suppose instead that you could encode the recursive function of the Mandelbrot set into your program, so that now a far small computer program could reproduce this image in 100 or 1000 bytes. Now you would successfully upgrade your representation to one that would be able to inform both the image AND the fractal nature of the Mandelbrot set. 
 
-Now observe how this applies to us; we build theories that have the effect of photographing the Mandelbrot set. We aren't paying attention to the generating function that underlies everything we observe. 
+Now observe how this applies to us: we build theories that have the effect of photographing the Mandelbrot set. We aren't paying attention to the generating function that underlies everything we observe. 
 
 One way to formally evaluate the sophistication of our descriptions is through Kolmogorov complexity --- defined as the length of the shortest computer program that can produce a given output. This metric helps distinguish between superficial descriptions and fundamental understanding. A description with low Kolmogorov complexity relative to its output suggests we've captured something essential about its generating process. For example, the entire Mandelbrot set can be defined in remarkably concise (english) language of 165 characters:
 
@@ -197,7 +197,7 @@ The answer to this lies in what we might call "computational compression": findi
 
 ### Computational Science<a id="part-6"></a>
 
-In Stephen Wolfram's 2002 book "A New Kind of Science," he proposed describing the universe as a network of interconnected points where the 'laws of physics' emerge from the rules that update the connections in this network (more on this shortly). This forms part of what he calls "rulial space": the abstract hyperobject of all possible rules that could govern such a system. This object would be 'computable', meaning an update rule could be found that describes all transformations that occur within the known universe. 
+In Stephen Wolfram's 2002 book "A New Kind of Science," he proposed describing the universe as a network of interconnected points where the 'laws of physics' emerge from the rules that update the connections in this network (more on this shortly). This forms part of what he calls "Rulial Space": the abstract hyperobject of all possible rules that could govern such a system. This object would be 'computable', meaning an update rule could be found that describes all transformations that occur within the known universe. 
 
 A graph-wise demonstration of this is performed below, where each new transformation has the same condition applied to it, recursively. A set of rules will propagate ad infinitum and create ever-larger structures. Wolfram then runs this for the below computation 1000 times and discovers an emergent, cone-like geometry. 
 
@@ -207,7 +207,7 @@ A slightly different rule produces even more curious behaviour, and a whole taxo
 
 ![3D cone computation](/assets/3d-cone-computation.png){:style="width:90%;"}
 
-Wolfram has long proposed using discrete graphs to describe the universe. Until 2020, his graph-based theory was met with scepticism by physicists due to its incompatibility with Einstein's theories of general relativity, which violated some spacetime symmetries like Lorentz-invariance. However, Wolfram has more recently described rulial space as a hypergraph, meaning links have no physical length and can link multiple points simultaneously. This approach is compatible with Lorentz-invariance, similar to how Rafael Sorkin discretised spacetime within "Causal Sets" while preserving its essential properties. [[9]](#ref-9)
+Wolfram has long proposed using discrete graphs to describe the universe. Until 2020, his graph-based theory was met with scepticism by physicists due to its incompatibility with Einstein's theories of general relativity, which violated some spacetime symmetries like Lorentz-invariance. However, Wolfram has more recently described Rulial Space as a hypergraph, meaning the links have no physical length and can link multiple points simultaneously. This approach is compatible with Lorentz-invariance, similar to how Rafael Sorkin discretised spacetime within "Causal Sets" while preserving its essential properties. [[9]](#ref-9)
 
 ### Multicomputation<a id="part-7"></a>
 
@@ -227,17 +227,17 @@ Events are characterised by the input tokens and the function they enforce. They
 
 3. Branchlike separation: With respect to the quantum-like superposition of possibile events,
 
-4. A fourth property describes rulial computation only, and separates events in the wider multiverse by the rules that apply (Rulelike separation)
+4. A fourth property describes Rulial computation only, and separates events in the wider multiverse by the rules that apply (Rulelike separation)
 
 The power of this framework lies in its potential applications beyond physics. Just as statistical mechanics and quantum mechanics provided frameworks for understanding complex systems, multi-computation offers a way to understand emergence across different domains. I want to try and express why I find it so powerful.
 
 ### Analysis of Multicomputation<a id="part-8"></a>
 
-Traditional mathematics is defined by ZFC (Zermelo-Fraenkel Set Theory with Choice) as containing nine axioms (technically 8 + schema) defining how sets behave (e.g. Empty Set, Pairing, Union, Power Set, Infinity, etc.). What makes ZFC remarkable is its economy of expression --- it represents perhaps the most successful attempt to compress the vast landscape of mathematical truth into a small set of foundational principles. 
+The foundation of traditional mathematics rests on ZFC (Zermelo-Fraenkel Set Theory with Choice) --- a formal system built from nine axioms that define how sets behave (e.g. Empty Set, Pairing, Union, Power Set, Infinity, etc.). What makes ZFC remarkable is its economy of expression --- it represents perhaps the most successful attempt to compress the vast landscape of mathematical truth into a small set of foundational principles. 
 
 But two important results, made in the last hundred years, show us the foundational limitations of this framework. Interestingly, we are the first civilisation to have an understanding of mathematics with respect to these basic properties: 
 
-1. Turing showed that while computational systems can achieve universality --- "Turing completeness" --- they inevitably encounter the Halting Problem. This limits algorithms from being able to determine whether arbitrary programs will terminate. Note that this isn't a limitation we can overcome with better programming or more powerful computers; it represents an absolute bound on what sequential computation can achieve.
+1. Turing showed that while computational systems can achieve universality --- "Turing completeness" --- they inevitably encounter the Halting Problem. This limits algorithms from being able to determine whether arbitrary programs will terminate. Note: this isn't a limitation we can overcome with better programming or more powerful computers; it represents an absolute bound on what sequential computation can achieve.
 
 2. Gödel showed in his First Incompleteness Theorem that in any consistent formal system powerful enough to encode basic arithmetic, there exist true statements that cannot be proven within that system. His Second Incompleteness Theorem then delivers an even more powerful result: such systems cannot prove their own consistency. Together, these theorems reveal a fundamental trade-off: mathematics cannot simultaneously achieve both completeness and consistency within any fixed axiomatic framework.
 
@@ -249,7 +249,7 @@ This reframing ought to have profound implications for how we approach complex p
 
 ### Universal Pattern Matching (MESA Theory)<a id="part-9"></a>
 
-So how can one start developing a multicomputational model to describe emergence?
+How can one develop a multicomputational model to describe emergence?
 
 The answer lies in applying our understanding of how systems self-organise and minimise free-energy with respect to the lens of multicomputation. We'll use these branches, along with assembly theory to introduce a theoretical framework called MESA (Multicomputational Emergent Self-Assembly) to unify these ideas. 
 
@@ -261,7 +261,7 @@ Friston's free energy principle (abstracted from von Helmholtz) suggests any sys
 
 - (μ) <b>Internal states</b> (the system configuration, running active inference to minimise surprise)
 
-- (η) <b>External states</b> (information flowing across the markov blanket; the environment):
+- (η) <b>External states</b> (information flowing across the Markov blanket; the environment):
     
     - (s) <b>Sensory states</b> (influences from outside)
     
@@ -272,7 +272,7 @@ Friston's free energy principle (abstracted from von Helmholtz) suggests any sys
 
         - Attempts by internal state to make sensory inputs match predictions
 
-These boundaries explain how complex systems with higher depth tend to develop protective mechanisms against entropy, and this manifests in several key ways:
+These boundaries explain how depth tends to develop most robust protective mechanisms against entropy, and this manifests in several key ways:
 
 Temporal persistence: the duration of the update horizon increases with depth. This means more complex systems can make predictions further into the future, with more sophisticated planning. 
 
@@ -367,7 +367,7 @@ This unified approach models the universe as a dynamic system self-organising in
 
 MESA theory can be used to model Efficient Markets, learning rules, linguistics, chemical interactions, and possibly everything else. 
 
-But for now, lets use this theory to describe how biological systems self-organise into increasingly complex hierarchies while maintaining stability:
+But for now, let's use this theory to describe how biological systems self-organise into increasingly complex hierarchies while maintaining stability:
 
 #### [See [Appendix](#appendix) for our example]
 
