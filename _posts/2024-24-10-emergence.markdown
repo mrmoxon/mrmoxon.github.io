@@ -4,6 +4,8 @@ title:  "Understanding Emergence"
 date:   2024-10-24 18:39:31 +0000
 categories: hierarchies
 study: false
+image: /assets/picbreeder-1.png
+description: "Combining Wolfram and Friston's frameworks to better characterise the idea of a universal assembly function."
 ---
 
 This began as an essay about all the phenomena captured beautifully by the notion of "emergence" and developed into a pretty elegant theory of the physics of self-organisation. It combines Wolfram and Friston's mathematical frameworks with complexity theory to better characterise the idea of a "universal assembly function".
