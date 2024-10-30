@@ -26,7 +26,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: oscarmoxon
 github_username:  mrmoxon
-author: Oscar Moxon
 
 twitter:
   username: oscarmoxon
@@ -68,4 +67,3 @@ defaults:
     values:
       sitemap: true
       layout: post
-      author: Oscar Moxon
