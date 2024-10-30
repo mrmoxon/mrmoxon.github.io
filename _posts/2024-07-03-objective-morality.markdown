@@ -5,7 +5,7 @@ date:   2024-07-03 18:39:31 +0000
 categories: agents
 study: false
 image: /assets/cognition-hierarchy-superset.png
-description: "."
+description: "This blogpost is my best attempt at steelmanning objective morality in order to build an Asimov-style Foundation model imbued with values from the outset."
 ---
 
 To distill this essay into a couple sentences: The goal should be to build a Asimov’s ‘Foundation’ model: imbued with wise, well understood values and goals from the outset, so that as it grows in power and influence, it guides humanity away from tyranny and destruction (and towards the a morally diverse, utopic win-state).
