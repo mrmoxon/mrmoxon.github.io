@@ -4,11 +4,13 @@ title:  "The Moral Objective Function"
 date:   2024-07-03 18:39:31 +0000
 categories: agents
 study: false
+image: /assets/cognition-hierarchy-superset.png
+description: "."
 ---
 
-This post explores the philosophy of 'safe superintelligence' in relation to human values. I've long been interested in the notion of objective morality as a unifying framework for civilisation to follow. In this post, I outline a chain of eight links that describe how humanity should behave as we approach superintelligence if we want to build systems that cure disease, end poverty, and shower us with technological bounty. 
+To distill this essay into a couple sentences: The goal should be to build a Asimov’s ‘Foundation’ model: imbued with wise, well understood values and goals from the outset, so that as it grows in power and influence, it guides humanity away from tyranny and destruction (and towards the a morally diverse, utopic win-state).
 
-To distill this essay into a couple sentences: The goal should be to build a Asimov's 'Foundation' repository, imbued with the right values and goals from the outset, so that as it grows in power and influence, it guides humanity away from tyranny and destruction (and towards the a morally utopic win-state). This is premised on a more philosophical basis that for all observed beings, there is a tractable degree of overlap to suggest a moral objective function exists and ought (yes, ought) to be followed.
+This blogpost is my best attempt at steelmanning objective morality. Writing this was a useful vector to get to where I am now, as in researching I discovered 'real patterns' and emergence. Overall, I find morals to be a property unique to groups of conscious beings with similar temporal persistence. Thus morals are subject to how we choose to define them as a society and as individuals, like colours. Treating morals as objective doesn't lead to some great unlock, but nevertheless can unify us. I also outline a chain of eight links that describe how humanity should behave as we approach superintelligence if we want to build systems that cure disease, end poverty, and shower us with technological bounty. 
 
 ---
 
