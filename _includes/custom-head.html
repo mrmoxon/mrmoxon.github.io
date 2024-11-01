@@ -5,14 +5,31 @@
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
 
-{%- if page.image -%}
+<!-- Ensure proper content type -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- Basic SEO -->
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+<meta name="robots" content="index,follow" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+{% if page.image %}
 <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+<meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-{%- endif -%}
+{% endif %}
 
-{%- if page.description -%}
-<meta name="description" content="{{ page.description }}" />
-{%- endif -%}
-<meta name="robots" content="index,follow" />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@yourtwitterhandle" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+{% if page.image %}
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+{% endif %}

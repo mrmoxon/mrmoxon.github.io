@@ -4,7 +4,7 @@ title:  "Understanding Emergence"
 date:   2024-10-24 18:39:31 +0000
 categories: hierarchies
 study: false
-image: /assets/picbreeder-1.png
+image: /assets/picbreeder-2.png
 description: "Combining Wolfram and Friston's frameworks to better characterise the idea of a universal assembly function."
 ---
 
