@@ -6,6 +6,12 @@ categories: leverage
 study: false
 # recommended: false
 # featured: true
+description: "A comprehensive timeline of artificial intelligence development and key milestones"  # Add meaningful descriptions
+keywords: "AI timeline, artificial intelligence history, AI development, Oscar Moxon"  # Add relevant keywords
+sitemap:
+  lastmod: 2024-11-01
+  priority: 0.8
+  changefreq: 'monthly'
 ---
 
 The following essay covers machine learning from its infant days to full self-driving. I intend to crystallise how and why computers have developed in the way they have, and why future machines will be far more advanced. 

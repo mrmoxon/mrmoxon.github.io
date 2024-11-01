@@ -1,3 +1,14 @@
 User-agent: *
+User-agent: Twitterbot
 Allow: /
 Sitemap: https://www.oscarmoxon.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Allow: /*.html$
+Allow: /*.pdf$
+
+User-agent: Bingbot
+Allow: /
+Allow: /*.html$
+Allow: /*.pdf$
