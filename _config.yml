@@ -27,9 +27,13 @@ url: "https://www.oscarmoxon.com" # the base hostname & protocol for your site, 
 twitter_username: oscarmoxon
 github_username:  mrmoxon
 
-twitter:
-  username: oscarmoxon
-  card: summary_large_image
+# SEO settings
+title: "Oscar Moxon"  # Your site title
+description: "Your site description"  # Add a compelling site description
+author: Oscar Moxon
+# twitter:
+#   username: oscarmoxon
+#   card: summary_large_image
 
 # Build settings
 # theme: minima
