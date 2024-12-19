@@ -114,7 +114,7 @@ These tropes work because they resonate with fundamental archetypes, Jung's incl
 
 The tragic variants are particularly powerful: Vincent van Gogh selling but one painting during his lifetime, Socrates and Alan Turing dying censored and imprisoned, Boltzmann dying by suicide a year before his atomic theory was proven correct. These stories of posthumous vindication are especially memorable because they combine multiple archetypal elements - the unrecognized genius, the martyred truth-teller, the prophet proven right too late.
 
-TL;DR: It takes many geniuses to evolve the medium, but there's only space to remember 1 / log(t + 1).
+TL;DR: Many geniuses evolve the medium, but there's only space to remember 1 / log(t + 1).
 
 ![Backlog](/assets/backlog-1.png){:style="width:90%;"}
 
