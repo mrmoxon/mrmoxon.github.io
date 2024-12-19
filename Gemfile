@@ -32,6 +32,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
 end
 
+gem 'faraday-retry'
 gem "webrick", "~> 1.7"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
