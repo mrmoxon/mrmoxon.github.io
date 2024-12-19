@@ -4,7 +4,7 @@ title:  "The Technology Emits The Genius"
 date:   2024-12-06 18:39:31 +0000
 categories: brains
 study: false
-image: /assets/emits-genius.png
+image: /assets/backlog-1.png
 description: "What we get wrong about the lone genius."
 ---
 
