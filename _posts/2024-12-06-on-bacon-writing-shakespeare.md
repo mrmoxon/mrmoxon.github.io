@@ -8,7 +8,7 @@ image: /assets/bacon-shakespeare.png
 description: "A repository of evidence to support the Baconian story of the Shakespeare works."
 ---
 
-A repository of evidence that “William Shake-speare” was the literary arm of the intellectual powerhouse Francis Bacon.
+A repository of evidence that “William Shake-speare” was instead the literary arm of Francis Bacon and his writing practice.
 
 > Francis Bacon (1561–1626)  
 
@@ -18,14 +18,14 @@ A repository of evidence that “William Shake-speare” was the literary arm of
 
 ### Argument One: William Shakspur Never Wrote A Thing
 
-The reason there are authorship theories is because the historical evidence linking these masterpieces to the man from Stratford-upon-Avon is powerfully sparse, and Shakespeare's biographies are unusually contrived.
+The reason there are authorship theories is because the historical evidence linking 38 masterpieces to William Shakspur man from Stratford-upon-Avon is powerfully sparse, and Shakespeare's biographies are unusually contrived.
 
 #### The Missing Evidence
 Biographies are traditionally based on records of existence: private letters, manuscripts, diaries, ownership deeds, administrations, other people's accounts. In one study, of the 23 next-most-well-known writers in London in the 1590s and 1600s, records exist that describe each of them as writers, plus, handwritten material survived for 15 of them, receipts of payment for writing services exist for 14 of them, private letters exist for 13 of them, and 11 have original manuscripts of their work still intact. Shakespeare has none of these. [1]
 
 For reference, *Voltaire*, a playwright who lived in the same century, left 20,000 private letters upon his death. Even Ben Jonson, the next most influential writer from the time, cited by historians as Shakespeare's closest friend and eye witness, left hundreds of private letters, receipts of payment of writing, original manuscripts, handwritten material, and miscellaneous records with reference to his profession.
 
-"Shakespeare" — a man intimately familiar with royal courts, law, foreign lands, and classical works — left no papers documenting his travels or education, no personal library, no correspondence with other writers or patrons (including Ben Jonson, who called "Shakespeare" the greatest writer of all time — more on that later), no miscellaneous records relating to him as a poet, dramatist or writer of any sort, and no original manuscript of any play, poem, or other prose composition.
+"Shakespeare" —- a man intimately familiar with royal courts, law, foreign lands, and classical works — left no papers documenting his travels or education, no personal library, no correspondence with other writers or patrons (including Ben Jonson, who called "Shakespeare" the greatest writer of all time — more on that later), no miscellaneous records relating to him as a poet, dramatist or writer of any sort, and no original manuscript of any play, poem, or other prose composition.
 
 #### The Stratford Connection
 
