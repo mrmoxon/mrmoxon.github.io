@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Glass lens circle with thin border -->
+  <circle cx="40" cy="40" r="25" fill="none" stroke="black" stroke-width="6"/>
+  
+  <!-- Handle at 45 degrees -->
+  <line 
+    x1="57" y1="57" 
+    x2="85" y2="85" 
+    stroke="black" 
+    stroke-width="8" 
+    stroke-linecap="round"/>
+</svg>

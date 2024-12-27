@@ -4,10 +4,9 @@ title:  "A Timeline for Artificial Intelligence"
 date: 2021-12-13 18:39:31 +0000
 categories: leverage
 study: false
-# recommended: false
-# featured: true
-description: "A comprehensive timeline of artificial intelligence development and key milestones"  # Add meaningful descriptions
-keywords: "AI timeline, artificial intelligence history, AI development, Oscar Moxon"  # Add relevant keywords
+mini: false
+description: "A comprehensive timeline of artificial intelligence development, the Turing Test, and key milestones looking forward." 
+keywords: "AI timeline, artificial intelligence history, AI development" 
 sitemap:
   lastmod: 2024-11-01
   priority: 0.8

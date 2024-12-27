@@ -4,8 +4,10 @@ title:  "Pervasive Machines: Three Stages of Superintelligence"
 date: 2023-04-02 05:39:31 +0000
 categories: leverage
 study: false
+mini: false
 featured: false
 recommended: false
+description: "Stage One: AGI Tools, Stage Two: AGI Emergence, Stage Three: Later Generations of AGI and the post-intelligence explosion."
 ---
 
 This is the second part of my [Pervasive Machines series](/leverage/2023/04/02/pervasive-intelligence.html).

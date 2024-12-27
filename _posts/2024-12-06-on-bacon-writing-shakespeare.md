@@ -4,8 +4,9 @@ title:  "On Bacon Writing Shakespeare"
 date:   2024-12-06 18:39:31 +0000
 categories: market-failure
 study: true
+mini: false
 image: /assets/bacon-shakespeare.png
-description: "A repository of evidence to support the Baconian story of the Shakespeare works."
+description: "A repository of evidence that “William Shake-speare” was instead the literary arm of Francis Bacon and his writing practice."
 ---
 
 A repository of evidence that “William Shake-speare” was instead the literary arm of Francis Bacon and his writing practice.

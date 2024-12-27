@@ -4,8 +4,10 @@ title: "Pervasive Machines: Learning to Live with Superintelligence"
 date: 2023-04-02 05:39:31 +0000
 categories: leverage
 study: false
+mini: false
 featured: false
 recommended: false
+description: "Analysing short timelines: By 2025, advanced neural networks will create and distribute apps, outperform humans at any short computer task, and generate coherent short films."
 ---
 
 This is the first part of my [Pervasive Machines series](/leverage/2023/04/02/three-stages-of-agi.html).

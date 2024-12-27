@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "Horror Maximisation"
+date:   2024-05-12 18:39:31 +0000
+categories: brains
+study: false
+mini: true
+image: /assets/horror.png
+description: "As we abstract away from the baseline from a cultural and technological point of view, we can expect new worlds of 'hyper-horror' to emerge."
+---
+
+### New Mediums of Freak
+
+I recently discovered [r/TwoSentenceHorror](https://www.reddit.com/r/TwoSentenceHorror/top/?t=all); a subreddit for evoking horror as efficiently as possible. After reading through the gems that have surfaced to the top over the years, I started thinking about my own approach to a submission.
+
+It occurs to me that horror for the masses differs massively from horror for the private individual. Which is to say, horror movies are rarely as terrorising as nightmares. Of course, there are common overlaps that speak to our shared evolutionary history; the abuse of loved ones, for instance. But as we allow technology to abstract away from the baseline with new simulated reality devices and intelligent new-word-prediction algorithms, we should anticipate new worlds of 'hyper-horror' to emerge, because humans love scaring themselves. 
+
+For those unfortunate enough to have experienced a truly bad trip, they would be of the view that our imagination is unspeakably more powerful at evoking fear than any form of media created by other people. While the human race has range, with a lot of twisted minds capable of thinking up some truly wild torments, everything pales in comparison to one mind turned against itself.
+
+This is what separates horror from terror, in the eyes of King, who establishes a hierarchy of fear: at the bottom is revulsion; what instigates the gag reflex and makes us cringe. In the middle is horror: what is seen that is physically wrong. At the very top is terror: that which is not seen to elicit fear, but what the mind suggests.
+
+If horror is the underlying reality that evokes terror, there are some possible realities that are more wrong than others. King calls this the choice of what is behind the metaphorical door. For instance, we seem to locate 'body horror' above much of that which evokes fear. Distortion, mutation, and debilitation are often at the base of monstrosity, and we can relate this directly to our evolutionary heritage. Body-horror is powerfully terrorising: slowly watching yourself morph into something inhuman; wide, ovular eyes staring from your closet at night; a mouth with far too many teeth; parasites living inside your body. 
+
+### Sample Efficient Hyper-Horror
+
+However, by far the most efficient way to evoke fear is with implied context: this is the language in which r/TwoSentenceHorror deals, almost exclusively. In "The Outsider" by H.P. Lovecraft, it is described that the "most demoniacal of all shocks is that of the abysmally unexpected and grotesquely unbelievable", like realising your entire existence was a lie, or that something that brings you hygge is in fact abominable. Like waking up find all your friends and family replaced with an almost perfect replica. [[1]](#ref-1)
+
+Cosmic horror, a subgenre pioneered by H.P. Lovecraft, takes fear to an even grander scale. It taps into the existential dread that comes from questioning entire understanding of reality and our place in it. It centres particularly on the incomprehensibility of phenomena so alien to us that what we perceive as reality is quite literally a veil hiding unfathomable horrors.
+
+This idea has long been orbitted around by the very best horror writers, and the modern lease would be something like "The Lamp", where a young man meets a wonderful lady, eventually wins her over, gets married, has a daughter and a son, then, one day, while sitting on his couch, notices a lamp, glitched in a way that the only logical conclusion is that nothing is real and he's been living in simulation his entire life. While not overtly fear inducing, this serves as the unnerving basis for the ultimate kind of meta-horror, explored in part by The Fear Hole and Playtest. [[2]](#ref-2)
+
+### Cognitohazards
+
+There's an idea circulating online called a cognitohazard. These are pieces of information that can be psychologically harmful simply by being perceived or understood, like instant trauma inducing visuals, including disturbing images, videos, or written content that leaves a lasting negative impact on the viewer's mental well-being. A similar concept is the anti-meme: a concept that possesses very low copy-fidelity, fecundity or viral dissemination properties, and can be weaponised to hide secrets or dominate lifeforms. A cognitohazard might have harmfully low or negative properties, preventing it from being spread at all--let alone studied.
+
+If one-sentence terror existed, a safe play would be to directly addressing the reader, like a message, and have an info-hazard-like effect of questioning the certainty of one's own existence.
+
+So here's my submission. 
+
+PLEASE MOHAMMED JUST [WAKE UP](https://www.youtube.com/watch?v=Qklvh5Cp_Bs)!
+
+---
+
+#### References
+
+[1]<a id="ref-1"></a>
+
+[The Outsider](https://www.hplovecraft.com/writings/texts/fiction/o.aspx) is a good read!
+
+[2]<a id="ref-2"></a>
+
+[The Lamp Copypasta](https://knowyourmeme.com/photos/2704906-the-lamp-story-reddit-creepypasta)
+
+[The Rick and Morty Fear Hole](https://rickandmorty.fandom.com/wiki/Fear_No_Mort)
+
+[A review of Playtest](https://www.reddit.com/r/blackmirror/comments/8xpc6p/playtest_has_wrecked_me/)
+
+#### Other references
+
+Modern [Reddit tier list](https://www.reddit.com/r/Scarymovies/comments/150ov4e/horror_movies_tierlist_ranked_by_how_disturbing/) of what is considered the pinnacle of shared scare in 2024.
+
+![Horror Genres](/assets/horror-genres.png)

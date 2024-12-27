@@ -4,6 +4,7 @@ title:  "The Moral Objective Function"
 date:   2024-07-03 18:39:31 +0000
 categories: agents
 study: false
+mini: false
 image: /assets/cognition-hierarchy-superset.png
 description: "This blogpost is my best attempt at steelmanning objective morality in order to build an Asimov-style Foundation model imbued with values from the outset."
 ---

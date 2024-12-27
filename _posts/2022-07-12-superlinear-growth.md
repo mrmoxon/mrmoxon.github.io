@@ -4,6 +4,8 @@ title:  "Superlinear Growth"
 date: 2022-07-12 05:39:31 +0000
 categories: leverage
 study: false
+mini: false
+description: "Exploring the nuances of strong, accelerating trends in technology; compounding growth effects and making predictions in the age of the post-singularity."
 ---
 
 Understanding the nuances of strong, accelerating trends in technology that can be fed back into themselves is the reccuring theme of this blog. I find the implications of these trends to be the strongest axioms for making predictions about the future of our civilisation. 

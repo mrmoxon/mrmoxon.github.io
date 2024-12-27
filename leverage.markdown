@@ -47,7 +47,7 @@ But then, after reading C. Jordan's Cours d'analyse:
 
 <br>
 
-The final point I want to make about this idea, before I explore my own theme, is that it can help understand why some types of change are harder than others; why some changes cause grief, and others are inviting. Times are painful when we are moving away from something that attracted our deepest curiosities. This is most obvious when we feel the loss of something that bought us a sense of achievement. In contrast, time moves fast when we are engaged in activities that align with our deepest interests. Such pursuits are autotelic --- intrinsically rewarding and self-fulfilling.
+The final point to make about this idea, before exploring my own theme, is that it can help understand why some types of change are harder than others; why some changes cause grief, and others are inviting. Times are painful when we are moving away from something that attracted our deepest curiosities. This is most obvious when we feel the loss of something that bought us a sense of achievement. In contrast, time moves fast when we are engaged in activities that align with our deepest interests. Such pursuits are autotelic --- intrinsically rewarding and self-fulfilling.
 
 <br>
 

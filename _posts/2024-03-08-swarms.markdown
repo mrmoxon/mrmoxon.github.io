@@ -4,11 +4,11 @@ title:  "How Agents Will Accelerate Research"
 date:   2024-02-09 18:39:31 +0000
 categories: agents
 study: false
-# recommended: false
-# featured: true
+mini: false
+description: "New context-space reasoning will affect the way we conduct research and define 'reasoning'."
 ---
 
-![Overview](/assets/title-1.webp)
+Shedding some light on how we’re using LLMs, and where we’re going.
 
 #### Contents
 1. [Introduction](#part-1-introduction)
@@ -19,11 +19,11 @@ study: false
 
 4. [Part III: Multi-Agent Debate Swarms](#part-3-main-body)
 
+![Overview](/assets/title-1.webp)
+
 ---
 
 <a id="part-1-introduction"></a>
-
-I’d like to shed some light on how we’re using LLMs, and where we’re going.
 
 Lets focus on a recent story about Anthropic, a company raising at $18.4 billion with just one product: a language model called Claude. When Claude 2.1 arrived in November, it offered the largest context window for any transformer-based language model on the market; equivalent to around 500 pages of information or two Harry Potter and the Philosopher’s Stone(s) pasted in back-to-back.
 

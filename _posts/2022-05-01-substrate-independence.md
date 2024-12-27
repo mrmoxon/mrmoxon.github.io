@@ -3,11 +3,13 @@ layout: post
 title:  "Substrate Independence"
 date:   2022-05-01 05:39:31 +0000
 categories: brains
+description: "Exploring the reductionist stories of life and consciousness, the origin of living organisms, fitness and natural selection, substrate-independent phenomena, and what this means for us as a species."
 study: false
+mini: false
 featured: false
 recommended: false
 ---
-I explore below the reductionist stories of life and consciousness, the origin of living organisms, fitness and natural selection, substrate-independent phenomena, and what all this means for us as a species. 
+Exploring the reductionist stories of life and consciousness, the origin of living organisms, fitness and natural selection, substrate-independent phenomena, and what all this means for us as a species. 
 
 #### Contents:
 

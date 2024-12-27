@@ -4,8 +4,10 @@ title:  "When Freemium Goes Too Far"
 date:   2023-03-08 05:39:31 +0000
 categories: market-failure
 study: false
+mini: true
 featured: false
 recommended: false
+description: "The market failure of Hybrid Products = (Intrinsic Good + Software Service) is egregious." 
 ---
 
 Hybrid products consist of both physical and service components. The physical part has intrinsic value — like a car - while the service part complements the usage of the good — like an app for unlocking your car remotely, or summoning it from far away.

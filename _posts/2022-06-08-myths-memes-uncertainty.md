@@ -4,9 +4,11 @@ title:  "Myths, Memes, and a Distaste for Uncertainty"
 date:   2022-06-08 05:39:31 +0000
 categories: brains
 study: false
+mini: false
+description: "Memetics: Exploring the concept of demagoguery and poor politics, Aldeous Huxley, and kippers."
 ---
 
-I explore demagoguery, Aldeous Huxley, memetics and kippers. 
+Memetics: Exploring the concept of demagoguery and poor politics, Aldeous Huxley, and kippers
 
 ### Contents:
 

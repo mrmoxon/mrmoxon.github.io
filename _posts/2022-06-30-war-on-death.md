@@ -4,9 +4,11 @@ title:  "The War on Death"
 date:   2022-06-30 18:39:31 +0000
 categories: longevity
 study: false
+mini: false
+description: "Exploring the history of longevity in mythology, Death 1.0 and 2.0, 'The Spinning Vinyl' of aging, 'hypercentinarians', and how we hope to eliminate non-communicable disease."
 ---
 
-Technology will give us the Fountain of Youth. In this essay I explore the history of longevity in mythology, how we can categorise death by its two eras, "The Spinning Vinyl" of aging, "hypercentinarians", and how we hope to eliminate non-communicable disease.
+Technology will give us the Fountain of Youth. Exploring the history of longevity in mythology, how we can categorise death by its two eras, "The Spinning Vinyl" of aging, "hypercentinarians", and how we hope to eliminate non-communicable disease.
 
 This is part of my "cyborging" series where I look at the relationship humans have with technology and the inevitable transhuman lifestyle of future generations. Pursuing human-computer symbiosis will enable us to live forever, enhance our senses and quality of life, and give us existential relevance as carbon-based organisms in the age of silicon superintelligence.
 

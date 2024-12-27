@@ -4,8 +4,10 @@ title:  "The Holy Grail of Invention"
 date: 2022-10-24 05:39:31 +0000
 categories: leverage
 study: false
+mini: false
 featured: false
 recommended: true
+description: "On the concepts of an infinite rate of innovation, the 'most dangerous algoritm' in the world, the new gods Homo Sapiens, and the tools we can use to automate learning entirely."
 ---
 
 On the concepts of an infinite rate of innovation, the "most dangerous algoritm" in the world, the new gods of Homo Sapiens, and the tools we can use to automate learning entirely.
@@ -51,7 +53,8 @@ AlphaGo Zero was semi-supervised, meaning it used some labelled data but also ge
  
 A year later, DeepMind developed MuZero as an unsupervised (or more appropriately, "self-supervised") algorithm, capable of beating every previous champion without even being taught the rules or using any labelled data at all. By processing everything in its environment, it could adapt and master environments with unknown dynamics. This is the behaviour an infinitely scalable AI model will perform with far fewer limits.
 
-![4-years](/assets/4-years.png)
+![4-years](/assets/4-years.png){:style="width:80%;"}
+<br>
 *Figure 1. Four years of progress in supervision.*
 
 DeepMind's mission to *"solve intelligence and let that solve everything else"* describes arguably the most fundamental transition any species can undertake, and it is becoming increasingly real. In the twelve years since their founding, DeepMind has been "solving intelligence"; building strong algorithms to beat humans. Self-supervised algorithms are the most scalable algorithms known to man; they represent the pinnacle of performance (human or machine), and can express novel behavour that is qualitatively superior to our greatest cognitive heroes. 
@@ -93,7 +96,8 @@ Our cultural world increasingly revolves around figureheads like Jesus, Lincoln,
  
 Our super-algorithms will unite all three of these components; developed by companies to transform our manner of living, and given a centralised identity or name.
 
-![Trifecta](/content/holy-grail/trifecta.png)
+![Trifecta](/assets/trifecta.png){:style="width:70%;"}
+<br>
 *Figure 2. The three pillars of our culteral deities: Institution, Ideology, and Identity.*
 
 Once spoken by Edward Wilson, "[Humanity] have Palaeolithic emotions, medieval institutions, and god-like technology." If we were to resurrect our medieval ancestors and show them any consumer electronics in the 21st century, we would be called magicians. If we were to show them the bleeding edge of science, we would be called gods. Gene-editing, controlled fusion, 3D-printing, and space travel are astonishing branches of technology, they grant us many of the legendary traits of the gods of scripture, and this is why the power falls to he (or it) who harness them best. 
@@ -104,7 +108,7 @@ In 2021, their algorithm AlphaFold-2 was left to run over the Christmas period. 
  
 In 2022, DeepMind developed an AI to control the plasma inside a tokamak reactor, using the 19 magnetic coils inside TCV (a Swiss facility). The algorithm used self-supervised learning to create shapes in the plasma, both in a simulation and in reality. This progress is a big leap forward for fusion research, expected to bring forward the advent of sustainable fusion according to the facility's director. 
 
-![Fusion](/content/holy-grail/fusion.png)
+![Fusion](/assets/fusion.png)
 *Figure 3. Left - The extreme accuracy of AlphaFold. Right - The shapes created in plasma.*
 
 Demis Hassabis, DeepMind's co-founder, said in June 2020 that *"the reason I am personally working on AI for my whole life is to build a tool to help us understand the universe […] The ultimate use of AI is to accelerate science to the maximum."* Hassabis believes machine learning will enable room-temperature superconductors, better-optimised batteries, cures for diseases, and solving "many of the big challenges of mankind". [[3]](#part-3)
@@ -118,7 +122,7 @@ Imagine the body of our knowledge as a species expands the way a tree grows, wit
  
 Papers published by the scientific community represent the "known knowns" that we use to make new products and to prescribe medicine. Progress is made by academics that work simultaneously to research and publish papers on their favourite fields.
 
-![Tree](/content/holy-grail/tree.webp)
+![Tree](/assets/tree.png)
 *Figure 4. The Tree of Knowledge.*
 
 Crucially, an algorithm with enough data about a field can "optimise" behaviour that grows new branches. Discovery is contingent on answering questions that have yet been unanswered. A machine can use big data to generate solutions -- both to questions we know to ask and those we don't. 
@@ -131,14 +135,16 @@ DALL-E 2 generates mostly original pieces; it transforms (through the use of an 
  
 By making algorithms like AlphaFold-2 more end-to-end (broadly intelligent), it will become more powerful as a tool for research. Following this process, they will soon become our competitive counterparts. Eventually they will become our torchbearers. 
 
-![Augmented Knowledge](/content/holy-grail/newknowledge.png)
+![Augmented Knowledge](/assets/newknowledge.png){:style="width:70%;"}
+<br>
 *Figure 5. Augmented innovation in the tree of knowledge.*
 
 Algorithms of the future will branch out into the unknown accurately and autonomously. They will become too good to ignore. New knowledge attracts funding for researchers, who will use these tools just to stay relevant. 
  
 With each new workhorse of innovation (the DALL-E for chemistry, biology, or physics), the rate of progress will accelerate faster. The more impact these algorithms have, the more demand we will find for developing new ones. This compounding effect is expected to dramatically escalate. [[5]](#part-5)
 
-![Body of Knowledge](/content/holy-grail/transhumanism.png)
+![Body of Knowledge](/assets/transhumanism.png){:style="width:80%;"}
+<br>
 *Figure 6. The singularity, just around the corner.*
 
 Irving Good anticipated these learning machines in the 1960s, with his prophetic conjecture "The first ultraintelligent machine is the last invention that man need ever make," followed by a heeded warning, "provided that the machine is docile enough to tell us how to keep it under control."

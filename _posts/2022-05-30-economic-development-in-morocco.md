@@ -4,6 +4,8 @@ title:  "Economic Development in Morocco"
 date:   2022-05-30 18:39:31 +0000
 categories: economics
 study: true
+mini: false
+description: "A survey of Moroccan economics on the world stage by comparison of the developments, challenges, and avenues for policy change that stand to alleviate historical demographic problems."
 ---
 
 A survey of Moroccan economics on the world stage by comparison of the developments, challenges, and avenues for policy change that stand to alleviate historical demographic problems as Morocco becomes a global trade partner and figurehead of the Arab world. Cover: Marrakesh Medina Jemaa el-Fnaa, twilight.
