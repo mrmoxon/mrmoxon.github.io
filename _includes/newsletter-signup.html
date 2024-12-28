@@ -1,0 +1,92 @@
+<div class="newsletter-wrapper">
+    <form 
+      id="newsletter-form" 
+      class="newsletter-form"
+      action="https://api.convertkit.com/v4/forms/YOUR-CORRECT-FORM-ID/subscriptions"
+      method="post"
+    >
+      <div class="input-group">
+        <input 
+          type="email" 
+          name="email_address"
+          class="email-input" 
+          placeholder="Your email address" 
+          required 
+          aria-label="Email Address" 
+        />
+        <button type="submit" class="subscribe-button">
+          Subscribe
+        </button>
+      </div>
+    </form>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('newsletter-form');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const button = this.querySelector('button');
+            const email = this.querySelector('input[type="email"]').value;
+            
+            button.textContent = '...';
+            button.disabled = true;
+
+            fetch(this.action, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                    'Authorization': 'Bearer pub_5a8337e9ff'
+                },
+                body: JSON.stringify({
+                    subscriber: {
+                        email_address: email
+                    }
+                })
+            })
+            .then(response => {
+                console.log('Raw response:', response);
+                if (!response.ok) {
+                    // Adding better error handling for non-200 responses
+                    return response.json().then(data => {
+                        throw new Error(data.error || 'Subscription failed');
+                    });
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Parsed response:', data);
+                
+                if (data.subscriber || data.status === 'success') {
+                    form.innerHTML = '<div class="success-message">✓</div>';
+                } else if (data.errors) {
+                    throw new Error(data.errors[0] || 'Subscription failed. Please try again.');
+                } else {
+                    throw new Error('Subscription failed. Please try again.');
+                }
+            })
+            .catch(error => {
+                console.error('Detailed error:', error);
+                button.textContent = 'Subscribe';
+                button.disabled = false;
+                
+                const existingError = form.querySelector('.error-message');
+                if (existingError) {
+                    existingError.remove();
+                }
+                
+                const errorDiv = document.createElement('div');
+                errorDiv.className = 'error-message';
+                errorDiv.style.color = '#613b16';
+                errorDiv.style.marginTop = '0.5rem';
+                errorDiv.style.fontSize = '0.9rem';
+                errorDiv.textContent = error.message || 'Subscription failed. Please try again.';
+                form.appendChild(errorDiv);
+            });
+        });
+    }
+});
+</script>

@@ -1,21 +1,26 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
 ---
 
 <div class="central-column">
   <!-- <br> -->
-  <p class="intro">b. may 2002, Bath, England. London based postgraduate, researching multi-agent swarms for debate and task automation.</p>
-  <br>
+  <!-- <p class="intro">b. may 2002, Bath, England. London based postgraduate, researching multi-agent swarms for debate and task automation.</p> -->
 
-  <!-- <p class="birth-info"></p> -->
-  <!-- <ul class="bullets">
-    <li>pursued physics, art, and design 2011-2018 for a love of science fiction</li>
-    <li>exposed to startups at <a href="https://level39.co/about/" class="no-underline" target="_blank" rel="noopener noreferrer">L39</a>, studied economics for a love of the macro, maths and Ben Graham</li>
-    <li>building artificial intelligence to guide a bright frontier</li>
-  </ul> -->
+  {%- assign posts = site.posts -%}
+  <div class="home">
+    <span class="recent-essays-label">[recent essays]</span>
+    <div class="recent-essays-container">
+      {%- for post in posts limit:2 -%}
+        <a href="{{ post.url | relative_url }}" class="recent-essay-link">
+          <div class="recent-essay-content">
+            <h3 class="recent-essay-title">{{ post.title | escape }}</h3>
+            <span class="recent-essay-date">{{ post.date | date: "%b %Y" }}</span>
+          </div>
+        </a>
+      {%- endfor -%}
+    </div>
+    <a href="/essays" class="essays-ellipsis"></a>
+  </div>
 
   <!-- <br>   -->
   <br>
@@ -68,4 +73,8 @@ layout: page
   </ul>
 
   <p>Deep enjoyer of painting, The Fountainhead (Ayn Rand), Ex Machina, and Jungle (band)</p>
+
+  {% include convertkit.html %}
+
 </div>
+
