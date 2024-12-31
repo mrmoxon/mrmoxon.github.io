@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Civilisation In The 21st Century"
+title:  "Civilisation Goals (2020-2100)"
 date:   2024-12-30 18:39:31 +0000
 categories: agents
 study: false
