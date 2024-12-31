@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Civilisation In The 21st Century"
+date:   2024-12-30 18:39:31 +0000
+categories: agents
+study: false
+mini: true
+image: .jpeg
+description: "Transcendence 101: mapping humanity's great transition in the 21st century and beyond."
+---
+
+My favourite quote of all time is Edward Wilson's *"The real problem of humanity is the following: we have Paleolithic emotions, medieval institutions, and god-like technology."*
+
+As we meet our stride in the 21st century, this tension that Wilson identified becomes our greatest opportunity. The future will unfold in unexpected ways, but we can outline five core objectives that directionally align with the path of a civilization that behaves like a superorganism
+
+The payoff of artificial intelligence would be to make breakthrough scientific research commonplace. Almost every major technological convenience we enjoy today - from jet engines to antibiotics - emerged from the golden age of discovery between 1870 and 1970. The average human was born in 1993 in a time where technological progress was largely unintelligible and happening in the world of bits.
+
+> (1) Aligned ASI
+
+Irving Good: *"Machine intelligence is the last invention that humanity will ever need to make. Machines will then be better at inventing than we are."*
+
+Research will be supercharged if intelligent agents share the computational burden. The PhD will likely evolve into an enterprising tenure where researchers leverage AI for deeper reasoning and faster breakthrough discovery, increasing output or focusing on a greater breadth of exploration. Pitfalls will include research slop; low increment, GPT-4-style papers pumped out by anonymous individuals, but expect the community will react accordingly. [[1]](#ref-1) 
+
+> (2) Longevity Escape Velocity (LEV)
+
+Bioengineering will outpace aging in some aspects, enabling real-time biological editing and enhancement. As our understanding of biosemiotic systems deepens, many will begin adding to our cortexes with artificial sensors, creating an enhanced demographic within the population. [[2]](#ref-2) 
+
+> (3) Virtualisation & Merging With Algorithms
+
+Porting cognitive substrates into durable alternative mediums is the logical extension, and theoretically possible given the nature of substrate independence and Neuralink-esque technology. Transcending biology should be one of the earlier acts of man when superintelligence becomes democratised, for this will give us the ability to join the ride for the long haul. Furthermore, scarcity becomes a function of computation, making it meaningfully easier to wirehead and create the effect of superabundance.
+
+Type 2 Syntellect involves algorithms finding equilibrium in distributed systems. Identities will become more holistic and fluid, with more relaxed markov boundaries compared to now. A society with more connectivity would act more like a groupmind and token information markets will mature.
+
+> (4) Autopoietic Economy
+
+Is a programmable biosphere too much to ask for? Sustainable superabundance in the material world is often considered an offramp, but shouldn't be overlooked for the future of civilisation. We seem to be going the long way round: biologically destructive technosphere -> carbon neutral technosphere -> biologically beneficial carbon negative technosphere. Better decarbonisation technologies should be part of the equation of optimal resource allocation. 
+
+Reaching [Kardeshev Type I](https://adsabs.harvard.edu/full/1964SvA.....8..217K) (200x current demand) with solar and fusion would be a great achievement, and setup Earth for becoming an oasis of biological life, rather than lifeless gone debris in the wake of a carbon-spewing, chaos-bringing civilisation. Picture material recycling, rapid fabrication with green energy, and machine capital that produces oxygen as it operates.
+
+> (5) Solar System Settling 
+
+Settling Mars and becoming multiplanetary is the first step in the Star Trek-style dream, though we shouldn't hold out for the USS Calister. Venus could become a testbed for extreme bioengineering or volcanic computing. Europa and Io could be used for cooling compute without concern for the biosphere. We could divvy up the moons into those we intend on salvaging (suitable for biological life and sanctuary) and those we turn into capital. This would seem less bleak than a compute-oriented solar system in the eyes of a human, at least. 
+
+### Late Century Stretch Goals
+
+These are the long-tail goals for civilisation and the syntellect. 
+
+- <b>(X) Cooperate with alien civs or seed new civs with different starting conditions using von Neumann probes; accelerate dawn of new, carbon diverse civilisations</b>
+
+- <b>(Y) Metacomputation - align all matter against entropy and produce the light-cone Brahman (Type 3 Syntellect); solve digital physics (skip from Type I/II -> Type V; speedrun maxing out omni stats) - compile reality with blackholes</b>
+
+- <b>(Z) Multi-metacomputation - align multiverse against chaos and become Brahman of the Ruliad (Type 4 Syntellect); causal engineering with society of supreme beings</b>
+
+Wilson's observation of our "paleolithic emotions, medieval institutions, and god-like technology" always seemed like a harsh warning; a doom prophecy for humanity. But it represents an opportunity. As we pursue these objectives, we must ensure our institutional and emotional evolution keeps pace with our technological capabilities, in whatever fashion it can. The goal isn't to abandon our humanity, but to enhance it while preserving what I believe makes us uniquely human: our capacity for wonder, empathy, and continuous growth.
+
+---
+
+Bibliography:
+
+[1]<a id="ref-1"></a>
+
+Part of this equation depends on advanced physics engines and tools for simulation like mathematical solvers to tackle formalisations beyond human capability. Test environments may shortly leverage new programming paradigms and better hardware optimisations enabled by Huang's Law. The digital revolution's true payoff is imminent.
+
+[2]<a id="ref-2"></a>
+
+Sinclair's [Lifespan](https://en.wikipedia.org/wiki/Lifespan:_Why_We_Age_%E2%80%93_and_Why_We_Don%27t_Have_To) and [de Grey](https://en.wikipedia.org/wiki/Aubrey_de_Grey). New [induced pluripotent stem cell](https://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#:~:text=iPSCs%20are%20typically%20derived%20by,%2C%20Sox2%2C%20Klf4%20and%20cMyc.)
+
+[The War on Death](https://www.oscarmoxon.com/longevity/2022/06/30/war-on-death.html)
+
+--- 
+
+*Alternative title: Transcendence 101*
