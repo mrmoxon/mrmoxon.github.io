@@ -18,9 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Oscar Moxon"
 email: oscar@oscarmoxon.com
-description: "Building artificial intelligence. Based in London." # this means to ignore newlines until "baseurl:"
 #   Researching multi-agent swarms for debate and task automation. Making some of my essays available here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.oscarmoxon.com" # the base hostname & protocol for your site, e.g. http://example.com
