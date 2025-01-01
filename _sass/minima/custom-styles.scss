@@ -416,12 +416,13 @@
 
 .post-title {
   margin: 0;
-  font-size: 1rem;
+  font-size: 2rem;
+  text-align: center;  
 }
 
 .post-link {
   text-decoration: none;
-  color: #333;
+  color: #8d6032;
 }
 
 .post-link:hover {
@@ -493,6 +494,10 @@
 .essay-content .post-meta {
   font-size: 0.875rem;
   color: #666;
+}
+
+.post-meta {
+  align-items: center;
 }
 
 /* Responsive Layout */
