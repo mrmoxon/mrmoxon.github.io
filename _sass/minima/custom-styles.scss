@@ -367,3 +367,150 @@
   padding: 10px;
   border-top: 1px solid #cbaa96;
 }
+
+
+
+
+
+// image layout
+
+/* Section Header and Toggle Button */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.view-toggle {
+  background: transparent;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: all 0.2s ease;
+  color: #4a3728;
+}
+
+.view-toggle:hover {
+  opacity: 0.8;
+}
+
+/* List View Styles */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-item {
+  margin-bottom: 1rem;
+}
+
+.post-title-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.post-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.post-link:hover {
+  color: #0066cc;
+}
+
+/* Masonry Layout */
+.essays-grid {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Card Styling */
+.essay-card {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+  background: white;
+}
+
+.essay-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Container */
+.essay-image {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.essay-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1.00);
+  transition: transform 0.3s ease;
+}
+
+.essay-card:hover .essay-image img {
+  transform: scale(1);
+}
+
+/* Content Area */
+.essay-content {
+  padding: 1rem;
+  background-color: #f5f0e8;
+}
+
+.essay-content h3 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+.essay-content .post-meta {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .essays-grid {
+    flex-direction: column;
+  }
+}
+
+/* Utility Classes */
+.hidden {
+  display: none !important;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 0; /* Ensures proper height calculation */
+}

@@ -5,6 +5,7 @@ date:   2021-10-19 05:39:31 +0000
 categories: leverage
 study: false
 mini: false
+image: /assets/Moore-Law.webp
 featured: false
 recommended: false
 show_notice: true

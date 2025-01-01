@@ -5,6 +5,7 @@ date: 2021-12-13 18:39:31 +0000
 categories: leverage
 study: false
 mini: false
+image: /assets/pantheon-ai.webp
 description: "A comprehensive timeline of artificial intelligence development, the Turing Test, and key milestones looking forward." 
 keywords: "AI timeline, artificial intelligence history, AI development" 
 sitemap:

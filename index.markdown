@@ -19,7 +19,7 @@ layout: page
         </a>
       {%- endfor -%}
     </div>
-    <a href="/essays" class="essays-ellipsis"></a>
+    <a href="/essays/#grid" class="essays-ellipsis"></a>
   </div>
 
   <!-- <br>   -->

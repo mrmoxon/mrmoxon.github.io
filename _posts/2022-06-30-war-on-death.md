@@ -5,6 +5,7 @@ date:   2022-06-30 18:39:31 +0000
 categories: longevity
 study: false
 mini: false
+image: /assets/gilgamesh.webp
 description: "Exploring the history of longevity in mythology, Death 1.0 and 2.0, 'The Spinning Vinyl' of aging, 'hypercentinarians', and how we hope to eliminate non-communicable disease."
 ---
 

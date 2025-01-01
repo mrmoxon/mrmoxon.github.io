@@ -7,6 +7,7 @@ study: false
 mini: false
 featured: false
 recommended: false
+image: /assets/hollowing.webp
 description: "Stage One: AGI Tools, Stage Two: AGI Emergence, Stage Three: Later Generations of AGI and the post-intelligence explosion."
 ---
 

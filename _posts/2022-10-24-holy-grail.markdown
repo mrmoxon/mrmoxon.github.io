@@ -5,6 +5,7 @@ date: 2022-10-24 05:39:31 +0000
 categories: leverage
 study: false
 mini: false
+image: /assets/fusion.png
 featured: false
 recommended: true
 description: "On the concepts of an infinite rate of innovation, the 'most dangerous algoritm' in the world, the new gods Homo Sapiens, and the tools we can use to automate learning entirely."

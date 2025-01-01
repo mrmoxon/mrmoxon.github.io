@@ -5,6 +5,7 @@ date:   2024-02-09 18:39:31 +0000
 categories: agents
 study: false
 mini: false
+image: /assets/title-1.webp
 description: "New context-space reasoning will affect the way we conduct research and define 'reasoning'."
 ---
 

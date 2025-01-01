@@ -5,6 +5,7 @@ date: 2022-07-12 05:39:31 +0000
 categories: leverage
 study: false
 mini: false
+image: /assets/superlinears.webp
 description: "Exploring the nuances of strong, accelerating trends in technology; compounding growth effects and making predictions in the age of the post-singularity."
 ---
 
