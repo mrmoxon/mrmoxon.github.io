@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Horror Maximisation"
-date:   2024-05-12 18:39:31 +0000
+date:   2024-09-12 18:39:31 +0000
 categories: brains
 study: false
 mini: true

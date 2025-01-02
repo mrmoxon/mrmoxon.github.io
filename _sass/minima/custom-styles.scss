@@ -519,3 +519,98 @@
   gap: 1.5rem;
   min-height: 0; /* Ensures proper height calculation */
 }
+
+
+
+//
+
+/* Add to your _sass/minima/_custom-styles.scss */
+
+/* Add to your _sass/minima/_custom-styles.scss */
+
+.pdf-container {
+  margin: 1rem 0;
+  background: #f5f0e8;
+  padding: 0.5rem;
+}
+
+.pdf-header {
+  margin-bottom: 0.75rem;
+  text-align: right;
+}
+
+.pdf-download-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  background: #be9c7b;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+
+.pdf-download-btn:hover {
+  background: #a37f5b;
+  text-decoration: none;
+}
+
+.pdf-download-btn svg {
+  margin-right: 0.4rem;
+  width: 16px;
+  height: 16px;
+}
+
+.pdf-content {
+  background: #f8f4ed;
+}
+
+.pdf-page {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.pdf-page canvas {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* PDF.js text layer styles */
+.textLayer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 0.2;
+  line-height: 1.0;
+}
+
+.textLayer > span {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  transform-origin: 0% 0%;
+}
+
+.textLayer .highlight {
+  margin: -1px;
+  padding: 1px;
+  background-color: rgb(180, 0, 170);
+  border-radius: 4px;
+}
+
+.textLayer .highlight.selected {
+  background-color: rgb(0, 100, 0);
+}
+
+::selection {
+  background: rgba(0, 0, 255, 0.2);
+}

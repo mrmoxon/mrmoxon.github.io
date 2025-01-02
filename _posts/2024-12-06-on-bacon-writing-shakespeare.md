@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "On Bacon Writing Shakespeare"
-date:   2024-12-06 18:39:31 +0000
+date:   2024-06-06 18:39:31 +0000
 categories: market-failure
-study: true
-mini: false
+study: false
+mini: true
 image: /assets/bacon-shakespeare.png
 description: "A repository of evidence that “William Shake-speare” was instead the literary arm of Francis Bacon and his writing practice."
 ---

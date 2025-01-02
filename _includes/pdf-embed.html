@@ -1,0 +1,71 @@
+<!-- _includes/pdf-embed.html -->
+<div class="pdf-container">
+    <div class="pdf-header">
+        <a href="{{ include.pdf_path }}" class="pdf-download-btn" target="_blank" rel="noopener" download>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>{{ include.pdf_title | default: "Download PDF" }}</span>
+        </a>
+    </div>
+    <div id="pdf-content" class="pdf-content"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+async function renderPDF(pdfPath) {
+    try {
+        const loadingTask = pdfjsLib.getDocument(pdfPath);
+        const pdf = await loadingTask.promise;
+        const container = document.getElementById('pdf-content');
+        container.innerHTML = '';
+
+        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+            const page = await pdf.getPage(pageNum);
+            const viewport = page.getViewport({ scale: 2.5 });
+            
+            const pageDiv = document.createElement('div');
+            pageDiv.className = 'pdf-page';
+            
+            // Create canvas for rendering PDF
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+            
+            // Create div for text layer
+            const textLayerDiv = document.createElement('div');
+            textLayerDiv.className = 'textLayer';
+            textLayerDiv.style.width = `${viewport.width}px`;
+            textLayerDiv.style.height = `${viewport.height}px`;
+            
+            pageDiv.appendChild(canvas);
+            pageDiv.appendChild(textLayerDiv);
+            container.appendChild(pageDiv);
+
+            // Render PDF page to canvas
+            await page.render({
+                canvasContext: context,
+                viewport: viewport
+            }).promise;
+
+            // Render text layer
+            const textContent = await page.getTextContent();
+            pdfjsLib.renderTextLayer({
+                textContent: textContent,
+                container: textLayerDiv,
+                viewport: viewport,
+                textDivs: []
+            });
+        }
+    } catch (error) {
+        console.error('Error rendering PDF:', error);
+    }
+}
+
+renderPDF('{{ include.pdf_path }}');
+</script>
