@@ -4,7 +4,6 @@ layout: page
 
 <div class="central-column">
   <!-- <br> -->
-  <!-- <p class="intro">b. may 2002, Bath, England. London based postgraduate, researching multi-agent swarms for debate and task automation.</p> -->
 
   {%- assign posts = site.posts -%}
   <div class="home">
@@ -22,18 +21,19 @@ layout: page
     <a href="/essays/" class="essays-ellipsis"></a>
   </div>
 
-  <!-- <br>   -->
+  <br>  
+  <p class="intro">London based postgrad, researching emergence, free energy, and multi-agent systems. Building intelligent automation at realmachines.</p>
+
   <br>
   <p>Some things I believe:</p>
 
-  <ul class="bullets beliefs">
+  <ul class="custom-bullets">
 
     <li>At the level of civilisation
       <ul>
         <li>our universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a></li>
-        <li>sustained flourishing of life is a moral responsibility of intelligence</li>
-        <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="custom-link">democratising</a>intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="custom-link">abundance</a>, but the rest is politics</li>
-        <li>societies constantly regenerate around a function with ill-defined core values</li>
+        <li>the sustained flourishing of life will require maintaining alignment between technological and social progress</li>
+        <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="custom-link">democratising</a>intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="custom-link">abundance</a></li>
       </ul>
     </li>
 
@@ -74,6 +74,7 @@ layout: page
 
   <p>Deep enjoyer of painting, The Fountainhead (Ayn Rand), Ex Machina, and Jungle (band)</p>
 
+  <p class="newsletter-signup-text">Join my email list and get notified when I post</p>
   {% include convertkit.html %}
 
 </div>
