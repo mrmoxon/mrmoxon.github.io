@@ -616,17 +616,26 @@
 }
 
 // cite button
+// cite button
 .cite-button {
-  background: none;
+  background: transparent;
   border: none;
+  color: #8d6032;  /* Added brown color */
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
   padding: 0;
   margin: 0;
   text-decoration: underline;
+  appearance: none;  /* Added to remove default button styling */
+  -webkit-appearance: none;  /* For Safari */
 }
 
 .cite-button:hover {
   color: #613b16;
+}
+
+/* Remove focus outline */
+.cite-button:focus {
+  outline: none;
 }
