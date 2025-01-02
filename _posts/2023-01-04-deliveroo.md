@@ -7,7 +7,7 @@ study: true
 mini: false
 featured: false
 recommended: false
-description: "." 
+description: "Examination of the UK food market pioneer financials, the three-sided marketplace dynamics, and the gig economy transformation process." 
 ---
 
 {% include pdf-embed.html pdf_path="/assets/deliveroo.pdf" pdf_title="Download Deliveroo Report" %}
