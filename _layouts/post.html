@@ -19,8 +19,10 @@ layout: base
         </time>
       {%- endif -%}
       {%- if page.categories -%}
-        • <span class="p-category" itemprop="articleSection">{{ page.categories | first }}</span>
-      {%- endif -%}</p>
+        • <span class="p-category" itemprop="articleSection">{{ page.categories | first }}</span> 
+      {%- endif -%}
+      &nbsp;• <button onclick="copyCitation()" class="cite-button">cite</button>
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -53,4 +55,28 @@ layout: base
       });
     });
   });
+
+  function copyCitation() {
+    const title = document.querySelector('.post-title').innerText;
+    const date = new Date("{{ page.date | date_to_xmlschema }}");
+    const url = window.location.href;
+    
+    const formattedDate = date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+    
+    const citation = `Moxon, Oscar. "${title}." Oscar Moxon, ${formattedDate}, ${url}.`;
+    
+    navigator.clipboard.writeText(citation).then(() => {
+      const button = document.querySelector('.cite-button');
+      button.textContent = 'copied!';
+      setTimeout(() => {
+        button.textContent = 'cite';
+      }, 2000);
+    }).catch(err => {
+      console.error('Failed to copy citation:', err);
+    });
+  }
 </script>
