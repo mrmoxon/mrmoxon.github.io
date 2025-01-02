@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On Bacon Writing Shakespeare"
+title:  "ffrancis William Shakespeare"
 date:   2024-06-06 18:39:31 +0000
 categories: market-failure
 study: false
