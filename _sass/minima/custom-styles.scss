@@ -99,6 +99,15 @@
 .custom-bullets {
   list-style-type: none;
   padding-left: 0;
+
+  b, strong {
+    font-weight: 900; // Strong bold
+    color: #000000; // Ensure black color
+    font-style: normal; // Prevent any italic styling
+    padding: 0.1em 0.2em; // Optional: add some padding
+    border-radius: 3px; // Optional: rounded corners
+  }
+
 }
 
 .custom-bullets > li {
@@ -703,3 +712,17 @@
   outline: none;
 }
 
+
+
+
+.bold-highlight {
+  color: #000000; 
+  font-weight: 700; // Standard bold weight
+}
+
+b.bold-highlight {
+  font-weight: bold !important;
+  font-weight: 900 !important;
+  font-weight: bolder !important;
+  font-style: normal;
+}

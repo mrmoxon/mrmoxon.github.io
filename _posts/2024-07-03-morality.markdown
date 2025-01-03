@@ -2,7 +2,7 @@
 layout: post
 title:  "The Moral Objective Function"
 date:   2024-07-03 18:39:31 +0000
-categories: agents
+categories: brains
 study: false
 mini: false
 image: /assets/cognition-hierarchy-superset.png

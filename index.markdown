@@ -29,45 +29,47 @@ layout: page
 
   <ul class="custom-bullets">
 
-    <li>At the level of civilisation
+    <li>On civilisation in the long-run
       <ul>
         <li>our universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a></li>
-        <li>the sustained flourishing of life will require maintaining alignment between technological and social progress</li>
-        <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="custom-link">democratising</a>intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="custom-link">abundance</a></li>
+        
+        <li>civilisation behaves like a superorganism; minimising <a href="https://www.nature.com/articles/nrn2787" class="custom-link">free energy</a>with markets providing all metabolic function</li>
+        
+        <li><a href="https://retrochronic.com/" class="custom-link">markets</a>are artificial intelligence; they self-regulate and rarely call for intervention</li>
+        
+        <li>technological progress is the <a href="https://www.oscarmoxon.com/brains/2024/12/06/genius.html" class="custom-link">only</a>driver of market creation, and is the rate limiter of civilisation growth</li>
       </ul>
     </li>
 
-    <li>An alignment problem determines the core behaviour of society
+    <li>On The Alignment Problem (and the Moloch Test)
       <ul>
-        <li>it is the triple point of "paleolithic emotions, medieval institutions and godlike technology<a href="https://www.oxfordreference.com/display/10.1093/acref/9780191826719.001.0001/q-oro-ed4-00016553" class="no-underline" target="_blank" rel="noopener noreferrer">"</a></li>
-        <li>pure technology is undesirable, as it regenerates faster than humans ever will</li>
-        <li>transformers do offer a stable and scalable paradigm for an early superintelligence by 2028</li>
+        <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="custom-link">democratising</a>intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="custom-link">abundance</a></li>
+        
+        <li>society maintains alignment at the triple point of <i>"paleolithic emotions, medieval institutions and godlike technology<a href="https://www.oxfordreference.com/display/10.1093/acref/9780191826719.001.0001/q-oro-ed4-00016553" class="no-underline" target="_blank" rel="noopener noreferrer">"</a></i></li>
+
+        <li>allocate this abundance optimally if you want to maintain technological optimism and stoke the fires of further growth</li>
       </ul>
     </li>
 
-    <li>Lessons from economics:
-        <ul>
-            <li>EMH is weak at best, all opportunities emerge in the gaps of market rationality</li>
-            <li>the fate of billions is steered overwhelmingly by the work of a few</li>
-            <li>consolidations of market power are dangerous and wasteful, but short term optimal for investors</li>
-        </ul>
+    <li>On civilisation in the short-run
+      <ul>
+        <li>EMH is weak at best: all opportunities emerge in the lag between market sentiment and reality, especially during breakthroughs</li>
+
+        <li>most scientific fields have seen diminishing returns for sixty years, with exceptions in computing and <a href="https://www.oscarmoxon.com/leverage/2021/12/13/timeline-of-ai-1.html" class="custom-link">machine learning</a>which will produce a knowledge explosion</li>
+
+        <li>agentic transformers will let us outsource the running our research lab or make requests like <em>"please build me a dyson sphere"</em> with <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">Culture-Mind</a>alignment</li>
+
+        <li>LLMs tread closer to the realm of natural abstraction—next stop: telepathy</li>
+      </ul>
     </li>
 
-    <li>Lessons from research:
+    <li>Thoughts on working in teams
         <ul>
-            <li>most fields have seen diminishing returns to science since the 60s, with a notable exception in computing and AI</li>
-            <li>ultimate promise of LLMs is agents, ultimate promise of agents is a new paradigm of advanced science</li>
-            <li>agent improve prompting from <em>"write me an essay"</em> to <em>"run my company"</em> or <em>"build me a dyson syphere"</em></li>
-            <li>digital platforms maximise hyperstimuli and addiction, by choice or by nature. reels/tiktok are 0.5-d <a href="https://twitter.com/oscarmoxon/status/1722378053924397277" class="custom-link">wireheading</a></li>
-            <li>with LLMs we tread closer to the realm of natural abstraction - next stop: telepathy</li>
-        </ul>
-    </li>
-
-    <li>Some other thoughts:
-        <ul>
-            <li>innovation and agility thrive in small, focused groups working fast</li>
-            <li>progress is rate limited by our ability to ask more meaningful questions, which favor the contrarian</li>
-            <li>all people have a common <a href="/leverage" class="link">thread</a> that connects the major decisions they make</li>
+            <li>teams are like vector fields: each member contributes direction and magnitude, vector sum = project velocity</li>
+            <li>small, focused groups optimise per capita innovation and have agility perk</li>
+            <li>breakthroughs come from better questions—contrarians lead the way</li>
+            <li>narrative momentum creates reality: leverage <a href="https://retrochronic.com/#hyperstition" class="custom-link">hyperstition</a>when making fiction commonplace</li>
+            <li>all people have a common thread that connects the major decisions they make</li>
         </ul>
     </li>
   </ul>
@@ -79,3 +81,8 @@ layout: page
 
 </div>
 
+<!-- <li>digital platforms are victim to the moloch trap of human hyperstimuli and addiction. shortform reels are 0.5D <a href="https://twitter.com/oscarmoxon/status/1722378053924397277" class="custom-link">wireheading</a></li>
+
+<li><a href="http://oscarmoxon.com/market-failure/2022/11/08/smartwatches.html" class="custom-link">bundling</a>is the next highly egregious form of market failure in 2025—regulation should focus on eradicating artificial switching costs</li> -->
+
+<!-- <li>all people have a common <a href="/leverage" class="link">thread</a> that connects the major decisions they make</li> -->

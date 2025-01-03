@@ -2,7 +2,7 @@
 layout: post
 title:  "Civilisation Goals (2020-2100)"
 date:   2024-12-30 18:39:31 +0000
-categories: agents
+categories: leverage
 study: false
 mini: true
 image: /assets/metamorphosis-ii.jpg

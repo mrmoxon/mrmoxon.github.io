@@ -2,7 +2,7 @@
 layout: post
 title:  "How Agents Will Accelerate Research"
 date:   2024-02-09 18:39:31 +0000
-categories: agents
+categories: leverage
 study: false
 mini: false
 image: /assets/title-1.webp
