@@ -3,7 +3,7 @@ layout: base
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <!-- <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" | downcase -%}
@@ -22,6 +22,40 @@ layout: base
         • <span class="p-category" itemprop="articleSection">{{ page.categories | first }}</span> 
       {%- endif -%}
       &nbsp;• <button onclick="copyCitation()" class="cite-button">cite</button>
+    </p>
+  </header> -->
+
+    <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" | downcase -%}
+      <span class="meta-item">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: date_format }}
+        </time>
+      </span>
+      
+      {%- if page.modified_date -%}
+        <span class="meta-separator">~</span>
+        <span class="meta-item">
+          {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+          <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+            {{ mdate | date: date_format }}
+          </time>
+        </span>
+      {%- endif -%}
+
+      {%- if page.categories -%}
+        <span class="meta-separator">•</span>
+        <span class="meta-item p-category" itemprop="articleSection">
+          {{ page.categories | first }}
+        </span>
+      {%- endif -%}
+
+      <span class="meta-separator">•</span>
+      <span class="meta-item">
+        <button onclick="copyCitation()" class="cite-button">cite</button>
+      </span>
     </p>
   </header>
 

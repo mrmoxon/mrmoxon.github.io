@@ -23,18 +23,37 @@ layout: base
 </script> -->
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-      let links = document.querySelectorAll('.custom-link');
-      links.forEach((link, index) => {
-          link.setAttribute('data-index', index + 1);
+  // document.addEventListener('DOMContentLoaded', function() {
+  //     let links = document.querySelectorAll('.custom-link');
+  //     links.forEach((link, index) => {
+  //         link.setAttribute('data-index', index + 1);
           
-          // Create preview element
-          let preview = document.createElement('div');
-          preview.className = 'link-preview';
-          preview.textContent = getSiteName(link.href);
-          link.appendChild(preview);
-      });
-  });
+  //         // Create preview element
+  //         let preview = document.createElement('div');
+  //         preview.className = 'link-preview';
+  //         preview.textContent = getSiteName(link.href);
+  //         link.appendChild(preview);
+  //     });
+  // });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    let links = document.querySelectorAll('.custom-link');
+    links.forEach((link, index) => {
+        // Create the number element
+        let numberSpan = document.createElement('span');
+        numberSpan.className = 'custom-link-number';
+        numberSpan.textContent = index + 1;
+        
+        // Insert the number after the link text
+        link.appendChild(numberSpan);
+        
+        // Create preview element
+        let preview = document.createElement('div');
+        preview.className = 'link-preview';
+        preview.textContent = getSiteName(link.href);
+        link.appendChild(preview);
+    });
+});
 
   function getSiteName(url) {
       try {

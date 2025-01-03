@@ -54,7 +54,8 @@
   position: relative;
   color: #8d6032;
   text-decoration: none;
-  padding-right: 0.7em; /* Add padding to the right of the link text */
+  display: inline;
+  padding-right: 0.4em; /* Add padding to the right of the link text */
   // margin-right: 0.2em; /* Add a small margin to separate from the following text */
 }
 
@@ -73,6 +74,14 @@
 
 .custom-link:hover {
   text-decoration: underline;
+}
+
+.custom-link-number {
+  font-size: 0.7em;
+  vertical-align: super;
+  line-height: 0;
+  color: inherit;
+  padding-left: 0.2em;
 }
 
 .link-preview {
@@ -570,6 +579,7 @@
 
 .post-meta {
   align-items: center;
+  margin-left: -0px;
 }
 
 /* Responsive Layout */
@@ -688,28 +698,36 @@
 }
 
 // cite button
-// cite button
 .cite-button {
   background: transparent;
   border: none;
-  color: #8d6032;  /* Added brown color */
+  color: #8d6032;
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
   padding: 0;
   margin: 0;
   text-decoration: underline;
-  appearance: none;  /* Added to remove default button styling */
-  -webkit-appearance: none;  /* For Safari */
+  appearance: none;
+  -webkit-appearance: none;
+  vertical-align: baseline; /* Add this to align with text */
+  line-height: inherit; /* Add this to match text line height */
+  display: inline-flex; /* Add this for better alignment */
+  align-items: center; /* Add this for vertical centering */
 }
 
 .cite-button:hover {
   color: #613b16;
 }
 
-/* Remove focus outline */
+/* Remove focus outline but maintain accessibility */
 .cite-button:focus {
   outline: none;
+}
+
+.cite-button:focus-visible {
+  outline: 2px solid #8d6032;
+  outline-offset: 2px;
 }
 
 
@@ -725,4 +743,104 @@ b.bold-highlight {
   font-weight: 900 !important;
   font-weight: bolder !important;
   font-style: normal;
+}
+
+
+
+
+
+
+
+
+/* Mobile-specific adjustments */
+@media screen and (max-width: 768px) {
+  /* Adjust overall content padding */
+  .wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* Further compress bullet points on mobile */
+  .custom-bullets > li {
+    padding-left: 1em;
+    margin-left: -1em;
+  }
+
+  .custom-bullets > li > ul {
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+  }
+
+  /* Adjust recent essays container for mobile */
+  .recent-essays-container {
+    margin: 0 -5px;
+  }
+
+  .recent-essay-content {
+    padding: 0.5rem 15px;
+  }
+
+  /* Adjust post lists for mobile */
+  .post-list {
+    margin: 0 -15px;
+  }
+
+  .post-item {
+    padding: 0 15px;
+    margin-bottom: 1rem;
+  }
+
+  /* Make titles and dates stack on mobile */
+  .post-title-meta {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .post-meta {
+    font-size: 0.8rem;
+    margin-left: 0;  /* Reset any margin */
+    padding-left: 0;  /* Reset any padding */
+    text-align: left;
+    width: 100%;     /* Ensure full width */
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  /* Ensure email signup form is fully visible */
+  .formkit-form {
+    margin-bottom: 4rem !important;
+  }
+
+  .newsletter-signup-text {
+    text-align: center;
+    color: #613b16;
+    margin: 2rem 0 0.5rem;
+    font-size: 0.9rem;
+  }  
+
+  .recent-essays-container .recent-essay-content .recent-essay-title {
+    margin: 0;
+    font-size: 1.7rem !important; /* Force override */
+    font-weight: normal !important;
+    color: #333;
+    line-height: 1.4;
+  }  
+
+  .post-title {
+    margin: 0;
+    font-size: 2rem;
+    text-align: left;  
+  }  
+}
+
+/* Additional adjustments for very small screens */
+@media screen and (max-width: 480px) {
+  .post-title {
+    font-size: 1.1rem;
+  }
+
+  .recent-essay-title {
+    font-size: 0.9rem;
+  }
 }

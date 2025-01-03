@@ -41,7 +41,7 @@ layout: page
       </ul>
     </li>
 
-    <li>On The Alignment Problem (and the Moloch Test)
+    <li>On The Alignment Problem
       <ul>
         <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="custom-link">democratising</a>intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="custom-link">abundance</a></li>
         
