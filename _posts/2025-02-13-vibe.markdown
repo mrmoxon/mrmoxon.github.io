@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "A Society of Rick Rubins"
+date:   2025-02-13 18:39:31 +0000
+categories: leverage
+study: false
+mini: false
+image: /assets/rickrubin.png
+description: "The roadmap to a society of Rick Rubins."
+---
+
+The founder of Fog Creek Software once wrote, "Your first priority as the manager of a software team is building the development abstraction layer." In a software team, if a programmer is wrestling with a broken chair or is irritated by the stuffy air and loud office, the abstraction has, in Joel Spolsky's words, "sprung a leak."
+
+But this principle extends far beyond software development [[1]](#ref-1). *Everyone* deserves an abstraction layer, and arguably, the companies with the *fewest* resources need them most desperately.  The core idea is simple: employees shouldn't need to concern themselves with the *how* of a task, only the *what*.  Just as developers shouldn't be debugging the office HVAC system, knowledge workers shouldn't be battling a patchwork of disconnected applications or a one-size-fits-all ERP that fits no one particularly well.
+
+What does an abstraction layer look like, outside the world of a software team?
+
+In the best-run organisations, this kind of abstraction already exists, albeit in a human-powered form. Executives—the "golden-collar workers"—operate at the top of a hierarchy designed to maximise their speed and precision. They have assistants, chiefs of staff, and entire departments dedicated to streamlining their workflows. They issue commands, and things happen. That is the level of support we need to bring to *every* employee. 
+
+In the words of Joel Spolsky, *ideal* productivity for programmers looks like a calm internal environment and a busy environment of delegates and collaborators:
+
+> *"A quiet private office, a great computer, unlimited beverages, an ambient temperature between 68 and 72 degrees (F), no glare on the screen, a chair that’s so comfortable you don’t feel it, an administrator that brings them their mail and orders manuals and books, a system administrator who makes the Internet as available as oxygen, a tester to find the bugs they just can’t see, a graphic designer to make their screens beautiful, a team of marketing people to make the masses want their products, a team of sales people to make sure the masses can get these products, some patient tech support saints who help customers get the product working [...]"*
+
+To build better products means translating that idealised environment into the digital realm. We need clean, bespoke software that truly *listens* and performs tasks on our behalf. 
+
+**The Toolkit:**
+
+A *personalised operating system for work* is a system that is aligned with you; it is an assistant and a cofident. It needs to be context-aware and receptive to your schedule. You should feel confidant telling it your style, because it should benefit you to teach the system to act in your image. Good employees are professionals and domain experts; they perform tasks that are hard to outsource to a faceless agent.
+
+It is now possible to build a *command-line interface* where you can speak in natural, everyday English and expect it to understand your intent. Imagine setting up a meeting:
+
+*   **You:** *"schedule a meeting with Sarah and John to discuss the Q3 marketing plan. Draft a brief agenda based on our last project review."*
+*   **System:** (Queries Sarah and John's calendars via their respective APIs, negotiates the best available time slot, drafts a concise agenda using the document in your shared drive, and notifies all attendees fifteen minutes before it starts.)
+
+The second component to this OS would be the interface. Current language model providers offer simple artefacts, limited to iframes or markdown files. The next generation of artefacts will run autonomously alongside your existing tools, subscribe to their APIs and ensure when tasks are performed between tools, the user has total visibility. 
+
+*   **You:** *"Record my meeting and convert to a project report you can send to my client."*
+*   **System:** (Activates microphone, transcribes speech-to-text, writes a report in your preferred format and style, shows you the pdf and if approved, send this to the relevant client.)
+
+*   **You:** *What is the status of the website redesign? What is holding them up?*
+*   **System:** (Pulls Jira tickets from developer board, shows 65% completion and lists completed/upcoming milestones in your panel, queries project lead, and conveys a proactive suggestion for how you can help the team speed things along.)
+
+Information flows effortlessly between your tools, and the interface adapts dynamically to present you with the right information, at the right time, in the right context. You move from manager to orchestrator, like Rick Rubin. The goal is to maximise the variance of any individual job and converge on their imagined capability.
+
+**The Only Archetype:**
+
+We are entering an era where the distinction between *doing* and *directing* blurs. The Orchestrator—think Rick Rubin in the recording studio—doesn't need to master every instrument. Rubin's genius lies in his ability to understand the overall vision, to guide the process, coordinate with others, and to create an environment that keeps harmony. Either way... the future of work belongs to those who build their vision first. 
+
+The first one-person billion-dollar startup will only be built in this way. It will emerge from a mastery of these new tools, wielding an army of intelligent agents managed through a single, powerful interface. 
+
+--- 
+
+[1]<a id="ref-1"></a> 
+
+Computer science is typically where movements in the workforce originate. The whole industry is a good bellweather for what is coming for the rest of the economy. 
+
+![alt text](/assets/rickrubin.png)
