@@ -50,8 +50,6 @@ The first one-person billion-dollar startup will be built in this way. It will e
 
 --- 
 
-[1]<a id="ref-1"></a> 
-
-Computer science is typically where movements in the workforce originate. The whole industry is a good bellweather for what is coming for the rest of the economy. 
+[1]<a id="ref-1"></a> Computer science is typically where movements in the workforce originate. The whole industry is a good bellweather for what is coming for the rest of the economy. 
 
 ![alt text](/assets/rickrubin.png)
