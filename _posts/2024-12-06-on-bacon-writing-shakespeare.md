@@ -57,7 +57,7 @@ This ledger of papers include a collection of works belonging to two authors: Ba
 
 #### The First Folio
 
-The *First Folio* (1623) was published seven years after Shakespeare's date of death, and collated while Ben Jonson lived in Francis Bacon's residence in St Albans. It contained 18 plays printed for the first time — including new plays like "Henry VIII" — with nearly 5,000 new lines added to the plays previously released as quartos.
+The *First Folio* (1623) was published seven years after Shakespeare's date of death, and collated while Ben Jonson lived in Francis Bacon's residence in St Albans. Jonson worked as Bacon's secretary and Latin interpreter for many years (an enormous deal, given that Jonson is the only witness commonly cited by historians to evidence Shakespeare existed, and who died without a single letter from Shakespeare to his name). It contained 18 plays printed for the first time - half of Shakespeare's catelogue — including new plays like "Henry VIII" — with nearly 5,000 new lines added to the plays previously released as quartos.
 
 - Bacon and Shakespeare's combined works create an unbroken timeline of the monarchy across 16 kings from "King John" (1199) to "Henry VIII" (1547), without overlap. Furthermore, "Richard III" concludes at the battle of Bosworth Field. Bacon's "Henry VII" commences with the song at the end of the battle.
 
