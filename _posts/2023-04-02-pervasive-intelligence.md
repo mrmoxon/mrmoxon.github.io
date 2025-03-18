@@ -2,7 +2,7 @@
 layout: post
 title: "Pervasive Machines: Learning to Live with Superintelligence"
 date: 2023-04-01 05:39:31 +0000
-categories: leverage
+categories: civilisation
 study: false
 mini: false
 image: /assets/agency.webp

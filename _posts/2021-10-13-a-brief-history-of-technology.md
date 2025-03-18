@@ -2,7 +2,7 @@
 layout: post
 title:  "A Brief History of Technology"
 date:   2021-10-19 05:39:31 +0000
-categories: leverage
+categories: civilisation
 study: false
 mini: false
 image: /assets/Moore-Law.webp

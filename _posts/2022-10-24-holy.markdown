@@ -2,7 +2,7 @@
 layout: post
 title:  "The Holy Grail of Invention"
 date: 2022-10-24 05:39:31 +0000
-categories: leverage
+categories: civilisation
 study: false
 mini: false
 image: /assets/fusion.png
@@ -36,7 +36,7 @@ On the concepts of an infinite rate of innovation, the "most dangerous algoritm"
 <p style="text-align: center;"><em>The ultimate use of AI is to accelerate science to the maximum. - Demis Hassabis</em></p>
 <!-- <p style="text-align: right;"><em>Demis Hassabis</em></p> -->
 
-In a 2019 blogpost, OpenAI wrote that GPT-2, a natural language processing algorithm, had concerning applications, significant enough that it wouldn't be responsible to release it to beta. The concerns were over its ability to generate text that could create convincing fake news articles, impersonate the writing style of people, and automatically create biased, abusive or spam content for social media platforms. [[1]](#part-1)
+In a 2019 blogpost, OpenAI wrote that GPT-2, a natural language processing algorithm, had concerning applications, significant enough that it wouldn't be responsible to release it to beta. The concerns were over its ability to generate text that could create convincing fake news articles, impersonate the writing style of people, and automatically create biased, abusive or spam content for social media platforms. [[1]](#ref-1)
  
 Outlets like The Independent had a field day over these "dangerous" developments, and quite fairly as the professionals most threatened by natural language processing (NLP) systems. But despite its malicious potential, GPT-2 (or even 2022's GPT-3) is far from being the fabled "most dangerous algorithm in the world." 
 

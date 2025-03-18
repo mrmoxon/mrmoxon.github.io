@@ -2,7 +2,7 @@
 layout: post
 title:  "Superlinear Growth"
 date: 2022-07-12 05:39:31 +0000
-categories: leverage
+categories: civilisation
 study: false
 mini: false
 image: /assets/superlinears.webp

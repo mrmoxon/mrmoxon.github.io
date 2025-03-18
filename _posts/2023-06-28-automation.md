@@ -2,7 +2,7 @@
 layout: post
 title:  "Understanding Workforce Automation"
 date:   2023-06-28 05:39:31 +0000
-categories: leverage
+categories: civilisation
 study: true
 mini: false
 featured: false

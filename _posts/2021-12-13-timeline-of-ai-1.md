@@ -2,7 +2,7 @@
 layout: post
 title:  "A Timeline for Artificial Intelligence"
 date: 2021-12-13 18:39:31 +0000
-categories: leverage
+categories: civilisation
 study: false
 mini: false
 image: /assets/pantheon-ai.webp

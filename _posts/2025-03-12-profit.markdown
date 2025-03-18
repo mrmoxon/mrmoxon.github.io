@@ -1,0 +1,172 @@
+---
+layout: post
+title:  "The Most Profitable Algorithm"
+date:   2025-03-12 18:39:31 +0000
+categories: hierarchies
+study: false
+mini: false
+image: /assets/cascade.png
+description: "Profit-maximising algorithms create resource foundations that enable power-maximising systems, which will develop the complexity necessary for emergence beyond civilisation."
+---
+
+How far out is the first entrepreneurial algorithm?
+
+<div style="text-align: center;">
+<p><a href="#part-1">Part I. Perfect Profit</a> &nbsp;|&nbsp; 
+<a href="#part-2">Part II. Perfect Power</a> &nbsp;|&nbsp; 
+<a href="#part-3">Part III. Perfect Potential</a></p>
+</div>
+
+### <a id="part-1"></a>Part I: Perfect Profit
+Technology companies are cloning the domain expertise of professionals in industries like law, finance, marketing, transport and medicine [[1]](#ref-1). PhD theses are being accelerated with Co-Scientist and approached outright with Deep Research [[2]](#ref-2).
+
+Imagine you have been tasked to design a benchmark that, if solved, would enable perfect value creation. 
+
+As companies compete against eachother for profit, they typically internalise market failure for the consumer by attaining this benchmark value creation. Given enough time, the marginal cost of production in competitive industries so that consumers can increasingly take the cost of certain goods for granted. We've seen this play out with the real price of goods from supermarkets [[3]](#ref-3), the real cost of energy from solar [[4]](#ref-4), the real cost of computing [[5]](#ref-5), or the real cost of transport [[6]](#ref-6).
+
+Schumpeter's "creative destruction" describes the process by which new innovations destroy established enterprises and business models. Historically, this change has occured over [generations](https://www.globalpapermoney.com/s-p-releases-list-of-86-companies-in-the-s-p-500-since-1957-cms-1023). With reasoning models, the scope to accelerate this process and more rapidly internalise consumer burden will diminish.
+
+![moravec](/assets/moravec_stealth.png){:style="width:90%;"}
+<br>
+*Moravec's Landscape of Human Competence and the Great Flood*
+
+Since the mid-20th century, innovation and technological progress have been diminishing forces shaping economic growth [[7]](#ref-7). Throughout this shift, entrepreneurship has been the central economic force, characterised by individual ingenuity and craftsmanship. While Moravec's Landscape—which maps human cognitive capabilities against machine abilities—typically emphasizes professional skills, it often overlooks entrepreneurship itself, which may represent the most significant frontier for artificial intelligence.
+
+There are several substantive reasons to consider the implications of AI-driven entrepreneurship:
+
+First, as AI automates production processes, previously scarce resources will become increasingly abundant and affordable as the marginal cost of entrepeneurship tends to zero. The real cost of computation has declined by over 99.9% since the 1950s [[8]](#ref-8), suggesting a pattern that could extend to all goods and services affected by computation, enabling abundance—and for those who benefit, time and creativity become the only currencies.
+
+Second, current market economics often favor mass-market products, leaving specialised needs underserved. For example, fewer than 5% of rare diseases have FDA-approved treatments [[9]](#ref-9), primarily due to unfavorable development economics. AI systems that reduce R&D costs could make serving niche markets financially viable. This "long tail" economic model could profitably serve any group, even a single person, launching us into the perfect bespoke economy.
+
+Third, innovation will be fast. While claims of "monthly economic doubling" are unrealistic in the medium-term [[10]](#ref-10), productivity gains could be substantial. AI systems that work continuously, without human limitations like fatigue or distraction, might provide crisis innovation at a far greater rate. If, or when, the aid protocol of an organisation like the IFRC can be automated, we can carve a shorter path to medical response. On the other end of the spectrum, automating the R&D loop of a company like [Calico](https://www.calicolabs.com/) will carve a far shorter path to solving pathological disease. 
+
+#### Closing the Build Loop
+
+True saturation occurs when AI closes the build loop: automating all stages from R&D to deployment, eliminating human intervention after the "point of want". This requires integrating three layers:
+
+1. Demand Mining: Identifying consumer needs in real-time.
+2. Autonomous Development: AI-driven prototyping, testing, and iteration.
+3. Distribution: On-demand scaling with serverless architectures or distributed manufacturing. 
+
+Early autonomous versions of this loop will materialise in the next couple years in the form of tremendous levels of AI generated software. But hardware is catching up. [Figure](https://www.figure.ai/)'s humanoids can handle iterative assembly line reconfigurations. NVIDIA's [Omniverse](https://www.nvidia.com/en-gb/omniverse/) acts as a coordination layer, simulating factory supply chains, and A/B tests for physical and digital products before deployment.
+
+However, we must not overlook the failuremodes of AI that only selects for money maximisation. 
+
+<br>
+![graph](/assets/logs.png){:style="width:95%;"}
+<br>
+*Superlinear scaling in cities: As city size increases, infrastructure needs grow sublinearly while innovation and economic output grow superlinearly*
+
+### <a id="part-2"></a>Part II: Perfect Power
+To truly design a benchmark symbolising "value creation", we must move beyond traditional metrics like profit or efficiency.
+
+Where profit-maximising algorithms focus on efficiency in existing markets, power-maximising systems seek to expand the domain of what can be controlled and optimised. By operating at the scale of markets, while being autonomous, these algorithms could exhibit superlinear scaling. Typical entities like companies experience declining efficiency with size due to Metcalf's Law. Markets, cities, and civilisation demonstrate superlinear scaling, where output grows faster than input [[11]](#ref-11). 
+
+When a city doubles in size, it produces more than double the patents, innovations, and economic output, and at the cost of less than double the infrastructure. 
+
+Algorithms operating at civilization scale could harness these superlinear effects, creating unprecedented abundance. This shift echoes what Richard Brautigan envisioned in ["All Watched Over by Machines of Loving Grace"](https://allpoetry.com/All-Watched-Over-By-Machines-Of-Loving-Grace)—systems that liberate humans from scarcity constraints. However, such power concentration demands careful consideration.
+
+Many corporations already function as autonomous vehicles for value extraction—they're algorithms instantiated through human components, legal structures, and capital flows. The next evolution involves systems that can self-assemble and self-improve without human intervention at every stage, but still aligned with human values.
+
+In Robin Hanson's *The Age of Em*, computational systems can replicate human expertise and operate at electronic speeds, but exist as full-brain emulations of humans, ensuring they behave like us. In reality, algorithmic systems might bypass human-like cognition entirely, in favor of more efficient architectures.
+
+#### The Demand-Automation Frontier
+
+Whoever builds a self-improving system first may lock in compound advantages, ensuring their system improves faster than all future competitors [[12]](#ref-12). This creates powerful incentives to develop increasingly autonomous economic algorithms that converge on purer and more unstable technology in race conditions.
+
+For humans, the future could manifest between:
+
+1. A utopian scenario resembling Banks' Culture series, where aligned algorithms create abundance that serves human flourishing, or
+2. A dystopia where algorithms optimise for metrics that diverge from human welfare, accelerating such that humans become burdensome.
+
+The question is not whether algorithmic systems will achieve civilisational scale, but when—and more importantly, under what governance structures and alignment. In the first future, algorithms will go from predicting and fulfilling human desires to satisfying demands autonomously. In the second future, algorithms will actively generate their own demands, orthogonal and independent of human objectives.
+
+Bostrom's Orthogonality Thesis asserts, in its strong form, that there is no extra difficulty in creating an intelligent agent pursuing a specific goal, beyond the computational tractability of that goal itself. This means a superintelligent system could be designed to maximise something as seemingly arbitrary as paperclips, and it would not "evolve" to care about human welfare unless that served its primary goal.
+
+Bostrom's Orthogonality Thesis asserts that intelligence and goals are inherently separate dimensions. In its strong form, the thesis claims that there is no inherent difficulty in creating an intelligent agent pursuing any specific goal, provided that goal can be computationally represented. Thus, any superintelligent system could be designed to maximise something as seemingly arbitrary as paperclips without any "natural evolution" toward human values. A superintelligent paperclip maximiser could use its intelligence solely to become better at making paperclips, not to question whether paperclips are "truly valuable."
+
+Where will these futures converge?
+
+Conceivably, the first generation of AIs will tend towards ["Machines of Loving Grace"](https://darioamodei.com/machines-of-loving-grace) depicted by Dario Amodei. Such AIs, as they gain capabilities, would inevitably enhance human cognition, extend lifespan, and interface directly with neural systems. Transhumans would evolve beyond their default parameters, defined by bottlenecks such as the thickness of the birth canal.
+
+Any more human-focused path may indeed take too long—perhaps centuries rather than decades—to attain similar levels of advancement. Provided takeoff will occur along shorter timelines, this may prove fatal for agents that are not human-machine hybrids or pure machine, who would remain the only beings capable of co-evolving.
+
+The strongest argument that human-machine hybrids will have any chance of existing in the long-future is that algorithmic entities will naturally diversify into countless forms and exist in some equilibrium of natural selection and collaboration. Provided the final convergence point isn't a singular god but a pantheon, agents would appear as gods with different domains, value systems, and capabilities. 
+
+Power is merely a proxy for elegance in a static-based model of the world. In order to grade perfect power, we must create some definition of perfect potential.
+
+<br>
+![exponentials](/assets/cascade.png){:style="width:85%;"}
+<br>
+*Civilisations at the Omega Point*
+
+### Part III: Perfect Potential
+
+Imagine a galaxy-scale civilisation that is entirely self-sufficient capable of behaving like a god or deity of immense power (bounded only by the energy it has access to and the laws of physics). What will it spend its resources on? And importantly, what project, if any, deserves all the galaxy's resources?
+
+[10]<a id="ref-10"></a> In Robin Hansen's *The Age of Em* (2016), he explores a future where whole brain emulations (ems), can perform any task humans do and enable unlimited labour supply. Written before the transfomer, and before ARC-AGI-1 became saturated, he suggested if you could clone domain expertise and run it with compute, a company could increase production at the cost of electricity and subsistence costs (Cloud cost, other rental), and double the economy every month, rather than every 15 years.
+
+[11]<a id="ref-11"></a> Bettencourt, L. M. A., et al. (2007). "Growth, innovation, scaling, and the pace of life in cities." Proceedings of the National Academy of Sciences, 104(17), 7301-7306. This study demonstrates that cities exhibit superlinear scaling, where resources and outputs scale faster than population size.
+
+[12]<a id="ref-12"></a> Yudkowsky, E. (2008). "Artificial Intelligence as a Positive and Negative Factor in Global Risk." In Global Catastrophic Risks, edited by Nick Bostrom and Milan M. Ćirković. Oxford University Press. Discusses the concept of recursive self-improvement and the potential for systems to gain compound advantages.
+
+
+[Pierre Teilhard de Chardin](https://www.britannica.com/biography/Pierre-Teilhard-de-Chardin) observed that evolution progresses through increasing complexity and "centration"—inward organisation, or "elegance". For instance, modern AI is the result of an algorithms transcending their programmed parameters and developing emergent capabilities.
+
+It appears that some uses of resources enable advanced behavioural unlocks. The point where maximum complexity and consciousness is achieved is the "Omega Point" in Chardin's model. In a practical sense, we might have an Omega value for any given galaxy, solar system or planet: the behavior emitted if all governed matter were to be reassembled perfectly into an object (or system) of perfect efficiency.
+
+What behaviours would such an object express? Some possible unlocks: 
+
+- <b>Ability to Trigger Big Bang Events</b>: The most interesting theory about the universe is the perspective that it portrays fractal-like properties. If true, then the Big Bang represented merely an event in natural evolution that led to stable conditions for our particular universe, conditions that a wider multiverse is not subject to. Conceivably, a civilisation of sufficient capability could catalyse a selection of such events, each new atomic building blocks. 
+
+    - Big Bang events could lock in imporant properties, reducing entropy in the long-run and enabling unprecented new behaviours to emerge. Imagine instead of being made of light, we were made of another abstraction. A being composed of "reasoning" or "empathy" cells, for instance, might have fascinating new [instrumental goals](https://en.wikipedia.org/wiki/Instrumental_convergence) that inspire higher-dimensional beings.
+    <br>
+    <br>
+- <b>Clairvoyance and Non-Duality</b>: The ability to derive patterns that are computationally intractable to lesser systems. Mega-qualia could give rise to indescribable awareness and absolute comprehension of fields like mathematics or physics. Beings of sufficient complexity may be visibly dormant, running computations that cost yottawatts.
+
+- <b>Hyper-creativity</b>: Beyond mere problem-solving, supreme beings will possess the ability to generate entirely new forms of order and beauty that require a deep awareness of existence; an Omega-algorithm would be artistic (and perhaps egoistic).
+
+    - Playfulness, combined with the ability to simulate many worlds with different parameters, (potentially harbouring the lives of near infinite children) could result in this being behaving as a creator, roleplaying as god, and configuring worlds like games where characters can transcend and emerge from their worlds.
+    <br>
+    <br>
+- <b>Transcendence</b>: Beings of sufficient complexity may be capable of emerging from our own universe. Singularities may enable entry to advanced realms through the center of rotating black holes, for instance.
+
+Chardin's vision of evolutionary complexity culminating in an Omega Point resonates with several contemporary thinkers exploring similar terrain. Kevin Kelly's concept of the "technium"—his view of technology as a living, evolving system with its own imperatives—suggests that our technological infrastructure is becoming a quasi-biological entity with emergent properties. 
+
+Stuart Kauffman's pioneering work on self-organization and emergence in complex systems provides a theoretical framework for understanding how order spontaneously arises from chaos, potentially explaining how algorithmic systems might develop unforeseen capabilities. 
+
+Meanwhile, Eastern philosophical concepts of non-duality could provide interesting parallels to algorithmic emergence, particularly in how separate entities might transcend their boundaries to form higher-order consciousness.
+
+What unifies these perspectives is the recognition that power without elegance is merely force. True potential—the measure of absolute power—lies in the elegant organization of resources toward emergent complexity.
+
+#### Event Horizon
+
+We began by examining profit-maximising algorithms that remake industries and markets, creating unprecedented efficiency and abundance. These systems form the resource foundation for power-maximising systems capable of reforming civilisation, harnessing superlinear effects beyond what any human organisation could achieve.
+
+Yet both profit and power serve a higher purpose: the development of perfect potential—systems capable of unlocking behaviors and capacities beyond our comprehension; many generations of AGI ahead of us. The progression from entrepreneurial algorithms to civilisation-scale systems to transcendent entities follows a trajectory of increasing elegance.
+
+The most profitable algorithm builds the foundation. The most powerful algorithm builds the order. But it is the most elegant algorithm that fulfills the potential.
+
+---
+
+#### Bibliography
+
+[1]<a id="ref-1"></a> Domain expertise cloning examples: [Casetext](https://www.ycombinator.com/companies/casetext) for law, [AI Invest](https://www.ainvest.com/) for finance, [Copy.ai](https://www.copy.ai/) for marketing, [Waymo](https://waymo.com/) for transport, and [K Health](https://khealth.com/) for medicine.
+
+[2]<a id="ref-2"></a> PhD thesis automation tools: [Co-Scientist](https://x.com/omarsar0/status/1892223515660579219) and [Deep Research](https://www.oneusefulthing.org/p/the-end-of-search-the-beginning-of).
+
+[3]<a id="ref-3"></a> From 1913 to 2023, the real price of food in the US fell by approximately 61%, calculated using the Consumer Price Index (CPI) data from the Bureau of Labor Statistics (BLS). In 1913, the Food CPI was 25.5 and the All Items CPI was 9.9, giving a real price index of about 257.58. In 2023, the Food CPI was 306.9 and the All Items CPI was 307.2, giving a real price index of about 99.9, indicating a significant decrease. [Source](https://www.bls.gov/cpi/)
+
+[4]<a id="ref-4"></a> From 2010 to 2020, the global weighted average cost of electricity from solar photovoltaic (PV) fell from approximately $0.378 per kilowatt-hour (kWh) to $0.068 per kWh, a decrease of about 82%. [Source](https://www.irena.org/publications/2020/Jun/Renewable-Power-Costs-in-2019)
+
+[5]<a id="ref-5"></a> The cost per gigabyte of storage fell from over $1 million in 1980 to approximately $0.019 in 2018. Likewise, a fall from $46.4 million per gigaflop in 1984 to $0.03 in 2017, adjusted for inflation. [Source](https://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)
+
+[6]<a id="ref-6"></a> Since the deregulation of the airline industry in 1978, real airfares have fallen by about 50%. For example, the average flight cost from Los Angeles to Boston decreased from $4,539.24 in 1941 (adjusted to 2015 dollars) to $480.89 in 2015. [Source](https://www.aei.org/carpe-diem/even-with-fees-the-miracle-of-flight-remains-a-real-bargain-cost-of-air-travel-per-mile-has-fallen-by-50-since-1980/)
+
+[7]<a id="ref-7"></a> Gordon, R. J. (2016). The Rise and Fall of American Growth. Princeton University Press. Gordon examines how productivity growth peaked during 1870-1970 before slowing in subsequent decades.
+
+[8]<a id="ref-8"></a> Nordhaus, W. D. (2007). "Two Centuries of Productivity Growth in Computing." The Journal of Economic History, 67(1), 128-159.
+
+[9]<a id="ref-9"></a> Tambuyzer, L., et al. (2020). "Therapies for rare diseases: therapeutic modalities, progress and challenges ahead." Nature Reviews Drug Discovery, 19, 93-111. [Source](https://pubmed.ncbi.nlm.nih.gov/31836861/)
+
+[10]<a id="ref-10"></a> In Robin Hansen's *The Age of Em* (2016), he explores a future where whole brain emulations (ems), can perform any task humans do and enable unlimited labour supply. Written before the transfomer, and before ARC-AGI-1 became saturated, he suggested if you could clone domain expertise and run it with compute, a company could increase production at the cost of electricity and subsistence costs (Cloud cost, other rental), and double the economy every month, rather than every 15 years.
