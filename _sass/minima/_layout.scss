@@ -302,7 +302,7 @@ b {
     @include relative-font-size(1.375);
 
     margin-bottom: 5px !important;
-    margin-left: 10px;
+    margin-left: 0px;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.625);
@@ -312,7 +312,7 @@ b {
   h4 {
     @include relative-font-size(1.25);
     margin-bottom: 5px !important;
-    margin-left: 10px;
+    margin-left: 0px;
 
   }
 
