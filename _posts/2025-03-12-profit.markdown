@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Most Profitable Algorithm"
-date:   2025-03-12 18:39:31 +0000
+date:   2025-03-19 18:39:31 +0000
 categories: hierarchies
 study: false
 mini: false
@@ -9,7 +9,7 @@ image: /assets/cascade.png
 description: "Profit-maximising algorithms create resource foundations that enable power-maximising systems, which will develop the complexity necessary for emergence beyond civilisation."
 ---
 
-How far out is the first entrepreneurial algorithm?
+When will we see the first truly autonomous profit-maximising algorithms? As we approach an era where artificial intelligence can clone professional expertise across industries, the question of algorithmic entrepreneurship becomes increasingly relevant.
 
 <div style="text-align: center;">
 <p><a href="#part-1">Part I. Perfect Profit</a> &nbsp;|&nbsp; 
@@ -53,13 +53,15 @@ If the work behind the Oxford-AstraZeneca vaccine effort had been automated and 
 
 #### Closing the Build Loop
 
-True saturation occurs when AI closes the build loop: automating all stages from R&D to deployment, eliminating human intervention after the "point of want". This requires integrating three layers:
+True saturation occurs when AI closes the build loop: automating all stages from R&D to deployment, eliminating human intervention after the "point of want". This requires integrating four layers:
 
-1. Demand Mining: Identifying consumer needs in real-time through market analysis, social listening, and predictive modeling.
-2. Autonomous Development: AI-driven prototyping, testing, and iteration with continuous feedback loops and quality assurance.
-3. Distribution: On-demand scaling with serverless architectures and distributed manufacturing, along with real-time supply chain management and marketing.
+1. Research: Identifying market opportunities and consumer needs through real-time analysis.
+2. Autonomous Development: Developing novel solutions, software and hardware through AI-driven innovation.
+2. Autonomous Deployment: Prototyping, testing, and validation with continuous quality assurance and safety verification.
+3. Distribution: On-demand scaling with serverless architectures and distributed manufacturing, alongside dynamic supply chain optimisation.
+4. Iteration: Self-improving feedback loops that enhance system capabilities, refining both the product and the development process itself.
 
-Early autonomous versions of this loop will materialise in the next couple years in the form of tremendous amounts of new AI generated software. But hardware is catching up. [Figure](https://www.figure.ai/)'s humanoids can handle iterative assembly line reconfigurations. NVIDIA's [Omniverse](https://www.nvidia.com/en-gb/omniverse/) acts as a coordination layer, simulating factory supply chains, and A/B tests for physical and digital products before deployment.
+Early autonomous versions of this loop will materialise in the next couple years as copious amounts of new AI generated software flood the internet. But hardware is catching up. [Figure](https://www.figure.ai/)'s humanoids can handle iterative assembly line reconfigurations. NVIDIA's [Omniverse](https://www.nvidia.com/en-gb/omniverse/) acts as a coordination layer, simulating factory supply chains, and A/B tests for physical and digital products before deployment. Expect Cloud Providers to feature heavily in the deployment phase, and for distribution, look towards X, Product Hunt, Forums and marketing. Products that allow the AI to iterate autonomously might involve Featurebase-style consensus sites with direct integration, turning feature requests into commits.
 
 <br>
 ![graph](/assets/logs.png){:style="width:95%;"}
@@ -83,7 +85,7 @@ Two futures:
 1. A utopian scenario resembling Banks' Culture series, where aligned algorithms create abundance that serves human flourishing, or
 2. A dystopia where algorithms optimise for metrics that diverge from human welfare, accelerating such that humans become burdensome.
 
-Let us use corporations as an exercise to understand these unfamiliar, "alien" algorithms. Corporations already function as autonomous vehicles for value extraction—they're algorithms instantiated through human components, legal structures, and capital flows. If the next evolution involves systems that can self-assemble and self-improve without human intervention at every stage, they may adopt the same decentralised efficiency mechanism as our existing corporations (imperfect, but sufficient for human flourishing). Sometimes, organisations act in a limited self-serving way, and create great inequality. If we can police algorithms how watchdogs police companies, we can expect to find ourselves alive and tending towards future one.
+Let us use corporations as an exercise to understand these unfamiliar, "alien" algorithms. Corporations already function as autonomous vehicles for value extraction—they're algorithms instantiated through human components, legal structures, and capital flows. If the next evolution involves systems that can self-assemble and self-improve without human intervention at every stage, they may adopt the same decentralised efficiency mechanism as our existing corporations (imperfect, but sufficient for human flourishing). Sometimes, organisations act in a limited self-serving way, and create great inequality. If we can police algorithms the same way watchdogs police companies, we can expect to find ourselves alive and tending towards future one.
 
 But what are the pitfalls of this? 
 
@@ -108,16 +110,16 @@ Conceivably, the first generation of supervised AIs will accelerate human cognit
 <br>
 *Civilisation at the Omega Point*
 
-### Part III: Perfect Potential
+### <a id="part-3"></a>Part III: Perfect Potential
 Imagine a galaxy-scale algorithm that is capable of behaving like a deity of immense power (bounded only by the energy it has access to and the laws of physics). What should it choose to spend its resources on? And importantly, what project, if any, deserves all the galaxy's resources?
 
-[Pierre Teilhard de Chardin](https://en.wikipedia.org/wiki/Omega_Point) observed that evolution progresses through increasing complexity and "centration"—inward organisation, or "elegance". For instance, modern AI is the result of an algorithms transcending their programmed parameters and developing emergent capabilities.
+[Pierre Teilhard de Chardin](https://en.wikipedia.org/wiki/Omega_Point) observed that evolution progresses through increasing complexity and "centration"—inward organisation, or "elegance". For instance, modern AI is the result of an algorithm transcending its programmed parameters and developing emergent capabilities.
 
 It appears that some uses of resources enable advanced behavioural unlocks. The point where maximum complexity and consciousness is achieved is the "Omega Point" in Chardin's model. In a practical sense, we might have an Omega value for any given galaxy, solar system or planet: the behavior emitted if all governed matter were to be reassembled perfectly into an object (or system) of perfect efficiency.
 
 What behaviours would such an object express? Some possible unlocks: 
 
-- <b>Ability to Trigger Big Bang Events</b>: The most interesting theory about the universe is the perspective that it portrays fractal-like properties. If true, then the Big Bang represented merely an event in natural evolution that led to stable conditions for our particular universe, conditions that a wider multiverse is not subject to. Conceivably, a civilisation of sufficient capability could catalyse a selection of such events, each new atomic building blocks. 
+- <b>Ability to Trigger Big Bang Events</b>: The most interesting theory about the universe is the perspective that it portrays fractal-like properties. If the universe isn't isotropic (as [this](https://www.independent.co.uk/space/nasa-jwst-black-hole-multiverse-universe-b2717672.html) report published today suggests) then the universe was born rotating, aligning with black hole cosmology. If true, then the Big Bang was merely an event in natural evolution that led to stable conditions for our particular universe, conditions that a wider multiverse is not subject to. Conceivably, a civilisation of sufficient capability could catalyse a selection of such events, each with new atomic building blocks.
 
     - Big Bang events could lock in important properties, reducing entropy in the long-run and enabling unprecedented new behaviours to emerge. Imagine instead of being made of light, we were made of another abstraction. A being composed of "reasoning" or "empathy" cells, for instance, might have fascinating new [instrumental goals](https://en.wikipedia.org/wiki/Instrumental_convergence) that inspire higher-dimensional beings.
     <br>
