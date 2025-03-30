@@ -15,11 +15,13 @@ As we meet our stride in the 21st century, this tension that Wilson identified b
 
 The payoff of artificial intelligence would be to make breakthrough scientific research commonplace. Almost every major technological convenience we enjoy today - from jet engines to antibiotics - emerged from the golden age of discovery between 1870 and 1970. The average human was born in 1993 in a time where technological progress was largely unintelligible and happening in the world of bits.
 
-> (1) Aligned ASI
+> (1) Co-opted ASI
 
 Irving Good: *"Machine intelligence is the last invention that humanity will ever need to make. Machines will then be better at inventing than we are."*
 
-Research will be supercharged if intelligent agents share the computational burden. The PhD will likely evolve into an enterprising tenure where researchers leverage AI for deeper reasoning and faster breakthrough discovery, increasing output or focusing on a greater breadth of exploration. Pitfalls will include research slop; low increment, GPT-4-style papers pumped out by anonymous individuals, but expect the community will react accordingly. [[1]](#ref-1) 
+The key challenge will be establishing a symbiotic relationship with superintelligent systems rather than being replaced by them. This means developing frameworks for human-AI cooperation where we maintain meaningful agency while leveraging AI's capabilities. Research will be supercharged as intelligent agents share the computational burden, but the goal extends beyond just faster discovery - it's about creating a sustainable partnership where human creativity and values guide AI's immense capabilities.
+
+The PhD will likely evolve into an enterprising tenure where researchers leverage AI for deeper reasoning and faster breakthrough discovery, enabling both increased output and broader exploration. While pitfalls like research slop (low-increment, GPT-style papers from anonymous sources) will emerge, expect communities to develop new quality standards and verification methods that preserve human insight while maximising AI assistance. [[1]](#ref-1)
 
 > (2) Longevity Escape Velocity (LEV)
 
@@ -41,9 +43,9 @@ Reaching [Kardeshev Type I](https://adsabs.harvard.edu/full/1964SvA.....8..217K)
 
 Settling Mars and becoming multiplanetary is the first step in the Star Trek-style dream, though we shouldn't hold out for the USS Calister. Venus could become a testbed for extreme bioengineering or volcanic computing. Europa and Io could be used for cooling compute without concern for the biosphere. We could divvy up the moons into those we intend on salvaging (suitable for biological life and sanctuary) and those we turn into capital. This would seem less bleak than a compute-oriented solar system in the eyes of a human, at least. 
 
-### Late Century Stretch Goals
+### 22nd Century Stretch Goals
 
-These are the long-tail goals for civilisation and the syntellect. 
+Longer-tail goals for civilisation and the syntellect. 
 
 - <b>(X) Cooperate with alien civs or seed new civs with different starting conditions using von Neumann probes; accelerate dawn of new, carbon diverse civilisations</b>
 
@@ -51,7 +53,7 @@ These are the long-tail goals for civilisation and the syntellect.
 
 - <b>(Z) Multi-metacomputation - align multiverse against chaos and become Brahman of the Ruliad (Type 4 Syntellect); causal engineering with society of supreme beings</b>
 
-Wilson's observation of our "paleolithic emotions, medieval institutions, and god-like technology" always seemed like a harsh warning; a doom prophecy for humanity. But it represents an opportunity. As we pursue these objectives, we must ensure our institutional and emotional evolution keeps pace with our technological capabilities, in whatever fashion it can. The goal isn't to abandon our humanity, but to enhance it while preserving what I believe makes us uniquely human: our capacity for wonder, empathy, and continuous growth.
+Wilson's observation of our "paleolithic emotions, medieval institutions, and god-like technology" always seemed like a harsh warning; a doom prophecy for humanity. But it represents an opportunity to ensure our institutional and emotional evolution keeps pace with our technological capabilities, in whatever fashion it can. The goal isn't to abandon our humanity, but to enhance it and preserve what makes us great: our capacity for wonder, empathy, and the continuous pursuit of scientific truth.
 
 ---
 
