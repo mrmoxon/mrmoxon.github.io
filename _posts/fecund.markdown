@@ -125,6 +125,9 @@ Hawking Radiation
 The irony is that black holes both contribute to entropy (by their own enormous entropy content) and fight against it (by sequestering entropy that would otherwise be distributed). They may represent the universe's most effective entropy management system.
 
 
+M theory and the idea that number of dimensions increases with every event horizon you pass through. Embedded. 
+
+
 Black Holes as Ultimate Computational Boundaries
 - Black holes represent the most extreme computational boundaries in our universe for several reasons:
 
