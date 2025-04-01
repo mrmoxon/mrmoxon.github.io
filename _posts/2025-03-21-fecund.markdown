@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title:  "The Fecund"
 date:   2025-03-21 18:39:31 +0000
@@ -7,7 +7,7 @@ study: false
 mini: false
 image: /assets/fecund.png
 description: "The purest technology."
----
+--- -->
 
 Black Hole Maximisers (Civilisations)
 
