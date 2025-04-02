@@ -22,7 +22,7 @@ layout: page
   </div>
 
   <br>  
-  <p class="intro">London based postgrad, researching emergence, free energy, and multi-agent systems. Building intelligent automation at realmachines.</p>
+  <p class="intro">London based postgrad, researching emergence, free energy, and multi-agent systems. Building intelligent automation at <a href="https://realmachines.ai/" class="custom-link">realmachines.ai</a>.</p>
 
   <br>
   <p>Some things I believe:</p>
@@ -33,7 +33,7 @@ layout: page
       <ul>
         <li>our universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a></li>
         
-        <li>civilisation behaves like a superorganism; minimising <a href="https://www.nature.com/articles/nrn2787" class="custom-link">free energy</a>with markets providing all metabolic function</li>
+        <li>civilisation minimises <a href="https://www.nature.com/articles/nrn2787" class="custom-link">free energy</a>with markets providing all metabolic function</li>
         
         <li><a href="https://retrochronic.com/" class="custom-link">markets</a>are artificial intelligence; they self-regulate and rarely call for intervention</li>
         
