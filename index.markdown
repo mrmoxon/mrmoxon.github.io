@@ -57,7 +57,7 @@ layout: page
 
         <li>most scientific fields have seen diminishing returns for sixty years, with exceptions in computing and <a href="https://www.oscarmoxon.com/leverage/2021/12/13/timeline-of-ai-1.html" class="custom-link">machine learning</a>which will produce a knowledge explosion</li>
 
-        <li>agentic transformers will let us outsource the running our research lab or make requests like <em>"please build me a dyson sphere"</em> with <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">Culture-Mind</a>alignment</li>
+        <li>with <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">Culture-Minds</a>, agents will let us delegate research or make requests like <em>"build me a dyson sphere"</em></li>
 
         <li>LLMs tread closer to the realm of natural abstraction—next stop: telepathy</li>
       </ul>
@@ -66,9 +66,9 @@ layout: page
     <li>Thoughts on working in teams
         <ul>
             <li>teams are like vector fields: each member contributes direction and magnitude, vector sum = project velocity</li>
-            <li>small, focused groups optimise per capita innovation and have agility perk</li>
-            <li>breakthroughs come from better questions—contrarians lead the way</li>
-            <li>narrative momentum creates reality: leverage <a href="https://retrochronic.com/#hyperstition" class="custom-link">hyperstition</a>when making fiction commonplace</li>
+            <li>small, focused groups have agility perk, steer faster</li>
+            <li>breakthroughs come from better questions</li>
+            <li><a href="https://retrochronic.com/#hyperstition" class="custom-link">narrative momentum</a> is essential when making fiction commonplace</li>
             <li>all people have a common thread that connects the major decisions they make</li>
         </ul>
     </li>
