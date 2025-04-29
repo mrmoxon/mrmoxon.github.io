@@ -3,7 +3,7 @@ layout: base
 ---
 <style>
   .category-heading {
-    text-align: center;
+    text-align: left;
     width: 100%;
     margin: 2rem 0 1rem 0;
     font-size: 1.8rem;
@@ -12,12 +12,7 @@ layout: base
   
   .category-heading::before,
   .category-heading::after {
-    content: "";
-    display: inline-block;
-    width: 2rem;
-    margin: 0 1rem;
-    border-top: 2px solid #000;
-    vertical-align: middle;
+    display: none;
   }
 
   .post-list {
@@ -95,7 +90,7 @@ layout: base
   }
 </style>
 
-<div class="home">
+<div class="home categories-section">
   <!-- <div class="search-container">
     <input type="text" id="searchBox" placeholder="Search posts..." oninput="searchPosts()">
     <button onclick="searchPosts()">Search</button>

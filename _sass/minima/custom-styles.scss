@@ -469,7 +469,7 @@
   opacity: 0.8;
 }
 
-/* List View Styles */
+/* Base post styles - enforced left alignment */
 .post-list {
   list-style: none;
   padding: 0;
@@ -482,15 +482,76 @@
 
 .post-title-meta {
   display: flex;
+  flex-direction: row;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
 }
 
 .post-title {
   margin: 0;
   font-size: 2rem;
-  text-align: center;  
+  text-align: left;
+  flex: 1;
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $brand-color;
+  text-align: left;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+/* Remove essays-specific centering */
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  /* Hide categories section on mobile */
+  .categories-section {
+    display: none;
+  }
+
+  /* Hide categories link in mobile menu */
+  .site-nav .page-link[href*="/categories/"] {
+    display: none;
+  }
+
+  .post-title-meta {
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .post-title {
+    text-align: center;
+    margin: 0;
+    font-size: 1.75rem;
+  }
+
+  .post-meta {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+
+  .category-title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .post-list h2 {
+    text-align: center;
+  }
 }
 
 .post-link {
@@ -570,8 +631,10 @@
 }
 
 .post-meta {
-  align-items: center;
-  margin-left: -0px;
+  font-size: $small-font-size;
+  color: $brand-color;
+  text-align: left;
+  margin-left: 20px;
 }
 
 /* Responsive Layout */
@@ -782,24 +845,42 @@ b.bold-highlight {
     margin-bottom: 1rem;
   }
 
-  /* Make titles and dates stack on mobile and center them */
+  /* Center titles and dates on mobile */
   .post-title-meta {
-    flex-direction: column;
+    flex-direction: column !important;
     gap: 0.25rem;
-    align-items: center;
-    text-align: center;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .post-title {
+    text-align: center !important;
+    margin: 0;
+    font-size: 1.75rem;
   }
 
   .post-meta {
+    text-align: center !important;
     font-size: 0.8rem;
-    margin-left: 0;  
-    padding-left: 0; 
-    text-align: center;
-    width: 100%;     
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.25rem;
+  }
+
+  .category-title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .post-list h2 {
+    text-align: center;
   }
 
   /* Ensure email signup form is fully visible */
@@ -816,29 +897,10 @@ b.bold-highlight {
 
   .recent-essays-container .recent-essay-content .recent-essay-title {
     margin: 0;
-    font-size: 1.1rem !important; /* Force override */
+    font-size: 1.1rem !important;
     font-weight: normal !important;
     color: #333;
     line-height: 1.4;
-    text-align: center;
-  }
-
-  .post-title {
-    margin: 0;
-    font-size: 2rem;
-    text-align: center;  
-  }  
-
-  // Center category titles
-  .category-title {
-    text-align: center;
-    width: 100%;
-    display: block;
-    margin: 1.5rem 0;
-    font-size: 1.5rem;
-  }
-
-  .post-list h2 {
     text-align: center;
   }
 }
