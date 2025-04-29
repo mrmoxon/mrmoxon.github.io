@@ -828,6 +828,19 @@ b.bold-highlight {
     font-size: 2rem;
     text-align: center;  
   }  
+
+  // Center category titles
+  .category-title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .post-list h2 {
+    text-align: center;
+  }
 }
 
 /* Additional adjustments for very small screens */
@@ -991,5 +1004,82 @@ input:checked + .slider:before {
   .recent-essay-date {
     position: relative;
     z-index: 1;
+  }
+}
+
+[data-theme="dark"] {
+  .recent-essays-container .recent-essay-content .recent-essay-title {
+    color: #ffffff;
+  }
+
+  .custom-bullets > li::before {
+    color: #ffffff;
+  }
+
+  .custom-bullets > li > ul > li::before {
+    color: #ffffff;
+  }
+
+  // Ensure all links use the correct color
+  a {
+    color: #c89b7b;
+    
+    &:hover {
+      color: lighten(#c89b7b, 10%);
+    }
+  }
+
+  .post-link {
+    color: #c89b7b;
+    
+    &:hover {
+      color: lighten(#c89b7b, 10%);
+    }
+  }
+
+  .site-title {
+    &:hover {
+      color: #c89b7b;
+    }
+  }
+
+  // Dark mode essay grid styles
+  .essay-card {
+    background: #2d2d2d;
+    border-color: #404040;
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .essay-content {
+    background-color: #2d2d2d;
+    
+    h3 {
+      color: #ffffff;
+    }
+
+    .post-meta {
+      color: #a0a0a0;
+    }
+  }
+
+  // Make captions match link color
+  figcaption {
+    color: #c89b7b;
+  }
+  
+  .post-meta {
+    color: #c89b7b;
+  }
+
+  // Style for italicized image captions
+  img + br + em,
+  img + em {
+    color: #c89b7b;
+    display: block;
+    text-align: center;
+    margin-top: 0.5em;
   }
 }

@@ -3,7 +3,6 @@ layout: page
 ---
 
 <div class="central-column">
-  <!-- <br> -->
 
   {%- assign posts = site.posts -%}
   <div class="home">
@@ -22,7 +21,7 @@ layout: page
   </div>
 
   <br>  
-  <p class="intro">London based postgrad, researching emergence, free energy, and multi-agent systems. Building intelligent automation at <a href="https://realmachines.ai/" class="custom-link">realmachines.ai</a>.</p>
+  <p class="intro">London based postgrad, researching emergence, free energy, and multi-agent systems. Building intelligent automation at <a href="https://realmachines.ai/" class="custom-link">realmachines.ai</a></p>
 
   <br>
   <p>Some things I believe:</p>
