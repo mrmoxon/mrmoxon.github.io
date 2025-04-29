@@ -862,9 +862,10 @@ b.bold-highlight {
 .theme-toggle {
   position: relative;
   display: inline-block;
-  width: 44px;
+  width: 52px;
   height: 24px;
   margin: 0;
+  top: 19.5px;
 }
 
 .theme-toggle input {
@@ -904,7 +905,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-  transform: translateX(18px);
+  transform: translateX(26px);
   border-color: var(--text-color);
 }
 
@@ -917,7 +918,13 @@ input:checked + .slider:before {
     align-items: center;
   }
   
+  .theme-toggle {
+    top: 0; /* Reset position for mobile */
+  }
+  
   .site-nav {
+    right: 10px; /* Reduce right spacing */
+    
     .trigger {
       .theme-toggle-wrapper {
         display: flex;
@@ -925,7 +932,7 @@ input:checked + .slider:before {
         align-items: center;
         width: 100%;
         padding: 5px 10px;
-        height: 36px; // Match the height of other menu items
+        height: 36px;
       }
     }
   }
