@@ -263,6 +263,14 @@ $table-border-color: $lm-table-border-color;
     --minima-table-header-bg-color: #{$lm-table-header-bg-color};
     --minima-table-header-border: #{$lm-table-header-border};
     --minima-table-border-color: #{$lm-table-border-color};
+
+    // New UI component variables
+    --header-background: #{$lm-background-color};
+    --dropdown-background: #{$lm-code-background-color};
+    --card-background: #{lighten($lm-background-color, 5%)};
+    --card-hover-shadow: #{rgba(0, 0, 0, 0.1)};
+    --toggle-background: #{$lm-code-background-color};
+    --toggle-icon-color: #{$lm-text-color};
   }
 
   @include lm-highlight;
@@ -292,7 +300,47 @@ $table-border-color: $lm-table-border-color;
       --minima-table-header-bg-color: #{$dm-table-header-bg-color};
       --minima-table-header-border: #{$dm-table-header-border};
       --minima-table-border-color: #{$dm-table-border-color};
+
+      // New UI component variables
+      --header-background: #{$dm-background-color};
+      --dropdown-background: #{$dm-code-background-color};
+      --card-background: #{darken($dm-background-color, 5%)};
+      --card-hover-shadow: #{rgba(255, 255, 255, 0.1)};
+      --toggle-background: #{$dm-code-background-color};
+      --toggle-icon-color: #{$dm-text-color};
     }
+
+    @include dm-highlight;
+  }
+
+  // Manual dark mode override
+  [data-theme="dark"] {
+    --minima-brand-color: #{$dm-brand-color};
+    --minima-brand-color-light: #{$dm-brand-color-light};
+    --minima-brand-color-dark: #{$dm-brand-color-dark};
+    --minima-site-title-color: #{$dm-site-title-color};
+    --minima-text-color: #{$dm-text-color};
+    --minima-background-color: #{$dm-background-color};
+    --minima-code-background-color: #{$dm-code-background-color};
+    --minima-link-base-color: #{$dm-link-base-color};
+    --minima-link-visited-color: #{$dm-link-visited-color};
+    --minima-link-hover-color: #{$dm-link-hover-color};
+    --minima-border-color-01: #{$dm-border-color-01};
+    --minima-border-color-02: #{$dm-border-color-02};
+    --minima-border-color-03: #{$dm-border-color-03};
+    --minima-table-text-color: #{$dm-table-text-color};
+    --minima-table-zebra-color: #{$dm-table-zebra-color};
+    --minima-table-header-bg-color: #{$dm-table-header-bg-color};
+    --minima-table-header-border: #{$dm-table-header-border};
+    --minima-table-border-color: #{$dm-table-border-color};
+
+    // New UI component variables
+    --header-background: #{$dm-background-color};
+    --dropdown-background: #{$dm-code-background-color};
+    --card-background: #{darken($dm-background-color, 5%)};
+    --card-hover-shadow: #{rgba(255, 255, 255, 0.1)};
+    --toggle-background: #{$dm-code-background-color};
+    --toggle-icon-color: #{$dm-text-color};
 
     @include dm-highlight;
   }
@@ -358,4 +406,90 @@ $table-border-color: $lm-table-border-color;
   // Classic skin syntax highlighting
   @include lm-highlight;
 
+}
+
+/* Theme toggle styling */
+.theme-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  height: 24px;
+  position: relative;
+  width: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-track {
+  background-color: var(--toggle-background);
+  border: 1px solid var(--minima-border-color-02);
+  border-radius: 14px;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  width: 44px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.toggle-indicator {
+  height: 22px;
+  width: 22px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateX(1px);
+  transition: transform 0.2s ease;
+}
+
+[data-theme="dark"] .toggle-indicator {
+  transform: translateX(21px);
+}
+
+.toggle-icon {
+  background-color: var(--toggle-icon-color);
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  margin: 3px;
+  transition: background-color 0.2s ease;
+}
+
+/* Component styles */
+body {
+  background-color: var(--minima-background-color);
+  color: var(--minima-text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.site-header {
+  background-color: var(--header-background);
+  border-top: 5px solid var(--minima-border-color-03);
+  border-bottom: 1px solid var(--minima-border-color-01);
+}
+
+.essay-card {
+  background: var(--card-background);
+  border: 1px solid var(--minima-border-color-01);
+  &:hover {
+    box-shadow: 0 4px 12px var(--card-hover-shadow);
+  }
+}
+
+.dropdown {
+  background-color: var(--dropdown-background);
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .theme-toggle-wrapper {
+    margin-left: 10px;
+  }
 }

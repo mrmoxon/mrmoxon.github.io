@@ -1,1 +1,134 @@
 // Placeholder to allow overriding predefined variables smoothly.
+
+// Light mode colors
+$light-background: #efd3c3;
+$light-text: #1d1300;
+$light-link: #703a18;
+$light-border: #cbaa96;
+$light-code-background: #cbaa96;
+$light-blockquote: #84480c;
+$light-brand: #703a18;
+$light-recent-essays-bg: #d4b393;
+$light-recent-essays-border: #c5a381;
+$light-site-title: #703a18;
+
+// Dark mode colors
+$dark-background: #1a1a1a;
+$dark-text: #e0e0e0;
+$dark-link: #79b8ff;
+$dark-border: #404040;
+$dark-code-background: #2d2d2d;
+$dark-blockquote: #a0a0a0;
+$dark-brand: #999999;
+$dark-recent-essays-bg: #2d2d2d;
+$dark-recent-essays-border: #404040;
+$dark-site-title: #e0e0e0;
+
+:root {
+  // Light mode defaults
+  --background-color: #{$light-background};
+  --text-color: #{$light-text};
+  --link-color: #{$light-link};
+  --border-color: #{$light-border};
+  --code-background: #{$light-code-background};
+  --blockquote-color: #{$light-blockquote};
+  --brand-color: #{$light-brand};
+  --recent-essays-bg: #{$light-recent-essays-bg};
+  --recent-essays-border: #{$light-recent-essays-border};
+  --site-title-color: #{$light-site-title};
+}
+
+[data-theme="dark"] {
+  --background-color: #{$dark-background};
+  --text-color: #{$dark-text};
+  --link-color: #{$dark-link};
+  --border-color: #{$dark-border};
+  --code-background: #{$dark-code-background};
+  --blockquote-color: #{$dark-blockquote};
+  --brand-color: #{$dark-brand};
+  --recent-essays-bg: #{$dark-recent-essays-bg};
+  --recent-essays-border: #{$dark-recent-essays-border};
+  --site-title-color: #{$dark-site-title};
+}
+
+// Update existing variables to use CSS custom properties
+$background-color: var(--background-color);
+$text-color: var(--text-color);
+$link-base-color: var(--link-color);
+$border-color-01: var(--border-color);
+$code-background-color: var(--code-background);
+$brand-color: var(--brand-color);
+
+// Additional dark mode specific styles
+[data-theme="dark"] {
+  img {
+    opacity: 0.85;
+    transition: opacity 0.3s ease-in-out;
+    
+    &:hover {
+      opacity: 1;
+    }
+  }
+  
+  .site-header {
+    border-color: var(--border-color);
+    
+    .site-title {
+      color: var(--site-title-color);
+    }
+  }
+  
+  .site-footer {
+    border-color: var(--border-color);
+  }
+  
+  pre, code {
+    background-color: var(--code-background);
+  }
+  
+  blockquote {
+    color: var(--blockquote-color);
+    border-left-color: var(--border-color);
+  }
+  
+  table {
+    th, td {
+      border-color: var(--border-color);
+    }
+  }
+  
+  hr {
+    border-color: var(--border-color);
+  }
+
+  // Recent essays styles for dark mode
+  .recent-essays-label {
+    color: var(--text-color);
+  }
+
+  .recent-essays-container {
+    background-color: var(--recent-essays-bg);
+    border-color: var(--recent-essays-border);
+  }
+
+  .recent-essay-link {
+    color: var(--text-color);
+    
+    &:hover {
+      color: var(--link-color);
+    }
+  }
+
+  // Custom link colors
+  .custom-link {
+    color: var(--link-color);
+  }
+
+  .page-link {
+    color: var(--text-color);
+    
+    &:hover {
+      color: var(--link-color);
+    }
+  }
+}

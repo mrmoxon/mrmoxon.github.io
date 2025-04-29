@@ -37,3 +37,38 @@
 <meta name="twitter:image:width" content="1200" />
 <meta name="twitter:image:height" content="600" />
 {% endif %}
+
+<!-- Dark mode toggle -->
+<script>
+  // Check for saved dark mode preference, otherwise use system preference
+  const darkModePreference = localStorage.getItem('darkMode') || 
+    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  
+  // Apply the initial theme
+  document.documentElement.setAttribute('data-theme', darkModePreference);
+  
+  // Set initial checkbox state
+  window.addEventListener('DOMContentLoaded', (event) => {
+    const checkbox = document.getElementById('darkModeToggle');
+    if (checkbox) {
+      checkbox.checked = darkModePreference === 'dark';
+    }
+  });
+  
+  function toggleDarkMode() {
+    const checkbox = document.getElementById('darkModeToggle');
+    const newTheme = checkbox.checked ? 'dark' : 'light';
+    
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('darkMode', newTheme);
+  }
+</script>
+
+<style>
+  /* Remove old toggle button styles */
+  #darkModeToggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+</style>

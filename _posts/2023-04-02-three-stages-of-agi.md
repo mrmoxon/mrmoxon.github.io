@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pervasive Machines: Three Stages of Superintelligence"
+title: "Pervasive Machines: Three Stages of Superintelligence"
 date: 2023-04-02 05:39:31 +0000
 categories: civilisation
 study: false

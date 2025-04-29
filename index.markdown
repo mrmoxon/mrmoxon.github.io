@@ -18,7 +18,7 @@ layout: page
         </a>
       {%- endfor -%}
     </div>
-    <a href="/essays/" class="essays-ellipsis"></a>
+    <!-- <a href="/essays/" class="essays-ellipsis"></a> -->
   </div>
 
   <br>  
@@ -74,7 +74,7 @@ layout: page
     </li>
   </ul>
 
-  <p>Deep enjoyer of painting, The Fountainhead (Ayn Rand), Ex Machina, and Jungle (band)</p>
+  <p>Deep enjoyer of black holes, The Fountainhead, Ex Machina, and Jungle</p>
 
   <p class="newsletter-signup-text">Join my email list and get notified when I post</p>
   {% include convertkit.html %}
