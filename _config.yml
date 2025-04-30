@@ -71,3 +71,7 @@ defaults:
       sitemap: true
       layout: post
       author: Oscar Moxon
+
+kramdown:
+  auto_ids: true
+  header_offset: 0

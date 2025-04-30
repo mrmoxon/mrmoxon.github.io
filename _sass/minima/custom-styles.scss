@@ -394,17 +394,19 @@
 // Dropdown
 
 .dropdown {
-  background-color: #cbaa96; /* Light brown color */
+  background-color: #463730; /* Light brown color */
   // border: 1px solid #84480c;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
   overflow: hidden;
   font: $base-font-family;
 }
 
 .dropdown-toggle {
-  background-color: #cbaa96;
-  color: #84480c;
+  background-color: #382f2d;
+  color: #f7eddb;
+  font-size: 1rem;
   padding: 10px;
   width: 100%;
   text-align: left;
@@ -427,7 +429,7 @@
   max-height: 4.5em; /* Approximately 3 lines of text */
   overflow: hidden;
   padding: 10px;
-  margin-bottom: -10px;
+  margin-bottom: 0px;
 }
 
 .dropdown-preview::after {
@@ -435,15 +437,16 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  padding-bottom: 0px;
   width: 100%;
   height: 20px;
-  background: linear-gradient(rgba(248, 242, 237, 0), rgba(248, 242, 237, 1));
+  background: linear-gradient(rgba(117, 104, 94, 0), rgb(123, 78, 41));
 }
 
 .dropdown-content {
   display: none;
   padding: 10px;
-  border-top: 1px solid #cbaa96;
+  border-top: 1px solid #382f2d;
 }
 
 
@@ -625,7 +628,7 @@
 
 .essay-content h3 {
   margin: 0 0 0.35rem 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.4;
   color: #333;
 }
@@ -753,8 +756,19 @@
   background-color: rgb(0, 100, 0);
 }
 
+/* Selection color */
 ::selection {
-  background: rgba(0, 0, 255, 0.2);
+  background: rgba(141, 96, 50, 0.3); /* Brown color with transparency */
+  color: inherit;
+}
+
+[data-theme="dark"] {
+  ::selection {
+    background: rgba(200, 155, 123, 0.3); /* Lighter brown for dark mode */
+    color: inherit;
+  }
+  
+  // ... existing dark mode styles ...
 }
 
 // cite button
@@ -1150,3 +1164,208 @@ input:checked + .slider:before {
     margin-top: 0.5em;
   }
 }
+
+// Side Panel Styles
+.side-panel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: transparent;
+  padding: 20px 20px 20px 20px;
+  z-index: 99;
+  transition: all 0.3s ease;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 100px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.side-panel.collapsed {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+// Menu Toggle Button
+.menu-toggle {
+  position: fixed;
+  left: 20px;
+  top: 80px;
+  background: var(--background-color);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 100;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+  
+  span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: var(--text-color);
+    transition: all 0.3s ease;
+    margin: 0 auto;
+  }
+  
+  &.active {
+    span:nth-child(1) {
+      transform: translateY(6px) rotate(45deg);
+    }
+    
+    span:nth-child(2) {
+      opacity: 0;
+    }
+    
+    span:nth-child(3) {
+      transform: translateY(-6px) rotate(-45deg);
+    }
+  }
+}
+
+// Dark mode adjustments
+[data-theme="dark"] {
+  .menu-toggle {
+    background-color: var(--background-color);
+    
+    span {
+      background-color: var(--text-color);
+    }
+  }
+}
+
+// Media query for smaller screens
+@media screen and (max-width: 1400px) {
+  .side-panel,
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.side-panel-content {
+  position: relative;
+  background-color: var(--background-color);
+  border-radius: 0;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.side-panel-toggle {
+  position: absolute;
+  right: -30px;
+  top: 10px;
+  background: var(--background-color);
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.side-panel-toggle svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--text-color);
+}
+
+.side-panel-text h3 {
+  margin: 0 0 15px 0;
+  font-size: 1em;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.side-panel-menu {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.side-panel-menu-item {
+  display: block;
+  padding: 8px 0;
+  color: #8d6032;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 0.9em;
+  line-height: 1.4;
+  
+  &:hover {
+    color: #613b16;
+  }
+  
+  &.active {
+    color: #8d6032;
+    font-weight: 500;
+  }
+
+  // Add more space for deeper levels
+  &[style*="padding-left"] {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+}
+
+// Dark mode adjustments
+[data-theme="dark"] {
+  .side-panel-menu-item {
+    color: #c89b7b;
+    
+    &:hover,
+    &.active {
+      color: lighten(#c89b7b, 10%);
+    }
+  }
+}
+
+// Scrollbar styling for the side panel
+.side-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.side-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.side-panel::-webkit-scrollbar-thumb {
+  background-color: var(--border-color);
+  border-radius: 3px;
+}
+
+// Custom heading sizes with !important to ensure they take precedence
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $bold-font-weight !important;
+  line-height: 1.2 !important;
+}
+
+h1 {
+  font-size: 1.8rem !important;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+h3 {
+  font-size: 1.2rem !important;
+}
+
+// Add some vertical spacing for better readability
+h1, h2, h3 {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit * 0.5;
+}
+

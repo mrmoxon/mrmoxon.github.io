@@ -61,8 +61,8 @@ Just as the hard problem of consciousness asks why physical processes give rise 
     <p>To expand this thought more before we go any further, I want to provide context to this reasoning. This section argues that consciousness, and by extension, moral truths are latent in ... </p>
   </div>
   <div class="dropdown-content">
-<p>To expand this thought more before we go any further, I want to provide context to this reasoning. This section argues that consciousness, and by extension, moral truths are latent in the universe and emerge from the complex interactions of simpler systems.</p>
-<p>I. THE NATURE OF EMERGENCE</p>
+<p>To expand this thought further, I want to provide context to this reasoning. This section attempts to argue that consciousness, and by extension, moral truths, are latent in the universe and emerge from the complex interactions of simpler systems.</p>
+<p>I. The Nature of Emergence</p>
 <p>"Emergence" describes the mechanisms by which simple components in nature achieve more complexity, and in the process become greater than the sum of all those original parts; when higher-level theories emerge from lower ones.</p>
 <p>In the words of Daniel Dennett, these 'real patterns' have an ontology of their own, existing as objectively real features of our universe, to be understood at their own level of abstraction. In Real Patterns, Dennett writes:</p>
 <blockquote>
@@ -74,7 +74,7 @@ Just as the hard problem of consciousness asks why physical processes give rise 
 </blockquote>
 <p>The assumption that different incentives exist and thus morality cannot be universal is an irresistible simplification equal to assuming that no two brains are alike and thus consciousness cannot exist. It fails to bridge the gap between reductionist and wholistic views of the universe. While everything can theoretically be reduced to fundamental particles, the particle interactions themselves cannot be used to explain everything they induce without compression (and accumulation of compression errors). Moreover, the interactions that emerge at higher levels of organisation are no less significant.</p>
 <p>So lets understand real patterns more. A key property of real patterns is universality. For consciousness, this relates to the concept of substrate independence. To hold, you must be able to arrive at the same conclusion from a diversity of underlying structures. As such, human consciousness need not be the sole arbiter of these phenomena; there may be other paths to emergence. If consciousness pervades the universe and is a fundamental feature of it, morality is no different.</p>
-<p>II. THE CONSCIOUS UNIVERSE AND EMERGENT MORALITY</p>
+<p>II. The Conscious Universe</p>
 <p>The emergence of consciousness represents a profound shift in the universe's capacity for self-reflection. Through conscious entities, the cosmos gains the ability to observe and contemplate its own existence. This self-awareness is a latent feature of reality itself, now actualised in our form. To extend the Carl Sagan phrase, we are "star stuff" that has become aware of itself.</p>
 <p>This perspective isn't a retreat to mysticism or a rejection of scientific inquiry. Rather, it acknowledges the limitations of pure reductionism, as articulated in Eliezer Yudkowsky's essay "The Futility of Emergence." While Yudkowsky rightly cautions against using "emergence" as an explanation-stopper, when properly understood, emergence is a powerful tool for comprehending complex phenomena like consciousness and morality.</p>
 

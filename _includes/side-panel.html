@@ -1,0 +1,88 @@
+{% if page.layout == 'post' %}
+<button class="menu-toggle active" aria-label="Toggle contents menu" style="display: none;">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<div class="side-panel">
+  <div class="side-panel-content">
+    <div class="side-panel-text">
+      <h3>Contents</h3>
+    </div>
+    
+    <div class="side-panel-menu" id="contents-menu">
+      <!-- Contents will be populated by JavaScript -->
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const panel = document.querySelector('.side-panel');
+  const toggle = document.querySelector('.menu-toggle');
+  const contentsMenu = document.getElementById('contents-menu');
+  
+  // Generate contents menu from headings
+  const headings = document.querySelectorAll('h1[id], h2[id], h3[id]');
+  
+  // Only show menu if headings exist
+  if (headings.length === 0) {
+    panel.style.display = 'none';
+    toggle.style.display = 'none';
+    return;
+  } else {
+    toggle.style.display = 'flex';
+  }
+
+  // Toggle panel
+  toggle.addEventListener('click', function() {
+    panel.classList.toggle('collapsed');
+    toggle.classList.toggle('active');
+  });
+
+  const menuItems = Array.from(headings).map(heading => {
+    const level = parseInt(heading.tagName[1]);
+    const indent = (level - 1) * 15;
+    const link = document.createElement('a');
+    link.href = `#${heading.id}`;
+    link.className = 'side-panel-menu-item';
+    
+    // Remove Roman numerals followed by a dot and trim whitespace
+    let text = heading.textContent;
+    text = text.replace(/^(?:I{1,3}|IV|V|VI{1,3}|IX|X)\.\s*/, '');
+    link.textContent = text.trim();
+    
+    link.style.paddingLeft = `${indent}px`;
+    return link;
+  });
+
+  // Add menu items to contents menu
+  menuItems.forEach(item => contentsMenu.appendChild(item));
+
+  // Highlight current section while scrolling
+  let currentSection = null;
+  
+  function highlightSection() {
+    const scrollPosition = window.scrollY;
+    
+    for (let i = headings.length - 1; i >= 0; i--) {
+      const heading = headings[i];
+      if (heading.offsetTop <= scrollPosition + 100) {
+        if (currentSection !== heading) {
+          if (currentSection) {
+            menuItems[Array.from(headings).indexOf(currentSection)].classList.remove('active');
+          }
+          menuItems[i].classList.add('active');
+          currentSection = heading;
+        }
+        break;
+      }
+    }
+  }
+
+  window.addEventListener('scroll', highlightSection);
+  highlightSection();
+});
+</script>
+{% endif %} 

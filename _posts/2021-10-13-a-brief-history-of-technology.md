@@ -16,27 +16,15 @@ Exploration of the common narrative about the history of invention, the accelera
 
 {% if page.show_notice %}
 <div style="background-color: #dbb18a; padding: 10px; text-align: center;">
-  <strong style="color: #42260b">Notice: The narrative of across-the-board acceleration, implied under Section II, is overly simplistic; progress has slowed in many areas, with digital technology being the main exception. Many scientific fields have experienced diminishing returns since WWII.</strong>
+  <strong style="color: #42260b">Notice: The narrative of across-the-board acceleration, implied under Section II, is overly reductionist; progress has slowed in many areas since the 1970s, with digital technology being the main exception.</strong>
 </div>
 {% endif %}
-
-#### Contents:
-
-I. [Hark! We Accelerate](#part-1-introduction)
-
-II. [Where No Man Has Gone Before](#part-2)
-
-III. [The Blind March of Industry](#part-3)
-
-IV. [Trends in Computational Power](#part-4)
-
-V. [How Close Are We to the Void?](#part-5)
 
 ---
 
 <a id="part-1-introduction"></a>
 
-#### I. Hark! We Accelerate
+## I. Hark! We Accelerate
 
 A child born today finds themselves a part of a 6,000 year old global civilization the product of millions of years of technological invention. While that child will adapt to survive in modern society, they may not stop to wonder how things got to where they are today and act without the knowledge of our ancestors. For humans, the past is one of accelerating returns to scale where the only thing guaranteed in life (other than death and taxes) is change.
 
@@ -63,7 +51,7 @@ To mitigate the risks of our existence, we must update our emotions and institut
 
 <a id="part-2"></a>
 
-#### II. Where No Man Has Gone Before
+## II. Where No Man Has Gone Before
 
 Arguably the most crucial difference between the human race now compared to any other time in human history, is the unprecedented rate of scientific progress. To the face of the old ticking clock of history, humanity's rate-of-invention describes the shape of a ski slope. The reason for this acceleration can be attributed to the pairing of two parallel forces;
 	
@@ -87,7 +75,7 @@ More recent examples are the invention of the World Wide Web (1989) and the Mosa
 
 <a id="part-3"></a>
 
-#### III. The Blind March of Automation
+## III. The Blind March of Automation
 
 While the printing press morbidly put scribes out of work, it was in hindsight nothing but a force for job creation. Where would we be without authors, scholars, libraries and written news? The gateway of disruption has been open for many hundreds of years, but widespread change took on in the industrial revolution. [[3]](#ref-3)
 
@@ -101,7 +89,7 @@ The Fourth Industrial Revolution or "Industry 4.0" is underway, characterised by
 
 <a id="part-4"></a>
 
-#### IV. Trends in Computational Power
+## IV. Trends in Computational Power
 
 The principle of technology that is responsible is the growth in computational power. Between 1900 and 2015, the cost of computing decreased by 10^18. That's a quintillion. As it is easy to misunderstand the size of that figure, I will simplify. Since 1955, computing has become 10 trillion times cheaper. If in that time global real estate had fallen by the same amount, you could buy modern day New York for 10 cents, or all gold ever mined for $1. 
 
@@ -123,7 +111,7 @@ When dealing with computational power, it is important to distinguish between MI
 
 <a id="part-5"></a>
 
-#### V. How Close Are We to the Void?
+## V. How Close Are We to the Void?
 
 It appeared in 2015 that we were capable of computing around 2.3 million MIPS for $1000. In 2022, $1000 digital systems can compute up to 100 million MIPS, and Mythic analogue microchips can compute 25 million MIPS for as little as 3 watts in cheap (and admittedly limited) systems. Moravec estimated in 1997 that the human brain performs at around 100 million MIPS, but Sandberg and Bostrom revaluated this position in 2008, giving a range of estimates based on what architecture a computational network would use. 
 
@@ -143,9 +131,9 @@ While this range appears to put at least some distance between the average worke
 
 ---
 
-#### References
+# References
 
-[1]<a id="ref-1"></a> - Yes, Zacharias Janssen and even Francis Bacon had no idea what a PhD was, PhDs have been around for 180 years and represent the pinnacle of quality scientific research. [Here's the article](https://futureoflife.org/guest-post/90-of-all-the-scientists-that-ever-lived-are-alive-today/?cn-reloaded=1). 
+[1]<a id="ref-1"></a> - Yes, Zacharias Janssen and even Francis Bacon had no idea what a PhD was, PhDs have been around for 180 years. Which means no deep quality research was ever produced before 1870... right? [Here's the article](https://futureoflife.org/guest-post/90-of-all-the-scientists-that-ever-lived-are-alive-today/?cn-reloaded=1). 
 
 [2]<a id="ref-2"></a> - The details about Zacharias Janssen's inventions are awry, but he's also said to have made the first telescope. Regardless, he (and possibly his neighbour) had quite the legacy. 
 

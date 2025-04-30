@@ -16,14 +16,6 @@ sitemap:
 
 The following essay covers machine learning from its infant days to full self-driving. I intend to crystallise how and why computers have developed in the way they have, and why future machines will be far more advanced. 
 
-#### Contents:
-
-1. The Architecture of Intelligence
-
-2. Progression by Decade (1940s-2020s)
-
-3. The AI Pantheon
-
 ---
 
 <p style="text-align: center;"><em>"A.I. began with an ancient wish to forge the Gods" - Pamela McCordick</em></p>
@@ -40,7 +32,7 @@ In 2022, the first step is well understood. The second stage is well underway. T
 <br>
 *Figure 1. The three paradigm shifts in computation.*
 
-#### Part I. The Architecture of Intelligence
+## The Architecture of Intelligence
 
 Of all the changes we will see in our lifetime, none will compare to the force of artificial intelligence. Reasoning machines will create a significant amount of disruption in every industry and generate billions of economic value in the process. Understanding how will enable us to act with more precision.
 
@@ -48,8 +40,7 @@ Until the 21st century, AI was in its infancy and suffered from incessant spring
 
 The founders of artificial intelligence are generally seen as John McCarthy, Alan Turing, Marvin Minsky, Allen Newell, and Herbert Simon in the 1950s and 1960s. The founding motivation was that computers excel at executing precise instructions in consistent fashion, and by describing a problem in natural language to a computer, we can use algorithms to come up with the perfect solution every time. If an algorithm is advanced enough, it would be able to solve large problems, such as driving, policy making, science, and everything in between.  
 
-<p style="text-align: center;"><b>Progression by Decade</b></p>
-<p style="text-align: center;">1940s</p>
+### 1940s
 
 Alan Turing develops the Bombe machine at Bletchley Park with codebreaker Gordon Welchman by cracking the enigma code with brute-force computation. This effort is believed to have shortened the second World War. Turing would become a founding father of computer science and artificial intelligence over the next 13 years before his untimely death.
 
@@ -79,7 +70,7 @@ Given the input x = [ x₁, x₂, x₃, …, xₙ ]ᵀ, the inhibitory input i a
 
 In 1949, Donald Hebb published ideas about unsupervised learning in 'The Organisation of Behaviour'. Hebbian theory attempts to explain synaptic plasticity, or how neurons adapt during the learning process, and Hebbian learning functions are still used in some stochastic update algorithms for neural networks. 
 
-<p style="text-align: center;">1950s</p> 
+### 1950s
 
 In 1950, Alan Turing devised the "Turing Test" for future generations to determine whether a computer has human level intelligence. To pass the test, a computer must convince a human that it is also human.
 
@@ -101,7 +92,7 @@ In the field of sub-symbolic intelligence, notable work was achieved by Frank Ro
 
 ![Perceptron](/assets/rosenblaat-perceptron.webp){:style="width:70%;"}
 <br>
-*Figure 3. The perceptron from Rosenblatt's “The Design of an Intelligent Automaton,” 1958.*
+*Figure 3. The perceptron from Rosenblatt's "The Design of an Intelligent Automaton," 1958.*
 
 ![rosenblatt](/assets/rosenblatt.webp){:style="width:70%;"}
 <br>
@@ -109,7 +100,7 @@ In the field of sub-symbolic intelligence, notable work was achieved by Frank Ro
 
 Rosenblatt believed an array of perceptrons could tell apart cats from dogs, but this was an overestimation. Perceptrons are only capable of telling apart cats from dogs in far more sophisticated networks than what he suggested. "Training sets" are datasets that can enable a neural network's parameters to interpret new inputs usefully. Labelling data enables positive and negative examples to be enlisted, teaching a network what is right and what is wrong. No scalable method for training a network was developed for another three decades. 
 
-<p style="text-align: center;">1960s</p> 
+### 1960s
 
 In 1967, the 'nearest neighbour' algorithm was written, allowing computers to use very basic pattern recognition. The networking algorithm was similar to Dijkstra's 1956 algorithm and could be used by travelling salesmen to map a route most efficiently from input cities, for example. 
 
@@ -117,11 +108,11 @@ The origin of deep learning networks began with Ivakhenko and Lapa (1965) publis
 
 Minsky and Papert's 1969 book 'Perceptrons' ruthlessly questioned the capabilities of a single perceptron layer and paved the way for Multilayer Perceptron neural networks (or MLPs). The issue was, however, that training MLPs was extremely difficult. Back-propagation was not scalably-functional yet and essentially did not exist in hardware, only as mathematical theory. 
 
-The rivalry between Rosenblatt and Minsky was born from their school years when they were just one year apart. A New Scientist article from the time wrote “During the late 1950s and early 1960s, much to the enjoyment of those in the audience, Rosenblatt and Minsky debated on the floors of scientific conferences the value of biologically inspired computation, Rosenblatt arguing that his neural networks could do almost anything and Minsky countering that they could do little.” [4]  
+The rivalry between Rosenblatt and Minsky was born from their school years when they were just one year apart. A New Scientist article from the time wrote "During the late 1950s and early 1960s, much to the enjoyment of those in the audience, Rosenblatt and Minsky debated on the floors of scientific conferences the value of biologically inspired computation, Rosenblatt arguing that his neural networks could do almost anything and Minsky countering that they could do little." [4]  
 
 The 'first AI winter' followed 1969.
 
-<p style="text-align: center;">1970s</p> 
+### 1970s
 
 In 1972, The James Lighthill Report submitted to the British Scientific Research Council on the state of artificial intelligence discredited the techniques being used at the time as 'unscalable' to solve real-world problems which would require many, many more parameters than could be accounted for (again citing combinatorial explosion). 
 
@@ -139,7 +130,7 @@ A multi-layer perceptron neural network was proposed by Kunihiko Fukushima in 19
 
 Fukushima continued his work on this and in 1980 published a paper on the 'neocognitron', which was a more sophisticated system now considered to be the original deep convolutional neural network. Several supervised and unsupervised learning algorithms were proposed by Fukushima to train the parameters of a deep neocognitron in a useful way, but no suggestion stood the test of time. It was Werbos' backpropagation that ostensibly 'held the torch' for the supervised training of neural networks. [5]
 
-<p style="text-align: center;">1980s</p> 
+### 1980s
 
 Gerald Dejong introduces the Explanation Based Learning system (EBL), where a computer analyses training data and creates a general rule it can follow by discarding unimportant data. This method was effective, but only in limited cases. Combinatoric explosion again makes this symbolic system ineffective at more general tasks. Without a strong case for training neural networks, the next 'AI winter' set in around 1983, though work continued, particularly in Europe. Some argue that this second AI winter lasted well into the 2000s. [6] 
 
@@ -157,7 +148,7 @@ Between 1979 and 1998, a large number of intelligence architectures were propose
 
 An 'AI spring' is said to have started after 1988 when a top official at DARPA had a statement published: 'AI will be more important than the atomic bomb'.
 
-<p style="text-align: center;">1990s</p> 
+### 1990s
 
 The approach to machine learning shifted over the 1990s from a knowledge-driven approach to a data-driven approach. Big datasets become more important for training programs built on backpropagation. Most notably, the '90s was a decade where the first 'holy shit moments' shook the general public. In the research world, American inventor and futurist Ray Kurzweil predicted in 1990 that a computer would defeat a world chess champion by 1998. 
 
@@ -177,7 +168,7 @@ The meter stick for artificial intelligence thereafter grew longer, with the med
 
 The New York Times predicted in 1997 that Go was over 100 years away from being won by a machine. Go was not only more vast (250 average possible moves, or 7x more computationally advanced than chess), but also far more strategically complex. Hardware improvements would be needed for the improved computational power, and software improvements would be needed for the increased mathematical complexity. These stages of hype and discrediting can again be attributed to combinatorial explosion; the changing of a few parameters make magnitudes more complexity.  
 
-<p style="text-align: center;">2000s</p> 
+### 2000s
 
 In the early 2000s the largest use case for AI was still LeCun's LeNet, built from the MNIST database in 1998. Torch, a software library for machine learning was released in 2002, and the Netflix Prize competition was launched a few years later, challenging teams to beat Netflix's own recommendation software in predicting a user's rating for a film given their rating for previous films. This prize was eventually won in 2004. 
 
@@ -189,7 +180,7 @@ In 2006, researcher Fei Fei Li, who believed that the advent of superhuman visua
 
 ImageNet was the first breakthrough in quality data availability that backpropagation and CNNs needed to dominate visual recognition systems in years to come (though its development wasn't truly ground-breaking until 2012). The second breakthrough was the availability of Graphics Processing Units (GPUs). Growth in processing power and availability was crucial for advancements in neural networks. Andrew Ng, Rajat Raina and Anand Madhavan's 2009 paper touted a speed increase in large-scale deep unsupervised learning of 70x, due to developments in graphics processors. This is known as the 'tipping point' for GPUs, and would contribute to AI by developing in-parallel throughout the 2010s.
 
-<p style="text-align: center;">2010s</p> 
+### 2010s
 
 In 2010, the first ImageNet Large Scale Visual Recognition Challenge (ILSVRC) took place, with the winning machine (of 35 competitors) having a top-five accuracy of 71.8% (top-five accuracy refers to the odds of any of five guesses per image being accurate). Human level, for reference, is between 94.9 and 98% accuracy in image recognition for the same giant database. 
 
@@ -275,7 +266,7 @@ That same year, 48% of Chinese venture capital went to AI startups. China publis
 
 DeepMind in 2019 began using Temporal Value Transport (TVT) to help algorithms 'understand the long term consequences of a decision that can be taken in the present. This was developed for use by AlphaStar. 
 
-<p style="text-align: center;">2020s</p>  
+### 2020s
 
 Long before the turn of the decade, investment has been pouring into machine learning. Big tech has aggressively pursued the economic value hidden behind solving neural networks, and progress has accelerated. The chances of another AI winter are pretty comfortably out the question as neural nets have become integrated more deeply in the functions of our daily behaviour and generate ever more revenue for the companies funding their development. 
 
@@ -299,7 +290,7 @@ The engine behind the aesthetic appeal of DALL-E 2's flawless image generation i
 
 Elon Musk, one of OpenAI's founders, said Tesla essentially had to solve 'real-world AI' to deliver self-driving cars, expected to roll out in the late year. Full Self-Driving (FSD) is a long-awaited benchmark for artificial intelligence, and its successful launch will enable great productivity gains for modern workforces. 
 
-Part III. The AI Pantheon
+## The AI Pantheon
 
 Machine learning seems to have developed at a startling rate, but during the deep winters of AI, the following springs did not seem inevitable. The hype-train has derailed AI research many times. But since the turn of the century, and specifically since 2012, hype has remained optimistic, with ever more rollouts of indispensable technologies and many 'holy-shit moments,' for the public and researchers alike.  
 
@@ -321,7 +312,7 @@ And for a deep-learning centric breakdown, this is excellent by Juergen Schmidhu
 
 ---
 
-### Notes
+## Notes
 
 [1] - A great breakdown of McCulloch and Pitts' function is available here.
 

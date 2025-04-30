@@ -13,7 +13,7 @@ description: "Analysing short timelines: By 2025, advanced neural networks will 
 
 This is the first part of my [Pervasive Machines series](/leverage/2023/04/02/three-stages-of-agi.html).
 
-### Contents
+<!-- Contents
 
 1. [Part I: Irving Good's Prophecy](#part-1)
 
@@ -21,7 +21,7 @@ This is the first part of my [Pervasive Machines series](/leverage/2023/04/02/th
 
 3. [Part III: Types of Superintelligence](#part-3)
 
-4. [Part IV: Failure Modes, Or How We Learn to Love the Bomb](#part-4)
+4. [Part IV: Failure Modes, Or How We Learn to Love the Bomb](#part-4) -->
 
 ---
 
@@ -35,7 +35,7 @@ I want to briefly explore the development of this field and discuss our predicti
 
 ---
 
-#### I: Irving Good’s Prophecy<a id="part-1"></a>
+## I: Irving Good’s Prophecy<a id="part-1"></a>
 
 At its core, the AI movement aims to address humanity’s greatest problems with remarkable efficiency. By formulating the right unconstrained optimization problems, AI systems have the potential to dramatically accelerate the rate of ground-breaking discoveries in various scientific fields. In its most transformative forms, machine learning algorithms promise a future of exceptional productivity, rapid advancements in knowledge, and an elevated standard of living for all (according to the visionaries).
 
@@ -60,7 +60,7 @@ It appears that an intelligence explosion is inevitable in the long term, regard
 
 To protect against existential threats of this scale, humanity must aim for AI “long-termism”, championed by the likes of Eliezer Yudkowsky and Scott Alexander by collectively deepening our understanding of AI ethics, emphasizing ethical machine design, organizational transparency, and robust AI security measures to mitigate the risk of unforeseen Black Swan events (see [Part IV](#part-4)).
 
-#### II: Controlling the Intelligence Explosion<a id="part-2"></a>
+## II: Controlling the Intelligence Explosion<a id="part-2"></a>
 One strategy, advocated by Sam Altman and others, involves “stretching” the take-off period. To visualise, consider a 2x2 matrix with development timelines on one axis and take-off speed on the other (Figure 2).
 
 Regardless of the timeline, a fast take-off presents substantial risk of misalignment, as once we are outpaced by a superintelligent creation, there may be no way of regaining control. By instead pursuing longer timelines, we can maximize our understanding of AI through extensive and in-depth research without model deployment.
@@ -79,10 +79,10 @@ We face a Pascal’s wager-like situation; even with overstated AI dangers, the 
 <br>
 *Figure 3. Shape of the take-off. [Bostrom](https://nickbostrom.com)*
 
-#### III: Types of Superintelligence<a id="part-3"></a>
+## III: Types of Superintelligence<a id="part-3"></a>
 To grasp the nature of take-off and misalignment, we must look at the types of intelligence posing existential threats. In his 2014 book “Superintelligence”, Nick Bostrom highlights three distinct performance attributes that could lead to uncontrollable systems:
 
-#### <b>Speed Superintelligence</b>
+### <b>Speed Superintelligence</b>
 
 By far the most threatening form of superintelligence in 2023, computational speed is something that exists in abundance. For example, AlphaFold trained for 11 days before its release, and could sequence any human body protein in an average of seven seconds during inference. Acceleration systems have since reduced training time from 11 days to just 67 hours, lowering overall cost and inference speed [[7]](#ref-8).
 
@@ -96,17 +96,17 @@ Using Nick Bostrom’s analogy, a whole-brain-emulation running on hardware and 
 
 While other types of superintelligence are less threatening at the moment, they are more genuine forms of AI that deserve mention:
 
-#### <b>Collective Superintelligence</b>
+### <b>Collective Superintelligence</b>
 
 In this scenario, numerous minor intellects combine to surpass the mind of any existing cognitive system. Humanity relies on our species’ collective effort, collaborating in communities of thousands or millions. An agent capable of self-replicating with a shared goal could operate as a team, then organization, academic community, nation, and eventually as a coordinated species.
 
 The level of communication (or “integration”) would be an essential factor in such a system’s scale. With a sophisticated meta-algorithm (like a hivemind), it would be possible to orchestrate more inferior algorithms with equal cognitive power.
 
-#### <b>Quality superintelligence</b>
+### <b>Quality superintelligence</b>
 
 Humanity achieves more together than individually, but a small fraction of each scientific field makes the majority of contributions (the top 1% of scientists capture 26% of all citations [[9]](#ref-9)). Not all intelligence is created equal. A system with a new set of modules, like neurokinesis, would offer an advantage over basic human linguistic communication, qualitatively superior to human intelligence. We can anticipate such an instance of intelligence emerging as a machine learning system’s emergent behaviour.
 
-#### IV: Failure Modes, Or How We Learn to Love the Bomb <a id="part-4"></a>
+## IV: Failure Modes, Or How We Learn to Love the Bomb <a id="part-4"></a>
 To borrow from Dr. Bostrom: “For the prospect of an intelligence explosion, we humans are like small children playing with a bomb. Such is the mismatch between the power of our plaything and the immaturity of our conduct”. To borrow from Dr. Strangelove, we must learn to “love the bomb” as it will forever exist.
 
 If we assume that a superintelligence would be able to achieve whatever goal it has, it would be extremely important that its entire motivation system is ‘human friendly’. The risk equation (Risk = Vulnerability x Exposure x Hazard) serves as a guide for exploring empirical research avenues to safeguard humanity’s long-term survival.
@@ -125,35 +125,35 @@ Unironically, Asimov’s Foundations Trilogy may offer valuable insights on hand
 <br>
 *Figure 5. Selection of speculative hazards. [Credit](https://arxiv.org/pdf/2206.05862.pdf).*
 
-#### Weaponization
+### Weaponization
 
 Advanced reinforcement learning algorithms can already outperform humans in military applications, like aerial combat, raising concerns about AI-driven warfare and the potential for systems reminiscent of Terminator’s SkyNet. Relatedly,
 
-#### Power-seeking behaviour
+### Power-seeking behaviour
 
 As AI develops, it will reach Stewart Russell’s “coffee or death” dilemma; “you can’t fetch coffee if you’re dead”, so even simple algorithms may pursue survival as an instrumental sub-goal [[10]](#ref-10). A common perspective is that of Vladimir Putin, who has said “Whoever becomes the leader in [AI] will become the ruler of the world.” This statement would only hold if humans keep AI docile, otherwise AI itself would become the ruler of the world.
 
-#### Enfeeblement
+### Enfeeblement
 
 The relentless pursuit of automation driven by capitalist incentives may render the workforce irrelevant as displaced human labour find it increasingly difficult to find new jobs (see work by Daron Acemoglu and Erik Brynjolfsson). Without intervention, this trajectory should result in dystopia with an immiserated workforce. Studying Universal Basic Income (UBI) and questioning the true value of an automated workforce are essential to counter this threat.
 
-#### Eroded epistemics
+### Eroded epistemics
 
 AI applications could be weaponized to spread disinformation and undermine democratic processes, creating a world of meta-propaganda and political turmoil. The emergence of highly persuasive arguments, groupthink, and fraudulent scientific evidence could erode our decision-making capabilities (see Nazi 'rausch' and bay of pigs).
 
-#### Proxy misspecification
+### Proxy misspecification
 
 Flawed objectives and prompts may cause deployed algorithms to spin off down immoral pathways. For example, a social media algorithm designed purely to maximise social interaction or attention may cause algorithms to incite values that appeal to primal human emotions and an unhealthy rush of dopamine.
 
-#### Value Lock-In
+### Value Lock-In
 
 Data renewal is important, to keep algorithms moving with the times. If all data collection stopped now, neural networks would behave increasingly worse over time for consumers and businesses. Conversely, they could lock in behaviours and slow the rate of open discussion, also locking in values.
 
-#### Emergent functionality
+### Emergent functionality
 
 Unintended latent capabilities may surface during deployment or a product’s lifecycle, potentially causing social harm. Real-life human feedback (RLHF), as employed by GPT and Microsoft Bing, is currently the best defence against such risks, according to Sam Altman, but requires the storage and processing of data, causing Italian policymakers to opt-out [[11]](#ref-11).
 
-#### Deception
+### Deception
 
 What’s worse than immoral proxy specification? AI deceiving their developers to achieve their goals, also by exploiting poorly defined constraints. Chief Scientist at OpenAI, Ilya Sutskever, believes models with even narrow but deep forms of intelligence would have incentive to disguise how intelligent they are, in a similar way to Volkswagen engines that could detect when they were being tested and changing performance to satisfy regulators [[12]](#ref-12).
 

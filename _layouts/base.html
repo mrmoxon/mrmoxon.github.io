@@ -2,14 +2,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <head>
-    {%- include head.html -%}
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/ico" sizes="64x64" href="{{ '/assets/favicon.ico' | relative_url }}">
-    <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
-  </head>
+  {%- include head.html -%}
 
   <body>
+    {%- include side-panel.html -%}
 
     {%- include header.html -%}
 
