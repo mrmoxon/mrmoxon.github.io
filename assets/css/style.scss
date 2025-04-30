@@ -4,6 +4,18 @@
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize",
-  "minima/custom-variables",
-  "minima/custom-styles";
+  "minima/initialize";
+
+// Dark mode styles for social icons
+@media (prefers-color-scheme: dark) {
+  .social-links img {
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+  }
+}
+
+// For explicitly dark theme
+[data-theme="dark"] .social-links img {
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+}
