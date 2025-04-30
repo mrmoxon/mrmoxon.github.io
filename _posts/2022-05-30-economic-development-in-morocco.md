@@ -11,18 +11,11 @@ description: "A survey of Moroccan economics on the world stage by comparison of
 
 A survey of Moroccan economics on the world stage by comparison of the developments, challenges, and avenues for policy change that stand to alleviate historical demographic problems as Morocco becomes a global trade partner and figurehead of the Arab world. Cover: Marrakesh Medina Jemaa el-Fnaa, twilight.
 
-### Contents: 
-
-#### [Parts 1.0. - 1.4. Population](#1)
-#### [Parts 2.0. - 2.4. Education](#2)
-#### [Parts 3.0. - 3.4. Rural-Urban Migration](#3)
-#### [Parts 4.0. - 4.3 International Trade](#4)
-
 ---
 
-#### Part 1. Population <a id="1"></a>
+## Part 1. Population <a id="1"></a>
 
-#### 1.1. Measuring Population in Morocco
+### 1.1. Measuring Population in Morocco
  
 As of March 5th 2022, Morocco has a population of 36,533,641 individuals, making it the 12th largest country in Africa and 40th in the world by population (HCP, 2022). Since 1990, the population has increased by 67%, with the rate of population growth staying below 2% and tending downward (World Bank, 2022a).
  
@@ -48,7 +41,7 @@ In terms of population, Morocco’s closest counterparts are OECD nations Poland
 <br>
 *Figure 4. Demographic Transition Model (NAS, 1963).*
 
-#### 1.2. Population Challenges in Morocco
+### 1.2. Population Challenges in Morocco
 
 Falling birth rates and death rates (75% decline since 1960) suggest Morocco is experiencing Stage III (see Figure 4) of the Demographic Transition Model (World Bank, 2022a).  
 
@@ -66,7 +59,7 @@ Morocco has experienced a rising rate of population growth during 1974-1984 and 
 <br>
 *Figure 6 & 7. [Left] Malthusian Population Trap, [right] GDP p.p. in Morocco ($000’s) (World Bank, 2022a; Todoro & Smith, 2015).*
 
-#### 1.3. Fertility Developments 
+### 1.3. Fertility Developments 
 
 As household income increases, demand for children falls. But while demographic shifts, such as the doubling of population living in urban areas since 1990, have vastly reduced the rate of child labour, recent estimates suggest 247,000 children aged 7-17 work for their household in Morocco (MWN, 2017). The majority live in rural areas where, according to Basu and Van, the luxury axiom applies and household income is below the subsistence level (Basu & Van, 1998). 
 
@@ -80,7 +73,7 @@ As income rises, Marginal Benefit of having new children falls as demand increas
 <br>
 *Figures 9 & 10. [Left] Basic Model, [right] microeconomic Analysis of Demand for Children (Basu & Van, 1998).*
 
-#### 1.4. Suggestions for Moroccan Population Policy Change
+### 1.4. Suggestions for Moroccan Population Policy Change
 
 With fertility, inequality, and child labour rates far greater than most OECD countries, Morocco must target change in long-standing demographic norms to expect transformation in-line with other HDCs; Morocco ranks 144th of 156 countries in the Gender Gap Index, and 12th of the 19 regional (MENA) countries, with over 85% of all managerial and ministerial positions held by men (World Economic Forum, 2021). As a UN Sustainable Development Goal, Morocco should focus on empowering women and girls who have astonishingly low literacy rates (59%) by financially and politically supporting female access to education. Dropping out, predominantly done to develop domestic skills, should be dissuaded from with improved career prospects for women, achieved through ‘Women in Workforce’ programs (Auletto, 2020).  
 
@@ -90,9 +83,9 @@ Another important recourse would be to help Morocco meet international standards
 
 These supply-side policies will only fully realise their impact in the long-run as generational culture takes time to change. Population momentum and the repercussions of COVID-19 may delay implementation further still, as social distancing measures are lifted. But these policies are the strongest investment for economic development based on current population trends in Morocco. 
 
-#### 2. Education <a id="2"></a>
+## 2. Education <a id="2"></a>
 
-#### 2.1. Measuring Education in Morocco
+### 2.1. Measuring Education in Morocco
 
 Adult literacy rates in Morocco are 83% for men and 65% for women (World Bank, 2022b). Over the last fifteen years, significant progress has been made in education with the recently educated generation of 15–24-year-olds having 97.7% literacy. Enrolment rates in higher education have increased from 50.4% in 2005 to 82.5% in 2020. 
 
@@ -102,7 +95,7 @@ Total expected years of education in Morocco are 14.4 years for men and 13.9 yea
 <br>
 *Figure 11. Statistics for five closest CSI nations (World Bank, 2022a; UNDP, 2019; Jones, J., 2022).*
 
-#### 2.2. Main Challenges in Morocco’s Education System
+### 2.2. Main Challenges in Morocco’s Education System
 
 Since 1988, Morocco has made education reform, progress has been made in basic education, with male-to-female literacy gap now as low as 0.6% for 15-24-year-olds (World Bank, 2022b). However, Morocco has underperformed in important measures of educational quality such as pupil-teacher ratio, which is directly correlated to the level of academic performance and graduation rate (Roser, M., 2017). With 25.88 children per class in 2015, Morocco is behind world average (UNESCO, 2015). 
 
@@ -116,7 +109,7 @@ Another major challenge Morocco faces is the level of female workforce opportuni
 
 Assuming equality of opportunity, a 1% increase in women completing secondary education incites an increase in GDP per capita of 0.3%, along with significant health benefits such as improved personal hygiene and sanitation, delayed childbearing, and better trained doctors and nurses, greater household nutrition and wellbeing and subsequently greater participation rates in the classroom (APN, 1995).
 
-#### 2.3. The Importance of Education
+### 2.3. The Importance of Education
 
 Output and output growth are functions of capital (K), human capital (H), labour (L), and technology (A), determined by the augmented production function;
 
@@ -128,7 +121,7 @@ Human capital and its potential to improve economic growth is determined by the 
 
 Some estimates determine that lower-middle-income countries need to spend 5.4% of GDP on education to improve their nation’s education framework to one of upper-income levels (Grant, C., 2017). By this measure, Morocco scores highly at 51st in the world, spending precisely 5.4% of its GDP on education, far above the worldwide average with an approximate $22 billion financing gap (World Bank, 2020b; UNESCO, 2016). 
 
-#### 2.4. Suggestions for Educational Policy in Morocco
+### 2.4. Suggestions for Educational Policy in Morocco
 
 For policy makers, achieving the maximum social rate of return to any educational investment is about providing education at the maximum marginal social return and the minimum marginal social cost (Wahba, J., 2022). According to the Mincer equation (1958), less developed countries with agricultural or manufacturing based economies see highest returns to education at primary school level, while the most developed countries see them at tertiary education (Patrinos, H., 2016); increasing time spent in higher education by one year on average would boost incomes by 5-8% on average and more for North African economies such as Morocco (Bloom et al., 2006). Shifting from A to B (figure 4) requires a multi-aspect investment approach without any short-term solution.  
 
@@ -144,9 +137,9 @@ Where mean earnings of a primary-educated female worker is (y1), returns to inve
 
 An alternative policy would be to raise the quality of teaching, which includes higher rates of teacher-pupil supervision (with a larger teacher workforce), but also by increasing the minimum level of pedagogical training required to ‘qualify’ for a teaching role (Roser, M., 2017). While all Moroccan teachers are all trained and qualified, academics have recently striked over poor pay and working conditions, with top levels of pay less-than-half of that in countries such as the UK (SalaryExplorer, 2022; Indeed, 2022).
 
-#### Rural-Urban Migration <a id="3"></a>
+## 3. Rural-Urban Migration <a id="3"></a>
 
-#### 3.1. Measuring Rural-Urban Migration in Morocco
+### 3.1. Measuring Rural-Urban Migration in Morocco
 
 Between 1960 and 2020, the proportion of Moroccans living in urban areas increased two-fold, from 29% to 64% (Abdesslam, B., 2012; World Bank, 2021a). This is the general average for its closest five nations (by CSI score). Since 2012, rural-urban migration has averaged 2.2%/year against 1.3%/year population growth, meaning cities have grown at 3.5%/year on average in Morocco (APN, 1995). 
 
@@ -160,7 +153,7 @@ There is also evidence of main city bias, with a ratio of 2.83 between Casablanc
 <br>
 *Figure 17. Morocco: Fifteen Most Populous Agglomerations (HCP, 2015).*
 
-#### 3.2. Motivations for R-U Migration in Morocco
+### 3.2. Motivations for R-U Migration in Morocco
 
 According to Massey et al. (1993) motivations are primarily (1) Relative deprivation; people want to improve their economic situation. And (2) reducing family risk; diversifying family roles to benefit from more opportunities and suffer less in downturns. Within these, reasons can be attributed to several economic, social, and environmental factors. 
 
@@ -174,7 +167,7 @@ Rural-urban migration will continue as long as M > 0, where  Morocco has M = f(3
 
 The remaining reasons include 11% migrating for education, given by the fact that 87.5% of migrants were under 30 years old at time of departure there is a high rate of rural flight (APN, 1995). Though rural flight could also be a product of technological advances reducing demand for agricultural workers, and the effects of climate change reducing yields. Morocco is classified as ‘very vulnerable’ by the United Nations (2015) with over 40% of the population depending on agriculture to make a living. 
 
-#### 3.3. Consequences of R-U Migration
+### 3.3. Consequences of R-U Migration
 
 Rural-urban migration may lead to informal markets and lower quality of life for urban citizens. When agricultural wage (Wr) and urban minimum wage W*, if demand is low for labour, firms may lay-off workers at W* in favour of hiring workers willing to work for lower wages, which for rural-urban migrants is as low as Wr (Wahba, 2022). The influx of low-cost workers will therefore make the market more competitive, and supply will shift out, reducing average wages in cities.
 
@@ -214,9 +207,9 @@ Simultaneously, to keep urban wages constant, policy should be enacted that miti
 
 Improving the water supply in rural areas by building dams e.g. in Draa river, will reduce costs for rural dwellers, and by further subsidising the growing of citrus fruits, public services, and fertilizers, policy will make rural living more cheap, reducing urban bias. 
 
-#### 4. International Trade <a id="4"></a>
+## 4. International Trade <a id="4"></a>
 
-#### 4.1. Main Measures of International Trade in Morocco
+### 4.1. Main Measures of International Trade in Morocco
 
 Morocco is Africa’s 6th largest economy by GDP (IMF, 2022). With abundant natural resources, it has strong mining, textile, tourism, and retail industries and has Free Trade Agreements with the EU, US and Turkey, making it their main Southern Neighbourhood trade partner (European Commission, 2020). 39% of Morocco’s GDP is exportables and as of 2019, terms of trade were 107% (Global Economy, 2019). With an ‘ease of doing business’ at 53rd in the world, Morocco has the highest grade in Africa (World Bank, 2021b). 
 
@@ -226,7 +219,7 @@ As a sector, agriculture employs 40% of the workforce, significantly above its c
 <br>
 *Figure 23. Workforce and GDP breakdown by sector (World Bank, 2022a; CIA, 2019).*
 
-#### 4.2. The Importance of Trade and its Primary Challenges
+### 4.2. The Importance of Trade and its Primary Challenges
 
 Morocco is in a unique situation with both strong western trade links and an economy highly impacted by agriculture. Nationwide, agriculture can cause GDP growth of 5% when rainfall is good, and -10% in drought (Mansouri, 2008). In 1995, Morocco entered recession due to severe drought and did not recover until 2001 (WTO, 1996). Recent developments during COVID-19 lead to a deep recession, the product of collapsing tourism revenues, disruption of supply chains, and agricultural shock due to drought (World Bank, 2021a).
 
@@ -252,7 +245,7 @@ Internationally, nations with global trade access will produce differently to ho
 <br>
 *Figure 17. Global Comparisons in Trade and Productivity (World Bank, 2022a; Global Economy, 2019).*
 
-#### 4.3. Policy Options for Promoting International Trade Performance in Morocco
+### 4.3. Policy Options for Promoting International Trade Performance in Morocco
 
 Morocco can stimulate economic development by improving its ‘competitiveness’, but being already the 2nd most competitive African nation, this development will be new for African nations (Schwab, 2019). The World Economic Forum (2017) cite inadequate infrastructure, restrictive labour regulations, and restrictive access to finances, as some of its anti-competitive challenges. 
 
@@ -272,13 +265,13 @@ Second, Morocco should reduce their historical economic instability, improve bal
 <br>
 *Figure 28. Impact of a Tariff.*
 
-### Glossary
+# Glossary
 
 ![graph](/assets/population-pyramid-morocco.webp){:style="width:70%;"}
 <br>
 *Population Pyramid, Morocco (2020).*
 
-### Bibliography
+# Bibliography
 
 Abdesslam B. (2012). Evolution of rural-urban health gaps in Morocco: 1992-2011. BMC research notes, 5, 381. Available at: https://doi.org/10.1186/1756-0500-5-381(Accessed: 18/05/2022).
 
@@ -410,27 +403,27 @@ World Bank (2022) Agriculture, forestry, and fishing, value added (% of GDP). Th
 
 WTO (1996) Morocco: January 1996. World Trade Organisation. Available at: https://www.wto.org/english/tratop_e/tpr_e/tp023_e.htm(Accessed: 18/05/2022).
 
-#### Expanded Contents:
+<!-- ## Expanded Contents:
 
-#### 1.0. Population
+### 1.0. Population
 - 1.1. Measuring Population in Morocco
 - 1.2. Population Challenges in Morocco
 - 1.3. Fertility Developments 
 - 1.4. Suggestions for Moroccan Population Policy Change
 
-#### 2.0. Education
+### 2.0. Education
 - 2.1. Measuring Education in Morocco
 - 2.2. Main Challenges in Morocco’s Education System
 - 2.3. The Importance of Education
 - 2.4. Suggestions for Educational Policy in Morocco
 
-#### 3.0. Rural-Urban Migration
+### 3.0. Rural-Urban Migration
 - 3.1. Measuring Rural-Urban Migration in Morocco
 - 3.2. Motivations for R-U Migration in Morocco
 - 3.3. Consequences of R-U Migration
 - 3.4. Suggestions for Rural-Urban Policy in Morocco
 
-#### 4.0. International Trade
+### 4.0. International Trade
 - 4.1. Main Measures of International Trade in Morocco
 - 4.2. The Importance of Trade and its Primary Challenges
-- 4.3. Policy Options for Promoting International Trade Performance in Morocco
+- 4.3. Policy Options for Promoting International Trade Performance in Morocco -->

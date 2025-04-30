@@ -12,7 +12,7 @@ description: "Talk by Professors Hatcher, Stepanchuk, Gall and Mennuni at Univer
 
 **Moderators: Dr Chiara Forlati, Dr Panagiotis Giannarakis.**
 
-#### What was the underlying macroeconomic rationale behind the Mini-Budget?
+### What was the underlying macroeconomic rationale behind the Mini-Budget?
 
 In short, an attempt to boost economic growth; generally perceived as a well-attuned recognition that economic growth in the UK is suffering. The economy exhibited persistent scarring effects from the 2008 financial crisis, with GDP growth significantly lagging behind other G7 nations and deviating substantially from its pre-crisis trend path. The post-Brexit era (post-2016) has been characterised by particularly subdued economic performance relative to G7 peers. The policy framework encompassed extensive planning law reforms aimed at ameliorating infrastructure bottlenecks and stimulating private capital formation, while implementing deregulatory measures to enhance corporate operational efficiency. Much of the policy looked to reform planning laws, spurring infrastructure and business investment; deregulating the corporate decision process. 
 
@@ -20,7 +20,7 @@ Conversely, given the UK's relatively modest debt-to-GDP ratio (second lowest am
 
 Here, there is an argument that growth shouldn’t be the target when it is at all costs. With a disproportionately financial-sector economy, the 'scarring' may instead be simply a natural part of the business cycle. There has been a convergence of demographic factors (female labor force participation, tertiary education enrollment) that can be attributed to some of the deviation from the pre-2008 trajectory. Trying to force growth in a system that is already efficient may have unforeseen consequences. Brexit is an example of this.
 
-#### There may be slight expansionary policy benefits, but are the tax-cuts an adoption of ‘trickle-down economics’? 
+### There may be slight expansionary policy benefits, but are the tax-cuts an adoption of ‘trickle-down economics’? 
 
 The reduction in the basic rate of income tax from 20% to 19% generated positive income effects for lower-earning cohorts up to the £50,000 threshold. But this attempt to broaden the lower rate of income tax was in contrast to the larger portfolio of policies enacted by the mini budget, which was generally a different direction to the redistributive policy introduced by the government over recent years. Generally, the idea was to promote investment by making tax-cuts for entrepreneurs who create job growth. There are echoes of a purer trickle-down movement with the elimination of bankers bonuses, however.
 

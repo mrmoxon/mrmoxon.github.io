@@ -69,7 +69,7 @@ Let us map out the forest for the trees. The nine major types of God are variant
 
 <b>(Type 9) Local Nature Spirits:</b> Greek Naiads, Japanese Kodama, and Aboriginal local rainbow serpents.
 
-#### Divine Attributes
+### Divine Attributes
 
 At the heart of religious thought lie three highly sticky, divine qualities that appear across cultures in fascinating variations. 
 
@@ -85,7 +85,7 @@ At the heart of religious thought lie three highly sticky, divine qualities that
 
 **Omnipresence**: the embodiment of divinity; sacred geometry and ritual spaces that make material churches and temples tangibly worth building. Generally, this quality gives an intangibility for worshippers, to keep them coming back. 
 
-#### Religious archetypes: 
+### Religious archetypes
 
 - *The Triple Deity:* To compound the effect of the mono-god, a particularly strong upgrade to the Christian faith came in the 2nd century, when Theophilus of Antioch coined the “holy trinity” as a trifecta god of the father, the son, and the holy spirit. Similar triadic structures appear across cultures:
     - The Mother-Maiden-Crone pattern found in various traditions speaks to human understanding of life's cycles.
@@ -111,4 +111,5 @@ Now imagine that everything described above belongs not to many fragmented relig
 ---
 
 ![Tweet](/assets/sacred-calculus.jpeg){:style="width:70%;"}
-Documentary Hypothesis (DH)
+<br>
+*Documentary Hypothesis (DH)*

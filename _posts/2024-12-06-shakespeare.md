@@ -17,18 +17,19 @@ A repository of evidence that “William Shake-speare” was instead the literar
 
 > William Shakspur of Stratford-upon-Avon (1564–1616)
 
-### Argument One: William Shakspur Never Wrote A Thing
+## Argument One: William Shakspur Never Wrote A Thing
 
 The reason there are authorship theories is because the historical evidence linking 38 masterpieces to William Shakspur man from Stratford-upon-Avon is powerfully sparse, and Shakespeare's biographies are unusually contrived.
 
-#### The Missing Evidence
+### The Missing Evidence
+
 Biographies are traditionally based on records of existence: private letters, manuscripts, diaries, ownership deeds, administrations, other people's accounts. In one study, of the 23 next-most-well-known writers in London in the 1590s and 1600s, records exist that describe each of them as writers, plus, handwritten material survived for 15 of them, receipts of payment for writing services exist for 14 of them, private letters exist for 13 of them, and 11 have original manuscripts of their work still intact. Shakespeare has none of these. [1]
 
 For reference, *Voltaire*, a playwright who lived in the same century, left 20,000 private letters upon his death. Even Ben Jonson, the next most influential writer from the time, cited by historians as Shakespeare's closest friend and eye witness, left hundreds of private letters, receipts of payment of writing, original manuscripts, handwritten material, and miscellaneous records with reference to his profession.
 
 "Shakespeare" —- a man intimately familiar with royal courts, law, foreign lands, and classical works — left no papers documenting his travels or education, no personal library, no correspondence with other writers or patrons (including Ben Jonson, who called "Shakespeare" the greatest writer of all time — more on that later), no miscellaneous records relating to him as a poet, dramatist or writer of any sort, and no original manuscript of any play, poem, or other prose composition.
 
-#### The Stratford Connection
+### The Stratford Connection
 
 The bulk of evidence used by Shakespeare's biographers rests on the authority of the title pages of the plays in the *First Folio*, where Ben Jonson references Shakespeare in the prologue and includes his portrait (made posthumously), and because there are no personal records, biographers tie the plays to a man named "Shaxpur" or "Shakspur" from Stratford-upon-Avon, who appeared as an actor in two Ben Jonson plays. For this man, there are six words of handwriting that have survived — six shaky signatures on legal documents that read his name.
 
@@ -38,15 +39,15 @@ According to a vicar in Stratford-upon-Avon, Shakspur is thought to have died in
 
 What can be said with some certainty is that William Shakspur didn't write the plays attributed to him. Now hold your breath, there's way more.
 
-### Argument Two: Francis Bacon Wrote Shakespeare
+## Argument Two: Francis Bacon Wrote Shakespeare
 
-#### The Promus
+### The Promus
 
 Bacon's "Promus" notebook was published with his "Northumberland Papers" in the late 19th century, two documents that show an evolution of Shakespeare unlike anything else. Bacon's Promus contains 1,655 metaphors, aphorisms, and gags written between 1594–1596, and hundreds of niche parallels to extracts of the Shakespeare plays written later.
 
 - The notebook includes phrases lifted from Virgil, Ovid, Seneca, Horace, Terence, and the Catholic Bible in languages ranging from Latin, French, Italian, Spanish, to English, and at least 600 of Bacon's phrases can be found in his known works, let alone the hundreds that would be found in Shakespeare over the following 30 years.
 
-#### The Northumberland Papers
+### The Northumberland Papers
 This ledger of papers include a collection of works belonging to two authors: Bacon and Shakespeare, written before they were published, in 1597 (before Shakespeare appeared on the title pages of any plays). Within, the phrase “By Mr. Ffrauncis William Shakespeare” is written with a page of signatures by the same hand, with multiple alternative spellings of the name “Shakespeare”, as if Bacon is testing out his pen name.
 
 - Bacon signs off with the symbol of Pallas Athena, the "Spear-shaker" and Muse of all Muses, and includes the titles "Richard I", "Richard II", excerpts from the "Rape of Lucrece", and the famous word "​​honorificabilitudini" from "Love Labour's Lost". Unlike other works listed, the plays aren't immediately attributed to any author, while another work included (the "Isle of Dogs" by Ben Jonson) explicitly names the author on the title page. This is the only Elizabethan document with both Bacon and Shakespeare's names on.
@@ -55,7 +56,7 @@ This ledger of papers include a collection of works belonging to two authors: Ba
 
 - The words "put into type" are written on the back, referencing the writing practice Bacon held with his brother Anthony to publish writing, an explanation for why no handwritten Shakespeare plays have been attributed to him, for they were never circulated before being put into type.
 
-#### The First Folio
+### The First Folio
 
 The *First Folio* (1623) was published seven years after Shakespeare's date of death, and collated while Ben Jonson lived in Francis Bacon's residence in St Albans. Jonson worked as Bacon's secretary and Latin interpreter for many years (an enormous deal, given that Jonson is the only witness commonly cited by historians to evidence Shakespeare existed, and who died without a single letter from Shakespeare to his name). It contained 18 plays printed for the first time - half of Shakespeare's catelogue — including new plays like "Henry VIII" — with nearly 5,000 new lines added to the plays previously released as quartos.
 
@@ -67,7 +68,7 @@ The *First Folio* (1623) was published seven years after Shakespeare's date of d
 
 - Ben Jonson referred to Bacon in his eulogy as "he, who hath fill'd up all numbers; and perform'd that in our tongue, which may be compar'd, or preferr'd, either to insolent Greece, or haughty Rome", comparing him to Homer and Virgil. This is the precise analogy he cast to Shakespeare in the *First Folio*, which Jonson never recycled in his writing otherwise.
 
-#### The King James Bible 
+### The King James Bible 
 
 The *First Folio* (1623) and The King James Bible (1611) belong to the same pen, and Bacon left his mark on both.
 
@@ -77,7 +78,7 @@ The *First Folio* (1623) and The King James Bible (1611) belong to the same pen,
 
 - Bacon's printer's devices appear in both works, identical to works from "Venus and Adonis" (1592), to "Sylva Sylvarum" (1623).
 
-#### Personal and Biographical Evidence
+### Personal and Biographical Evidence
 Bacon’s hometown of St Albans appears more than any other location in Shakespeare’s works (Stratford does not appear). Bacon’s brother, Antony/Antonio is the most common character across the 37 plays (after the common name John). Bacon’s lived experience is further aligned with his plays, e.g.:
 
 - In one of the first Shakespeare works “The Taming of the Shrew”, Bacon’s family and friends make up the cast: the central character “Petruccio” is Petruccio Ubaldini, Bacon’s family calligrapher of forty years. Bacon’s Aunt, Katherine Cooke Killigrew, is “Katherine”, the other lead, with her sister Bianca being Bacon’s mother, Lady Anne Bacon. Anthony, Bacon’s brother, appears as Petruccio’s father “Antonio”, and Nicholas and Nathaniel, Bacon’s elder half-brothers, are Petruccio’s servants.
@@ -88,7 +89,7 @@ Bacon’s hometown of St Albans appears more than any other location in Shakespe
 
 - “The Two Gentlemen of Verona” features lines lifted verbatim from Bacon’s letter to King James, and Bacon’s closest friend Tobie Matthew indicates in his letters to Bacon that he is returning the work ”Measure for Measure” that Bacon had sent him. Another time, he alludes that Bacon wrote “Julius Caesar”.
 
-#### The Good Pens Writing Studio
+### The Good Pens Writing Studio
 
 Anthony and Francis Bacon held together a writing studio they called ‘The Good Pens’ that included at various times many reputable poets and writers including Thomas Kyd (co-author of “Edward III”) and Christopher Marlowe (co-author of “Henry VI”), along with scribes that would print many of the early works of the English renaissance.
 
@@ -101,7 +102,7 @@ Anthony and Francis Bacon held together a writing studio they called ‘The Good
 
 Now we’ve visited the axioms of history, lets turn our attention to the incentives. Has this really eluded the mainstream for four hundred years long?
 
-### The Motivation of Shakespeare
+## The Motivation of Shakespeare
 
 Elizabethan England was a land of brutal censorship. There was little freedom of speech, especially for nobles, who would face a certain social stigma from their peers if they provided honest political commentary. The Master of the Revels and the dreaded Star Chamber had the power to imprison and torture any writer, and this happened to many of Bacon’s circle:
 
@@ -127,9 +128,9 @@ Bacon was considered a genius from a young age. He was well exposed to the royal
 
 ---
 
-### A More Interesting Tudor Era: The Extended Theory
+## A More Interesting Tudor Era: The Extended Theory
 
-#### Theory: Bacon and the Earl of Essex were Sons of Queen Elizabeth I
+### Theory: Bacon and the Earl of Essex were Sons of Queen Elizabeth I
 
 The story goes: in 1560, Elizabeth and Robert Dudley, Earl of Leicester, were married in secret. Two years into her reign, Elizabeth got pregnant with Robert Dudley’s child, was housed for six months and gave birth to Francis, and the Bacon family adopted him as their own. Eight years later, the Act of Succession was rewritten to allow Elizabeth to select who the Crown would go to, rather than her heirs.
 
@@ -139,7 +140,7 @@ At 23, Bacon would be made Member of Parliament for Portland, a royal borough, a
 
 Bacon would come to take the position of Queen Consort, a position made for him, as he rose to significance as Elizabeth’s closest advisor. After Elizabeth’s death, Bacon wrote to James I “I wish that I am the first, so I may be the last of sacrifices in your times,” and was subsequently knighted, given office, and promoted to Lord Chancellor in short succession, where he wore purple at his coronation — a colour saved specifically for royals.
 
-#### Theory: Bacon Wrote Cervantes’ Don Quixote
+### Theory: Bacon Wrote Cervantes’ Don Quixote
 
 The Shakespeare canon presents a remarkable literary map of Europe and the ancient world, covering the monarchy from King John through Henry VIII (if you include Bacon’s works), with definitive masterpieces set in various nations:
 
@@ -159,11 +160,9 @@ The book also had a highly unusual structure — with its frame narrative, unrel
 
 ---
 
-### Bibliography
+# Bibliography
 
-[1]
-
-![Reference 1](/assets/bacon-shakespare-1.png)
+[1] ![Reference 1](/assets/bacon-shakespare-1.png)
 
 ["One study on 1600 poets and playwrights."](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/diasporter.pdf)
 

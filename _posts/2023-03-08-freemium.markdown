@@ -56,7 +56,7 @@ Either way, I do hope this trend comes to an end.
 
 ---
 
-Freemium Traps:<a id="traps"></a>
+# Freemium Traps
 
 - NVIDIA restricting GPU usage for some tasks like mining, despite their capability, forcing consumers to purchase more expensive GPUs for purpose.
 

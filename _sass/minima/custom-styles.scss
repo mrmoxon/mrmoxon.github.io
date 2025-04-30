@@ -683,39 +683,41 @@
 /* Add to your _sass/minima/_custom-styles.scss */
 
 .pdf-container {
-  margin: 1rem 0;
+  margin: 2rem 0;
   background: #f5f0e8;
   padding: 0.5rem;
 }
 
 .pdf-header {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   text-align: right;
 }
 
 .pdf-download-btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  padding: 0.4rem 0.8rem;
-  background: #be9c7b;
-  border: none;
-  border-radius: 3px;
-  color: #fff;
-  font-size: 0.9rem;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--brand-color);
+  color: var(--background-color);
+  border-radius: 6px;
   text-decoration: none;
-  font-weight: 400;
   transition: all 0.2s ease;
-}
+  
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
 
-.pdf-download-btn:hover {
-  background: #a37f5b;
-  text-decoration: none;
-}
+  svg {
+    width: 20px;
+    height: 20px;
+    stroke: var(--background-color);
+  }
 
-.pdf-download-btn svg {
-  margin-right: 0.4rem;
-  width: 16px;
-  height: 16px;
+  span {
+    color: var(--background-color);
+  }
 }
 
 .pdf-content {
@@ -784,13 +786,13 @@
 .cite-button {
   background: transparent;
   border: none;
-  color: #8d6032;
+  color: #cbaa96;
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
   padding: 0;
   margin: 0;
-  text-decoration: underline;
+  text-decoration: italic;
   appearance: none;
   -webkit-appearance: none;
   vertical-align: baseline; /* Add this to align with text */
