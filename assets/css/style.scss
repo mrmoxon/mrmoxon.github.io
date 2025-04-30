@@ -6,16 +6,28 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-// Dark mode styles for social icons
+// Dark mode styles for social icons and newsletter text
 @media (prefers-color-scheme: dark) {
   .social-links img {
     filter: brightness(0) invert(1);
     transition: filter 0.3s ease;
   }
+
+  .newsletter-signup-text {
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
 }
 
 // For explicitly dark theme
-[data-theme="dark"] .social-links img {
-  filter: brightness(0) invert(1);
-  transition: filter 0.3s ease;
+[data-theme="dark"] {
+  .social-links img {
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+  }
+
+  .newsletter-signup-text {
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
 }
