@@ -26,7 +26,7 @@ IV. [Why Substrate Independence is a Big Deal For Us](#part-4)
 
 <a id="part-1"></a>
 
-#### I. The Story of Life
+## I. The Story of Life
 
 It is one thing to exist, and another thing to philosophise about it. 
 
@@ -60,7 +60,7 @@ Ultimately, hydrogen, in the right conditions, becomes sociable and self-aware.
 
 <a id="part-2"></a>
 
-#### II. Understanding Substrate-Independence
+## II. Understanding Substrate-Independence
 
 DNA gave us a lens to view all life through; the axiom of reproduction and metabolism. But it failed to square the circle for those who had been paying attention. If any stable, well optimised polymer could propagate biological life, then the real mystery becomes how consciousness emerges. The key to natural selection lies not solely in DNA, but rather in the behaviours of organisms, which are influenced far beyond their double helical structure.
 
@@ -80,7 +80,7 @@ While these phenomena satisfy the basic concept of substrate independence, the m
 
 <a id="part-3"></a>
 
-#### III. Building A General Framework
+## III. Building A General Framework
 
 With this in mind, we ought to make a framework for what defines valuable human-like sentience, because at some point we'll be able to iterate over cognitive systems where 'IQ', 'emotionality', 'open-mindedness', or 'curiosity' are preserved, or emulated through other matter.
 
@@ -96,7 +96,7 @@ The key is transmitting our experience without sacrifing the ways in which we up
 
 <a id="part-4"></a>
 
-#### IV. Why Substrate-Independence is a Big Deal For Us 
+## IV. Why Substrate-Independence is a Big Deal For Us 
 
 Natural selection is almost always self-induced; members of a species act on instincts that increase their odds of survival and replace those who can't compete. But never has a species replaced other memebers of their species by building more intelligent machines, which is on the cards for humanity. Granting fire into non-human agents has the potential to lead to self-improvement at some far greater rate than humans are capable of adapting to, as all of our coping mechanisms are behavioural --- we are yet to start work on updating hyperparameters at a rate beyond that of mutation.
 
@@ -118,7 +118,7 @@ The reality is, some time in the distant future, it may be time to upload. That 
 
 ---
 
-#### References
+# References
 
 [1]<a id="ref-1"></a> - 8 different types of eye? Let me check that out!  
 

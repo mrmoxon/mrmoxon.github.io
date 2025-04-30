@@ -128,12 +128,11 @@
 .custom-bullets > li::before {
   content: "•";
   font-size: 1em;
-  line-height: 1; /* Ensures vertical alignment */
-  top: 0.3em; /* Fine-tune vertical positioning */
-
+  line-height: 1;
+  top: 0.3em;
   position: absolute;
   left: 0;
-  color: #000000;
+  color: var(--bullet-color);
 }
 
 .custom-bullets > li > ul {
@@ -154,7 +153,7 @@
   top: -0.2em;
   position: absolute;
   left: -0.5em;
-  color: #613b16;
+  color: var(--bullet-color);
 }
 
 .newsletter-signup-text {
@@ -394,8 +393,7 @@
 // Dropdown
 
 .dropdown {
-  background-color: #463730; /* Light brown color */
-  // border: 1px solid #84480c;
+  background-color: #f3e9e3; /* Light mode background */
   border-radius: 10px;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -404,8 +402,8 @@
 }
 
 .dropdown-toggle {
-  background-color: #382f2d;
-  color: #f7eddb;
+  background-color: #cbaa96;
+  color: #1d1300;
   font-size: 1rem;
   padding: 10px;
   width: 100%;
@@ -430,6 +428,7 @@
   overflow: hidden;
   padding: 10px;
   margin-bottom: 0px;
+  color: #1d1300;
 }
 
 .dropdown-preview::after {
@@ -440,13 +439,47 @@
   padding-bottom: 0px;
   width: 100%;
   height: 20px;
-  background: linear-gradient(rgba(117, 104, 94, 0), rgb(123, 78, 41));
+  background: linear-gradient(rgba(243, 233, 227, 0), rgb(243, 233, 227));
 }
 
 .dropdown-content {
   display: none;
   padding: 10px;
-  border-top: 1px solid #382f2d;
+  border-top: 1px solid #cbaa96;
+  color: #1d1300;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] {
+  .dropdown {
+    background-color: #2d2d2d;
+  }
+
+  .dropdown-toggle {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+
+  .dropdown-preview {
+    color: #e0e0e0;
+  }
+
+  .dropdown-preview::after {
+    background: linear-gradient(rgba(45, 45, 45, 0), rgb(45, 45, 45));
+  }
+
+  .dropdown-content {
+    border-top: 1px solid #404040;
+    color: #e0e0e0;
+  }
+
+  .custom-bullets > li::before {
+    color: #ffffff !important;
+  }
+
+  .custom-bullets > li > ul > li::before {
+    color: #ffffff !important;
+  }
 }
 
 
@@ -511,54 +544,30 @@
   white-space: nowrap;
 }
 
-/* Remove essays-specific centering */
 /* Mobile styles */
 @media screen and (max-width: 768px) {
-  /* Hide categories section on mobile */
-  .categories-section {
-    display: none;
-  }
-
-  /* Hide categories link in mobile menu */
-  .site-nav .page-link[href*="/categories/"] {
-    display: none;
-  }
-
   .post-title-meta {
-    flex-direction: column;
-    gap: 0.25rem;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: baseline;
+    text-align: left;
   }
 
   .post-title {
-    text-align: center;
+    text-align: left;
     margin: 0;
     font-size: 1.75rem;
   }
 
   .post-meta {
-    text-align: center;
+    text-align: left;
     font-size: 0.8rem;
-    margin-left: 0;
+    margin-left: 1rem;
     padding-left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.25rem;
-  }
-
-  .category-title {
-    text-align: center;
-    width: 100%;
-    display: block;
-    margin: 1.5rem 0;
-    font-size: 1.5rem;
   }
 
   .post-list h2 {
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -868,25 +877,25 @@ b.bold-highlight {
   .post-title-meta {
     flex-direction: column !important;
     gap: 0.25rem;
-    align-items: center !important;
-    text-align: center !important;
+    align-items: left !important;
+    text-align: left !important;
   }
 
   .post-title {
-    text-align: center !important;
+    text-align: left !important;
     margin: 0;
     font-size: 1.75rem;
   }
 
   .post-meta {
-    text-align: center !important;
+    text-align: left !important;
     font-size: 0.8rem;
     margin-left: 0;
     padding-left: 0;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     gap: 0.25rem;
   }
 
@@ -1093,12 +1102,14 @@ input:checked + .slider:before {
     color: #ffffff;
   }
 
-  .custom-bullets > li::before {
-    color: #ffffff;
-  }
+  .custom-bullets {
+    > li::before {
+      color: #ffffff !important;
+    }
 
-  .custom-bullets > li > ul > li::before {
-    color: #ffffff;
+    > li > ul > li::before {
+      color: #ffffff !important;
+    }
   }
 
   // Ensure all links use the correct color
@@ -1173,7 +1184,7 @@ input:checked + .slider:before {
   height: 100vh;
   width: 300px;
   background-color: transparent;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   z-index: 99;
   transition: all 0.3s ease;
   overflow-y: auto;
@@ -1181,12 +1192,37 @@ input:checked + .slider:before {
   padding-top: 100px;
   opacity: 1;
   pointer-events: auto;
+  
+  // Ensure content is scrollable
+  display: flex;
+  flex-direction: column;
 }
 
 .side-panel.collapsed {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+}
+
+.side-panel-content {
+  position: relative;
+  background-color: var(--background-color);
+  border-radius: 0;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  
+  // Enable scrolling for content
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  
+  // Move scrollbar to left side
+  direction: rtl;
+  
+  // Container for actual content
+  > * {
+    direction: ltr; // Reset direction for content
+  }
 }
 
 // Menu Toggle Button
@@ -1255,15 +1291,6 @@ input:checked + .slider:before {
   }
 }
 
-.side-panel-content {
-  position: relative;
-  background-color: var(--background-color);
-  border-radius: 0;
-  padding: 20px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .side-panel-toggle {
   position: absolute;
   right: -30px;
@@ -1283,15 +1310,15 @@ input:checked + .slider:before {
 }
 
 .side-panel-text h3 {
-  margin: 0 0 15px 0;
+  margin: 0 0 8px 0;
   font-size: 1em;
   color: var(--text-color);
   font-weight: 500;
 }
 
 .side-panel-menu {
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .side-panel-menu-item {
@@ -1331,16 +1358,16 @@ input:checked + .slider:before {
   }
 }
 
-// Scrollbar styling for the side panel
-.side-panel::-webkit-scrollbar {
+// Scrollbar styling for the side panel content
+.side-panel-content::-webkit-scrollbar {
   width: 6px;
 }
 
-.side-panel::-webkit-scrollbar-track {
+.side-panel-content::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.side-panel::-webkit-scrollbar-thumb {
+.side-panel-content::-webkit-scrollbar-thumb {
   background-color: var(--border-color);
   border-radius: 3px;
 }
@@ -1367,5 +1394,52 @@ h3 {
 h1, h2, h3 {
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit * 0.5;
+}
+
+// Hide specific numerical patterns
+h1, h2, h3, h4, h5, h6 {
+  &[id^="part-"],
+  &[id^="1"],
+  &[id^="2"],
+  &[id^="3"],
+  &[id^="4"],
+  &[id^="5"],
+  &[id^="6"],
+  &[id^="7"],
+  &[id^="8"],
+  &[id^="9"],
+  &[id^="0"] {
+    &::before {
+      display: none;
+    }
+  }
+}
+
+// Remove "Part X:" and numerical prefixes from headings
+h1, h2, h3, h4, h5, h6 {
+  &::before {
+    content: none !important;
+  }
+  
+  // Remove "Part X:" pattern
+  &[id*="part-"] {
+    &::before {
+      content: none !important;
+    }
+  }
+}
+
+// Remove numerical prefixes (1.1, 1.2, etc)
+[class*="content"] {
+  h1, h2, h3, h4, h5, h6 {
+    &::before {
+      content: none !important;
+    }
+  }
+}
+
+// Class for elements that need number removal
+.remove-numbers {
+  display: block;
 }
 

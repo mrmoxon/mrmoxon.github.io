@@ -17,7 +17,7 @@ When will we see the first truly autonomous profit-maximising algorithms? As we 
 <a href="#part-3">Part III. Perfect Potential</a></p>
 </div>
 
-### <a id="part-1"></a>Part I: Perfect Profit
+## <a id="part-1"></a>Part I: Perfect Profit
 Technology companies are cloning the domain expertise of professionals in industries like law, finance, marketing, transport and medicine [[1]](#ref-1). PhD theses are being accelerated with Co-Scientist and approached outright with Deep Research [[2]](#ref-2).
 
 Imagine you are tasked to design a benchmark that, if solved, would enable perfect value creation. 
@@ -51,7 +51,7 @@ Third, innovation will be fast. While claims of "monthly economic doubling" are 
 
 If the work behind the Oxford-AstraZeneca vaccine effort had been automated and twice as fast, would anyone have found it morally objectionable? AI systems that work continuously, without human limitations like fatigue or distraction, will provide crisis innovation at a far greater rate. But why wait for another pandemic: we should duplicate the R&D loop of a company like [Calico](https://www.calicolabs.com/) and run it 100x faster to carve a far shorter path to solving pathological disease (killing over 120,000/day).
 
-#### Closing the Build Loop
+### Closing the Build Loop
 
 True saturation occurs when AI closes the build loop: automating all stages from R&D to deployment, eliminating human intervention after the "point of want". This requires integrating four layers:
 
@@ -68,7 +68,7 @@ Early autonomous versions of this loop will materialise in the next couple years
 <br>
 *Superlinear scaling in cities: when a city doubles in size, it produces more than double the patents, innovations, and economic output, and at the cost of less than double the infrastructure.*
 
-### <a id="part-2"></a>Part II: Perfect Power
+## <a id="part-2"></a>Part II: Perfect Power
 To truly design a benchmark symbolising "value creation", we must move beyond traditional metrics like profit or efficiency.
 
 If profit-maximising algorithms focus on efficiency in existing markets, power-maximising systems seek to expand the domain of what can be controlled and optimised. By operating at the scale of markets, these algorithms could exhibit superlinear scaling. Growing companies experience declining efficiency in line with Metcalf's Law. Markets, cities, and civilisation each demonstrate superlinear scaling, where output grows faster than input [[11]](#ref-11).
@@ -77,7 +77,7 @@ Algorithms operating at civilisation scale would harness these superlinear effec
 
 In Robin Hanson's *The Age of Em*, computational systems can replicate human expertise and operate at electronic speeds, but exist as full-brain emulations of humans, ensuring they behave like us. In reality, algorithmic systems are on track to bypass human-like cognition entirely, in favor of different, potentially more efficient architectures.
 
-#### The Demand-Automation Frontier
+### The Demand-Automation Frontier
 The question is not whether algorithmic systems will achieve civilisational scale, but when—and more importantly, under what governance structures and with what degree of alignment. In one future, algorithms will go from predicting and fulfilling human desires to satisfying demands autonomously. In another future, algorithms will actively generate their own demands, orthogonal and independent of human objectives.
 
 Two futures: 
@@ -93,7 +93,7 @@ Bostrom's Orthogonality Thesis asserts that intelligence and goals are inherentl
 
 Companies have historically trampled the line of moral acceptability: slave enterprises like the South Sea Company granted monopoly rights to supply enslaved Africans to Spanish colonies in the Americas; the East India Company had their own private army and acted as a colonial power; and Enron, less malicious or violent, caused great damage by inflating their profit and stock price and cashing out executives while encouraging others to keep buying. Sometimes, like in the case of I.G. Farben, they can truly be malignant: manufacturing Zyklon B gas with the same slave labor it was used on. Consensus in markets are reinforced with a complex mechanism of regulators, auditors and insurance partners. Provided autonomous companies will also seek insurance and credibility (both true if engaged competition), these release valves will continue to hold.
 
-#### A Pure-Tech Race Condition
+### A Pure-Tech Race Condition
 
 Whoever builds a self-improving system first may lock in compound advantages, ensuring their system improves faster than all future competitors [[12]](#ref-12). This creates powerful incentives to develop increasingly autonomous economic algorithms that converge on purer and more unstable technology in race conditions.
 
@@ -110,7 +110,7 @@ Conceivably, the first generation of supervised AIs will accelerate human cognit
 <br>
 *Civilisation at the Omega Point*
 
-### <a id="part-3"></a>Part III: Perfect Potential
+## <a id="part-3"></a>Part III: Perfect Potential
 Imagine a galaxy-scale algorithm that is capable of behaving like a deity of immense power (bounded only by the energy it has access to and the laws of physics). What should it choose to spend its resources on? And importantly, what project, if any, deserves all the galaxy's resources?
 
 [Pierre Teilhard de Chardin](https://en.wikipedia.org/wiki/Omega_Point) observed that evolution progresses through increasing complexity and "centration"—inward organisation, or "elegance". For instance, modern AI is the result of an algorithm transcending its programmed parameters and developing emergent capabilities.
@@ -141,7 +141,7 @@ Meanwhile, Eastern philosophical concepts of non-duality could provide interesti
 
 What unifies these perspectives is the recognition that power without elegance is merely force. True potential—the measure of absolute power—lies in the elegant organization of resources toward emergent complexity.
 
-#### Event Horizon
+### Event Horizon
 
 We began by examining profit-maximising algorithms that remake industries and markets, creating unprecedented efficiency and abundance. These systems form the resource foundation for power-maximising systems capable of reforming civilisation, harnessing superlinear effects beyond what any human organisation could achieve.
 
@@ -151,7 +151,7 @@ The most profitable algorithm builds the foundation. The most powerful algorithm
 
 ---
 
-#### Bibliography
+# Bibliography
 
 [1]<a id="ref-1"></a> Domain expertise cloning examples: [Casetext](https://www.ycombinator.com/companies/casetext) for law, [AI Invest](https://www.ainvest.com/) for finance, [Copy.ai](https://www.copy.ai/) for marketing, [Waymo](https://waymo.com/) for transport, and [K Health](https://khealth.com/) for medicine.
 

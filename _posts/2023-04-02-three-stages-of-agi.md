@@ -11,25 +11,11 @@ image: /assets/hollowing.webp
 description: "Stage One: AGI Tools, Stage Two: AGI Emergence, Stage Three: Later Generations of AGI and the post-intelligence explosion."
 ---
 
-This is the second part of my [Pervasive Machines series](/leverage/2023/04/02/pervasive-intelligence.html).
-
-### Contents
-
-1. [The Route Forward](#part-1)
-
-2. [Stage One: AGI Tools (Broad AI)](#part-2)
-
-3. [Stage Two: How True AGI Arises (Broad AI)](#part-3)
-
-4. [Stage Three: Later Generations of AGI](#part-4)
-
-5. [Evolution: Humans vs 1st Gen AGI](#part-5)
-
-6. [Trans-Humanism (Staying Alive)](#part-6)
+This is the second part of my [Pervasive Machines series](/civilisation/2023/04/01/pervasive-intelligence.html).
 
 ---
 
-#### The Route Forward<a id="part-1"></a>
+## The Route Forward<a id="part-1"></a>
 
 Motivations to develop algorithms that “solve intelligence to advance science and benefit humanity” (DeepMind) seem spiritually well-intended but will unlock immense profit for those who can monopolise. In the same spirit that refrigeration was truly capitalised by Coca-Cola, and not the inventor of the fridge, it may be a more ruthless generation of capitalists who truly unlock the value of AI systems.
 
@@ -37,7 +23,7 @@ OpenAI seemed positioned to become an API-selling corporation like Stripe, until
 
 Nevertheless, I would argue that AGI will come in three distinct stages.
 
-#### Stage One: AGI Tools (Broad AI)<a id="part-2"></a>
+## Stage One: AGI Tools (Broad AI)<a id="part-2"></a>
 
 The first stage of AGI development is likely to be driven by scientific innovation and financial opportunity. This stage will witness the rise of AGI tools, which will consist of composite algorithms using large language models (LLMs), computer vision systems, and other machine learning techniques at their core.
 
@@ -51,7 +37,7 @@ As with all ground-breaking technologies, the adoption of AI will significantly 
 
 Although these tools may not conform to a universally accepted definition of “AGI,” they will display broad intelligence by leveraging vast amounts of data and training. This stage will surmount to the wave of innovations under the “Generative Pre-trained Transformer” (GPT) umbrella and lay the groundwork for the next stages of AGI development.
 
-#### Stage Two: How “True AGI” Arises<a id="part-3"></a>
+## Stage Two: How “True AGI” Arises<a id="part-3"></a>
 Truly building AGI necessitates we make breakthroughs in machine learning that allow algorithms to learn from discovery and adapt to new situations with flexibility and generalizability.
 
 According to Altman, AGI refers to a system capable of driving the cutting edge of technological advancement. In his conversation with Lex Fridman, Altman suggested that while LLMs may play a role in AGI’s development, they will not exhibit general intelligence on their own. Noam Chomsky also argues that pattern recognition systems like GPT-4, while adept at language, lack the flexibility and true creativity found in the full spectrum of human cognition [[13]](#ref-13).
@@ -62,7 +48,7 @@ In an ideal scenario, akin to Irving Good’s prophecy, this is the point where 
 
 Those above the interface can reasonably expect to drive a new political system of resource abundance and social hierarchy known as “Rentism” [[14]](#ref-14). and will require constant government regulation to avoid fast take-off and runaway superintelligence.
 
-### Stage Three: Later Generations of AGI<a id="part-4"></a>
+## Stage Three: Later Generations of AGI<a id="part-4"></a>
 In later generations of AI, limitations that existed for the digital computing paradigm will be pushed outward, allowing for astonishing levels of cognition and self-agency. It is feasible to assume that given a scenario with quality superintelligence, there will be a severance between humans and machines.
 
 Assuming there are better, more efficient paradigms of intelligence architecture to be built, those projects will be embarked upon by our most sophisticated algorithms in a manner that far surpasses human capabilities. While humans may be able to grasp the next paradigm, we may also fall short of being able to construct it ourselves. In theory, we would expect a trajectory that converges on Bremermann’s maximum rate of computation, of around 10⁵⁰ bits per second per kilogram.
@@ -71,7 +57,7 @@ Assuming there are better, more efficient paradigms of intelligence architecture
 <br>
 *Figure 7. The trajectory of Generational AGI towards omniscience.*
 
-#### Evolution: Humans vs 1st Gen AGI<a id="part-5"></a>
+## Evolution: Humans vs 1st Gen AGI<a id="part-5"></a>
 To forecast the long-term advantages of AGI over human cognition, we can study the hyperparameters of biological intelligence and draw parallels.
 
 Human intelligence in humans can be attributed entirely to our biological evolution. Various forms of intelligence are displayed throughout the Darwinian evolutionary tree, with humans being one of the organic intelligences that utilize neurons as our core computational elements.
@@ -84,15 +70,15 @@ But outside of the evolutionary path, inorganic agents may induce intelligence u
 
 High-end silicon-based supercomputers have long surpassed the computational capacity of the human brain, and at current rates, we can expect desktop computers to house similar power by 2042 [[16]](#ref-16). However, neurons are just one of many hyperparameters holding us back in the race for cognition. Others include:
 
-##### I. Signal speed
+### I. Signal speed
 
 Within the brain, axons carry action potentials at up to 120m/s, while electronic cores can communicate at the speed of light. This limits biological brains to 0.11m³, assuming they remain a single entity. An electronic system by that same measure of round-trip latency could be 6.1x10¹⁷m³ or around the size of Pluto.
 
-##### II. Speed of computational elements
+### II. Speed of computational elements
 
 Neurons operate at peak speed of 200 Hz, or around seven orders of magnitude slower than a modern microprocessor at 3 GHz. The brain compensates by parallelising operations across a vast number of neurons at the same time. Unfortunately, this isn’t great for large-scale computations which generally demand sequential processing.
 
-##### III. Reliability, lifespan, memory, sensory input
+### III. Reliability, lifespan, memory, sensory input
 
 Some estimates suggest that the adult human brain stores around 1 billion bits, or about a quarter of the storage capacity of an Amazon Alexa. Brains also become fatigued after a few hours of work and permanently decay after a few decades. In terms of sensory input, we process around 11 million input bits per second, with 90% of those visual. As this is achievable in digital computers with just a single digital camera, it is possible to compute far, far more input bits per second across a variety of modalities.
 
@@ -102,7 +88,7 @@ Furthermore, the natural intelligence of the brain (human “G-factor”) is fix
 <br>
 *Figure 9. The Connectome: a nerve map of the neural connections in the human (thanks, Emilija). [Credit](https://commons.wikimedia.org/wiki/File:The_Human_Connectome.png).*
 
-#### Trans-Humanism (Staying Alive)<a id="part-6"></a>
+## Trans-Humanism (Staying Alive)<a id="part-6"></a>
 So, the question arises: Can we remain relevant by upgrading our self-agency without sacrificing our sense of identity?
 
 To adapt to more efficient workflows, the human brain could benefit from support for fast sequential processing. This discussion is about blurring the lines between being human and incorporating the technology that makes AI so transcendent. We can either embed it within us or transfer our biological wetware into digital form.
@@ -121,7 +107,7 @@ The development of AGI has the potential to put the world into its final chapter
 
 ---
 
-#### References
+# References
 
 [13]<a id="ref-13"></a> Noam Chomsky on AI and other things: https://www.youtube.com/watch?v=7uHGlfeCBbE.
 

@@ -312,7 +312,7 @@ And for a deep-learning centric breakdown, this is excellent by Juergen Schmidhu
 
 ---
 
-## Notes
+# References
 
 [1] - A great breakdown of McCulloch and Pitts' function is available here.
 

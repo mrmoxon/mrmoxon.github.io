@@ -159,7 +159,7 @@ The book also had a highly unusual structure — with its frame narrative, unrel
 
 ---
 
-### Bibliography: 
+### Bibliography
 
 [1]
 

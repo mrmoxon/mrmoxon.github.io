@@ -15,15 +15,7 @@ This blogpost is my best attempt at steelmanning objective morality. Writing thi
 
 ---
 
-[Part 1: Understanding Moral Objectivity](#part-1)
-
-[Part 2: Superintelligence as a Therapy](#part-2)
-
-[Part 3: Superalignment as a Priority](#part-3)
-
----
-
-### Part 1: Moral Objectivity<a id="part-1"></a> 
+## Part 1: Moral Objectivity<a id="part-1"></a> 
 
 To start with the axioms and build up, let's consider a basic method to compare everything that matters to conscious beings. In order to do so, we will establish that suffering and well-ebing are objective facets of reality, and recognise that while this implies the existence of objective truths, approximating them in practice is very challenging.
 
@@ -110,7 +102,7 @@ This landscape is composed of a near intractable number of dimensions, and somew
 
 To be clear, this perspective isn't fundamentally incompatible from ontological subjectivity (the fact that our preferences manifest in our minds); instead, the argument is that despite individuals possessing diverse moral intuitions, there exists a moral superposition over all preferences that can be reasoned about empirically. In this model, reality is epistemologically objective, meaning we can meaningfully reason about preferences using a kind of grounded moral calculus. 
 
-#### Game Theoretic Morality
+### Game Theoretic Morality
 
 By recognising this landscape as a space of all possible states, we can apply a game theoretic methodology to optimise our paths towards pareto optimal realities --- those in which it's impossible to improve the well-being of any conscious entity without reducing the well-being of another. In other words, realities where all resources are allocated efficiently for the benefit of thinking entities. With the pareto frontier as the goal, we can then consider other important traits, like the degree of equitability and cohesion of species. 
 
@@ -120,7 +112,7 @@ As we converge on the singularity (the point in time where technological growth 
 
 We should also recognise the points of deeply inequitable well-being, where the cumulative well-being is high, but the potential for a diversity of well-being are lost. These lie off the pareto frontier as they are suboptimal in the long-run. Pricing in the lost potential of these states and creating qualitative comparisons to other configurations is the purpose of this entire exercise. Until we know better, we should argue in favour of realities where lots of unique cognitive entities exist, because a world teaming with colourful species is one that most of us get great satisfaction from, and we can argue that those species feel the same way about themselves, and hence morality effects them also.
 
-#### Building Moral Heuristics
+### Building Moral Heuristics
 
 Our precise coordinates on this moral landscape remain partially obscured due to the inherent difficulty in discerning objective moral truths when working with an incomplete model. However, we are aware of processes that empirically generate 'progress' in modeling morality, and these should be prioritised. We can leverage these processes to formulate a robust, nuanced utilitarianism that evolves as our understanding of reality becomes more tractable.
 
@@ -147,7 +139,7 @@ We cannot ever know if we are behaving in an objectively moral way, because as l
 
 However, the horsemen continue to plague our species. Now when we fail, it is at unprecidented scales, so the price we pay has increased. Since 1956, there have been 43 genocides, a 70% decline in wildlife abundance (by some metrics), and the construction of an animal harvesting infrastructure of over 6 billion animals for daily consumption (amounting to trillions each year). In other words, as a society, we continue to find it remarkably difficult to candidly pathfind the moral landscape. This difficulty arises because the very quirks that define us as human beings also limit our capacity to apply our moral principles uniformly and consistently. [[5]](#ref-5)
 
-### Part 2: Superintelligence as a Therapy<a id="part-2"></a> 
+## Part 2: Superintelligence as a Therapy<a id="part-2"></a> 
 
 To take this to its logical extreme we must consider a daunting theory about morality. To convey this appropriately, lets simplify the thought experiment. 
 
@@ -217,7 +209,7 @@ However, the build-up to this moment of singularity has the potential to be the 
 
 This brings us to our next crucial consideration:
 
-### Part 3: Superalignment as a Priority<a id="part-1"></a> 
+## Part 3: Superalignment as a Priority<a id="part-1"></a> 
 
 The alignment problem --- embedding important human values in artificial intelligences, particularly autonomous agents --- has become the most crucial challenge in the development of superintelligent systems. While current language models demonstrate impressive performance across domains, their understanding often remains superficial. However, their nascent ability to make nuanced ethical decisions shows promise --- in the eyes of the moral landscape.
 
@@ -227,7 +219,7 @@ By the end of the decade, we might have millions of vastly superintelligent agen
 
 Current approaches to alignment often rely on mechanistic interpretability (a.k.a. neuroscience performed on artificial neural networks), along with top-down interpretability and adversarial testing. But completely reverse engineering these systems is a deeply ambitious project, comparable to reverse engineering the human brain. As systems grow ever larger or are kept behind secure servers, we will need to develop defense mechanisms that can scale unilaterally. A source of inspiration comes from the method of constraining models at a stage of training, and embedding trust between AI and researchers. The fundamental challenge in aligning superhuman systems is our ability to fully comprehend their actions, making it impossible to reliably notice and penalise bad behavior with RLHF. [[8]](#ref-8)
 
-#### The Empathic Simulation Paradigm
+### The Empathic Simulation Paradigm
 
 A robust approach to alignment would be to employ a training regime that internalises empathic nuance, diversity and benevolence. By building this module into a large sample of the next generation of models, there would be a genetic recursion effect that would propagate into the following generation, as each generation would inherit the same incentives for superalignment as we do. 
 

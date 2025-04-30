@@ -11,16 +11,6 @@ description: "Combining Wolfram and Friston's frameworks to better characterise 
 
 This work began as a study of the phenomena captured beautifully by the notion of "emergence" and developed into an elegant theory of the physics of self-organisation. It combines Wolfram and Friston's mathematical frameworks with complexity theory to better characterise the idea of a "universal assembly function".
 
-1. [Introduction](#part-1)
-2. [Elegance Over Entropy](#part-2)
-3. [Weak and Strong Emergence](#part-3)
-4. [The Language of Emergence](#part-4)
-5. [Computational Science](#part-6)
-6. [Multicomputation](#part-7)
-7. [Analysis of Multicomputation](#part-8)
-8. [Universal Pattern Matching (MESA Theory)](#part-9)
-9. [MESA Theory: Applications](#part-10)
-
 ---
 
 <a id="part-1"></a>
@@ -366,7 +356,7 @@ This unified approach models the universe as a dynamic system self-organising in
 
 3. Measure ("why"): Assembly metrics quantify which structures are likely to emerge and remain stable.
 
-#### Applying MESA Theory: 
+### Applying MESA Theory: 
 
 MESA theory can be used to model Efficient Markets, learning rules, linguistics, chemical interactions, and possibly everything else. 
 
@@ -374,7 +364,7 @@ But for now, let's use this theory to describe how biological systems self-organ
 
 #### [See [Appendix](#appendix) for our example]
 
-#### Conclusion
+### Conclusion
 
 MESA (Multicomputational Emergent Self-Assembly) theory provides a unified mathematical framework for understanding how complex systems self-organise and evolve. By combining three powerful approaches—multicomputation, free energy principles, and assembly theory—it offers a complete language for describing emergence across all scales.
 
@@ -390,15 +380,11 @@ This framework reveals how nature builds complexity through nested layers of org
 
 The challenge ahead lies not in describing what has emerged, but in predicting what will emerge. These examples may seem simple, but they represent necessary steps toward understanding the mathematical principles that govern emergent complexity itself.
 
-<br>
+---
 
-<br>
+# References
 
-<br>
-
-[1]<a id="ref-1"></a> 
-
-The Ascent of Man (in more detail):
+[1]<a id="ref-1"></a> The Ascent of Man (in more detail):
 
 - Quarks combine to form hadrons, exhibiting the emergent property of colour confinement.
 - Spacetime curvature emerges from the distribution of mass-energy, giving rise to gravity as a geometric property.
@@ -410,25 +396,17 @@ The Ascent of Man (in more detail):
 - The human brain emerges with the capability of abstraction through the complex interplay of ~86 billion neurons and trillions of synapses.
 - From here, human civilisation emerges as a synergy of technology and culture.
 
-[2]<a id="ref-2"></a> 
-
-This same pattern was present in the earliest moments of the universe: before gravity emerged as a distinct force, the interplay of quantum fields exhibited their own forms of emergence. And probing further back, theoretical physics suggests a state preceding the very emergence of time itself, where our conventional notions of temporal sequence may not apply.
+[2]<a id="ref-2"></a> This same pattern was present in the earliest moments of the universe: before gravity emerged as a distinct force, the interplay of quantum fields exhibited their own forms of emergence. And probing further back, theoretical physics suggests a state preceding the very emergence of time itself, where our conventional notions of temporal sequence may not apply.
 
 Scientists are actively exploring pre-matter by searching for specific patterns of polarisation in the CMB called B-modes using the BICEP and Plank telescopes, and proposed telescopes like LISA (which I got to see Kip Thorne spoke about very excitedly in a lecture he gave at Kings College London). Detecting B-waves are one of the holy grails of cosmology. The short version of it is that CMB can be polarised, meaning the electromagnetic waves have a preferred orientation that can be decomposed into E-modes and B-modes. E-modes are produced by various processes while B-modes have a divergence-free pattern that is consistent with only the gravitational waves from the inflationary period. What's more, B-mode detection could provide our first observational insight into quantum gravity.
 
 Here's another novel perspective on this: [The Big Whisper Theory](https://fred-rick.medium.com/the-big-whisper-theory-for-dummies-38333ffabe0c)
 
-[3]<a id="ref-3"></a> 
+[3]<a id="ref-3"></a> [Emergent Abilities of Large Language Models (2022)](https://arxiv.org/pdf/2206.07682)
 
-[Emergent Abilities of Large Language Models (2022)](https://arxiv.org/pdf/2206.07682)
+[4]<a id="ref-4"></a> This divergency (one-way evolution) is reflected in numerous physical phenomena. In chemistry, "disappearing polymorphs" demonstrate how matter can irreversibly evolve to more stable forms—once a more stable crystal structure is discovered, the previous form becomes increasingly difficult to produce. Similar patterns appear in biological evolution (Dollo's law), thermodynamic systems (entropy increase), and cosmic evolution (symmetry breaking). Even in quantum mechanics, the measurement process represents an irreversible transition from quantum superposition to classical states.
 
-[4]<a id="ref-4"></a> 
-
-This divergency (one-way evolution) is reflected in numerous physical phenomena. In chemistry, "disappearing polymorphs" demonstrate how matter can irreversibly evolve to more stable forms—once a more stable crystal structure is discovered, the previous form becomes increasingly difficult to produce. Similar patterns appear in biological evolution (Dollo's law), thermodynamic systems (entropy increase), and cosmic evolution (symmetry breaking). Even in quantum mechanics, the measurement process represents an irreversible transition from quantum superposition to classical states.
-
-[5]<a id="ref-5"></a> 
-
-This relationship between complexity and entropy suggests profound implications for computational physics. 
+[5]<a id="ref-5"></a> This relationship between complexity and entropy suggests profound implications for computational physics. 
 
 While entropy inevitably increases toward equilibrium, complex systems often display peak organisational complexity in intermediate states --- a phenomenon observed across scales from molecular self-assembly to cosmic structure formation. 
 
@@ -440,23 +418,15 @@ This could be a reason one might use as an incentive to occupy the whole univers
 
 However, practical applications would likely be more valuable at smaller scales, where computational boundaries are more tractable and immediate applications more feasible.
 
-[6]<a id="ref-6"></a>  
+[6]<a id="ref-6"></a> For more of a philosophical dive, why not give David Chalmer's [Hard Problem of Consciousness](https://iep.utm.edu/hard-problem-of-conciousness/) a re-read with a fresh set of eyes? I found it made some arguments stand out far less impressively than before.
 
-For more of a philosophical dive, why not give David Chalmer's [Hard Problem of Consciousness](https://iep.utm.edu/hard-problem-of-conciousness/) a re-read with a fresh set of eyes? I found it made some arguments stand out far less impressively than before.
-
-[7]<a id="ref-7"></a> 
-
-Daniel Dennett observes that we often make tractable oversimplifications about our surroundings when we do not pay a steep price for the error rate. In other words, there was little practical benefit to upgrading from the Newtonian stance for the average person --- in fact you would only learn how to calculate relativistic gravity in post-graduate theoretical physics level. 
+[7]<a id="ref-7"></a> Daniel Dennett observes that we often make tractable oversimplifications about our surroundings when we do not pay a steep price for the error rate. In other words, there was little practical benefit to upgrading from the Newtonian stance for the average person --- in fact you would only learn how to calculate relativistic gravity in post-graduate theoretical physics level. 
 
 However, before The Origin of Species introduced the concept of evolution by natural selection, there were no widely believed empirical theories, and the error we paid was believing that a God created the species: a high price in the eyes of any athiest.
 
-[8]<a id="ref-8"></a> 
+[8]<a id="ref-8"></a> As an aside, a sure-fire way to brick your computer is by giving a local llama a code environment and encouraging it to progressively render increasingly novel fractals and save them to your hard drive.
 
-As an aside, a sure-fire way to brick your computer is by giving a local llama a code environment and encouraging it to progressively render increasingly novel fractals and save them to your hard drive.
-
-[9]<a id="ref-9"></a>  
-
-In interest of connecting this back to Zuse and the computational universe, we should address how scientists, every few decades, reinvent the wheel on this notion; Max Tegmark proposed the Computation Universe Hypothesis (CUH), where the physical universe is not merely described by mathematics, but is a mathematical hyperstructure with four layers of complexity and can be computed.
+[9]<a id="ref-9"></a> In interest of connecting this back to Zuse and the computational universe, we should address how scientists, every few decades, reinvent the wheel on this notion; Max Tegmark proposed the Computation Universe Hypothesis (CUH), where the physical universe is not merely described by mathematics, but is a mathematical hyperstructure with four layers of complexity and can be computed.
 
 These four layers of complexity are: 
 - (I) simple conditions, 
@@ -475,9 +445,9 @@ It's an interesting bug-fix that both physicists felt they had to do to calm the
 
 [10]<a id="ref-10"></a> On that topic, can we give Alex Garland his credit for [this](https://www.youtube.com/watch?v=myf0dtKJMPI) work of art that deals with this explicitly.
 
-#### Appendix:
+# Appendix:
 
-##### <u>Level 3: Tissue Organisation (τ₃: years → decades)</u>
+### <u>Level 3: Tissue Organisation (τ₃: years → decades)</u>
 
 - Assembly Metrics:
     - Breadth (β₃) ≈ 10⁴ tissue types/organism
@@ -523,7 +493,7 @@ Free Energy Landscape (F₂):
     - Barrier disruptions (homeostatic failure)
     - Random arrangements (loss of pattern)
 
-##### <u>Level 2: Cellular Organisation (τ₂: days → months)</u>
+### <u>Level 2: Cellular Organisation (τ₂: days → months)</u>
 
 - Assembly Metrics:
     - Breadth (β₂) ≈ 10⁸ cells/tissue
@@ -568,7 +538,7 @@ Free Energy Landscape (F₂):
     - Membrane disorganisation
     - Cytoskeletal instability
 
-##### <u>Level 1: Molecular Organisation (τ₁: seconds → hours)</u>
+### <u>Level 1: Molecular Organisation (τ₁: seconds → hours)</u>
 
 - Assembly Metrics:
     - Breadth (β₁) ≈ 10¹² molecules/cell

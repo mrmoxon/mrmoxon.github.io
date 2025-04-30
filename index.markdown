@@ -75,7 +75,7 @@ layout: page
 
   <p>Deep enjoyer of black holes, The Fountainhead, Ex Machina, and Jungle</p>
 
-  <p class="newsletter-signup-text">Join my email list and get notified when I post</p>
+  <p class="newsletter-signup-text">Join my email list and get notified when I post!</p>
   {% include convertkit.html %}
 
 </div>

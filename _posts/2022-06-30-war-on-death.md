@@ -13,21 +13,9 @@ Technology will give us the Fountain of Youth. Exploring the history of longevit
 
 This is part of my "cyborging" series where I look at the relationship humans have with technology and the inevitable transhuman lifestyle of future generations. Pursuing human-computer symbiosis will enable us to live forever, enhance our senses and quality of life, and give us existential relevance as carbon-based organisms in the age of silicon superintelligence.
 
-### Contents:
-
-1. [The Case Against Aging]()
-
-2. [Mythological Immortality]()
-
-3. [Death: Type 1]()
-
-4. [Death: Type 2]()
-
-5. [The War on Death]()
-
 ---
 
-#### I. The Case Against Aging
+## I. The Case Against Aging
 
 In all western cultures, we build pensions for our retirement, aiming for enough savings to see us through to the end. When we eventually retire from work, we try to enjoy life without digging too far into our savings, for it is only a matter of time before our family puts us into 'care', where we pay to be treated like patients until our eventual passing (preferably painless and in our sleep). 
 
@@ -35,15 +23,15 @@ Aging kills 125,000 people per day. It is responsible for 9 out of 10 deaths in 
 
 While most choose to come to terms with mortality when there are no viable options for extending our lives, it isn't unreasonable to believe that humans, given the option, would rather live unbounded by their own biology. If you were given the option to reverse aging and live youthfully with your loved ones, for as long as you liked, how could you ever choose not to? 
 
-#### II. Mythological Immortality
+## II. Mythological Immortality
 
-One of the oldest stories known to modern man is The Epic of Gilgamesh (written around 2,000BC). The story follows Gilgamesh, King of Uruk, who is fearful of his own death and seeking to find the secret of eternal life. His quest takes him over cosmic mountains and through a tunnel guarded by scorpions to a vineyard at the end of the world. He finds an old man who can live forever and gets two chances at achieving immortality: Either he must conquer sleep by staying awake for seven days, or he must eat the plant of life that grows at the bottom of the ocean. Gilgamesh fails to stay awake, and upon retrieving the plant, a snake steals and eats it (leading to the Akkadian parable of why snakes can regenerate their skin). Gilgamesh ultimately accepts mortality and vows to spend his lifetime going great deeds. [1] 
+One of the oldest stories known to modern man is The Epic of Gilgamesh (written around 2,000BC). The story follows Gilgamesh, King of Uruk, who is fearful of his own death and seeking to find the secret of eternal life. His quest takes him over cosmic mountains and through a tunnel guarded by scorpions to a vineyard at the end of the world. He finds an old man who can live forever and gets two chances at achieving immortality: Either he must conquer sleep by staying awake for seven days, or he must eat the plant of life that grows at the bottom of the ocean. Gilgamesh fails to stay awake, and upon retrieving the plant, a snake steals and eats it (leading to the Akkadian parable of why snakes can regenerate their skin). Gilgamesh ultimately accepts mortality and vows to spend his lifetime going great deeds. [[1]](#ref-1) 
 
 ![Gilgamesh and Methusulah](/assets/gilgamesh.webp)
 <br>
 *Figure 1. Gilgamesh and Methuselah.*
 
-In the Old Testament, each successive generation dies younger than the last. According to canon, Adam died unfathomably old at 930 years. His son, Seth, died at 912. Seth's son, Enosh, died at 905. This continued, 895, 962, 365 (Enoch was mysteriously 'taken by God'). Enoch's son, Methuselah, lived the longest of all at 969 years old, dying at the time of Noah's Flood. Later in Genesis, we find the Bible's seemingly prophetic scripture "Then the LORD said, ‘My Spirit will not contend with man forever, for he is mortal; his days will be a hundred and twenty years.’" (Genesis 6:3; King James). [2] 
+In the Old Testament, each successive generation dies younger than the last. According to canon, Adam died unfathomably old at 930 years. His son, Seth, died at 912. Seth's son, Enosh, died at 905. This continued, 895, 962, 365 (Enoch was mysteriously 'taken by God'). Enoch's son, Methuselah, lived the longest of all at 969 years old, dying at the time of Noah's Flood. Later in Genesis, we find the Bible's seemingly prophetic scripture "Then the LORD said, 'My Spirit will not contend with man forever, for he is mortal; his days will be a hundred and twenty years.'" (Genesis 6:3; King James). [[2]](#ref-2) 
 
 Tales of a life-restoring spring appear in early works by Herodotus (5th century BC) when he mentions a special kind of water in the land of the legendary Macrobian people that gave them exceptional longevity. In the Bible's New Testament, the 'troubling of the waters' happened when an angel went down into the pool (of Bethesda) and stirred up the water; whoever stepped in first was made well of whatever disease they had. During the Age of Exploration, this myth became a river or spring said to reverse the aging process and to cure sickness when swallowed or bathed in. 
 
@@ -55,9 +43,9 @@ Early stories of a chemical Elixir of Life (of which there has been over 1,000 n
 
 In some form or another, the desire to live forever has been held by humans since prehistory. Finally, given the nature of exponential technological progress and impending access to quantum technology, machine learning, and new forms of therapy, humanity in the 21st century could render many of the challenges associated with aging irrelevant. As with all technology, once this is available, it will be widely used.
 
-#### III. Death: Type 1.0
+## III. Death: Type 1.0
 
-While age-related diseases are the near-universal killer now, this hasn't always been the case. Since 10,000BC the world has seen between 80 and 100 billion human deaths. 5-10% of deaths of history are attributable to malaria alone; greater than 1-in-3 deaths happened before the age of five; and war, famine, and other infectious diseases can be attributed to the vast majority of the remaining deaths (for example, the Spanish Flu alone killed between 1 and 5.4% of the world's population in 1918). [3]  
+While age-related diseases are the near-universal killer now, this hasn't always been the case. Since 10,000BC the world has seen between 80 and 100 billion human deaths. 5-10% of deaths of history are attributable to malaria alone; greater than 1-in-3 deaths happened before the age of five; and war, famine, and other infectious diseases can be attributed to the vast majority of the remaining deaths (for example, the Spanish Flu alone killed between 1 and 5.4% of the world's population in 1918). [[3]](#ref-3)  
 
 ![Population Growth](/assets/population-growth.webp){:style="width:80%;"}
 <br>
@@ -73,9 +61,9 @@ Since 1800, famine has become 1000x less threatening to humankind, extreme pover
 
 In this time, life expectancy has risen from 30 to 73 years. Now finding ourselves with 21st century technology, we may find ourselves opting-out of death indefinitely during our lifetimes.
 
-#### IV. Death: Type 2.0
+## IV. Death: Type 2.0
 
-The perplexing thing about death therefore becomes: why has the total achievable lifespan barely budged? In the last 75 years, in which life expectancy has risen from 48 to 72.4 years, the oldest generation have gone from 110 years old to 116. Since the 1980s, the oldest known Americans have gone from 115 years old to only 116 years old. In fact, the only American in history to live longer is Sarah Knauss, reaching 119 in 1999. [4] 
+The perplexing thing about death therefore becomes: why has the total achievable lifespan barely budged? In the last 75 years, in which life expectancy has risen from 48 to 72.4 years, the oldest generation have gone from 110 years old to 116. Since the 1980s, the oldest known Americans have gone from 115 years old to only 116 years old. In fact, the only American in history to live longer is Sarah Knauss, reaching 119 in 1999. [[4]](#ref-4) 
 
 ![Oldest Person](/assets/oldest-person.webp){:style="width:80%;"}
 <br>
@@ -89,7 +77,7 @@ Technology will allow us to slow, prevent, and reverse the aging process. These 
 <br>
 *Figure 5. Deaths by cause; Death 1.0 in grey, Death 2.0 in red. (2019).*
 
-The challenging thing about longevity is that even if we cure all Death 1.0 known to man, we will inevitably die from Death 2.0. Rates of Death 2.0 has only been accelerating as we have fixed the more immediately threatening Death 1.0. Alzheimer's and dementia-related deaths are rising twice as fast as deaths globally, with similar trends in cancer (see Figure 6). [5] 
+The challenging thing about longevity is that even if we cure all Death 1.0 known to man, we will inevitably die from Death 2.0. Rates of Death 2.0 has only been accelerating as we have fixed the more immediately threatening Death 1.0. Alzheimer's and dementia-related deaths are rising twice as fast as deaths globally, with similar trends in cancer (see Figure 6). [[5]](#ref-5) 
 
 ![Cancer Deaths](/assets/cancer-deaths.webp){:style="width:80%;"}
 <br>
@@ -97,7 +85,7 @@ The challenging thing about longevity is that even if we cure all Death 1.0 know
 
 At current trends, 15% more people will die each year in 2030 than in 2022. By this time, the prevalence of Death 2.0 will be 40% higher. 
 
-#### V. The War on Death
+## V. The War on Death
 
 Death 2.0 is not preventable by any of the aforementioned 'fixes'. To cure non-communicable diseases (NCDs) we require more sophisticated therapies. 
 
@@ -133,26 +121,16 @@ Up next, I plan to study how damage can be not just prevented, but reversed.
 
 ---
 
-### Notes
+# Notes
 
-[1] - Interestingly, older stories are known to us. The Pyramid Texts date back to c. 2400-2300 BC. The Enmerkar and Lugabanda poems are datable to the Third Dynasty of Ur. The Australian Aborigine Dreamtime stories, passed down orally, may be traceable up to 10,000 years ago. 
+[1]<a id="ref-1"></a> - Interestingly, older stories are known to us. The Pyramid Texts date back to c. 2400-2300 BC. The Enmerkar and Lugabanda poems are datable to the Third Dynasty of Ur. The Australian Aborigine Dreamtime stories, passed down orally, may be traceable up to 10,000 years ago. 
 
- 
+[2]<a id="ref-2"></a> - The time between creation and the Flood was 1,656 years. In that time, only six generations had passed. After the Flood, the downward trend continued, shortening each successive generation; Noah's children died at 400-500 years old, Abraham died at 175, Moses died at 120.
 
-[2] - The time between creation and the Flood was 1,656 years. In that time, only six generations had passed. After the Flood, the downward trend continued, shortening each successive generation; Noah's children died at 400-500 years old, Abraham died at 175, Moses died at 120.
+[3]<a id="ref-3"></a> - Okay, the Spanish Flu is an exception, but it puts into perspective how deadly historic "flu seasons" have been. Nowadays 0.0052% of the world population dies from flu each year. See [statistics on the Spanish Flu](https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history). 
 
- 
-
-[3] - Okay, the Spanish Flu is an exception, but it puts into perspective how deadly historic "flu seasons" have been. Nowadays 0.0052% of the world population dies from flu each year. See [here for stats](https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history). 
-
- 
-
-[4] - Only one person in history verifiably lived to over 120 years old. This was Jeanne Calment, born in 1875. We should call her the first "hypercentenarian."
-
- 
+[4]<a id="ref-4"></a> - Only one person in history verifiably lived to over 120 years old. This was Jeanne Calment, born in 1875. We should call her the first "hypercentenarian."
 
 Also, odd fact but -- Sarah Knauss, oldest American ever, died just one day before the 21st century. 
 
- 
-
-[5] - For relevant statistics on aging, read more [here](https://www.dementiastatistics.org/statistics/deaths-due-to-dementia/).
+[5]<a id="ref-5"></a> - For relevant statistics on aging, read more [at the Dementia Statistics Hub](https://www.dementiastatistics.org/statistics/deaths-due-to-dementia/).

@@ -11,6 +11,8 @@ description: "The roadmap to a society of Rick Rubins."
 
 The founder of Fog Creek Software once wrote, *"Your first priority as the manager of a software team is building the development abstraction layer."* In a software team, if a programmer is wrestling with a broken chair, is irritated by the heat and a loud office, the abstraction has, in Joel Spolsky's words, "sprung a leak."
 
+### The Abstraction Layer
+
 But this principle extends far beyond software development [[1]](#ref-1). *Everyone* deserves an abstraction layer, and arguably, the companies with the *fewest* resources need them most desperately. In other words: employees should be able to focus entirely on what they were hired for. Developers shouldn't be debugging the office HVAC system, and operations shouldn't be battling a patchwork of specialised applications or a one-size-fits-all ERP that fits no one particularly well.
 
 What does the abstraction layer look like, outside the world of a software team?
@@ -23,7 +25,7 @@ In the words of Joel Spolsky, *ideal* productivity for programmers looks like a 
 
 To build better products means translating that idealised environment into the digital realm. We need clean, bespoke software that *understands* this, and takes menial tasks off your plate. 
 
-**The Toolkit:**
+### The Toolkit
 
 A *personalised operating system for work* is a system that is aligned with you; it is an assistant and a cofident. It needs to be context-aware and receptive to your schedule. You should feel confidant teaching it your style, because it will act in your image and reduce your stress. Good employees are professionals and domain experts; they perform tasks that are hard to outsource to a faceless agent.
 
@@ -42,13 +44,15 @@ The second component to this OS would be the interface. Current language model p
 
 Information will flow effortlessly between your tools, and the interface will adapt dynamically to show you the right information at the right time. You move from manager to orchestrator. The goal is to maximise the variance of any individual job and converge on their imagined capability.
 
-**The Only Archetype:**
+### The Only Archetype
 
 We are entering an era where the distinction between *doing* and *directing* blurs. The Orchestrator—think Rick Rubin in the recording studio—doesn't need to master every instrument. Rubin's value lies in his ability to understand the overall vision, to guide the process, coordinate with others, and create an environment that keeps harmony. 
 
-The first one-person billion-dollar startup will be built in this way. It will emerge from a mastery of these tools, wielding an army of intelligent agent delegates managed through a single, powerful interface. 
+The first true one-person billion-dollar startup will be built in this way. It will emerge from a mastery of these tools, wielding an army of intelligent agent delegates managed through a single, powerful interface. 
 
 --- 
+
+## Notes
 
 [1]<a id="ref-1"></a> Computer science is typically where movements in the workforce originate. The whole industry is a good bellweather for what is coming for the rest of the economy. 
 

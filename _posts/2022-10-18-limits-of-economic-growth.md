@@ -4,13 +4,11 @@ title:  "Limits of Economic Growth"
 date:   2022-10-18 05:39:31 +0000
 categories: economics
 study: false
-mini: false
+mini: true
 description: "Conversation with Dr Michael Hatcher, Dr Serhiy Stepanchuk, Dr Alex Mennuni at University of Southampton."
 ---
 
-Minutes from my discussion with Dr Michael Hatcher, Dr Serhiy Stepanchuk, Dr Alex Mennuni.
-
-*These are my minutes; so, my interpretation of the ideas discussed, and my paraphrasing.*
+Minutes from my discussion with Dr Michael Hatcher, Dr Serhiy Stepanchuk, Dr Alex Mennuni. These are my minutes; so, my interpretation of the ideas discussed, and my paraphrasing.
 
 ### What are the limitations of growth, and what emphasis should governments place on using GDP as a target?
 

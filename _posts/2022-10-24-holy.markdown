@@ -13,28 +13,11 @@ description: "On the concepts of an infinite rate of innovation, the 'most dange
 
 On the concepts of an infinite rate of innovation, the "most dangerous algoritm" in the world, the new gods of Homo Sapiens, and the tools we can use to automate learning entirely.
 
-#### Contents
-
-1. [A Sacred Paradigm of Technology](#part-1)
-
-2. [Man Invents God (Again)](#part-2)
-
-3. [The Tree of Knowledge](#part-3)
-
-4. [The Known Unknowns and the Unknown Knowns](#part-4)
-
-5. [The Structure of Innovation](#part-7)
-
-6. [Acceleration: Infinity](part-8)
-
 ---
 
-<br>
+## Part I: A Sacred Paradigm of Technology<a id="part-1"></a>
 
-### Part I: A Sacred Paradigm of Technology<a id="part-1"></a>
-
-<p style="text-align: center;"><em>The ultimate use of AI is to accelerate science to the maximum. - Demis Hassabis</em></p>
-<!-- <p style="text-align: right;"><em>Demis Hassabis</em></p> -->
+<p style="text-align: center;"><em>"The ultimate use of AI is to accelerate science to the maximum."</em></p>
 
 In a 2019 blogpost, OpenAI wrote that GPT-2, a natural language processing algorithm, had concerning applications, significant enough that it wouldn't be responsible to release it to beta. The concerns were over its ability to generate text that could create convincing fake news articles, impersonate the writing style of people, and automatically create biased, abusive or spam content for social media platforms. [[1]](#ref-1)
  
@@ -68,7 +51,6 @@ Within the next few years, "games" like charades, Pictionary, and driving, will 
 
 - Full-self driving algorithms with superhuman safety and fuel conservation levels make conventional driving redundant, particularly when they buy riders time to spend on other things, like sleep. 
 
-
 Within the next few years, machines good at "solving human reality" could be walking around our houses, assisting in chores like a personal assistant. Then, they'll be doing our jobs as well, and far better than we do them now.
 
 In other words, these super-algorithms have the capability of becoming gods.
@@ -87,9 +69,7 @@ Eventually, algorithms will subvert the way movies are made, cranking out pitch-
 
 Slowly, work in all industries will become unrecognisable. Algorithms will do the heavy lifting; new content will be in abundance; consumers will have ever-greater options to choose from.
  
-<br>
-
-### Part II: Man Invents God (Again)<a id="part-2"></a>
+## Part II: Man Invents God (Again)<a id="part-2"></a>
  
 Idolisation is a recurring habit of our species. Before Homo Sapiens looked up to sporting legends like Messi, Muhmmed Ali, and Usain Bolt, or musicians like Elvis, Michael Jackson, and John Lennon, we looked up the deities of ancient scripture. In the words of Oscar Wilde, *"It is personalities, not principles, that move the age."
  
@@ -110,20 +90,20 @@ In 2021, their algorithm AlphaFold-2 was left to run over the Christmas period. 
 In 2022, DeepMind developed an AI to control the plasma inside a tokamak reactor, using the 19 magnetic coils inside TCV (a Swiss facility). The algorithm used self-supervised learning to create shapes in the plasma, both in a simulation and in reality. This progress is a big leap forward for fusion research, expected to bring forward the advent of sustainable fusion according to the facility's director. 
 
 ![Fusion](/assets/fusion.png)
+<br>
 *Figure 3. Left - The extreme accuracy of AlphaFold. Right - The shapes created in plasma.*
 
 Demis Hassabis, DeepMind's co-founder, said in June 2020 that *"the reason I am personally working on AI for my whole life is to build a tool to help us understand the universe […] The ultimate use of AI is to accelerate science to the maximum."* Hassabis believes machine learning will enable room-temperature superconductors, better-optimised batteries, cures for diseases, and solving "many of the big challenges of mankind". [[3]](#part-3)
  
 If this is true, the problems associated with understanding consciousness and life, energy and climate, and time and gravity, also lie within the reach of future algorithms. With this much potential, super-algorithms stand to destabilise modern science in profound ways. I will now look at precisely how these super-algorithms work. 
 
-<br>
- 
-### Part III: The Tree of Knowledge<a id="part-3"></a>
+## Part III: The Tree of Knowledge<a id="part-3"></a>
 Imagine the body of our knowledge as a species expands the way a tree grows, with the frontier of discovery emerging from that which we already know, supported by citations all the way down (in the fashion that Newton "saw further" only by "standing on the shoulders of giants"). 
  
 Papers published by the scientific community represent the "known knowns" that we use to make new products and to prescribe medicine. Progress is made by academics that work simultaneously to research and publish papers on their favourite fields.
 
 ![Tree](/assets/tree.png)
+<br>
 *Figure 4. The Tree of Knowledge.*
 
 Crucially, an algorithm with enough data about a field can "optimise" behaviour that grows new branches. Discovery is contingent on answering questions that have yet been unanswered. A machine can use big data to generate solutions -- both to questions we know to ask and those we don't. 
@@ -158,23 +138,17 @@ An "intelligence explosion" is the exact moment when the singularity begins to t
  
 The impact of our gods will be absolute; bolstering growth in some industries and capsizing others. These next decades will bring unprecedented levels of disruption as the last twelve years of research begins to see the light of its corporate applications. "The most dangerous algorithm in the world" will not be a one-horse race, instead increasingly powerful algorithms will be pitted against each other in order to scrape market power, irreversibly, into the hands of who creates it. 
 
-<p style="text-align: center;"><em>The ultimate use of AI is to accelerate science to the maximum.</em></p>
-<p style="text-align: right;"><em>Edsger Dijkstra</em></p>
-
-<br>
+<p style="text-align: center;"><em>"The ultimate use of AI is to accelerate science to the maximum."</em></p>
 
 ---
 
-Notes
-
+# Notes
 
 [1]<a id="ref-1"></a> - Find the OpenAI blogpost [here](https://openai.com/research/better-language-models).
 
 [2]<a id="ref-2"></a> - Kie Jie played AlphaGo after Lee Sedol. His comments are super interesting... Give it a watch [here](https://www.youtube.com/watch?v=UHU8lCctC-Q). 
 
-
 [3]<a id="ref-3"></a> - Listen to Demis discuss this at this timestamp [here](https://open.spotify.com/episode/1zcT7fUeArhjU8J7weCzvG).
-
 
 [4]<a id="ref-4"></a> - Yep, you can find archives of entertaining, shocking, and sometimes worrying content online... :/
 

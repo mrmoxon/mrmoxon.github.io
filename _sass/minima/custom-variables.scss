@@ -11,6 +11,7 @@ $light-brand: #703a18;
 $light-recent-essays-bg: #d4b393;
 $light-recent-essays-border: #c5a381;
 $light-site-title: #703a18;
+$light-bullet: #1d1300;
 
 // Dark mode colors
 $dark-background: #1a1a1a;
@@ -23,6 +24,7 @@ $dark-brand: #999999;
 $dark-recent-essays-bg: #2d2d2d;
 $dark-recent-essays-border: #404040;
 $dark-site-title: #e0e0e0;
+$dark-bullet: #ffffff;
 
 :root {
   // Light mode defaults
@@ -36,6 +38,7 @@ $dark-site-title: #e0e0e0;
   --recent-essays-bg: #{$light-recent-essays-bg};
   --recent-essays-border: #{$light-recent-essays-border};
   --site-title-color: #{$light-site-title};
+  --bullet-color: #{$light-bullet};
 }
 
 [data-theme="dark"] {
@@ -49,6 +52,7 @@ $dark-site-title: #e0e0e0;
   --recent-essays-bg: #{$dark-recent-essays-bg};
   --recent-essays-border: #{$dark-recent-essays-border};
   --site-title-color: #{$dark-site-title};
+  --bullet-color: #{$dark-bullet};
 }
 
 // Update existing variables to use CSS custom properties
