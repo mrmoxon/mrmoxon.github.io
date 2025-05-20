@@ -21,7 +21,7 @@ layout: page
   </div>
 
   <br>  
-  <p class="intro">London based postgrad, researching emergence, free energy, and multi-agent systems. Building intelligent automation at <a href="https://realmachines.ai/" class="custom-link">realmachines.ai</a></p>
+  <p class="intro">London based postgrad, researching emergence, free energy, and multi-agent systems. Building intelligent automation at <a href="https://realmachines.ai/" class="custom-link">realmachines.ai</a></p>. I previously was researching agentic long-horizon task performance in multi agent systems at Kings College London.
 
   <br>
   <p>Some things I believe:</p>
