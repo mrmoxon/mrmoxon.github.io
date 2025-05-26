@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Black Mirror Hypothesis"
+title:  "Black Hole Maximisers"
 date:   2025-03-19 18:39:31 +0000
 categories: black holes
 study: false
@@ -8,6 +8,11 @@ mini: true
 image: /assets/cascade.png
 description: "The only object more interesting than a brain is a black hole."
 ---
+
+
+
+
+
 
 This is the origin essay of an on-going series on black holes. There's nothing more indulgent than reading research about black holes - they're just so freaky!
 

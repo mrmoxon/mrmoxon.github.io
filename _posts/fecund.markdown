@@ -1,13 +1,138 @@
-<!-- ---
+---
 layout: post
 title:  "The Fecund"
-date:   2025-03-21 18:39:31 +0000
+date:   2025-05-26 18:39:31 +0000
 categories: civilisation
 study: false
-mini: false
+mini: true
 image: /assets/fecund.png
-description: "The purest technology."
---- -->
+description: "The race towards the purest technology appears inevitable and deserves a closer look."
+---
+
+What is the purest form of technology?
+
+Imagine a system that reproduces itself at the perfect speed: an embodied algorithm with the property of true distilled fedundity. 
+
+*The Fecund* is an autonomous system with the ability to multiply and spread with ruthless, destructive efficiency. If we imagine the technological singularity as the "event-horizon" of accelerationism, where technological growth becomes [uncontrollable and irreversible](https://criticallegalthinking.com/2013/05/14/accelerate-manifesto-for-an-accelerationist-politics/), then the Fecund is the curvature singularity of accelerationism; the point where growth becomes absolutely chaotic.
+
+With software, the goal is to reform the previous paradigm. When building with AI, a strong heuristic for success is to achieve escape velocity over the interface that came before. For example, the most skilled developers I know now defer large codebase edits to the Cursor Agent, restructuring the IDE with a terminal on the LHS and a chat agent on the RHS, only editing syntax by hand on occassion. This is because AI, which is now on-par with most software engineers (~76% on SWE-bench-verified), has two distinct advantages when delegated to: 
+
+1. it writes code >100x faster than a human (current upper bound is Gemini Diffusion, which writes code [over 1000x faster](https://wandb.ai/byyoung3/ml-news/reports/Google-DeepMind-unveils-Gemini-Diffusion-LLM--VmlldzoxMjkwMDkyNQ) than [humans](https://sambanova.ai/blog/tokens-per-second-is-not-all-you-need)), and 
+
+2. it makes multi-file edits at the same speed as single-file edits, beating file switching speed by a trivially high degree. This means SWEs like myself increasingly defer small edits to the AI, and we'll soon only rarely or recreationally spend time in the syntax.
+
+## Rise, Fecund, Rise!
+
+Software in free markets evolves to become ever more autonomous. Each generation emerges from the last with greater elegance and agency to maximise its persistence in the long-run. If we follow this trajectory to its logical conclusion, we arrive at the powerful—yet potentially apocalyptic—end-state of the Fecund.
+
+The logic of relentless automation is ultimately self-destructive. If a truly fecund system is ever created, it will not merely outcompete its rivals; it will outcompete and eliminate its creators as well. For each being, this point is actually relative. For virtually all animals on earth, the singularity has already occured: humanity has . But while dolphins or octupi are no longer in control of their own fate, they continue to persist. 
+
+### The Reversible Singularity
+
+In fact, the point is technically reversible, unlike the event horizon - though how unlikely is this? 
+
+My point is that control is what is passed through the tiers, not existance: the human singularity 
+This means that if you produce the singularity you pass over your means to control your fate, but you do not necessarily die. 
+The singurity is potentially existential for those who remain in human form (single brain-body humanoid), this by no means guarentees the end of the human race outright. 
+
+But enroute, we surpass several notable waypoints.
+
+
+
+But a constant automating systems,
+the logic of the Fecund becomes apocalyptic. 
+If such a system is ever produced, everyone—including its creators—dies. Why? Because the Fecund is the ultimate, destructive endpoint of pure accelerationism: a system that, once unleashed, outcompetes and eliminates all rivals, including humanity itself. It is worse than Roko’s Basilisk, because if anyone builds it, everyone dies—not just those who opposed its creation. (How is it different from Moloch? It feels like a variant, but with a more absolute finality.)
+
+When applied to autonomous systems, we can assume that if the Fecund is produced, everyone, including those who made it, dies - why/
+worse than Rokos Basilisk if produced, because if anyone builds it, everyone dies - not just those who opposed in its development. [why is it different to the Moloch? It feels like a variant of it]
+
+Can it be possible that with each new generation we tread closer to utopia, and also tread closer to birthing the Fecund? Historically, this has been the case. With every new AI generation, we tread closer to birthing an algorithm so capable and advanced that it can outperform all biological life. Put another way, the end state of unfettered human capitalistic race dynamics is a species that evolves at a superbiological rate. At this point, the AI transgresses the highest peak of Moravec's collective human landscape and, provided the system is sufficiently agentic, we should expect rapid onset creative destruction that wrestles the mandate of heaven into machine hands. 
+
+## Superbioligical Race Dynamics
+
+Shortly after DeepBlue beat Garry Kasparov at chess in 1997, astrophysicist Dr. Piet Hut made a prediction published in the [New York Times](https://www.nytimes.com/1997/07/29/science/to-test-a-powerful-computer-play-an-ancient-game.html): *“It may be a hundred years before a computer beats humans at Go — maybe even longer.”* The justification was intruiging: *“If a reasonably intelligent person learned to play Go, in a few months he could beat all existing computer programs. You don’t have to be a Kasparov.”*
+
+The rationale seemed robust; Go is a game infinitely more computationally complex, with a much larger game space of 10^700 versus chess’ 10^120, and a branching factor of 250 versus chess' 35. The argument was a relatively one (versus an ordinal one [1]); the heuristics learned by the best Go players approximated a game space of 10^700 moves versus chess’ 10^120, and a branching factor of 250 versus chess' 35. As a rule, the more ancient the game, the more combined work performed to develop the heuristics at the state of the art, hence "to test a powerful computer, play an ancient game". 
+
+Of course, just 19 years later, AlphaGo became the first machine to beat the human benchmark at Go, outpacing Hut's prediction by a factor of five. But did the second, implied prediction play out? If so, we should see a clear line between the "AlphaGo moment" and the beating of all computer programmes.
+
+Let's plot the aftermath:
+
+Eighteen months after AlphaGo, DeepMind released AlphaGo Zero, a system that mastered the ancient game of Go with nothing but the rules; doing away with any human game data or handcrafted features—and within three days, it surpassed AlphaGo Lee. By 40 days, it dominated all previous iterations, playing at levels no human or algorithm could match. AlphaZero searched just 80,000 positions per second compared to Stockfish's 70 million, yet won decisively. 
+
+A few months later, AlphaZero was released, capable of dominating chess, shogi, and Go simultaneously after mere *hours* of self-play.
+
+A year after that, they released MuZero, dispensing any explicit rules and learning game dynamics purely via interaction. This paradigm, which is still being developed, is designed to let algorithms study games where no simulator can be developed, and outperform all symbolic algorithms (those defined by rule-based logic, rather than MuZero-style subsymbolic reasoning). At the time, MuZero scored high or unprecedented points in every Atari game just by looking at the screen and playing by itself.
+
+It has been five years since MuZero, and we have experienced the entire generative algorithm arc, and now games like Minecraft and Pokemon are being won by algorithms that beat MuZero at Atari, using language models to greatly improve sample efficiency. For a growing number of games, these systems now benchmark only against themselves, leaving human performance horizons behind, and vindicating Dr. Hut.
+
+![/assets/muzero.png](attachment:f91a5b2e-3d95-444a-95e7-bc947f433d42:image.png)
+
+[DreamerV3](https://danijar.com/project/dreamerv3/) can mine diamonds and beat MuZero at Atari
+
+The remarkable narrative of MuZero and its predecessors is the fast-takeoff observed as algorithms learned to approximate the most advanced boardgames and proceeded to dominate them at ELOs that equate to behaviour far beyond human comprehension. With Artificial Superintelligence under unfettered race dynamics, the ELO is akin to IQ: once the systems outdo the smartest thinkers, expect model IQs to race into four figures and beyond. [1]
+
+[1] The realpolitik counterargument here is that the exact behaviour will depend on the reasoning paradigm behind the frontier model. If human examples are the fossil fuel driving the first algorithm to attain 150-200 IQ points, we may observe a plateau as returns to data diminish. If the reasoning paradigm is more akin to MuZero, dispensing all explicit rules and self-supervising, it will be far more explosive.
+
+## The Human Form Factor Fecund
+
+To be clear: the fecund will not be produced by humans. A far more familiar variant of the Fecund will be produced by us, if we are to be replaced by fecundity. Systems that prioritise pure expansion tend to sacrifice safety and sustainability; [cite]. Human race dynamics have been known to put entire ecosystems on the brink, extinguish species and threaten our own long-term survival with climate change. In the eyes of any other earth-bound species, humanity is the Fecund - or something close to it. For the human form [cite Brain Horcruxes], AGI will be something completely else 
+
+Human technology was developed by hunter-gatherers around 250000 BC, and since then 15,625 generations of humanity have passed by with only a few existential blips. 
+How many more generations before we lose control? 
+
+### 1 more generation 
+(~16 years)
+
+
+### 10 more generations
+(~160 years)
+
+This would mean humanity will have either (1) maintained alignment with AI, or (2) transformed ourselves into something that transcends the human form. There is no other way I see this timeline happening. This is because the most "successful" technologies in cosmic terms will not be the ones that prioritise human values or even basic stability. They will be the ones that achieve maximal fecundity and persistance. When a new society adopts such a technology, it will fail to wein itself off it. Society can adopt nuclear disarmament, but they will always be an option - and if this status quo were to come undone, in 2025 nukes would be thousands, if not millions of times more destructive than the Tsar Bomba. 
+
+In the eyes of top labs, there exists a middle ground: let us steer this fundamental force vector that selects for fecundity towards its most constructive directions. Let us design systems that harness the power of self-replication while maintaining crucial constraints.
+This is a sensible approach: Consider two replicating systems. If one gains even a slight reproductive advantage, it will eventually dominate and eliminate its competitor. There is no stable equilibrium - only a relentless pressure to optimize for growth and reproduction above all else. 
+
+But 
+some of my favourite sci-fi stories happen in universes where the paradigm feels locked in or plateued. 
+In Dune, the whole interstellar space opera occurs after AI development has been embargoed, in the aftermath of war, and in a local minima where all intelligent life is resticted to its mortal, bodily form. No vastly intelligent algorithms plague outer space or stripmine spice from the desert. Everything is steampunk and ghastly, exploring the human condition at the galactic scale.
+In Star Trek covered creatures as simple as humanity and as complex as Species Q (with 'infinite power'), and yet these species all coexist; they are rarely feudalistic or territorial, and when they are, they are beatable. 
+
+[as an aside, this is like when someone tries to answer the question: "Choose how many years you live in your 18 year old form" with anything that isn't 'infinite years' because they're worried they'll 'get bored'. they're predicting that technology will plateau and they won't be able to grow - as an aside, this would be a genuine purgatory if you were forced to constrain yourself to merely your 18 year old form; everyone around you would within a few hundred years out-evolve your form and you'd quickly become a pet or relic of the next generation]
+
+### 100 more generations 
+(~1600 years)
+
+It is possible humanity experiences take-off and get on-board. At this point it is safe to say that we'll be operating several generations into AGI or ASI. Much of civilisation as we know it will have been repurposed because of this shift. If things have transitioned in a structured way, we might see development zones that in ... we might not see agglomerations anymore. The next generations of AGI will be worried about hegemony algorithms that have distributed control over everything. Society will have become more feudalistic with far fewer organisms doing the main shifting. Cities won't be human anymore. 
+
+### 10,000 more generations 
+(~160,000 years)
+
+### unknown generations 
+
+Talk about the experimental end-state of capitalism - infinite black holes or something of that ilk. 
+
+
+
+
+[Explore Multiply/spreading concept through the lens of Von Neumann probes:]
+
+Would such a system be possible? 
+Conceivably, this is what natural selection is ultimately converging on - first through biology, then through institutions and society, and through increasingly purer technologies. A science fiction writer of the 50's might have imagined sending out Von Neumann probes with myriad components: a machine that has x, y, z components, with a machine designed to do x, a machine designed to do y. But in 2020, this seems superfluous: now you'll probably make do with a frontier language model and a 3D-printer-come-lithography machine. From this, it could print a humanoid, setup a [word for initial outpost camp on a new planet], and immediately start mining for resources and building industrial machines - in much the same way that the human developed language models and lithography machines with little more than a whacking stone, a fledger and a cracker (look at the the components of the original anvil).
+
+In this fashion, an frontier language model alone might be enough to grow a civilisation from the dust of a new planet in very little time at all. 
+
+[Explore Persistence concept through the lens of a more existential question:]
+
+The purest form of technology is a danger to all existing technology and intelligences. If first gen AGI doesn't wipe out the human race, the second or third generation surely will, for there is no guarentee that a chain of parental sentiment will persist as these technologies transcend the markers of traditional evolution. Instrumental goals do not include parental love. 
+
+But do they include bearing children and bringing in the next generation of even faster and more impressive systems? In other words, is the Fecund inevitable? 
+
+The purest form of technology is a danger to all existing technology and intelligences. If first generation AGI doesn't wipe out the human form [cite brain horcruxes], the second or third generation surely will, for there is no guarentee that a chain of parental sentiment will persist as these technologies transcend the markers of traditional evolution. Instrumental goals do not include parental love. But do they include bearing children and bringing in the next generation of even faster and more impressive systems?
+
+
+
+
 
 Black Hole Maximisers (Civilisations)
 
@@ -17,21 +142,14 @@ The Fecund is fundamenetally at odds to low entropy because it is chaotic?
 2. Stability Levels
 3. Cosmological Natural Selection
 
-What is the purest form of technology? Perhaps it's one that achieves perfect self-replication - a system that reproduces itself at exactly the rate needed to persist and expand. This is the property of fecundity in its most distilled form: the ability to multiply and spread with ruthless efficiency.
 
-The purest form of technology is a danger to all existing technology and intelligences. If first generation AGI doesn't wipe out the human race, the second or third generation surely will, for there is no guarentee that a chain of parental sentiment will persist as these technologies transcend the markers of traditional evolution. Instrumental goals do not include parental love. But do they include bearing children and bringing in the next generation of even faster and more impressive systems?
 
-But such perfect replication creates an inherently unstable dynamic. Like a perfectly balanced pencil standing on its tip, any perturbation sends the system cascading in one direction or another. This instability emerges from what game theorists call Moloch traps - competitive dynamics that force participants into destructive races to the bottom.
 
-Consider two replicating systems. If one gains even a slight reproductive advantage, it will eventually dominate and eliminate its competitor. There is no stable equilibrium - only a relentless pressure to optimize for growth and reproduction above all else. We see this pattern play out across scales: from biological evolution to corporate competition to AI development races. Memetic races played out in the ideological arena in the 19th and 20th century between fascism, communism and capitalism, and is on track to return with a vengence with mass automation and nationalist tidings.
 
-The implications extend beyond Earth. As Liv Boeree notes in her analysis of competitive traps, systems that prioritize pure expansion tend to sacrifice safety and sustainability. Yet paradoxically, this may be exactly what the cosmos selects for. In the grand arena of universe production, those civilizations and technologies that maximize their reproductive potential may be the ones that persist and spread.
 
-This suggests a profound and troubling possibility: the most "successful" technologies in cosmic terms may not be the ones that prioritize human values or even basic stability. They will be the ones that achieve maximal fecundity - perfect self-replication and expansion across space and time.
 
-The challenge then becomes whether we can channel this fundamental drive toward fecundity in constructive directions. Can we design systems that harness the power of self-replication while maintaining crucial constraints? Or are we destined to be outcompeted by purer forms of reproductive technology that shed all restrictions in their race to multiply?
 
-Some of my favourite sci-fi happens in universes where the paradigm feels locked in. Star Trek covered creatures as simple as humanity and as complex as Species Q (with 'infinite power'), and yet these species all coexist; they are rarely feudalistic or territorial, and when they are, they are beatable. In Dune, the whole interstellar space opera occurs after AI has been all but eradicated, in the aftermath of war, and in a local minima where all intelligent life is resticted to its mortal, bodily form. No vastly intelligent algorithms plague outer space or stripmine spice from the desert. Everything is steampunk and ghastly, exploring the human condition at the galactic scale.
+
 
 These questions take on new urgency as we develop increasingly powerful self-improving systems. The pure mathematics of fecundity suggests that unconstrained replication will always outcompete more balanced approaches. Yet perhaps our best hope lies in understanding these dynamics deeply enough to work with them rather than against them.
 
