@@ -21,10 +21,7 @@ layout: page
   </div>
 
   <br>  
-  <p class="intro">London based postgrad, researching emergence, free energy, and multi-agent systems. Building autopilot for small teams at <a href="https://realmachines.ai/" class="custom-link">realmachines.ai</a></p>Previously researching agentic long-horizon task performance in multi agent systems at Kings College London.
-
-  <br>
-  <p>Some things I believe:</p>
+  <p class="intro">London based postgrad, researching emergence, free energy, and multi-agent systems. Building autopilot for small teams at <a href="https://realmachines.ai/" class="custom-link">realmachines.ai</a></p>Previously researching agentic long-horizon task performance in multi agent systems at Kings College London.Some things I believe:
 
   <ul class="custom-bullets">
 
