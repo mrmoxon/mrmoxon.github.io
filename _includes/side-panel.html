@@ -1,5 +1,5 @@
 {% if page.layout == 'post' %}
-<button class="menu-toggle active" aria-label="Toggle contents menu" style="display: none;">
+<button class="menu-toggle" aria-label="Toggle contents menu" style="display: none;">
   <span></span>
   <span></span>
   <span></span>
@@ -23,8 +23,23 @@ document.addEventListener('DOMContentLoaded', function() {
   const toggle = document.querySelector('.menu-toggle');
   const contentsMenu = document.getElementById('contents-menu');
   
-  // Generate contents menu from headings
-  const headings = document.querySelectorAll('h1[id], h2[id], h3[id]');
+  // First ensure all headings have IDs (fallback if auto_ids fails)
+  const allHeadings = document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6');
+  allHeadings.forEach((heading, index) => {
+    if (!heading.id) {
+      // Generate ID from heading text
+      const text = heading.textContent.trim();
+      const id = text.toLowerCase()
+        .replace(/[^\w\s-]/g, '') // Remove special characters
+        .replace(/\s+/g, '-') // Replace spaces with hyphens
+        .replace(/^-+|-+$/g, '') // Remove leading/trailing hyphens
+        .substring(0, 50); // Limit length
+      heading.id = id || `heading-${index}`;
+    }
+  });
+  
+  // Generate contents menu from headings with IDs
+  const headings = document.querySelectorAll('.post-content h1[id], .post-content h2[id], .post-content h3[id], .post-content h4[id], .post-content h5[id], .post-content h6[id]');
   
   // Only show menu if headings exist
   if (headings.length === 0) {
@@ -35,10 +50,24 @@ document.addEventListener('DOMContentLoaded', function() {
     toggle.style.display = 'flex';
   }
 
+  // Initialize collapsed state based on screen size
+  if (window.innerWidth <= 1400) {
+    panel.classList.add('collapsed');
+    toggle.classList.remove('active');
+  }
+
   // Toggle panel
   toggle.addEventListener('click', function() {
     panel.classList.toggle('collapsed');
     toggle.classList.toggle('active');
+  });
+
+  // Close panel when clicking outside on mobile
+  panel.addEventListener('click', function(e) {
+    if (e.target === panel && window.innerWidth <= 1400) {
+      panel.classList.add('collapsed');
+      toggle.classList.remove('active');
+    }
   });
 
   const menuItems = Array.from(headings).map(heading => {
@@ -54,6 +83,16 @@ document.addEventListener('DOMContentLoaded', function() {
     link.textContent = text.trim();
     
     link.style.paddingLeft = `${indent}px`;
+    
+    // Add click handler to close menu on mobile after navigation
+    link.addEventListener('click', function() {
+      // Close menu on narrow screens after clicking a link
+      if (window.innerWidth <= 1400) {
+        panel.classList.add('collapsed');
+        toggle.classList.remove('active');
+      }
+    });
+    
     return link;
   });
 
@@ -71,7 +110,10 @@ document.addEventListener('DOMContentLoaded', function() {
       if (heading.offsetTop <= scrollPosition + 100) {
         if (currentSection !== heading) {
           if (currentSection) {
-            menuItems[Array.from(headings).indexOf(currentSection)].classList.remove('active');
+            const currentIndex = Array.from(headings).indexOf(currentSection);
+            if (currentIndex >= 0) {
+              menuItems[currentIndex].classList.remove('active');
+            }
           }
           menuItems[i].classList.add('active');
           currentSection = heading;

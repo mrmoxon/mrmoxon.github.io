@@ -1206,6 +1206,21 @@ input:checked + .slider:before {
   visibility: hidden;
 }
 
+// Start collapsed by default on mobile
+@media screen and (max-width: 1400px) {
+  .side-panel {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  
+  .side-panel:not(.collapsed) {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+}
+
 .side-panel-content {
   position: relative;
   background-color: var(--background-color);
@@ -1283,13 +1298,46 @@ input:checked + .slider:before {
       background-color: var(--text-color);
     }
   }
+  
+  // Dark mode mobile menu overlay
+  @media screen and (max-width: 1400px) {
+    .side-panel {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .side-panel-content {
+      background-color: var(--background-color);
+    }
+  }
 }
 
-// Media query for smaller screens
+// Media query for smaller screens - make side panel work on mobile
 @media screen and (max-width: 1400px) {
-  .side-panel,
+  .side-panel {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    padding-top: 60px;
+    z-index: 200;
+  }
+  
+  .side-panel-content {
+    width: 80%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  
   .menu-toggle {
-    display: none;
+    z-index: 201;
+    left: auto;
+    right: 20px;
+    top: auto;
+    bottom: 20px;
   }
 }
 

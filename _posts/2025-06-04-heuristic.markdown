@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Entrepreneur's Hierarchy"
-date:   2025-06-04 18:39:31 +0000
+date:   2025-06-07 18:39:31 +0000
 categories: hierarchies
 study: false
 mini: false
@@ -17,142 +17,124 @@ Take academia; around 4% of the population of the UK and US embark on a PhD, yet
 
 Take sports: every European seven-year-old is forced onto the football pitch, yet only 572 persist to the premier league. The same principle applies to music, comedy, acting and software engineering. For those who try and fail to do something great, falling short is rationalised as some deficiency of either hard work or "natural talent".
 
-But the most overlooked property of any system that persists is the <i>heuristic instinct</i> that is carved out during competition. This is what most distinguishes the master from the amateur, wherever you look. These instincts mean your supervisor can so effortlessly poke holes in the paper you sunk hundreds of brain-cycles into, or why your team broke under pressure against a better side.
+But the most overlooked property of any system that persists is the <i>heuristic instinct</i> that is carved out during competition. This is what most distinguishes the master from the amateur. These instincts let your supervisor effortlessly poke holes in the paper you sunk hundreds of brain-cycles into, or why your team breaks under pressure against a better side.
 
 ## Maximising Heuristic Instinct
 
-<i>Heuristic instinct</i> means that whover has the most accurate predictive model wins. In practice, this means that the most dominant personality in any field possesses the most neurologically aligned mind for their environment. 
+<i>Heuristic instinct</i> means that whover has the most accurate predictive model wins. 
 
-Take the brain of a savant for instance: able to perceive complex patterns without explicit training, like Yashantha from [this](https://www.youtube.com/watch?v=eFnV6EM-wzY) famous story. These characters inherited default wiring that closely approximates the pattern recognition needed to excel at a specific task. This feels profound as a teen, but in the long-run, anyone with a plastic brain can learn these tricks more acutely.
+Take the brain of a savant for instance: able to run advanced pattern-matching without explicit training, like Yashantha from [this](https://www.youtube.com/watch?v=eFnV6EM-wzY) famous story. These characters inherit default wiring to closely approximate the type of pattern recognition needed to perform a specific task well. For competitors, this superpower feels profound as a teen, but in the long-run, anyone with a plastic brain can learn these tricks more acutely.
 
-The savant's savant operates across many domains: polyglots who absorb languages with perfect fidelity, poker champions who quickly dominate every game at the casino, or physicists who bridge long-standing pillars of theory. These are the fittest members of the population with the greatest means to outgrow all competition in the long-run. [[1]](#ref-1)
+The savant's savant operates across many domains: the polyglots who absorb languages with perfect fidelity, the poker champions who dominate every game at the casino, or the Renaissance men of art, engineering, and science. These are the fittest members of the population with the greatest means to outgrow all competition in the long-run. [[1]](#ref-1)
 
-Yet, even these figures are forced to specialise. With just one brain, one lifetime, and human draws like kinship and family, your ability to outcompete your competition deteriorates. Even the best can only hope to win in a handful of fields, and often at great expense with regard to family legacy. The opportunity cost of mastery in any single domain is the abandonment of mastery in most others.
+Yet, even these figures are forced to specialise. With just one brain, one lifetime, and a family to tend to, your ability to go deep to beat your competition deteriorates as you accrue more draws on your attention. Even the best can only hope accrue PhD-level insight in one to three fields, without trading desirable human attributes like a loving home life, or close friends.
 
-So you should specialise in whichever field develops your <i>general</i> heuristic instinct most intensely. Traditional paths—architect, surgeon, trial lawyer—provide security and prestige, but they constrain the feedback loops that sharpen your instincts; you're sheltered from the market, you're sheltered from the technology, you just need to do your job good—and even then, you might get nine strikes from a boss who thinks you deserve a break.
+For the modern day renaissance man, this means your best shot is to specialise in the field that most intensely develops your <i>general</i> heuristic instinct. Traditional paths—researcher, architect, surgeon, trial lawyer, quant—provide security and prestige, but they constrain the feedback loops that sharpen your instincts; you're sheltered from the market, you're sheltered from the technology, you are required by your employer to fit to a specific domain at the expense of more general heuristics.
 
-This supression is inevitable with traditional career paths, and for heuristic development this can be limiting. When your supervisor can afford to be patient he creates a buffer that feels like a feature, when it's more like a bug. The boss who gives you nine strikes isn't being generous; he's depriving you of the signal you need to evolve.
+This limits your heuristic development in the long-run. When your supervisor can afford to be patient, he creates an abstraction over reality that feels like a feature, when it's more like a bug. The boss who gives you nine strikes is ultimately depriving you of the more direct paths to mastery.
 
-The is a glorious side to the sheltered environment: creativity and expression are unbounded; one can afford to obsess over something that isn't directly lucrative. Such efforts make life more colourful. For without them, there exists an opposite extreme: a world where the feedback is so brutal and so immediate that only the antifragile persist.
+But fear not, for there exists an opposite extreme: a world where you receive no buggy abstraction layer, no buffer against reality—a world where the feedback is so honest, brutal and immediate that only the antifragile persist.
 
 ## Extreme Entrepreneurship
 
-Technological entrepreneurship represents the most intense evolutionary cycle of all human endeavour. It involves the world of markets, the world of science, and the world of social status. In software, often, the half-life of any competitive advantage approaches zero in the [order of days](https://www.youtube.com/watch?v=LSuSb7NFUT8). 
-The steeper this gradient, the more rapidly your heuristic instincts must develop to compete. 
+Technological entrepreneurship represents the most intense evolutionary cycle of all human endeavour. It is directly involved in the world of markets, the world of science, and the world of social status. In software, often, the half-life of any competitive advantage approaches zero in the [order of days](https://www.youtube.com/watch?v=LSuSb7NFUT8). The steeper this gradient, the more forcefully your heuristic instincts will develop.
 
-When your existence hinges directly on learning what was wrong fast enough to remain liquid, those who persist soon become [antifragile]([https://en.wikipedia.org/wiki/Antifragile_(book)](https://en.wikipedia.org/wiki/Antifragile_(book))). This makes entrepreneurship the evolutionary pressure cooker of the modern world where the fittest run syntellects; massive, multi-stream machines moving at a scale far beyond the abilities of any individual. The founder at the helm of a corporate juggernaut possess the mandate to steer humanity and carve the world to their will.
+This compounds when your competition consists of multi-brained intellects; massively parallelised organisations moving with bandwidth in the order of hundreds or thousands the means of any given founding team. This makes the myth of the startup founder aggrandising; at the helm of a technology juggernaut you possess the mandate to steer humanity and carve the world to your will.
 
-This explains why successful entrepreneurs describe starting companies in such violent terms. Where else is winning described as "[like eating glass; you just start to like the taste of your own blood](https://www.entrepreneur.com/business-news/sean-parker-running-a-startup-is-like-eating-glass/224563)"?
+When your existence hinges directly on learning what is wrong before it bankrupts you, those who persist become [antifragile]([https://en.wikipedia.org/wiki/Antifragile_(book)](https://en.wikipedia.org/wiki/Antifragile_(book))). This is why successful business leaders so gleefully describe running companies with in violent, vicious terms. Where else is winning described as "[like eating glass; you just start to like the taste of your own blood](https://www.entrepreneur.com/business-news/sean-parker-running-a-startup-is-like-eating-glass/224563)"? 
 
-As a consequence, the level of progression in tech entrepreneurship is much more of an exponential than most careers. The difference between an entrepreneur at 2 months, 2 years, and 20 years is potentially enormous. Second time founders raise dramatically more money than first-time founders because (1) there aren't many of them, and (2) those who succeed have strong heuristic instinct.
+The heuristic development of an entrepreneur of 2 months, 2 years, and 20 years is staggering. As a consequence, second time founders raise dramatically more money than first-time founders because (1) there aren't many of them, and (2) those who succeed have strong heuristic instinct.
 
-As each new generation of [Zuckerbergees](https://x.com/StartupArchive_/status/1929568737876717917) compress the build cycle further, it is worth documenting the intractable path from conception to success. Even the best entrepreneurs must climb the five levels of heuristic instinct. This is what this essay is designed to do.
+As each new generation of [Zuckerbergees](https://x.com/StartupArchive_/status/1929568737876717917) compress the build cycle further, I wanted to document the intractable path from conception to success. Even the best entrepreneurs must climb the five levels of heuristic instinct:
 
 ## Level I: Passion-Builder
 ### The Tinkering Entrepreneur
 
-This is where most startups are born, and as a consequence of the above, it is also where most startups die. We will characterise this level as passion building, as it often originates from a genuine curiosity about unsolved hard problems. 
+This is where most startups are born, and where most startups die. We will characterise this level as passion building if it originates from a genuine curiosity about hard, unsolved problems. Many good startup stories are described as successful tinkering: technical students discover something that they are uniquely capable of solving, write a search engine, and discover intense consumer demand.
 
-Many good startup stories are described as successful tinkering: technical students discover something that they are uniquely capable of solving, write a search engine, and discover intense consumer demand.
+So what seperates the should-be-avoided tinkering from the productive?
 
-So what differentiates the productive tinkering from the should-be-avoided?
+Bad passion-building is distinctive: the [Notion founders](https://www.lennysnewsletter.com/p/inside-notion-ivan-zhao) spoke about how their first product was an indulgent, feature-rich undertaking built for themselves that didn't fair well with others. Only when they rebuilt the project around a smaller, more obvious wedge were they able to find traction and persist long enough to build a super-app people wanted. 
 
-Bad passion-building is distinctive: the [Notion founders](https://www.lennysnewsletter.com/p/inside-notion-ivan-zhao) spoke about how their first product was an indulgent, high-scale undertaking built for themselves that didn't fair well with others. Only when they rebuilt the project around a smaller, more obvious wedge were they able to find traction and persist. 
+At its worst, passion-building is procrastination disguised as innovation. It is the delusion that anything except user traction creates businesses, it is the myth that in order to compete with a billion-dollar juggernaut you must create something worth a billion dollars out of the box, or the belief that nine months spinning code [without anyone breaking your door](https://www.joelonsoftware.com/2006/04/11/the-development-abstraction-layer-2/) will result in great traction once you're finished. The reality is, being technical is not enough to build a great product.
 
-At its worst, passion-building is procrastination disguised as innovation. It is the delusion that anything except user traction creates businesses, or a belief that a flawless, bug-free UX without paying users is sufficient to stay liquid. 
+So what about those who succeed? 
 
-It is the myth that in order to compete with a billion-dollar juggernaut you must create something worth a billion dollars out of the box. It is nine months spinning code [without anyone breaking your door down for it](https://www.joelonsoftware.com/2006/04/11/the-development-abstraction-layer-2/). The reality is, being technical is not enough to build a great product.
+The [HelixDB](https://www.helix-db.com/) founders built a graph-database from scratch because other options were terrible, tickled the interest of a small community of enthusiasts and sold the vision to heavy-pocketed enterprise. The early Stripe team started building payment infrastructure because existing solutions were inadequate. They tested this with a few technical users, who soon became early employees building a product they would pay for more. Both engaged a small following and validated usage with a small number of committed users before scaling. The same story goes for most successful companies: Airbnb, Slack, TaskRabbit, Loopt. These builders pushed into uncharted territory with hypotheses that were formed, tested, and falsified on repeat. They built something with 1% idea and 99% iteration: starting with a hunch and following the signal thereafter. 
 
-So what about those who succeeded? The early Stripe team building payment infrastructure because existing solutions were inadequate. They tested this with a few technical users, who went on to became early employees. The [HelixDB](https://www.helix-db.com/) founders built a graph-database from scratch because other options were terrible. Both posted to a small following and validated usage with a small number of committed users before scaling. The same story goes for most successful companies: Airbnb, Slack, TaskRabbit, Loopt. These builders pushed into uncharted territory with hypotheses that were formed, tested, and falsified on repeat. They built something on a hunch and followed the signal thereafter.
+Geoff Hinton once said that the best behaviour a student can exhibit is extreme skepticism about every new piece of information they learn; this way, they will trust only what they can prove, and in the long-run, earn a very strong heuristic indeed. The same is true for entrepreneurship, where self-belief [borders on delusion](https://blog.samaltman.com/how-to-be-successful) until people pay you to keep going. While the most successful passion-builders are testing hypotheses with code, doomed passion-builders are nothing more than headless visionaries. 
 
-Geoff Hinton explains that the best behaviour a student can exhibit is extreme skepticism about every new piece of information they learn; this way, they will trust only what they can prove, and in the long-run, earn a very strong heuristic indeed. The same is true for entrepreneurship, where ambition borders on delusion until people pay you to keep going.
-
-Because of the way my cofounder and I function, the strongest advice we have found is to actively prevent ourselves from throwing the kitchen sink into a product. Build something super simple to drive at the essence of the problem you are solving, and then [commoditise your complement](https://gwern.net/complement). For software, that means [*one screen with one core action.*](https://x.com/StartupArchive_/status/1929868201002738085)
-
-If the most successful passion-builders are testing hypotheses with code, doomed passion-builders are nothing more than headless visionaries. 
+The strongest advice I have found is to actively constrain myself from throwing the kitchen sink into a product. Build something simple that drives at the essence of the problem you are solving, and then [commoditise your complement](https://gwern.net/complement). For software, that means [*one screen with one core action*](https://x.com/StartupArchive_/status/1929868201002738085) until people are practically begging you to build more.
 
 ## Level II: Hustler
 ### The Forceful Entrepreneur
 
-At some point, you launch - and immediately realise that you can't wait for users to come to you. From here, entrepreneurships starts to feel more real. Manually onboarding and keeping new users occupies this space. For shy founders who write code, this does not come naturally; you discover you have been taught to become the most accurate technician in your test, not the most persuasive entrepreneur. 
+At some point, you launch and discover that users don't care about you. From here, entrepreneurships starts to feel real. Manually onboarding and keeping new users occupies this space, and for shy founders who write code, this does not come naturally. 
 
-Sales in practice are extremely painful, so the default is to spend months designing a product in isolation while avoiding the uncomfortable work of customer validation. The Stripe team aggressively acquired users via "Collision installations" where they would take the laptop of users and set them up on the spot. Airbnb flew around the country each week going door to door, recruiting new users and helping existing ones improve their listings.
+Sales and persuasion come most naturally when you are selling something you use every day, but it helps to develop some social growth hacking techniques just to be safe. "Doing things that don't scale" is the mantra of founders in this phase: start with anybody, as long as it isn't yourself (or your ["Mom"](https://www.reddit.com/r/startups/comments/j1c92x/the_mom_test/), in most circumstances). 
 
-"Doing things that don't scale" is the mantra of founders in this phase: start with anybody, as long as it isn't yourself (or your [Mom](https://www.reddit.com/r/startups/comments/j1c92x/the_mom_test/), in most circumstances).
+Showing your peers something you built is the most natural way of hustling. Demoing your build on X is a surefire way to see if anyone is interested. The Stripe team would acquire users via "Collision installations" where they would take the laptop of users and set them up on the spot. Airbnb flew around the country each week going door to door, recruiting new users and helping existing ones improve their listings.
 
-Born hustlers resourcefully hack together prototypes as quick fixes to pain points, and attract revenue on short horizons. Showing your peers something you built is the most natural way of hustling. Demoing your build on X is a surefire way to see if anyone is interested.
-
-No matter theEvery passion-builder that went on to run a successful business successfully made this transition. It is the transition towards product market fit, towards [Ramen profitable](https://paulgraham.com/ramenprofitable.html), and it is characterised by relentless, outward-facing determinism.
+Every passion-builder that went on to run a successful business successfully made this transition. It is the transition towards product market fit, towards [Ramen profitable](https://paulgraham.com/ramenprofitable.html), and it is characterised by relentless iteration.
 
 ## Level III: Cook
 ### The Momentum Entrepreneur
 
-Scaling operational heuristics
+When inbound consistently grows faster than outbound, you have made it to the 1% Club of entrepreneurship. This is where entrepreneurship takes on its more characteristic dimension from the outside. If you can crank the hog hard enough, it will being running on its own.
 
-This is where entrepreneurship takes on its more characteristic dimension. If the founder can push the train car far enough, it will being gathering its own momentum. Hustle-driven gives way to mature, scalable revenue streams. When inbound grows reliably faster than outbound can make up for, you have made it to the 1% Club of entrepreneurship. 
+Managing your inbound efficiently becomes more essential once you make it to this level. This isn't trivial; only [the best]((https://www.linkedin.com/feed/update/urn:li:activity:7335354133232709634/)) in each YC batch will fall under this category for any meaningful duration. Shotgun launches might give you a waitlist and a surge of press coverage, but this will dry up unless you can [continue to be great](https://growthhackers.com/growth-studies/airbnb/).
 
-Managing your inbound [efficiently](https://www.linkedin.com/feed/update/urn:li:activity:7335354133232709634/) becomes a behaviour for succeeding once you make it to this level. This isn't trivial; only the best in each YC batch will fall under this category for any meaningful duration. YC launches will give you a long waitlist and a surge of press coverage, but this will dry up unless you can [sustain interest](https://growthhackers.com/growth-studies/airbnb/).
+Entrepreneurs in this domain have discovered a product that consistently solves a problem people actually pay for. Maintain this for long enough and soon you'll be able to employ people without taking on debt, or announce a more grueling release schedule with greater up-front investment. In short, you're gaining control over your domain of influence now that your Ideal Customer Profile is understood more deeply, carved out over genuinely rigorous testing.
 
-After a while at this level, you can afford to employ people using the incoming you are generating (and not just debt). Your Ideal Customer Profile is understood more deeply and validated by hypotheses tested through rigorous customer development. Entrepreneurs in this domain have a product that consistently solves a problem people pay for.
-
-Quite fairly, entrepreneurship becomes scientific rather than just opportunistic. Metrics dashboards like [PostHog](https://posthog.com/) drive behaviour more confidently. Slack's employed a scientific approach to understanding why teams switched from email in order to optimise onboarding. Linear's relentlessly focused on understanding developer needs. At some point, these founders become undeniably good at the process of succeeding.
+At last, metrics dashboards like [PostHog](https://posthog.com/) track heuristics more explicitly than vague social heuristics (although nothing will ever completely substitute vibes). Entrepreneurship starts to feel more scientific than opportunistic. 
 
 ## Level IV: Thought-Leader
 ### The Master Entrepreneur
 
-Becoming selection pressure for others
+The most competitive Level III entrepreneurs become masters of their subdomain. With sustained momentum, your company has evolved into a later stage startup or established tech company. 
 
-Freakishly successful Level III entrepreneurs become masters of their domain. Close employees effectively have a PhD supervisor when working with these characters because they "see around corners" and know what is worth testing and what isn't. At some level of pressure, diamonds are generated.
+Perhaps close employees feel like they have a PhD supervisor when working with these characters when they "see around corners" and know what is worth testing and what isn't.
 
-"What valuable company is nobody building?" becomes more central to the thought process. An entrepreneur at this level is not just finding product-market fit in existing markets - they're you're creating new markets or fundamentally reshaping existing ones. 
+An entrepreneur at this level is not just finding product-market fit in existing markets, they're creating new markets happen or reshaping existing ones. "What valuable company is nobody building?" becomes central to the thought process.
 
-Most of the YC Partners appear to be engaged in the behaviours of Level IV founders. You're not just finding product-market fit in existing markets - you're creating new markets or fundamentally reshaping existing ones. This is the behaviour most aspire to attain when starting out in business, knowingly or not. You have enough customer signal and market understanding to see opportunities others miss. You're building products that customers didn't know they needed until they saw them.
+Most of the YC Partners appear to be engaged in the behaviours of Level IV founders. This is the behaviour most aspire to attain when starting out in business, knowingly or not. You have enough customer signal and market understanding to see opportunities others miss.
 
-The best founders operate here sometimes for years, and few cleanly transgress this level.
+The best founders operate here sometimes for years, and few remain at this level for long. Some entrepreneurs that operate at this level include:
 
-It's worth grounding this essay with some entrepreneurs that operate at this level, at least by what I've seen online: 
-
-- Marc Benioff - sometime in the last 15 years -  **Salesforce** (Marc Benioff, 1999-2005) - Creating "Software as a Service" category, evangelizing cloud before it was obvious- **Marc Benioff** (2010+) - Can acquire companies, influence policy, shape industry direction through pure reputation-
-- **Tobias Lütke** Shopify (2015+) - Creating "democratized e-commerce" category-
-- Melanie Perkins - **Canva** (Melanie Perkins, 2013-2018+) - Creating "design for everyone" category-
-- **Brian Chesky** (2015+) - Actively expanding Airbnb into other travel categories, governments change regulations based on his advocacy, though not without failures (nobody is immune to failures)
-+ 
-In all learning systems, the faster and more precise the feedback, the more rapidly the system converges on optimal solutions. Elite environments compress these cycles: the chess grandmaster processes thousands of position evaluations per game, while the startup founder iterates through business hypotheses in weeks rather than years.
-
+- **Marc Benioff** - Salesforce (1999-2010) - Created the "Software as a Service" category, evangelised cloud computing
+- **Tobias Lütke** - Shopify (2015-now) - Created "democratized e-commerce" category, enabled millions of merchants
+- **Daniel Ek** - Spotify (2008-now) - Changed music consumption forever, created streaming economy for artists
+- **Brian Chesky** - Airbnb (2014-now) - Trial-and-erroring beyond core product into "Experiences" and other travel categories
+- **Travis Kalanick** - Uber (2009-2017) - Created the ride-sharing category, expanded globally despite regulatory battles (ended due to governance issues)
+- **Patrick Collison** - Stripe (2010-now) - Simplified online payments, became developer-first payment infrastructure
+- **Nat Friedman** - Xamarin (2011-2016), GitHub (2018-2021) - Aggressive and visionary product release schedule at Github, scaling to 73M+ developers as CEO
 
 ## Level V: Aura Farmer
 ### The Meta Entrepreneur
-Meta-level competitive positioning
 
-High agency has wrapped around and become legendary; you have a track record of building great products, you're considered a genius, but still you keep building and pushing the boat out. You're doing things no one else could do sheerly because of your reputation and special powers. 
+You're doing things no one else could do sheerly because of your reputation and visionary powers. You have a track record of building great products, perhaps across multiple companies, and still you keep building and pushing the boundaries further. 
 
-It is reasonable to assume that the main differentiator between you and the Level IV cohort is the degree to which you lean into some "higher level vision" for humanity. This is more obvious if you run a portfolio of companies. 
+The main differentiator between you and the Level IV cohort is the degree to which your "higher level vision" for humanity captures the mind of the public. If your tweets could shape whole cultural narratives, you're firmly within this category.
 
-If this is the case, you aren't as obviously mimetically bounded or hedged by a certain audience, you're manufacturing memes. You are in the business of shaping reality to your will. You are a representative of humanity. You're in demand, sought out by Level IV founders alike. You're also notorious. You're a magnate. You could drop in on almost anyone and it would be received with a mixture of awe and envy. 
+This is most obvious when you have a personality people immediately recognise, when you actively manufacture memes and frameworks that Level IV founders and the broader community adopt.
 
-Maybe you're a serial entrepreneur or a billionaire with charisma who is actively fighting to push humanity forward. 
+You are in the business of shaping reality to your will. You could drop in on almost anyone and it would be received with a mixture of awe and intrigue. Level V founders include:
 
-Level V founders off the top of the head:
+- **Steve Jobs** (1998-2011) - Apple's design philosophy changed entire industries beyond technology
+- **Elon Musk** (2006-present) - Tesla, SpaceX, Neuralink, xAI - Can announce projects and instantly attract talent/funding others couldn't access
+- **Sam Altman** (2019-present) - OpenAI's AGI mission, can raise billions based on vision alone
+- **Larry Page & Sergey Brin** (2004-2015) - Google's "organize the world's information" mission shaped the internet era
+- **Mark Zuckerberg** (2021-present) - Meta's metaverse bet and open-source AI strategy with Llama
+- **Jeff Bezos** (2000-present) - Amazon's "everything store" strategy, Blue Origin - Reputation allows entry into any market
 
-- **Elon Musk** (2006+) - Tesla, SpaceX, Neuralink, xAI - Can announce projects and instantly get talent/funding others couldn't-
-- **Steve Jobs** (1998-2008) - Dude showed how it was done and did it like no other.
-- **Sam Altman** (2019+) - OpenAI's AGI mission, can raise billions on vision alone-
-- Sergei Brin, Larry Page
-- **Jeff Bezos** (less so, but Blue Origin was founded in 2000) (2000+) - Amazon's everything strategy, Blue Origin - Reputation lets him enter any market-
-- Mark Zuckerberg since Llama OSS
+Bonus points if you founded a trillion dollar company.
 
-+ Bonus points if you founded a trillion dollar company 
+Double bonus points if keep buying companies and shaping them like a founder would.
 
-++ Double bonus points if you're a cereal entrepreneur or buy companies strategically and behave a just like a founder (e.g. Elon with Twitter → X)
+---
 
-Other candidates:
+Understanding this hierarchy helps explain how certain founders are likely to behave depending on where they are in the cycle. 
 
-Satya Nadella during AI boom (more of an exec)
-
-Palmer Luckey
-
-Peter Thiel
+## Notes
 
 [1]<a id="ref-1"></a> This [quote](https://paulgraham.com/fundraising.html) from Paul Graham comes to mind: "Sam Altman has it. You could parachute him into an island full of cannibals and come back in 5 years and he'd be the king."
-
-<!-- [2] This is an interesting clip, because Jeff makes the distinction that based on this experience with Yashantha, he realised that he wasn't going to be a *great* theoretical physicist. Yashantha demonstrated a behaviour so beyond Jeff's capability that he simply could not see himself performing at Yashantha's level, which would mean that he would always fall short of at least Yashantha, and thus would never be the greatest. Implicitly, this is Jeff recognising that Yashantha had developed a far more powerful heuristic instinct in physics than the one Jeff had developed, and in this moment, Jeff updated his own heuristic instinct to steer away from this profession. What would drive him to update his instinct in this direction could be chalked up to some biological ability or other environmental conditions, but at face value, provided greatness is possible for more than just one theoretical physicist, this isn't strictly an obvious update to make.  -->
