@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "The Entrepreneur's Hierarchy"
+title:  "The Heuristic Entrepreneur"
 date:   2025-06-07 18:39:31 +0000
 categories: hierarchies
 study: false
 mini: false
-image: /assets/cascade.png
+image: /assets/heuristics.png
 description: "How to develop predictive models that outperform your competition."
 ---
 
