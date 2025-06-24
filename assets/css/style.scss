@@ -1,37 +1,28 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-// Dark mode styles for social icons and newsletter text
+// Force icons to black in light mode (works regardless of original PNG color)
+.social-links img {
+  filter: brightness(0) saturate(100%);
+  transition: filter 0.3s ease;
+}
+
+// White in dark mode
 @media (prefers-color-scheme: dark) {
   .social-links img {
     filter: brightness(0) invert(1);
-    transition: filter 0.3s ease;
-  }
-
-  .newsletter-signup-text {
-    color: #ffffff;
-    transition: color 0.3s ease;
   }
 }
 
-// For explicitly dark theme
-[data-theme="dark"] {
-  .social-links img {
-    filter: brightness(0) invert(1);
-    transition: filter 0.3s ease;
-  }
-
-  .newsletter-signup-text {
-    color: #ffffff;
-    transition: color 0.3s ease;
-  }
-  .post-description {
-    color: #ffffff !important;
-    transition: color 0.3s ease;
-  }
+[data-theme="dark"] .social-links img {
+  filter: brightness(0) invert(1);
 }
+
+// .post-description {
+//   color: #ffffff !important;
+//   transition: color 0.3s ease;
+// }

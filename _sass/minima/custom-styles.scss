@@ -158,7 +158,7 @@
 
 .newsletter-signup-text {
   text-align: center;
-  color: #613b16;
+  color: var(--newsletter-text-color, #111111);
   margin: 5rem 0 -2rem;
   font-size: 1.1rem;
 }
@@ -773,13 +773,29 @@
   color: inherit;
 }
 
+// Light mode (default)
+:root {
+  --social-icon-color: #111111;
+  --newsletter-text-color: #111111;
+}
+
+// Dark mode (manual override)
 [data-theme="dark"] {
-  ::selection {
-    background: rgba(200, 155, 123, 0.3); /* Lighter brown for dark mode */
-    color: inherit;
+  .svg-icon.grey {
+    color: #ffffff;
+    fill: #ffffff;
   }
-  
-  // ... existing dark mode styles ...
+  .newsletter-signup-text {
+    color: #ffffff;
+  }
+}
+
+// Dark mode (system preference)
+@media (prefers-color-scheme: dark) {
+  :root {
+    --social-icon-color: #ffffff;
+    --newsletter-text-color: #ffffff;
+  }
 }
 
 // cite button
@@ -917,13 +933,6 @@ b.bold-highlight {
   .formkit-form {
     margin-bottom: 4rem !important;
   }
-
-  .newsletter-signup-text {
-    text-align: center;
-    color: #613b16;
-    margin: 2rem 0 0.5rem;
-    font-size: 0.9rem;
-  }  
 
   .recent-essays-container .recent-essay-content .recent-essay-title {
     margin: 0;
@@ -1492,4 +1501,75 @@ h1, h2, h3, h4, h5, h6 {
 .remove-numbers {
   display: block;
 }
+
+// Social icon color for SVG-based icons (default: black)
+.svg-icon.grey {
+  color: var(--social-icon-color, #111111);
+  fill: currentColor;
+  transition: color 0.3s, fill 0.3s;
+}
+
+html:not([data-theme="dark"]) .newsletter-signup-text {
+  color: #111 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) .newsletter-signup-text {
+    color: #fff !important;
+  }
+}
+
+html:not([data-theme="dark"]) .svg-icon.grey {
+  color: #111 !important;
+  fill: #111 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) .svg-icon.grey {
+    color: #fff !important;
+    fill: #fff !important;
+  }
+}
+
+.site-footer .svg-icon.grey {
+  color: #111 !important;
+  fill: #111 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) .site-footer .svg-icon.grey {
+    color: #fff !important;
+    fill: #fff !important;
+  }
+}
+[data-theme="dark"] .site-footer .svg-icon.grey {
+  color: #fff !important;
+  fill: #fff !important;
+}
+
+.footer-desc-right {
+  text-align: right;
+  width: 100%;
+}
+
+.footer-desc-link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: text-decoration 0.2s;
+}
+.footer-desc-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-desc-right {
+    text-align: center;
+  }
+}
+
+// Footer social media icons now use SVG with .svg-icon.grey class
+// Color is controlled by the existing SVG icon rules in this file
 
