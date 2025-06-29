@@ -13,7 +13,7 @@ All jobs are exposed to natural selection; at work, if you do not evolve, you ar
 
 ## House Odds 
 
-Take academia; around 4% of the population of the UK and US embark on a PhD, yet [50%](https://dissertationgenius.com/the-six-laws-of-phd-failure/) fail to receive a doctorate, [70%](https://www.turningscience.com/blog/how-many-phds-stay-in-academia) won't stay in academia for five years, [97%](https://academia.stackexchange.com/questions/17431/what-ratio-of-phd-graduates-in-stem-fields-ultimately-end-up-as-tenured-profes) do not achieve tenure or permanent positions, and [99.6%](https://academia.stackexchange.com/questions/17431/what-ratio-of-phd-graduates-in-stem-fields-ultimately-end-up-as-tenured-profes) won't become professors. One in two hundred of those who start manage to persist—let alone have a signficant impact on the profession.
+Take academia; around 4% of the population of the UK and US embark on a PhD, yet [50%](https://dissertationgenius.com/the-six-laws-of-phd-failure/) fail to receive a doctorate, [70%](https://www.turningscience.com/blog/how-many-phds-stay-in-academia) won't stay in academia for five years, [97%](https://academia.stackexchange.com/questions/17431/what-ratio-of-phd-graduates-in-stem-fields-ultimately-end-up-as-tenured-profes) do not achieve tenure or permanent positions, and [99.6%](https://academia.stackexchange.com/questions/17431/what-ratio-of-phd-graduates-in-stem-fields-ultimately-end-up-as-tenured-profes) won't become professors. One in two hundred of those who start manage to persist—let alone have a significant impact on the profession.
 
 Take sports: every European seven-year-old is forced onto the football pitch, yet only 572 persist to the premier league. The same principle applies to music, comedy, acting and software engineering. For those who try and fail to do something great, falling short is rationalised as some deficiency of either hard work or "natural talent".
 
@@ -21,13 +21,13 @@ But the most overlooked property of any system that persists is the <i>heuristic
 
 ## Maximising Heuristic Instinct
 
-<i>Heuristic instinct</i> means that whover has the most accurate predictive model wins. 
+<i>Heuristic instinct</i> means that whoever has the most accurate predictive model wins. 
 
 Take the brain of a savant for instance: able to run advanced pattern-matching without explicit training, like Yashantha from [this](https://www.youtube.com/watch?v=eFnV6EM-wzY) famous story. These characters inherit default wiring to closely approximate the type of pattern recognition needed to perform a specific task well. For competitors, this superpower feels profound as a teen, but in the long-run, anyone with a plastic brain can learn these tricks more acutely.
 
 The savant's savant operates across many domains: the polyglots who absorb languages with perfect fidelity, the poker champions who dominate every game at the casino, or the Renaissance men of art, engineering, and science. These are the fittest members of the population with the greatest means to outgrow all competition in the long-run. [[1]](#ref-1)
 
-Yet, even these figures are forced to specialise. With just one brain, one lifetime, and a family to tend to, your ability to go deep to beat your competition deteriorates as you accrue more draws on your attention. Even the best can only hope accrue PhD-level insight in one to three fields, without trading desirable human attributes like a loving home life, or close friends.
+Yet, even these figures are forced to specialise. With just one brain, one lifetime, and a family to tend to, your ability to go deep to beat your competition deteriorates as you accrue more draws on your attention. Even the best can only hope to acquire PhD-level insight in one to three fields, without trading desirable human attributes like a loving home life, or close friends.
 
 For the modern day renaissance man, this means your best shot is to specialise in the field that most intensely develops your <i>general</i> heuristic instinct. Traditional paths—researcher, architect, surgeon, trial lawyer, quant—provide security and prestige, but they constrain the feedback loops that sharpen your instincts; you're sheltered from the market, you're sheltered from the technology, you are required by your employer to fit to a specific domain at the expense of more general heuristics.
 
@@ -41,7 +41,7 @@ Technological entrepreneurship represents the most intense evolutionary cycle of
 
 This compounds when your competition consists of multi-brained intellects; massively parallelised organisations moving with bandwidth in the order of hundreds or thousands the means of any given founding team. This makes the myth of the startup founder aggrandising; at the helm of a technology juggernaut you possess the mandate to steer humanity and carve the world to your will.
 
-When your existence hinges directly on learning what is wrong before it bankrupts you, those who persist become [antifragile]([https://en.wikipedia.org/wiki/Antifragile_(book)](https://en.wikipedia.org/wiki/Antifragile_(book))). This is why successful business leaders so gleefully describe running companies with in violent, vicious terms. Where else is winning described as "[like eating glass; you just start to like the taste of your own blood](https://www.entrepreneur.com/business-news/sean-parker-running-a-startup-is-like-eating-glass/224563)"? 
+When your existence hinges directly on learning what is wrong before it bankrupts you, those who persist become [antifragile](https://en.wikipedia.org/wiki/Antifragile_(book)). This is why successful business leaders so gleefully describe running companies with in violent, vicious terms. Where else is winning described as "[like eating glass; you just start to like the taste of your own blood](https://www.entrepreneur.com/business-news/sean-parker-running-a-startup-is-like-eating-glass/224563)"? 
 
 The heuristic development of an entrepreneur of 2 months, 2 years, and 20 years is staggering. As a consequence, second time founders raise dramatically more money than first-time founders because (1) there aren't many of them, and (2) those who succeed have strong heuristic instinct.
 
@@ -52,9 +52,9 @@ As each new generation of [Zuckerbergees](https://x.com/StartupArchive_/status/1
 
 This is where most startups are born, and where most startups die. We will characterise this level as passion building if it originates from a genuine curiosity about hard, unsolved problems. Many good startup stories are described as successful tinkering: technical students discover something that they are uniquely capable of solving, write a search engine, and discover intense consumer demand.
 
-So what seperates the should-be-avoided tinkering from the productive?
+So what separates the should-be-avoided tinkering from the productive?
 
-Bad passion-building is distinctive: the [Notion founders](https://www.lennysnewsletter.com/p/inside-notion-ivan-zhao) spoke about how their first product was an indulgent, feature-rich undertaking built for themselves that didn't fair well with others. Only when they rebuilt the project around a smaller, more obvious wedge were they able to find traction and persist long enough to build a super-app people wanted. 
+Bad passion-building is distinctive: the [Notion founders](https://www.lennysnewsletter.com/p/inside-notion-ivan-zhao) spoke about how their first product was an indulgent, feature-rich undertaking built for themselves that didn't fare well with others. Only when they rebuilt the project around a smaller, more obvious wedge were they able to find traction and persist long enough to build a super-app people wanted. 
 
 At its worst, passion-building is procrastination disguised as innovation. It is the delusion that anything except user traction creates businesses, it is the myth that in order to compete with a billion-dollar juggernaut you must create something worth a billion dollars out of the box, or the belief that nine months spinning code [without anyone breaking your door](https://www.joelonsoftware.com/2006/04/11/the-development-abstraction-layer-2/) will result in great traction once you're finished. The reality is, being technical is not enough to build a great product.
 
@@ -69,7 +69,7 @@ The strongest advice I have found is to actively constrain myself from throwing 
 ## Level II: Hustler
 ### The Forceful Entrepreneur
 
-At some point, you launch and discover that users don't care about you. From here, entrepreneurships starts to feel real. Manually onboarding and keeping new users occupies this space, and for shy founders who write code, this does not come naturally. 
+At some point, you launch and discover that users don't care about you. From here, entrepreneurship starts to feel real. Manually onboarding and keeping new users occupies this space, and for shy founders who write code, this does not come naturally. 
 
 Sales and persuasion come most naturally when you are selling something you use every day, but it helps to develop some social growth hacking techniques just to be safe. "Doing things that don't scale" is the mantra of founders in this phase: start with anybody, as long as it isn't yourself (or your ["Mom"](https://www.reddit.com/r/startups/comments/j1c92x/the_mom_test/), in most circumstances). 
 
@@ -80,9 +80,9 @@ Every passion-builder that went on to run a successful business successfully mad
 ## Level III: Cook
 ### The Momentum Entrepreneur
 
-When inbound consistently grows faster than outbound, you have made it to the 1% Club of entrepreneurship. This is where entrepreneurship takes on its more characteristic dimension from the outside. If you can crank the hog hard enough, it will being running on its own.
+When inbound consistently grows faster than outbound, you have made it to the 1% Club of entrepreneurship. This is where entrepreneurship takes on its more characteristic dimension from the outside. If you can crank the hog hard enough, it will begin running on its own.
 
-Managing your inbound efficiently becomes more essential once you make it to this level. This isn't trivial; only [the best]((https://www.linkedin.com/feed/update/urn:li:activity:7335354133232709634/)) in each YC batch will fall under this category for any meaningful duration. Shotgun launches might give you a waitlist and a surge of press coverage, but this will dry up unless you can [continue to be great](https://growthhackers.com/growth-studies/airbnb/).
+Managing your inbound efficiently becomes more essential once you make it to this level. This isn't trivial; only [the best](https://www.linkedin.com/feed/update/urn:li:activity:7335354133232709634/) in each YC batch will fall under this category for any meaningful duration. Shotgun launches might give you a waitlist and a surge of press coverage, but this will dry up unless you can [continue to be great](https://growthhackers.com/growth-studies/airbnb/).
 
 Entrepreneurs in this domain have discovered a product that consistently solves a problem people actually pay for. Maintain this for long enough and soon you'll be able to employ people without taking on debt, or announce a more grueling release schedule with greater up-front investment. In short, you're gaining control over your domain of influence now that your Ideal Customer Profile is understood more deeply, carved out over genuinely rigorous testing.
 
@@ -95,7 +95,7 @@ The most competitive Level III entrepreneurs become masters of their subdomain. 
 
 Perhaps close employees feel like they have a PhD supervisor when working with these characters when they "see around corners" and know what is worth testing and what isn't.
 
-An entrepreneur at this level is not just finding product-market fit in existing markets, they're creating new markets happen or reshaping existing ones. "What valuable company is nobody building?" becomes central to the thought process.
+An entrepreneur at this level is not just finding product-market fit in existing markets, they're creating new markets or reshaping existing ones. "What valuable company is nobody building?" becomes central to the thought process.
 
 Most of the YC Partners appear to be engaged in the behaviours of Level IV founders. This is the behaviour most aspire to attain when starting out in business, knowingly or not. You have enough customer signal and market understanding to see opportunities others miss.
 
@@ -129,7 +129,7 @@ You are in the business of shaping reality to your will. You could drop in on al
 
 Bonus points if you founded a trillion dollar company.
 
-Double bonus points if keep buying companies and shaping them like a founder would.
+Double bonus points if you keep buying companies and shaping them like a founder would.
 
 ---
 
