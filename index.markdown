@@ -37,35 +37,27 @@ layout: page
       </ul>
     </li>
 
-    <li>On The Alignment Problem
-      <ul>
-        <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="custom-link">democratising</a>intelligence will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="custom-link">abundance</a></li>
-        
-        <li>society maintains alignment at the triple point of <i>"paleolithic emotions, medieval institutions and godlike technology<a href="https://www.oxfordreference.com/display/10.1093/acref/9780191826719.001.0001/q-oro-ed4-00016553" class="no-underline" target="_blank" rel="noopener noreferrer">"</a></i></li>
-
-        <li>allocate this abundance optimally if you want to maintain technological optimism and stoke the fires of further growth</li>
-      </ul>
-    </li>
-
     <li>On civilisation in the short-run
-      <ul>
-        <li>EMH is weak at best: all opportunities emerge in the lag between market sentiment and reality, especially during breakthroughs</li>
+        <ul>
+            <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="custom-link">democratising</a>LLMs will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="custom-link">abundance</a></li>
 
-        <li>most scientific fields have seen diminishing returns for sixty years, with exceptions in computing and <a href="https://www.oscarmoxon.com/leverage/2021/12/13/timeline-of-ai-1.html" class="custom-link">machine learning</a>which will produce a knowledge explosion</li>
+            <li>human society maintains alignment at the triple point of <i>"paleolithic emotions, medieval institutions and godlike technology<a href="https://www.oxfordreference.com/display/10.1093/acref/9780191826719.001.0001/q-oro-ed4-00016553" class="no-underline" target="_blank" rel="noopener noreferrer">"</a></i></li>
 
-        <li>with <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">Culture-Minds</a>, agents will let us delegate research or make requests like <em>"build me a dyson sphere"</em></li>
+            <li>most scientific fields have seen diminishing returns for sixty years, with exceptions in classical computing and <a href="https://www.oscarmoxon.com/leverage/2021/12/13/timeline-of-ai-1.html" class="custom-link">machine learning</a>which will produce a knowledge explosion</li>
 
-        <li>LLMs tread closer to the realm of natural abstraction—next stop: telepathy</li>
-      </ul>
+            <li>soon we will delegate research to <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">Culture-Minds</a> and manage personal <a href="https://www.oscarmoxon.com/hierarchies/2025/06/27/clone.html" class="custom-link">presidential cabinets</li>
+
+            <li>LLMs tread closer to the realm of natural abstraction—next stop: telepathy</li>
+        </ul>
     </li>
 
-    <li>Thoughts on working in teams
+    <li>Thoughts on tribes
         <ul>
-            <li>great teams are priceless and give life meaning</li>
-            <li>teams function like vector fields; vector sum equals velocity</li>
-            <li>all orgs should be broken into small, focused groups with under a dozen members</li>
-            <li><a href="https://retrochronic.com/#hyperstition" class="custom-link">narrative momentum</a> is essential when making fiction commonplace</li>
-            <li>everyone has a common thread that connects the major decisions they make, and this instinct should be listened to</li>
+            <li>great teams are priceless and should be sought out</li>
+            <li>teams function like vector fields where vector sum equals velocity</li>
+            <li>the best companies are composed of small, ten person teams</li>
+            <li>when making fiction commonplace, tell <a href="https://retrochronic.com/#hyperstition" class="custom-link">stories</a></li>
+            <li>everyone has a common thread that connects the major decisions they make, listen to this instinct</li>
         </ul>
     </li>
   </ul>
