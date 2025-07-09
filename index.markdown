@@ -29,13 +29,11 @@ layout: page
 
     <li>On civilisation in the long-run
       <ul>
-        <li>our universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a></li>
+        <li>the universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a></li>
         
-        <li>civilisation minimises <a href="https://www.nature.com/articles/nrn2787" class="custom-link">free energy</a>with markets providing all metabolic function</li>
-        
-        <li><a href="https://retrochronic.com/" class="custom-link">markets</a>are artificial intelligence; they self-regulate and rarely call for intervention</li>
-        
-        <li>technological progress is the <a href="https://www.oscarmoxon.com/brains/2024/12/06/genius.html" class="custom-link">only</a>driver of market creation, and is the rate limiter of civilisation growth</li>
+        <li>civilisation minimises <a href="https://www.nature.com/articles/nrn2787" class="custom-link">free energy</a>where markets provide all metabolic function, rarely calling for intervention</li>
+                
+        <li>healthy <a href="https://retrochronic.com/" class="custom-link">markets</a> churn fast and democratise technological progress quickly</li>
       </ul>
     </li>
 
