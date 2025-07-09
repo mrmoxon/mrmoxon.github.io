@@ -63,11 +63,11 @@ layout: page
 
     <li>Thoughts on working in teams
         <ul>
-            <li>teams are like vector fields: each member contributes direction and magnitude, vector sum = project velocity</li>
-            <li>small, focused groups have agility perk, steer faster</li>
-            <li>breakthroughs come from better questions</li>
+            <li>great teams are priceless and give life meaning</li>
+            <li>teams function like vector fields; vector sum equals velocity</li>
+            <li>all orgs should be broken into small, focused groups with under a dozen members</li>
             <li><a href="https://retrochronic.com/#hyperstition" class="custom-link">narrative momentum</a> is essential when making fiction commonplace</li>
-            <li>all people have a common thread that connects the major decisions they make</li>
+            <li>everyone has a common thread that connects the major decisions they make, and this instinct should be listened to</li>
         </ul>
     </li>
   </ul>
