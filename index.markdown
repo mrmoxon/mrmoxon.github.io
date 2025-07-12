@@ -45,13 +45,13 @@ layout: page
 
             <li>most scientific fields have seen diminishing returns for sixty years, with exceptions in classical computing and <a href="https://www.oscarmoxon.com/leverage/2021/12/13/timeline-of-ai-1.html" class="custom-link">machine learning</a>which will produce a knowledge explosion</li>
 
-            <li>soon we will delegate research to <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">Culture-Minds</a> and manage personal <a href="https://www.oscarmoxon.com/hierarchies/2025/06/27/clone.html" class="custom-link">presidential cabinets</li>
+            <li>soon we will delegate research to <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">Culture-Minds</a> and manage personal <a href="https://www.oscarmoxon.com/hierarchies/2025/06/27/clone.html" class="custom-link">presidential cabinets</a></li>
 
             <li>LLMs tread closer to the realm of natural abstraction—next stop: telepathy</li>
         </ul>
     </li>
 
-    <li>Thoughts on tribes
+    <li>Thoughts on teams
         <ul>
             <li>great teams are priceless and should be sought out</li>
             <li>teams function like vector fields where vector sum equals velocity</li>
