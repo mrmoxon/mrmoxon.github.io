@@ -21,7 +21,7 @@ layout: page
   </div>
 
   <br>  
-  <p class="intro">London and SF based, curious about emergence, free energy, and multi-agent systems. Building your digital exoskeleton at <a href="https://realmachines.ai/" class="custom-link">realmachines.ai</a></p>
+  <p class="intro">London and SF based, curious about emergence, free energy, and multi-agent systems. Building your digital exoskeleton to solve the intelligence curse at <a href="https://workshoplabs.ai/" class="custom-link">workshoplabs.ai</a></p>
   <p>Previously researching long-horizon artificial intelligence at Kings College London.</p>
   <p>Some things I believe:</p>
 
