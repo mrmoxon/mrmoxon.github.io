@@ -11,6 +11,7 @@ body {
   background-color: var(--background-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: none; // Instant theme switch to sync with footer image
 }
 
 // Headings use Young Serif
@@ -22,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Links - minimalist underline style
-a {
+a:not(.essay-card) {
   color: var(--text-color);
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -269,6 +270,20 @@ a {
 // Newsletter form customization - Minimalist
 .formkit-form {
   box-shadow: none !important;
+
+  .seva-custom-content {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .formkit-fields {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  [data-style="clean"] {
+    padding-top: 0 !important;
+  }
 
   .formkit-submit {
     background-color: var(--text-color) !important;
@@ -720,12 +735,17 @@ a {
 }
 
 // Post item states for filtering
-.post-item, .essay-card {
+.post-item {
   transition: opacity 0.2s ease;
 
   &.dimmed {
     opacity: 0.35;
   }
+}
+
+.essay-card.dimmed {
+  opacity: 0.35;
+  transition: opacity 0.2s ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -795,12 +815,28 @@ a {
   border: none;
   border-radius: 0;
   overflow: visible;
-  transition: opacity 0.2s ease;
   background: transparent;
   padding: 0;
 }
 
-.essay-card:hover {
+.essay-card,
+.essay-card:hover,
+.essay-card:active,
+.essay-card:focus,
+a.essay-card,
+a.essay-card:hover,
+a.essay-card:active,
+a.essay-card:focus {
+  opacity: 1 !important;
+}
+
+.essay-placeholder,
+.essay-card:hover .essay-placeholder,
+a.essay-card:hover .essay-placeholder {
+  opacity: 1 !important;
+}
+
+.essay-card:hover .essay-image {
   opacity: 0.7;
 }
 
@@ -903,16 +939,19 @@ a {
 .essay-card:hover .essay-placeholder.mini {
   background: linear-gradient(135deg, rgba(200, 155, 123, 0.45) 0%, rgba(180, 130, 100, 0.35) 100%);
   border-color: rgba(200, 155, 123, 0.5);
+  opacity: 1 !important;
 }
 
 .essay-card:hover .essay-placeholder.study {
   background: linear-gradient(135deg, rgba(123, 163, 200, 0.45) 0%, rgba(100, 140, 180, 0.35) 100%);
   border-color: rgba(123, 163, 200, 0.5);
+  opacity: 1 !important;
 }
 
 .essay-card:hover .essay-placeholder.essay {
   background: linear-gradient(135deg, rgba(128, 128, 128, 0.28) 0%, rgba(128, 128, 128, 0.18) 100%);
   border-color: rgba(128, 128, 128, 0.25);
+  opacity: 1 !important;
 }
 
 /* Content Area - Minimal */
@@ -1257,12 +1296,16 @@ b.bold-highlight {
   font-family: $heading-font-family;
   font-weight: 400;
   letter-spacing: -0.02em;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: opacity 0.2s ease;
 
   &:hover {
     opacity: 0.6;
-    text-decoration: none;
+    text-decoration: none !important;
+  }
+
+  &:visited {
+    text-decoration: none !important;
   }
 }
 
@@ -1437,7 +1480,7 @@ input:checked + .slider:before {
   }
 
   // Dark mode links - sandy accent color
-  a {
+  a:not(.essay-card) {
     color: var(--link-color);
 
     &:hover {
@@ -1479,6 +1522,10 @@ input:checked + .slider:before {
     background: transparent;
 
     &:hover {
+      opacity: 1 !important;
+    }
+
+    &:hover .essay-image {
       opacity: 0.7;
     }
   }
@@ -1873,43 +1920,94 @@ html:not([data-theme="dark"]) .svg-icon.grey {
   }
 }
 
-.site-footer .svg-icon.grey {
-  color: #111 !important;
-  fill: #111 !important;
+// Footer styles
+.site-footer {
+  padding: 0 0 3rem 0;
+  margin-top: 0;
+  border-top: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html:not([data-theme="light"]) .site-footer .svg-icon.grey {
-    color: #fff !important;
-    fill: #fff !important;
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 4rem;
+}
+
+.footer-brand {
+  font-size: 1.3rem;
+  font-family: $heading-font-family;
+  font-weight: 400;
+  color: var(--text-color);
+  text-decoration: none !important;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  .footer-symbol {
+    display: inline;
   }
 }
-[data-theme="dark"] .site-footer .svg-icon.grey {
-  color: #fff !important;
-  fill: #fff !important;
-}
 
-.footer-desc-right {
-  text-align: right;
+.footer-headshot {
   width: 100%;
-}
+  margin-bottom: 1.5rem;
 
-.footer-desc-link {
-  color: inherit;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: text-decoration 0.2s;
-}
-.footer-desc-link:hover {
-  text-decoration: underline;
-}
-
-@media screen and (max-width: 768px) {
-  .footer-desc-right {
-    text-align: center;
+  img {
+    width: 100%;
+    height: auto;
   }
+
+  .headshot-light {
+    display: block;
+  }
+
+  .headshot-dark {
+    display: none;
+  }
+}
+
+[data-theme="dark"] .footer-headshot {
+  .headshot-light {
+    display: none;
+  }
+
+  .headshot-dark {
+    display: block;
+  }
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1.5rem;
+
+  a {
+    color: var(--text-color);
+    opacity: 0.8;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    svg {
+      display: block;
+      fill: currentColor;
+    }
+  }
+}
+
+[data-theme="dark"] .footer-socials a {
+  color: var(--text-color);
 }
 
 // Home Layout - Two Column
