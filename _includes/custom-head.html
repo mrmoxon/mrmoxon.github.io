@@ -48,7 +48,7 @@
     if (saved === 'dark' || saved === 'light') {
       theme = saved;
     } else {
-      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      theme = 'light'; // Default to light mode
     }
 
     // Apply theme immediately to prevent flash
