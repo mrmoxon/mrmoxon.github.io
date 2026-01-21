@@ -5,6 +5,7 @@ date:   2023-06-28 05:39:31 +0000
 categories: civilisation
 study: true
 mini: false
+favourite: 5.5
 featured: false
 recommended: false
 description: "Developing better models to understand the impact of machine learning and robotics on the workforce."

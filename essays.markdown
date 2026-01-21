@@ -1,5 +1,5 @@
 ---
 layout: home
-title: "[essays]"
+title: "[writing]"
 permalink: /essays/
 ---

@@ -5,6 +5,7 @@ date:   2022-10-18 05:39:31 +0000
 categories: economics
 study: false
 mini: true
+favourite: 5.5
 description: "Conversation with Dr Michael Hatcher, Dr Serhiy Stepanchuk, Dr Alex Mennuni at University of Southampton."
 ---
 

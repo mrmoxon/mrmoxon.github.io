@@ -5,6 +5,7 @@ date: 2023-04-01 05:39:31 +0000
 categories: civilisation
 study: false
 mini: false
+favourite: 4.5
 image: /assets/agency.webp
 featured: false
 recommended: false

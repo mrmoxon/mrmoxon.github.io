@@ -5,6 +5,7 @@ date: 2022-10-24 05:39:31 +0000
 categories: civilisation
 study: false
 mini: false
+favourite: 8.5
 image: /assets/fusion.png
 featured: false
 recommended: true

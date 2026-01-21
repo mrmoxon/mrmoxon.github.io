@@ -5,9 +5,10 @@ date: 2021-12-13 18:39:31 +0000
 categories: civilisation
 study: false
 mini: false
+favourite: 4.5
 image: /assets/pantheon-ai.webp
-description: "A comprehensive timeline of artificial intelligence development, the Turing Test, and key milestones looking forward." 
-keywords: "AI timeline, artificial intelligence history, AI development" 
+description: "A comprehensive timeline of artificial intelligence development, the Turing Test, and key milestones looking forward."
+keywords: "AI timeline, artificial intelligence history, AI development"
 sitemap:
   lastmod: 2024-11-01
   priority: 0.8

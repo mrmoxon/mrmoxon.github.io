@@ -1,6 +1,52 @@
+// ==========================================
+// MINIMALIST TYPOGRAPHY - Lora & Young Serif
+// ==========================================
+
+// Base typography
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Headings use Young Serif
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--text-color);
+}
+
+// Links - minimalist underline style
+a {
+  color: var(--text-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+// Selection color - subtle
+::selection {
+  background: rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
+
+[data-theme="dark"] ::selection {
+  background: rgba(255, 255, 255, 0.2);
+}
+
 .site-nav .trigger a:last-child {
     margin-left: auto; /* Forces the CV link to the right */
-  }  
+  }
 
 // Custom list styling for emergence timeline
 .emergence-timeline {
@@ -52,58 +98,60 @@
   
 .custom-link {
   position: relative;
-  color: #8d6032;
-  text-decoration: none;
+  color: #a85d3f !important;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+  text-decoration-color: #a85d3f !important;
   display: inline;
-  padding-right: 0.4em; /* Add padding to the right of the link text */
-  // margin-right: 0.2em; /* Add a small margin to separate from the following text */
+  padding-right: 0;
 }
 
 .custom-link::after {
-  content: attr(data-index);
-  font-size: 0.7em;
-  position: absolute;
-  top: -0.5em;
-  right: 0em;
-  // background-color: #f3e9e3;
-  // border: 1px solid #cbaa96;
-  border-radius: 50%;
-  padding: 0.1em 0.3em;
-  line-height: 1;
+  content: none;
 }
 
 .custom-link:hover {
   text-decoration: underline;
+  text-decoration-thickness: 1.5px;
 }
 
 .custom-link-number {
   font-size: 0.7em;
   vertical-align: super;
   line-height: 0;
-  color: inherit;
+  color: #a85d3f !important;
   padding-left: 0.2em;
+  text-decoration: none !important;
+  display: inline-block;
 }
 
 .link-preview {
   position: absolute;
-  bottom: 100%;
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #f3e9e3;
-  border: 1px solid #cbaa96;
-  border-radius: 5px;
-  padding: 5px 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  display: none;
-  z-index: 1000;
+  background: #2d2d2d !important;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  visibility: hidden;
+  opacity: 0;
   white-space: nowrap;
-  font-size: 14px;
-  color: #613b16;
+  font-size: 0.8rem;
+  color: #ffffff !important;
+  z-index: 1000;
+  margin-top: 4px;
+  transition: opacity 0.1s ease, visibility 0.1s ease;
 }
 
 .custom-link:hover .link-preview {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
+
+// Dark mode link-preview uses inverted colors
 
 .custom-bullets {
   list-style-type: none;
@@ -158,9 +206,10 @@
 
 .newsletter-signup-text {
   text-align: center;
-  color: var(--newsletter-text-color, #111111);
-  margin: 5rem 0 -2rem;
-  font-size: 1.1rem;
+  color: var(--text-color);
+  margin: 4rem 0 1rem;
+  font-size: 1rem;
+  opacity: 0.7;
 }
 
 .input-group {
@@ -171,108 +220,108 @@
 
 .email-input {
   flex: 1;
-  padding: 0.75rem;
-  border: 1px solid #cbaa96;
-  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0;
   font-size: inherit;
-  background: #fff;
-  transition: all 0.2s ease;
-  
+  font-family: $base-font-family;
+  background: transparent;
+  transition: border-color 0.2s ease;
+
   &:focus {
     outline: none;
-    border-color: #8d6032;
-    box-shadow: 0 0 0 3px rgba(141, 96, 50, 0.1);
+    border-color: var(--text-color);
   }
 }
 
 .subscribe-button {
   padding: 0.75rem 1.5rem;
-  background: #8d6032;
-  color: white;
+  background: var(--text-color);
+  color: var(--background-color);
   border: none;
-  border-radius: 6px;
+  border-radius: 0;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: opacity 0.2s ease;
   font-weight: 500;
-  
+  font-family: $base-font-family;
+
   &:hover {
-    background: #613b16;
-    transform: translateY(-1px);
+    opacity: 0.8;
   }
-  
+
   &:disabled {
-    background: #cbaa96;
-    transform: none;
+    opacity: 0.4;
     cursor: default;
   }
 }
 
 .success-message {
   text-align: center;
-  color: #8d6032;
-  font-size: 1.2rem;
+  color: var(--text-color);
+  font-size: 1rem;
   padding: 1rem;
-  background: rgba(141, 96, 50, 0.1);
-  border-radius: 6px;
+  background: transparent;
+  border: 1px solid var(--border-color);
   margin-top: 1rem;
 }
 
 
-// Newsletter form customization
+// Newsletter form customization - Minimalist
 .formkit-form {
-  // Remove default styling
   box-shadow: none !important;
-  
-  // Custom styling
+
   .formkit-submit {
-    background-color: #be9c7b !important; // Your preferred button color
-    
+    background-color: var(--text-color) !important;
+    border-radius: 0 !important;
+
     &:hover {
-      background-color: #a37f5b !important;
+      opacity: 0.8 !important;
     }
   }
-  
-  // Hide "Built with ConvertKit" badge
+
   [data-element="powered-by"] {
     display: none !important;
   }
-  
-  // Custom input styling
+
   .formkit-input {
-    border: 1px solid #cacaca !important;
-    border-radius: 4px !important;
-    background-color: #f7f7f7 !important;
-    color: var(--text-color) !important; // Ensures text color matches your site's theme
-    
+    border: 1px solid var(--border-color) !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    color: var(--text-color) !important;
+    font-family: $base-font-family !important;
+
     &:focus {
-      border-color: #c8c4bf !important;
+      border-color: var(--text-color) !important;
       outline: none !important;
-      // background-color: rgba(0, 0, 0, 0.05) !important; // Slightly darker when focused
     }
-    
+
     &::placeholder {
-      color: #252525 !important; // Customize placeholder text color
-      opacity: 0.8 !important; // Makes placeholder slightly transparent
+      color: var(--text-color) !important;
+      opacity: 0.5 !important;
     }
   }
 }
 
 
-// Recent Essays
+// Recent Essays - Minimalist
 .recent-essays-label {
   display: inline-block;
-  font-size: 1.4rem;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 0.85rem;
+  font-family: $base-font-family;
   color: var(--text-color);
-  margin-bottom: 0.5rem;
-  margin-top: -1rem;
+  opacity: 0.6;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
 }
 
 .recent-essays-container {
-  background-color: var(--recent-essays-bg);
-  border: 4px solid var(--recent-essays-border);
-  border-radius: 5px;
-  margin-bottom: 0.25rem;
+  background-color: transparent;
+  border: none;
+  border-top: 1px solid var(--border-color);
+  border-radius: 0;
+  margin-bottom: 1.5rem;
   position: relative;
   z-index: 1;
 }
@@ -280,48 +329,48 @@
 .recent-essay-link {
   display: block;
   text-decoration: none;
-  transition: background-color 0.15s ease;
+  transition: opacity 0.2s ease;
   color: var(--text-color);
 
   &:hover {
-    color: var(--link-color);
+    opacity: 0.6;
   }
 }
 
 .recent-essay-link:not(:last-child) {
-  border-bottom: 4px solid var(--recent-essays-border);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .recent-essay-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem;
+  padding: 1rem 0;
   position: relative;
   z-index: 1;
-  gap: 1rem; /* Add space between title and date */
+  gap: 1.5rem;
 }
 
 .recent-essay-title {
   margin: 0;
-  font-size: 0.5rem;
-  font-weight: normal;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: $heading-font-family;
   color: var(--text-color);
-  flex: 1; /* Allow title to take up remaining space */
-  min-width: 0; /* Allow title to shrink if needed */
+  flex: 1;
+  min-width: 0;
 }
 
 .recent-essay-date {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--text-color);
-  opacity: 0.8;
-  white-space: nowrap; /* Prevent date from wrapping */
-  flex-shrink: 0; /* Prevent date from shrinking */
+  opacity: 0.5;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .recent-essay-link:hover {
-  background-color: var(--recent-essays-bg);
-  opacity: 0.8;
+  background-color: transparent;
 }
 
 .essays-ellipsis {
@@ -329,11 +378,12 @@
   text-align: center;
   color: var(--text-color);
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1;
-  margin-top: 0.25rem;
-  margin-bottom: 1.5rem;
-  font-family: "Times New Roman", Times;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  opacity: 0.5;
+  font-family: $base-font-family;
 }
 
 .essays-ellipsis:before {
@@ -341,7 +391,7 @@
 }
 
 .essays-ellipsis:hover:before {
-  content: "[...]";
+  content: "[more]";
 }
 
 /* Strengthen specificity for recent essays section */
@@ -491,23 +541,29 @@
 /* Section Header and Toggle Button */
 .section-header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   margin-bottom: 1rem;
+
+  h2 {
+    margin: 0;
+  }
 }
 
 .view-toggle {
   background: transparent;
   border: none;
-  padding: 4px 8px;
+  padding: 0;
   cursor: pointer;
-  font-size: 1.25rem;
-  transition: all 0.2s ease;
-  color: #4a3728;
-}
+  font-size: 1rem;
+  line-height: 1;
+  transition: opacity 0.2s ease;
+  color: var(--text-color);
+  opacity: 0.5;
 
-.view-toggle:hover {
-  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 /* Base post styles - enforced left alignment */
@@ -544,6 +600,142 @@
   white-space: nowrap;
 }
 
+// Excerpt toggle dropdown
+.post-meta-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.excerpt-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  padding: 0.25rem;
+  cursor: pointer;
+  color: var(--text-color);
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &[aria-expanded="true"] .toggle-icon .vertical {
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+
+[data-theme="dark"] .excerpt-toggle {
+  color: #ffffff;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+[data-theme="dark"] .post-excerpt-dropdown p {
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.toggle-icon {
+  .horizontal, .vertical {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    transform-origin: center;
+  }
+}
+
+.post-excerpt-dropdown {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+  opacity: 0;
+  padding: 0;
+
+  p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    opacity: 0.7;
+  }
+
+  &.expanded {
+    max-height: 300px;
+    opacity: 1;
+    padding: 0.75rem 0 0.5rem;
+  }
+}
+
+// Essay filter and sort controls
+.essay-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+#sort-buttons {
+  justify-content: flex-end;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  font-family: $base-font-family;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &.active {
+    opacity: 1;
+    border-color: var(--text-color);
+  }
+}
+
+// Post item states for filtering
+.post-item, .essay-card {
+  transition: opacity 0.2s ease;
+
+  &.dimmed {
+    opacity: 0.35;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .essay-filters {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+}
+
 /* Mobile styles */
 @media screen and (max-width: 768px) {
   .post-title-meta {
@@ -573,17 +765,18 @@
 
 .post-link {
   text-decoration: none;
-  color: #8d6032;
+  color: var(--text-color);
+  transition: opacity 0.2s ease;
 }
 
 .post-link:hover {
-  color: #0066cc;
+  opacity: 0.6;
 }
 
-/* Masonry Layout */
+/* Masonry Layout - 3 columns responsive */
 .essays-grid {
   display: flex;
-  gap: 1.5rem;
+  gap: 0.75rem;
   padding: 0.5rem 0;
 }
 
@@ -591,60 +784,73 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 0.5rem;
+  min-width: 0;
 }
 
-/* Card Styling */
+/* Card Styling - Minimal & Faint */
 .essay-card {
   display: block;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 2px;
-  overflow: hidden;
-  transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
-  background: white;
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+  transition: opacity 0.2s ease;
+  background: transparent;
+  padding: 0;
 }
 
 .essay-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  opacity: 0.7;
 }
 
-/* Image Container */
+/* Image Container - Rounded & Independent */
 .essay-image {
   width: 100%;
   position: relative;
   overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 0.25rem;
 }
 
 .essay-image img {
   display: block;
   width: 100%;
   height: auto;
-  transform: scale(1.00);
-  transition: transform 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
 }
 
-.essay-card:hover .essay-image img {
-  transform: scale(1);
+.essay-image img.loaded {
+  opacity: 1;
 }
 
-/* Content Area */
+.essay-card:hover .essay-image img.loaded {
+  opacity: 0.9;
+}
+
+/* Content Area - Minimal */
 .essay-content {
-  padding: 1rem;
-  background-color: #f5f0e8;
+  padding: 0.25rem 0;
+  background-color: transparent;
 }
 
 .essay-content h3 {
-  margin: 0 0 0.35rem 0;
-  font-size: 1rem;
-  line-height: 1.4;
-  color: #333;
+  margin: 0 0 0.15rem 0;
+  font-size: 0.8rem;
+  font-family: $heading-font-family;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--text-color);
 }
 
 .essay-content .post-meta {
-  font-size: 0.875rem;
-  color: #666;
+  font-size: 0.7rem;
+  color: var(--text-color);
+  opacity: 0.5;
+  margin-left: 0;
+  text-align: left;
 }
 
 .post-meta {
@@ -654,24 +860,27 @@
   margin-left: 20px;
 }
 
-/* Responsive Layout */
-@media (max-width: 768px) {
+/* Responsive Masonry Layout */
+@media (max-width: 900px) {
+  .essays-grid .column:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
   .essays-grid {
     flex-direction: column;
+  }
+
+  .essays-grid .column:nth-child(2),
+  .essays-grid .column:nth-child(3) {
+    display: none;
   }
 }
 
 /* Utility Classes */
 .hidden {
   display: none !important;
-}
-
-.column {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  min-height: 0; /* Ensures proper height calculation */
 }
 
 
@@ -798,36 +1007,38 @@
   }
 }
 
-// cite button
+// cite button - Minimalist
 .cite-button {
   background: transparent;
   border: none;
-  color: #cbaa96;
+  color: var(--text-color);
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
   padding: 0;
   margin: 0;
-  text-decoration: italic;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   appearance: none;
   -webkit-appearance: none;
-  vertical-align: baseline; /* Add this to align with text */
-  line-height: inherit; /* Add this to match text line height */
-  display: inline-flex; /* Add this for better alignment */
-  align-items: center; /* Add this for vertical centering */
+  vertical-align: baseline;
+  line-height: inherit;
+  display: inline-flex;
+  align-items: center;
+  transition: opacity 0.2s ease;
 }
 
 .cite-button:hover {
-  color: #613b16;
+  opacity: 0.6;
 }
 
-/* Remove focus outline but maintain accessibility */
 .cite-button:focus {
   outline: none;
 }
 
 .cite-button:focus-visible {
-  outline: 2px solid #8d6032;
+  outline: 1px solid var(--text-color);
   outline-offset: 2px;
 }
 
@@ -955,22 +1166,27 @@ b.bold-highlight {
   }
 }
 
-// Site title
+// Site title - Minimalist
 .site-title {
   color: var(--site-title-color);
-  transition: color 0.3s ease;
+  font-family: $heading-font-family;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
 
   &:hover {
-    color: var(--link-color);
+    opacity: 0.6;
     text-decoration: none;
   }
 }
 
 // Theme toggle styles
 .theme-toggle-wrapper {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 0px;
+  display: inline-block;
+  margin-left: 0;
+  vertical-align: middle;
+  line-height: 1;
 }
 
 .theme-toggle {
@@ -979,7 +1195,8 @@ b.bold-highlight {
   width: 52px;
   height: 24px;
   margin: 0;
-  top: 19.5px;
+  vertical-align: middle;
+  top: -1px;
 }
 
 .theme-toggle input {
@@ -995,7 +1212,7 @@ b.bold-highlight {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: transparent;
+  background-color: var(--text-color);
   border: 2px solid var(--text-color);
   transition: .4s;
   border-radius: 24px;
@@ -1008,19 +1225,21 @@ b.bold-highlight {
   width: 14px;
   left: 2px;
   bottom: 1px;
-  border: 2px solid var(--text-color);
+  border: 2px solid var(--background-color);
   background-color: transparent;
   transition: .4s;
   border-radius: 50%;
 }
 
 input:checked + .slider {
+  background-color: transparent;
   border-color: var(--text-color);
 }
 
 input:checked + .slider:before {
   transform: translateX(26px);
   border-color: var(--text-color);
+  background-color: transparent;
 }
 
 // Ensure proper positioning in mobile menu
@@ -1053,42 +1272,51 @@ input:checked + .slider:before {
 }
 
 .site-nav {
-  z-index: 100; // Ensure navigation is above other elements
+  z-index: 1000;
 }
 
 .recent-essays-container {
-  background-color: var(--recent-essays-bg);
-  border: 4px solid var(--recent-essays-border);
-  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  border-top: 1px solid var(--border-color);
+  border-radius: 0;
   margin-bottom: 0.25rem;
   position: relative;
-  z-index: 1; // Lower z-index than navigation
+  z-index: 1;
 }
 
 .recent-essay-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem;
+  padding: 1rem 0;
   position: relative;
-  z-index: 1; // Same z-index as container
+  z-index: 1;
 }
 
-/* Mobile-specific adjustments */
+/* Mobile full-screen menu adjustments */
 @media screen and (max-width: 768px) {
   .site-nav {
-    z-index: 100;
-    
-    .nav-trigger:checked ~ .trigger {
-      z-index: 101; // Higher than the base nav z-index
+    z-index: 1000;
+
+    .menu-icon {
+      position: relative;
+      z-index: 1002;
+    }
+
+    label[for="nav-trigger"] {
+      position: relative;
+      z-index: 1002;
     }
 
     .page-link {
       text-align: center;
+      font-size: 1.5rem;
+      padding: 1rem 0;
     }
-    
-    .trigger {
-      text-align: center;
+
+    .theme-toggle-wrapper {
+      margin-top: 2rem;
     }
   }
 
@@ -1110,77 +1338,92 @@ input:checked + .slider:before {
 
 [data-theme="dark"] {
   .recent-essays-container .recent-essay-content .recent-essay-title {
-    color: #ffffff;
+    color: var(--text-color);
   }
 
   .custom-bullets {
     > li::before {
-      color: #ffffff !important;
+      color: var(--text-color) !important;
     }
 
     > li > ul > li::before {
-      color: #ffffff !important;
+      color: var(--text-color) !important;
     }
   }
 
-  // Ensure all links use the correct color
+  // Dark mode links - sandy accent color
   a {
-    color: #c89b7b;
-    
+    color: var(--link-color);
+
     &:hover {
-      color: lighten(#c89b7b, 10%);
+      opacity: 0.7;
     }
   }
 
   .post-link {
-    color: #c89b7b;
-    
+    color: var(--link-color);
+
     &:hover {
-      color: lighten(#c89b7b, 10%);
+      opacity: 0.7;
     }
+  }
+
+  .custom-link {
+    color: #c89b7b !important;
+    text-decoration-color: #c89b7b !important;
+  }
+
+  .custom-link-number {
+    color: #c89b7b !important;
+  }
+
+  .link-preview {
+    background: #e8e8e8 !important;
+    color: #141414 !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   }
 
   .site-title {
     &:hover {
-      color: #c89b7b;
+      opacity: 0.7;
     }
   }
 
   // Dark mode essay grid styles
   .essay-card {
-    background: #2d2d2d;
-    border-color: #404040;
+    background: transparent;
 
     &:hover {
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      opacity: 0.7;
     }
   }
 
   .essay-content {
-    background-color: #2d2d2d;
-    
+    background-color: transparent;
+
     h3 {
-      color: #ffffff;
+      color: var(--text-color);
     }
 
     .post-meta {
-      color: #a0a0a0;
+      color: var(--link-color);
+      margin-left: 0;
     }
   }
 
-  // Make captions match link color
+  // Captions
   figcaption {
-    color: #c89b7b;
+    color: var(--link-color);
   }
-  
+
   .post-meta {
-    color: #c89b7b;
+    color: var(--link-color);
   }
 
   // Style for italicized image captions
   img + br + em,
   img + em {
-    color: #c89b7b;
+    color: var(--link-color);
     display: block;
     text-align: center;
     margin-top: 0.5em;
@@ -1383,22 +1626,22 @@ input:checked + .slider:before {
 .side-panel-menu-item {
   display: block;
   padding: 8px 0;
-  color: #8d6032;
-  text-decoration: none;
-  transition: all 0.2s ease;
+  color: var(--text-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
   font-size: 0.9em;
   line-height: 1.4;
-  
+
   &:hover {
-    color: #613b16;
+    opacity: 0.6;
   }
-  
+
   &.active {
-    color: #8d6032;
     font-weight: 500;
   }
 
-  // Add more space for deeper levels
   &[style*="padding-left"] {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -1408,11 +1651,11 @@ input:checked + .slider:before {
 // Dark mode adjustments
 [data-theme="dark"] {
   .side-panel-menu-item {
-    color: #c89b7b;
-    
+    color: var(--text-color);
+
     &:hover,
     &.active {
-      color: lighten(#c89b7b, 10%);
+      opacity: 0.6;
     }
   }
 }
@@ -1431,28 +1674,42 @@ input:checked + .slider:before {
   border-radius: 3px;
 }
 
-// Custom heading sizes with !important to ensure they take precedence
+// Minimalist heading sizes
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $bold-font-weight !important;
-  line-height: 1.2 !important;
+  font-family: $heading-font-family !important;
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.02em;
 }
 
 h1 {
-  font-size: 1.8rem !important;
+  font-size: 2.2rem !important;
 }
 
 h2 {
-  font-size: 1.5rem !important;
+  font-size: 1.6rem !important;
 }
 
 h3 {
-  font-size: 1.2rem !important;
+  font-size: 1.25rem !important;
 }
 
-// Add some vertical spacing for better readability
+h4 {
+  font-size: 1.1rem !important;
+}
+
+// Vertical spacing for headings
 h1, h2, h3 {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit * 0.5;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+// Post title styling
+.post-title {
+  font-family: $heading-font-family;
+  font-size: 2.2rem !important;
+  font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 // Hide specific numerical patterns
@@ -1570,6 +1827,399 @@ html:not([data-theme="dark"]) .svg-icon.grey {
   }
 }
 
+// Home Layout - Two Column
+.home-layout {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.home-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.home-sidebar {
+  width: 180px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .home-layout {
+    flex-direction: column;
+  }
+
+  .home-sidebar {
+    width: 100%;
+    position: static;
+  }
+}
+
+// Art Gallery Styles
+.art-carousel {
+  margin: 0;
+}
+
+.carousel-title {
+  font-size: 1rem !important;
+  margin-bottom: 0.75rem;
+  margin-top: 2.5rem;
+  font-weight: 400;
+}
+
+.art-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.art-thumb {
+  cursor: pointer;
+}
+
+.art-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  transition: opacity 0.2s ease;
+  display: block;
+}
+
+.art-thumb:hover img {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 900px) {
+  .art-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .art-thumb {
+    width: calc(33.333% - 6px);
+  }
+}
+
+// Lightbox
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 2000;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &.active {
+    display: flex;
+  }
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 // Footer social media icons now use SVG with .svg-icon.grey class
 // Color is controlled by the existing SVG icon rules in this file
 
+// ==========================================
+// HEADER STYLES
+// ==========================================
+
+// Title symbol - hide when dropdown menu is shown
+.title-symbol {
+  display: none;
+
+  @media screen and (min-width: 823px) {
+    display: inline;
+  }
+}
+
+// ==========================================
+// HOMEPAGE STYLES
+// ==========================================
+
+// Tighter spacing for homepage sections
+.central-column {
+  .post-list-heading {
+    margin-top: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  .intro {
+    margin-bottom: 0;
+  }
+}
+
+// Homepage favourite essays list
+.favourite-essays {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+  font-family: 'Young Serif', serif;
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  a {
+    color: var(--text-color);
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 2px;
+  }
+}
+
+// Background text with gap
+.background-text {
+  margin-top: 1.5rem;
+}
+
+// Civtex preview row component
+.civtex-preview-row {
+  display: flex;
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  transition: all 0.2s ease;
+  background: transparent;
+  overflow: hidden;
+
+  &:hover {
+    border-color: var(--text-color);
+    opacity: 1;
+  }
+}
+
+.civtex-mock {
+  width: 120px;
+  min-width: 120px;
+  padding: 1rem;
+  background: var(--border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+
+.mock-line {
+  height: 2px;
+  background: var(--text-color);
+  opacity: 0.3;
+  border-radius: 1px;
+
+  &.short {
+    width: 60%;
+  }
+}
+
+.mock-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--text-color);
+  opacity: 0.5;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+.civtex-description {
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.8;
+  }
+}
+
+// Fun section
+.fun-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.fun-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+.fun-label {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+// Beliefs list styling
+.beliefs {
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+
+  li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+}
+
+// Art Grid - Single Row Layout
+.art-items-single {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-top: 0.75rem;
+
+  // Subtle horizontal scrollbar
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 2px;
+  }
+}
+
+// Art Grid - Two Column Layout
+.art-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 0.75rem;
+}
+
+.art-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 0; // Allow overflow scrolling in grid
+}
+
+.art-label {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.art-items {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+
+  // Subtle horizontal scrollbar
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 2px;
+  }
+}
+
+.art-item {
+  position: relative;
+  flex: 0 0 auto;
+  height: 120px;
+  cursor: pointer;
+
+  img {
+    height: 100%;
+    width: auto;
+    border-radius: 4px;
+    display: block;
+    transition: opacity 0.15s ease;
+  }
+
+  &:hover img {
+    opacity: 0.8;
+  }
+
+  // Tooltip
+  &::after {
+    content: attr(data-title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2d2d2d;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.1s ease, visibility 0.1s ease;
+    z-index: 100;
+    margin-bottom: 6px;
+    pointer-events: none;
+  }
+
+  &:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+// Dark mode tooltip
+[data-theme="dark"] .art-item::after {
+  background: #e8e8e8;
+  color: #141414;
+}
+
+// Mobile: stack columns
+@media screen and (max-width: 600px) {
+  .art-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .art-item {
+    width: 70px;
+  }
+}

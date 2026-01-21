@@ -5,6 +5,7 @@ date:   2025-03-19 18:39:31 +0000
 categories: civilisation
 study: false
 mini: false
+favourite: 5
 image: /assets/cascade.png
 description: "Profit-maximising algorithms create resource foundations that enable power-maximising systems, which will develop the complexity necessary for emergence beyond civilisation."
 ---

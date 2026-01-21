@@ -5,7 +5,8 @@ date:   2022-05-30 18:39:31 +0000
 categories: economics
 study: true
 mini: false
-image: 
+favourite: 5
+image:
 description: "A survey of Moroccan economics on the world stage by comparison of the developments, challenges, and avenues for policy change that stand to alleviate historical demographic problems."
 ---
 

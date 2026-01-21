@@ -5,6 +5,7 @@ date:   2025-06-07 18:39:31 +0000
 categories: hierarchies
 study: false
 mini: false
+favourite: 5
 image: /assets/heuristics.png
 description: "How to develop predictive models that outperform your competition."
 ---

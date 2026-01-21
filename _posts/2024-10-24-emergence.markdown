@@ -5,6 +5,7 @@ date:   2024-10-24 18:39:31 +0000
 categories: hierarchies
 study: false
 mini: false
+favourite: 10
 image: /assets/picbreeder-2.png
 description: "Combining Wolfram and Friston's frameworks to better characterise the idea of a universal assembly function. Proposal of MESA Theory: multi-computational self-assembly theory with respect to the free energy principle."
 ---

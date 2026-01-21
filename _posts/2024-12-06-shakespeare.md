@@ -5,8 +5,9 @@ date:   2024-06-06 18:39:31 +0000
 categories: market-failure
 study: false
 mini: true
+favourite: 6
 image: /assets/bacon-shakespeare.png
-description: "A repository of evidence that “William Shake-speare” was instead the literary arm of Francis Bacon and his writing practice."
+description: "A repository of evidence that "William Shake-speare" was instead the literary arm of Francis Bacon and his writing practice."
 ---
 
 A repository of evidence that “William Shake-speare” was instead the literary arm of Francis Bacon and his writing practice.

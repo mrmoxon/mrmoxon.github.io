@@ -5,6 +5,7 @@ date:   2025-05-26 18:39:31 +0000
 categories: civilisation
 study: false
 mini: true
+favourite: 7
 image: /assets/fecund.png
 description: "The race towards the purest technology appears inevitable and deserves a closer look."
 ---

@@ -41,24 +41,35 @@
 <!-- Dark mode toggle -->
 <script>
   // Check for saved dark mode preference, otherwise use system preference
-  const darkModePreference = localStorage.getItem('darkMode') || 
-    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  
-  // Apply the initial theme
-  document.documentElement.setAttribute('data-theme', darkModePreference);
-  
-  // Set initial checkbox state
-  window.addEventListener('DOMContentLoaded', (event) => {
-    const checkbox = document.getElementById('darkModeToggle');
+  (function() {
+    var saved = localStorage.getItem('darkMode');
+    var theme;
+
+    if (saved === 'dark' || saved === 'light') {
+      theme = saved;
+    } else {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    // Apply theme immediately to prevent flash
+    document.documentElement.setAttribute('data-theme', theme);
+
+    // Store the theme for use in DOMContentLoaded
+    window.__initialTheme = theme;
+  })();
+
+  // Set initial checkbox state after DOM loads
+  window.addEventListener('DOMContentLoaded', function() {
+    var checkbox = document.getElementById('darkModeToggle');
     if (checkbox) {
-      checkbox.checked = darkModePreference === 'dark';
+      checkbox.checked = window.__initialTheme === 'dark';
     }
   });
-  
+
   function toggleDarkMode() {
-    const checkbox = document.getElementById('darkModeToggle');
-    const newTheme = checkbox.checked ? 'dark' : 'light';
-    
+    var checkbox = document.getElementById('darkModeToggle');
+    var newTheme = checkbox.checked ? 'dark' : 'light';
+
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('darkMode', newTheme);
   }

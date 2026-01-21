@@ -5,6 +5,7 @@ date:   2022-10-12 05:39:31 +0000
 categories: economics
 study: false
 mini: true
+favourite: 5
 description: "Talk by Professors Hatcher, Stepanchuk, Gall and Mennuni at University of Southampton after Liz Truss mini-budget."
 ---
 

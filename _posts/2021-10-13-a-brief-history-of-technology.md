@@ -5,6 +5,7 @@ date:   2021-10-19 05:39:31 +0000
 categories: civilisation
 study: false
 mini: false
+favourite: 4
 image: /assets/Moore-Law.webp
 featured: false
 recommended: false

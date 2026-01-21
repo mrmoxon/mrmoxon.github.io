@@ -5,6 +5,7 @@ date: 2023-04-02 05:39:31 +0000
 categories: civilisation
 study: false
 mini: false
+favourite: 4
 featured: false
 recommended: false
 image: /assets/hollowing.webp

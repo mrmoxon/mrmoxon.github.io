@@ -5,6 +5,7 @@ date:   2024-12-30 18:39:31 +0000
 categories: civilisation
 study: false
 mini: true
+favourite: 4
 image: /assets/metamorphosis-ii.jpg
 description: "Transcendence 101: mapping humanity's great transition in the 21st century and beyond."
 ---

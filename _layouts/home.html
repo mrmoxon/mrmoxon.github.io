@@ -5,97 +5,110 @@ layout: base
 <div class="home">
   {{ content }}
 
-  {%- assign non_mini = site.posts | where: "mini", false -%}
-  {%- assign essays = non_mini | where: "study", false -%}
-  {%- assign mini_essays = site.posts | where: "mini", true -%}
-  {%- assign studies = site.posts | where: "study", true -%}
+  <div class="home-layout">
+    <div class="home-main">
 
-<!-- Section for Essays -->
-{%- if essays.size > 0 -%}
+  {%- assign all_posts = site.posts -%}
+
+<!-- Section for Writing -->
+{%- if all_posts.size > 0 -%}
 <div class="section-header">
-  <h2 class="post-list-heading">[essays]</h2>
+  <h2 class="post-list-heading">[writing]</h2>
   <button class="view-toggle" onclick="toggleView()" aria-label="Toggle view">
     ▣
   </button>
 </div>
 
-<!-- Original List View -->
+<!-- Filter and Sort Controls -->
+<div class="essay-filters">
+  <div class="filter-row">
+    <div class="filter-buttons" id="type-filters">
+      <button class="filter-btn active" data-type="essay">essays</button>
+      <button class="filter-btn active" data-type="mini">mini</button>
+      <button class="filter-btn" data-type="study">studies</button>
+    </div>
+    <div class="filter-buttons" id="sort-buttons">
+      <button class="filter-btn active" data-sort="newest">newest</button>
+      <button class="filter-btn" data-sort="favourite">favourites</button>
+    </div>
+  </div>
+  <div class="filter-buttons" id="category-filters">
+    <button class="filter-btn active" data-filter="all">all</button>
+    <button class="filter-btn" data-filter="civilisation">civilisation</button>
+    <button class="filter-btn" data-filter="brains">brains</button>
+    <button class="filter-btn" data-filter="hierarchies">hierarchies</button>
+    <button class="filter-btn" data-filter="longevity">longevity</button>
+  </div>
+</div>
+
+<!-- List View -->
 <ul class="post-list essays" id="essays-list">
-  {%- for post in essays -%}
-    <li class="post-item">
+  {%- for post in all_posts -%}
+    {%- if post.title and post.title != "" -%}
+    {%- if post.study == true -%}
+      {%- assign post_type = "study" -%}
+    {%- elsif post.mini == true -%}
+      {%- assign post_type = "mini" -%}
+    {%- else -%}
+      {%- assign post_type = "essay" -%}
+    {%- endif -%}
+    <li class="post-item" data-type="{{ post_type }}" data-category="{{ post.categories | first }}" data-date="{{ post.date | date: "%s" }}" data-year="{{ post.date | date: "%Y" }}" data-favourite="{{ post.favourite | default: 0 }}">
       <div class="post-title-meta">
         <h3 class="post-title">
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
-        <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
+        <div class="post-meta-wrapper">
+          <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
+          <button class="excerpt-toggle" aria-label="Show excerpt" aria-expanded="false">
+            <svg class="toggle-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="horizontal" d="M2 7H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path class="vertical" d="M7 2V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="post-excerpt-dropdown">
+        <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
       </div>
     </li>
+    {%- endif -%}
   {%- endfor -%}
 </ul>
 
-<!-- Grid View (Initially Hidden) -->
+<!-- Masonry View (Initially Hidden) -->
 <div class="essays-grid hidden" id="essays-grid">
-  <div class="column" id="left-column"></div>
-  <div class="column" id="right-column"></div>
+  <div class="column" id="column-1"></div>
+  <div class="column" id="column-2"></div>
+  <div class="column" id="column-3"></div>
 </div>
 {% endif %}
 
-<br> 
-  <!-- Mini Essays Section (unchanged) -->
-  {%- if mini_essays.size > 0 -%}
-  <h2 class="post-list-heading">[mini essays]</h2>
-  <ul class="post-list">
-    {%- for post in mini_essays -%}
-      <li class="post-item">
-        <div class="post-title-meta">
-          <h3 class="post-title">
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h3>
-          <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
-        </div>
-        {%- if site.show_excerpts -%}
-          <div class="post-excerpt">
-            {{ post.excerpt }}
-          </div>
-        {%- endif -%}
-      </li>
-    {%- endfor -%}
-  </ul>
-  {%- endif -%}
-
-  <br>
-  <!-- Studies Section (unchanged) -->
-  {%- if studies.size > 0 -%}
-    <h2 class="post-list-heading">[studies]</h2>
-    <ul class="post-list">
-      {%- for post in studies -%}
-        <li class="post-item">
-          <div class="post-title-meta">
-            <h3 class="post-title">
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h3>
-            <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
-          </div>
-          {%- if site.show_excerpts -%}
-            <div class="post-excerpt">
-              {{ post.excerpt }}
-            </div>
-          {%- endif -%}
-        </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
-
   <p class="newsletter-signup-text">Join my email list and get notified when I post!</p>
   {% include convertkit.html %}
+
+    </div><!-- end home-main -->
+
+    <aside class="home-sidebar">
+      {% include art-carousel.html %}
+    </aside>
+
+  </div><!-- end home-layout -->
 </div>
 
 <template id="essay-card-template">
-  {%- for post in essays -%}
-    <a href="{{ post.url | relative_url }}" class="essay-card" data-date="{{ post.date | date: "%s" }}">
+  {%- for post in all_posts -%}
+    {%- if post.title and post.title != "" -%}
+    {%- if post.study == true -%}
+      {%- assign post_type = "study" -%}
+    {%- elsif post.mini == true -%}
+      {%- assign post_type = "mini" -%}
+    {%- else -%}
+      {%- assign post_type = "essay" -%}
+    {%- endif -%}
+    <a href="{{ post.url | relative_url }}" class="essay-card" data-type="{{ post_type }}" data-date="{{ post.date | date: "%s" }}" data-category="{{ post.categories | first }}" data-favourite="{{ post.favourite | default: 0 }}">
       {%- if post.image -%}
         <div class="essay-image">
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="eager">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
         </div>
       {%- endif -%}
       <div class="essay-content">
@@ -103,6 +116,7 @@ layout: base
         <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
       </div>
     </a>
+    {%- endif -%}
   {%- endfor -%}
 </template>
 
@@ -235,117 +249,229 @@ layout: base
    -->
 
 <script>
-  // Column height calculation
+// Global filter state
+const filterState = {
+  selectedTypes: new Set(['essay', 'mini']),
+  selectedCategories: new Set(['all']),
+  currentSort: 'newest',
+  allCategories: ['civilisation', 'brains', 'hierarchies', 'longevity'],
+  allTypes: ['essay', 'mini', 'study']
+};
+
+// Column height calculation for grid
 function getColumnHeight(column) {
   return Array.from(column.children).reduce((height, child) => {
-    return height + child.offsetHeight + 24; // 24px is the gap (1.5rem)
+    return height + child.offsetHeight + 24;
   }, 0);
 }
 
+// Sort function shared by list and grid
+function sortItems(items) {
+  const showAll = filterState.selectedCategories.has('all');
+
+  // Primary sort
+  items.sort((a, b) => {
+    if (filterState.currentSort === 'favourite') {
+      const favA = parseFloat(a.dataset.favourite) || 0;
+      const favB = parseFloat(b.dataset.favourite) || 0;
+      if (favA !== favB) return favB - favA;
+      return parseInt(b.dataset.date) - parseInt(a.dataset.date);
+    } else {
+      return parseInt(b.dataset.date) - parseInt(a.dataset.date);
+    }
+  });
+
+  // Category priority sort
+  if (!showAll) {
+    items.sort((a, b) => {
+      const aMatch = filterState.selectedCategories.has(a.dataset.category);
+      const bMatch = filterState.selectedCategories.has(b.dataset.category);
+      if (aMatch && !bMatch) return -1;
+      if (!aMatch && bMatch) return 1;
+
+      if (filterState.currentSort === 'favourite') {
+        const favA = parseFloat(a.dataset.favourite) || 0;
+        const favB = parseFloat(b.dataset.favourite) || 0;
+        if (favA !== favB) return favB - favA;
+        return parseInt(b.dataset.date) - parseInt(a.dataset.date);
+      } else {
+        return parseInt(b.dataset.date) - parseInt(a.dataset.date);
+      }
+    });
+  }
+
+  return items;
+}
+
+// Check if item should be dimmed by type
+function shouldDimByType(item) {
+  return !filterState.selectedTypes.has(item.dataset.type);
+}
+
+// Check if item should be dimmed (category filter)
+function shouldDim(item) {
+  const showAll = filterState.selectedCategories.has('all');
+  return !showAll && !filterState.selectedCategories.has(item.dataset.category);
+}
+
+// Arrange cards in masonry view
 function arrangeCards() {
   const template = document.getElementById('essay-card-template');
-  const leftColumn = document.getElementById('left-column');
-  const rightColumn = document.getElementById('right-column');
-  
-  // Clear columns
-  leftColumn.innerHTML = '';
-  rightColumn.innerHTML = '';
-  
-  // Get all cards and convert template content to actual elements
+  const columns = [
+    document.getElementById('column-1'),
+    document.getElementById('column-2'),
+    document.getElementById('column-3')
+  ];
+
+  if (!template || columns.some(c => !c)) return;
+
+  // Clear all columns
+  columns.forEach(col => col.innerHTML = '');
+
   const tempContainer = document.createElement('div');
   tempContainer.innerHTML = template.innerHTML;
-  const cards = Array.from(tempContainer.children);
-  
-  // Sort cards by date (most recent first)
-  cards.sort((a, b) => {
-    return parseInt(b.dataset.date) - parseInt(a.dataset.date);
-  });
-  
-  // Place each card
+  let cards = Array.from(tempContainer.children);
+
+  // No longer filter out - we dim instead
+
+  // Apply sorting
+  cards = sortItems(cards);
+
+  // Place cards in columns using masonry algorithm
+  // Always place in shortest column to maintain balance
   cards.forEach((card, index) => {
     const cardClone = card.cloneNode(true);
-    
-    if (index === 0) {
-      // First card always goes in left column
-      leftColumn.appendChild(cardClone);
-    } else if (index === 1) {
-      // Second card always goes in right column
-      rightColumn.appendChild(cardClone);
-    } else {
-      // Get current heights including gaps
-      const leftHeight = getColumnHeight(leftColumn);
-      const rightHeight = getColumnHeight(rightColumn);
-      
-      // Add to shorter column
-      if (leftHeight <= rightHeight) {
-        leftColumn.appendChild(cardClone);
+
+    // Apply dimming for type or category
+    if (shouldDimByType(card) || shouldDim(card)) {
+      cardClone.classList.add('dimmed');
+    }
+
+    // Handle image loading
+    const img = cardClone.querySelector('img');
+    if (img) {
+      if (img.complete) {
+        img.classList.add('loaded');
       } else {
-        rightColumn.appendChild(cardClone);
+        img.addEventListener('load', () => img.classList.add('loaded'));
       }
+    }
+
+    // Find the shortest column and add card there
+    const columnHeights = columns.map(col => getColumnHeight(col));
+    const shortestIndex = columnHeights.indexOf(Math.min(...columnHeights));
+    columns[shortestIndex].appendChild(cardClone);
+  });
+}
+
+// Apply filters to list view
+function applyListFilters() {
+  const essaysList = document.getElementById('essays-list');
+  if (!essaysList) return;
+
+  let posts = Array.from(essaysList.querySelectorAll('.post-item'));
+  posts = sortItems(posts);
+
+  posts.forEach(post => {
+    essaysList.appendChild(post);
+
+    // Dim based on type or category (not hide)
+    if (shouldDimByType(post) || shouldDim(post)) {
+      post.classList.add('dimmed');
+    } else {
+      post.classList.remove('dimmed');
     }
   });
 }
 
-// Initialize grid after images load
-function initializeGrid() {
-  if (!document.getElementById('essays-grid').classList.contains('hidden')) {
+// Apply filters to both views
+function applyFilters() {
+  applyListFilters();
+  const grid = document.getElementById('essays-grid');
+  if (grid && !grid.classList.contains('hidden')) {
     arrangeCards();
   }
 }
 
-// Set view mode and update URL
+// Set view mode
 function setViewMode(mode) {
   const list = document.getElementById('essays-list');
   const grid = document.getElementById('essays-grid');
   const button = document.querySelector('.view-toggle');
-  
-  if (mode === 'grid') {
+
+  if (mode === 'masonry') {
     list.classList.add('hidden');
     grid.classList.remove('hidden');
     button.textContent = '▤';
     arrangeCards();
-    window.location.hash = 'grid';
+    window.location.hash = 'masonry';
   } else {
     list.classList.remove('hidden');
     grid.classList.add('hidden');
     button.textContent = '▣';
     window.location.hash = 'list';
   }
-  
+
   localStorage.setItem('essayViewMode', mode);
 }
 
 // Toggle view function
 function toggleView() {
   const list = document.getElementById('essays-list');
-  const currentMode = list.classList.contains('hidden') ? 'list' : 'grid';
+  const currentMode = list.classList.contains('hidden') ? 'list' : 'masonry';
   setViewMode(currentMode);
 }
 
 // Handle URL hash changes
 function handleHashChange() {
   const hash = window.location.hash.slice(1);
-  if (hash === 'grid' || hash === 'list') {
+  if (hash === 'masonry' || hash === 'list') {
     setViewMode(hash);
   }
 }
 
-// Initialize view based on URL hash or stored preference
+// Update category button states
+function updateCategoryButtons() {
+  const categoryFilters = document.querySelectorAll('#category-filters .filter-btn');
+  const allIndividualSelected = filterState.allCategories.every(cat => filterState.selectedCategories.has(cat));
+
+  if (allIndividualSelected && !filterState.selectedCategories.has('all')) {
+    filterState.selectedCategories.clear();
+    filterState.selectedCategories.add('all');
+  }
+
+  categoryFilters.forEach(btn => {
+    const filter = btn.dataset.filter;
+    if (filterState.selectedCategories.has(filter)) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+}
+
+// Initialize
 document.addEventListener('DOMContentLoaded', function() {
+  // Apply initial filters (essays and mini selected by default)
+  applyFilters();
+
+  // View mode initialization
   const hash = window.location.hash.slice(1);
-  if (hash === 'grid' || hash === 'list') {
+  if (hash === 'masonry' || hash === 'list') {
     setViewMode(hash);
   } else {
     const storedView = localStorage.getItem('essayViewMode');
-    if (storedView) {
+    // Handle legacy 'grid' value
+    if (storedView === 'grid') {
+      setViewMode('masonry');
+    } else if (storedView) {
       setViewMode(storedView);
     }
   }
-  
-  // Watch for image loads
+
+  // Image load handling for grid
   const images = document.querySelectorAll('#essays-grid img');
   let loadedImages = 0;
-  
   images.forEach(img => {
     if (img.complete) {
       loadedImages++;
@@ -358,6 +484,83 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
   });
+
+  // Excerpt toggle functionality
+  const toggleButtons = document.querySelectorAll('.excerpt-toggle');
+  toggleButtons.forEach(button => {
+    button.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      const postItem = this.closest('.post-item');
+      const dropdown = postItem.querySelector('.post-excerpt-dropdown');
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !isExpanded);
+      dropdown.classList.toggle('expanded');
+      this.setAttribute('aria-label', isExpanded ? 'Show excerpt' : 'Hide excerpt');
+    });
+  });
+
+  // Type filter click handlers
+  const typeFilters = document.querySelectorAll('#type-filters .filter-btn');
+  typeFilters.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const type = this.dataset.type;
+
+      if (filterState.selectedTypes.has(type)) {
+        // Don't allow deselecting if it's the last one
+        if (filterState.selectedTypes.size > 1) {
+          filterState.selectedTypes.delete(type);
+          this.classList.remove('active');
+        }
+      } else {
+        filterState.selectedTypes.add(type);
+        this.classList.add('active');
+      }
+
+      applyFilters();
+    });
+  });
+
+  // Category filter click handlers
+  const categoryFilters = document.querySelectorAll('#category-filters .filter-btn');
+  categoryFilters.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const filter = this.dataset.filter;
+
+      if (filter === 'all') {
+        filterState.selectedCategories.clear();
+        filterState.selectedCategories.add('all');
+      } else {
+        if (filterState.selectedCategories.has('all')) {
+          filterState.selectedCategories.clear();
+          filterState.selectedCategories.add(filter);
+        } else {
+          if (filterState.selectedCategories.has(filter)) {
+            filterState.selectedCategories.delete(filter);
+            if (filterState.selectedCategories.size === 0) {
+              filterState.selectedCategories.add('all');
+            }
+          } else {
+            filterState.selectedCategories.add(filter);
+          }
+        }
+      }
+
+      updateCategoryButtons();
+      applyFilters();
+    });
+  });
+
+  // Sort button click handlers
+  const sortButtons = document.querySelectorAll('#sort-buttons .filter-btn');
+  sortButtons.forEach(btn => {
+    btn.addEventListener('click', function() {
+      sortButtons.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      filterState.currentSort = this.dataset.sort;
+      applyFilters();
+    });
+  });
 });
 
 // Handle resize events
@@ -365,7 +568,8 @@ let resizeTimer;
 window.addEventListener('resize', () => {
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(() => {
-    if (!document.getElementById('essays-grid').classList.contains('hidden')) {
+    const grid = document.getElementById('essays-grid');
+    if (grid && !grid.classList.contains('hidden')) {
       arrangeCards();
     }
   }, 100);

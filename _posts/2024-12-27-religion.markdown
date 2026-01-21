@@ -5,6 +5,7 @@ date:   2024-12-06 18:39:31 +0000
 categories: hierarchies
 study: false
 mini: true
+favourite: 7
 image: /assets/sacred-calculus.jpeg
 description: "Evolutionary bottlenecks, the Anna Karenina principle, and the Conservation of Ninjutsu are all underestimated aspects of the religious equation."
 ---

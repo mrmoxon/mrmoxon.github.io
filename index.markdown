@@ -4,73 +4,113 @@ layout: page
 
 <div class="central-column">
 
-  {%- assign posts = site.posts -%}
-  <div class="home">
-    <span class="recent-essays-label">[recent essays]</span>
-    <div class="recent-essays-container">
-      {%- for post in posts limit:2 -%}
-        <a href="{{ post.url | relative_url }}" class="recent-essay-link">
-          <div class="recent-essay-content">
-            <h3 class="recent-essay-title">{{ post.title | escape }}</h3>
-            <span class="recent-essay-date">{{ post.date | date: "%b %Y" }}</span>
-          </div>
-        </a>
-      {%- endfor -%}
-    </div>
-    <!-- <a href="/essays/" class="essays-ellipsis"></a> -->
-  </div>
+  <p class="intro">I'm a researcher and software engineer from Bath, living in San Francisco, personalising intelligence and overseeing product at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>.</p>
 
-  <br>  
-  <p class="intro">London and SF based, curious about emergence, free energy, and multi-agent systems. Building your digital exoskeleton to solve the intelligence curse at <a href="https://workshoplabs.ai/" class="custom-link">workshoplabs.ai</a></p>
-  <p>Previously researching long-horizon artificial intelligence at Kings College London.</p>
-  <p>Some things I believe:</p>
+  <h2 class="post-list-heading">[writing]</h2>
+  <p>I've been writing for a few years. Here are some of my favourite pieces:</p>
 
-  <ul class="custom-bullets">
-
-    <li>On civilisation in the long-run
-      <ul>
-        <li>the universe is hyper young, life on Earth an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a></li>
-        
-        <li>civilisation minimises <a href="https://www.nature.com/articles/nrn2787" class="custom-link">free energy</a>where markets provide all metabolic function, rarely calling for intervention</li>
-                
-        <li>healthy <a href="https://retrochronic.com/" class="custom-link">markets</a> churn fast and democratise technological progress quickly</li>
-      </ul>
-    </li>
-
-    <li>On civilisation in the short-run
-        <ul>
-            <li><a href="https://twitter.com/karpathy/status/1744179910347039080?lang=en" class="custom-link">democratising</a>LLMs will supercharge <a href="https://www.e-ir.info/2018/01/11/review-four-futures-life-after-capitalism/#:~:text=One%20can%20have%20abundance%20with,the%20eternal%20present%20of%20capitalism" class="custom-link">abundance</a></li>
-
-            <li>human society maintains alignment at the triple point of <i>"paleolithic emotions, medieval institutions and godlike technology<a href="https://www.oxfordreference.com/display/10.1093/acref/9780191826719.001.0001/q-oro-ed4-00016553" class="no-underline" target="_blank" rel="noopener noreferrer">"</a></i></li>
-
-            <li>most scientific fields have seen diminishing returns for sixty years, with exceptions in classical computing and <a href="https://www.oscarmoxon.com/leverage/2021/12/13/timeline-of-ai-1.html" class="custom-link">machine learning</a>which will produce a knowledge explosion</li>
-
-            <li>soon we will delegate research to <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">Culture-Minds</a> and manage personal <a href="https://www.oscarmoxon.com/hierarchies/2025/06/27/clone.html" class="custom-link">presidential cabinets</a></li>
-
-            <li>LLMs tread closer to the realm of natural abstraction—next stop: telepathy</li>
-        </ul>
-    </li>
-
-    <li>Thoughts on teams
-        <ul>
-            <li>great teams are priceless and should be sought out</li>
-            <li>teams function like vector fields where vector sum equals velocity</li>
-            <li>the best companies are composed of small, ten person teams</li>
-            <li>when making fiction commonplace, tell <a href="https://retrochronic.com/#hyperstition" class="custom-link">stories</a></li>
-            <li>everyone has a common thread that connects the major decisions they make, listen to this instinct</li>
-        </ul>
-    </li>
+  <ul class="favourite-essays">
+    <li><span class="essay-date">Nov '25,</span> <a href="/civilisation/2025/11/17/earrings.html">A Market of Whispering Earrings</a></li>
+    <li><span class="essay-date">Jun '25,</span> <a href="/hierarchies/2025/06/27/clone.html">Build Your Exoskeleton</a></li>
+    <li><span class="essay-date">Oct '24,</span> <a href="/hierarchies/2024/10/24/emergence.html">Understanding Emergence</a></li>
   </ul>
 
-  <p>Deep enjoyer of black holes, The Fountainhead, Ex Machina, and Jungle</p>
+  <h2 class="post-list-heading">[civilisation]</h2>
+  <p>Scroll through the full history of civilisation with my mapping software, civtex [Coming Soon].</p>
+  <!-- <div class="civtex-preview-row">
+    <div class="civtex-mock">
+      <div class="mock-line"></div>
+      <div class="mock-line short"></div>
+      <div class="mock-line"></div>
+      <div class="mock-dot"></div>
+    </div>
+    <div class="civtex-description">
+      <p>An interactive timeline exploring technology, ideas, and the forces that shaped human history.</p>
+    </div>
+  </div> -->
 
-  <p class="newsletter-signup-text">Join my email list and get notified when I post!</p>
-  {% include convertkit.html %}
+  <p class="background-text">The tools we build in the next few decades must balance the triple point of paleolithic emotions, medieval institutions, godlike technology, lest we lose control of civilisation.</p>
+
+  <ul class="beliefs">
+    <li>We should strive to build personal oracles, eager to share their knowledge with our species. Each of us deserves the <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">personal presidential cabinet</a>.</li>
+    <li>We are all healthier and happier in the future where we build better systems to minimise the loss between <a href="https://www.nature.com/articles/nrn2787" class="custom-link">expectation and reality</a> in the long-term, so we must choose what is worth creating.</li>
+    <li>The universe is young, and life on Earth is an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a>. What we build now may echo for a billion years.</li>
+  </ul>
+
+  <h2 class="post-list-heading">[art i love]</h2>
+  <div class="art-items-single">
+    <div class="art-item" data-title="New Atlantis — Francis Bacon">
+      <img src="/assets/art/books/thumbs/new-atlantis.jpg" alt="New Atlantis" loading="lazy">
+    </div>
+    <div class="art-item" data-title="28 Years Later: The Bone Temple">
+      <img src="/assets/art/thumbs/art-1.jpg" alt="28 Years Later" loading="lazy">
+    </div>
+    <div class="art-item" data-title="The Fountainhead — Ayn Rand">
+      <img src="/assets/art/books/thumbs/fountainhead.jpg" alt="The Fountainhead" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Dune: Part Two">
+      <img src="/assets/art/thumbs/art-2.jpg" alt="Dune: Part Two" loading="lazy">
+    </div>
+    <div class="art-item" data-title="The Hitchhiker's Guide to the Galaxy — Douglas Adams">
+      <img src="/assets/art/books/thumbs/hitchhikers.jpg" alt="The Hitchhiker's Guide to the Galaxy" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Metropolis">
+      <img src="/assets/art/thumbs/art-3.jpg" alt="Metropolis" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Perfume — Patrick Süskind">
+      <img src="/assets/art/books/thumbs/perfume.jpg" alt="Perfume" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Stalker">
+      <img src="/assets/art/thumbs/art-5.jpg" alt="Stalker" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Obscured by Clouds — Pink Floyd">
+      <img src="/assets/art/music/thumbs/obscured-by-clouds.jpg" alt="Obscured by Clouds" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Prometheus">
+      <img src="/assets/art/thumbs/art-6.jpg" alt="Prometheus" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Under the Skin">
+      <img src="/assets/art/thumbs/art-7.jpg" alt="Under the Skin" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Ex Machina">
+      <img src="/assets/art/thumbs/art-8.jpg" alt="Ex Machina" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Paranoid — Black Sabbath">
+      <img src="/assets/art/music/thumbs/paranoid.jpg" alt="Paranoid" loading="lazy">
+    </div>
+    <div class="art-item" data-title="The Picture of Dorian Gray — Oscar Wilde">
+      <img src="/assets/art/books/thumbs/dorian-gray.jpg" alt="The Picture of Dorian Gray" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Interstellar">
+      <img src="/assets/art/thumbs/art-9.jpg" alt="Interstellar" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Led Zeppelin IV — Led Zeppelin">
+      <img src="/assets/art/music/thumbs/led-zeppelin-iv.jpg" alt="Led Zeppelin IV" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Arrival">
+      <img src="/assets/art/thumbs/art-10.jpg" alt="Arrival" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Romance — Fontaines D.C.">
+      <img src="/assets/art/music/thumbs/romance.jpg" alt="Romance" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Civil War">
+      <img src="/assets/art/thumbs/art-11.jpg" alt="Civil War" loading="lazy">
+    </div>
+    <div class="art-item" data-title="The War of the Worlds — Jeff Wayne">
+      <img src="/assets/art/music/thumbs/war-of-the-worlds.jpg" alt="The War of the Worlds" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Exhalation — Ted Chiang">
+      <img src="/assets/art/books/thumbs/exhalation.jpg" alt="Exhalation" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Led Zeppelin III — Led Zeppelin">
+      <img src="/assets/art/music/thumbs/led-zeppelin-iii.jpg" alt="Led Zeppelin III" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Memento">
+      <img src="/assets/art/thumbs/art-4.jpg" alt="Memento" loading="lazy">
+    </div>
+    <div class="art-item" data-title="Freedom for the Stallion — The Hues Corporation">
+      <img src="/assets/art/music/thumbs/freedom-for-the-stallion.jpg" alt="Freedom for the Stallion" loading="lazy">
+    </div>
+  </div>
 
 </div>
-
-<!-- <li>digital platforms are victim to the moloch trap of human hyperstimuli and addiction. shortform reels are 0.5D <a href="https://twitter.com/oscarmoxon/status/1722378053924397277" class="custom-link">wireheading</a></li>
-
-<li><a href="http://oscarmoxon.com/market-failure/2022/11/08/smartwatches.html" class="custom-link">bundling</a>is the next highly egregious form of market failure in 2025—regulation should focus on eradicating artificial switching costs</li> -->
-
-<!-- <li>all people have a common <a href="/leverage" class="link">thread</a> that connects the major decisions they make</li> -->

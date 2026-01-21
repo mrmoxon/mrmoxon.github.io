@@ -5,6 +5,7 @@ date:   2025-02-13 18:39:31 +0000
 categories: civilisation
 study: false
 mini: false
+favourite: 9
 image: /assets/rickrubin.png
 description: "The roadmap to a society of Rick Rubins."
 ---

@@ -1,0 +1,38 @@
+<div class="art-carousel">
+  <h3 class="carousel-title">[art I love]</h3>
+  <div class="art-grid">
+    {% for i in (1..12) %}
+    <div class="art-thumb">
+      <img src="{{ '/assets/art/thumbs/art-' | append: i | append: '.jpg' | relative_url }}"
+           alt="Art {{ i }}"
+           loading="lazy"
+           onclick="openLightbox({{ i }})">
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Lightbox for full-size viewing -->
+<div id="art-lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="Full size art">
+</div>
+
+<script>
+(function() {
+  window.openLightbox = function(index) {
+    const lightbox = document.getElementById('art-lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = `/assets/art/thumbs/art-${index}.jpg`;
+    lightbox.classList.add('active');
+  };
+
+  window.closeLightbox = function() {
+    document.getElementById('art-lightbox').classList.remove('active');
+  };
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
