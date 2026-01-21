@@ -6,7 +6,6 @@ categories: brains
 study: false
 mini: true
 favourite: 7
-image: /assets/horror.png
 description: "As we abstract away from the baseline from a cultural and technological point of view, we can expect new worlds of 'hyper-horror' to emerge."
 ---
 

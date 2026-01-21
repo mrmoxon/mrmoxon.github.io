@@ -32,12 +32,17 @@ layout: base
       <button class="filter-btn" data-sort="favourite">favourites</button>
     </div>
   </div>
-  <div class="filter-buttons" id="category-filters">
-    <button class="filter-btn active" data-filter="all">all</button>
-    <button class="filter-btn" data-filter="civilisation">civilisation</button>
-    <button class="filter-btn" data-filter="brains">brains</button>
-    <button class="filter-btn" data-filter="hierarchies">hierarchies</button>
-    <button class="filter-btn" data-filter="longevity">longevity</button>
+  <div class="filter-row">
+    <div class="filter-buttons" id="category-filters">
+      <button class="filter-btn active" data-filter="all">all</button>
+      <button class="filter-btn" data-filter="civilisation">civilisation</button>
+      <button class="filter-btn" data-filter="brains">brains</button>
+      <button class="filter-btn" data-filter="hierarchies">hierarchies</button>
+      <button class="filter-btn" data-filter="longevity">longevity</button>
+    </div>
+    <div class="filter-buttons" id="hide-toggle">
+      <button class="filter-btn" data-hide="true">hide</button>
+    </div>
   </div>
 </div>
 
@@ -88,9 +93,11 @@ layout: base
 
     </div><!-- end home-main -->
 
+    {% if page.url == "/" %}
     <aside class="home-sidebar">
       {% include art-carousel.html %}
     </aside>
+    {% endif %}
 
   </div><!-- end home-layout -->
 </div>
@@ -109,6 +116,10 @@ layout: base
       {%- if post.image -%}
         <div class="essay-image">
           <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        </div>
+      {%- else -%}
+        <div class="essay-placeholder {{ post_type }}">
+          <div class="placeholder-icon">±</div>
         </div>
       {%- endif -%}
       <div class="essay-content">
@@ -254,6 +265,7 @@ const filterState = {
   selectedTypes: new Set(['essay', 'mini']),
   selectedCategories: new Set(['all']),
   currentSort: 'newest',
+  hideUnselected: false,
   allCategories: ['civilisation', 'brains', 'hierarchies', 'longevity'],
   allTypes: ['essay', 'mini', 'study']
 };
@@ -340,10 +352,17 @@ function arrangeCards() {
   // Place cards in columns using masonry algorithm
   // Always place in shortest column to maintain balance
   cards.forEach((card, index) => {
+    const shouldFilter = shouldDimByType(card) || shouldDim(card);
+
+    // If hide mode is active and item should be filtered, skip it entirely
+    if (filterState.hideUnselected && shouldFilter) {
+      return;
+    }
+
     const cardClone = card.cloneNode(true);
 
-    // Apply dimming for type or category
-    if (shouldDimByType(card) || shouldDim(card)) {
+    // Apply dimming for type or category (only when not hiding)
+    if (shouldFilter) {
       cardClone.classList.add('dimmed');
     }
 
@@ -375,10 +394,18 @@ function applyListFilters() {
   posts.forEach(post => {
     essaysList.appendChild(post);
 
-    // Dim based on type or category (not hide)
-    if (shouldDimByType(post) || shouldDim(post)) {
+    const shouldFilter = shouldDimByType(post) || shouldDim(post);
+
+    if (filterState.hideUnselected && shouldFilter) {
+      // Hide mode: completely hide unselected items
+      post.classList.add('hidden');
+      post.classList.remove('dimmed');
+    } else if (shouldFilter) {
+      // Dim mode: show but dimmed
+      post.classList.remove('hidden');
       post.classList.add('dimmed');
     } else {
+      post.classList.remove('hidden');
       post.classList.remove('dimmed');
     }
   });
@@ -561,6 +588,16 @@ document.addEventListener('DOMContentLoaded', function() {
       applyFilters();
     });
   });
+
+  // Hide toggle click handler
+  const hideToggle = document.querySelector('#hide-toggle .filter-btn');
+  if (hideToggle) {
+    hideToggle.addEventListener('click', function() {
+      filterState.hideUnselected = !filterState.hideUnselected;
+      this.classList.toggle('active', filterState.hideUnselected);
+      applyFilters();
+    });
+  }
 });
 
 // Handle resize events

@@ -830,6 +830,91 @@ a {
   opacity: 0.9;
 }
 
+/* Placeholder for posts without images */
+.essay-placeholder {
+  width: 100%;
+  aspect-ratio: 3 / 1;
+  border-radius: 8px;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.placeholder-icon {
+  font-size: 2rem;
+  animation: gentleGlow 3s ease-in-out infinite;
+}
+
+/* Mini essays - orange */
+.essay-placeholder.mini .placeholder-icon {
+  color: #d4a574;
+  font-weight: 600;
+  text-shadow:
+    0 0 15px rgba(212, 165, 116, 0.8),
+    0 0 30px rgba(212, 165, 116, 0.5),
+    0 0 45px rgba(212, 165, 116, 0.3);
+}
+
+.essay-placeholder.mini {
+  background: linear-gradient(135deg, rgba(200, 155, 123, 0.35) 0%, rgba(180, 130, 100, 0.25) 100%);
+  border: 1px solid rgba(200, 155, 123, 0.3);
+}
+
+/* Studies - blue */
+.essay-placeholder.study .placeholder-icon {
+  color: #6aa3d4;
+  font-weight: 600;
+  text-shadow:
+    0 0 15px rgba(106, 163, 212, 0.8),
+    0 0 30px rgba(106, 163, 212, 0.5),
+    0 0 45px rgba(106, 163, 212, 0.3);
+}
+
+.essay-placeholder.study {
+  background: linear-gradient(135deg, rgba(123, 163, 200, 0.35) 0%, rgba(100, 140, 180, 0.25) 100%);
+  border: 1px solid rgba(123, 163, 200, 0.3);
+}
+
+/* Essays without images - neutral */
+.essay-placeholder.essay .placeholder-icon {
+  color: var(--text-color);
+  opacity: 0.5;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+}
+
+.essay-placeholder.essay {
+  background: linear-gradient(135deg, rgba(128, 128, 128, 0.2) 0%, rgba(128, 128, 128, 0.12) 100%);
+  border: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+@keyframes gentleGlow {
+  0%, 100% {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.essay-card:hover .essay-placeholder.mini {
+  background: linear-gradient(135deg, rgba(200, 155, 123, 0.45) 0%, rgba(180, 130, 100, 0.35) 100%);
+  border-color: rgba(200, 155, 123, 0.5);
+}
+
+.essay-card:hover .essay-placeholder.study {
+  background: linear-gradient(135deg, rgba(123, 163, 200, 0.45) 0%, rgba(100, 140, 180, 0.35) 100%);
+  border-color: rgba(123, 163, 200, 0.5);
+}
+
+.essay-card:hover .essay-placeholder.essay {
+  background: linear-gradient(135deg, rgba(128, 128, 128, 0.28) 0%, rgba(128, 128, 128, 0.18) 100%);
+  border-color: rgba(128, 128, 128, 0.25);
+}
+
 /* Content Area - Minimal */
 .essay-content {
   padding: 0.25rem 0;

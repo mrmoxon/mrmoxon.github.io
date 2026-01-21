@@ -99,9 +99,6 @@ layout: page
     <div class="art-item" data-title="The War of the Worlds — Jeff Wayne">
       <img src="/assets/art/music/thumbs/war-of-the-worlds.jpg" alt="The War of the Worlds" loading="lazy">
     </div>
-    <div class="art-item" data-title="Exhalation — Ted Chiang">
-      <img src="/assets/art/books/thumbs/exhalation.jpg" alt="Exhalation" loading="lazy">
-    </div>
     <div class="art-item" data-title="Led Zeppelin III — Led Zeppelin">
       <img src="/assets/art/music/thumbs/led-zeppelin-iii.jpg" alt="Led Zeppelin III" loading="lazy">
     </div>
