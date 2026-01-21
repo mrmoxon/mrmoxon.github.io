@@ -2301,6 +2301,11 @@ html:not([data-theme="dark"]) .svg-icon.grey {
     background: var(--border-color);
     border-radius: 2px;
   }
+
+  .art-item:last-child {
+    margin-right: 0;
+    padding-right: 0;
+  }
 }
 
 // Art Grid - Two Column Layout
