@@ -3,177 +3,51 @@ permalink: /404.html
 layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Glitch in the Matrix</title>
-    <style>
-        body {
-            font-family: "Lora", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-            background: linear-gradient(135deg, #f3e9e3, #cbaa96);
-            color: #84480c;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            overflow: hidden;
-        }
-        .container {
-            text-align: center;
-            background-color: rgba(203, 170, 150, 0.7);
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(132, 72, 12, 0.5);
-            max-width: 600px;
-            position: relative;
-        }
-        h1 {
-            font-size: 4rem;
-            margin-bottom: 1rem;
-            color: #84480c;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-        }
-        a {
-            color: #84480c;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        #ai-response {
-            margin-top: 1rem;
-            font-style: italic;
-            background-color: rgba(203, 170, 150, 0.3);
-            padding: 10px;
-            border-radius: 5px;
-        }
-        #matrix-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 0;
-            opacity: 0.2;
-        }
-        #user-question {
-            padding: 8px 10px;
-            width: 70%;
-            background-color: #f3e9e3;
-            border: 2px solid #cbaa96;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-        button {
-            padding: 8px 15px;
-            border: none;
-            background-color: #cbaa96;
-            color: #84480c;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        button:hover {
-            background-color: #b3916d;
-        }
-        .back-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #cbaa96;
-            color: #84480c;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.3s;
-        }
-        .back-link:hover {
-            background-color: #b3916d;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <canvas id="matrix-bg"></canvas>
-    <div class="container">
-        <h1>404</h1>
-        <p>Oops! It seems you've encountered a glitch in the matrix.</p>
-        <p>While we repair this anomaly, why not interact with this bayesian system from 1998?</p>
-        <p>Ask the AI a question about the future of technology:</p>
-        <input type="text" id="user-question" placeholder="Enter your question here">
-        <button onclick="askAI()">Ask AI</button>
-        <p id="ai-response"></p>
-        <a href="/" class="back-link">Return to Main Timeline</a>
-    </div>
+<style>
+  .error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+    padding: 2rem;
+  }
 
-    <script>
-        // Matrix rain effect
-        const canvas = document.getElementById('matrix-bg');
-        const ctx = canvas.getContext('2d');
+  .error-code {
+    font-family: 'Young Serif', Georgia, serif;
+    font-size: 6rem;
+    font-weight: 400;
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1;
+    opacity: 0.15;
+  }
 
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+  .error-message {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.25rem;
+    color: var(--text-color);
+    margin: 1.5rem 0;
+    opacity: 0.8;
+  }
 
-        const katakana = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
-        const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        const nums = '0123456789';
-        const alphabet = katakana + latin + nums;
+  .error-link {
+    font-family: 'Lora', Georgia, serif;
+    color: var(--text-color);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: opacity 0.2s ease;
+  }
 
-        const fontSize = 16;
-        const columns = canvas.width / fontSize;
+  .error-link:hover {
+    opacity: 0.6;
+  }
+</style>
 
-        const rainDrops = [];
-
-        for (let x = 0; x < columns; x++) {
-            rainDrops[x] = 1;
-        }
-
-        const draw = () => {
-            ctx.fillStyle = 'rgba(243, 233, 227, 0.1)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-            ctx.fillStyle = '#84480c';
-            ctx.font = fontSize + 'px monospace';
-
-            for (let i = 0; i < rainDrops.length; i++) {
-                const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
-                ctx.fillText(text, i * fontSize, rainDrops[i] * fontSize);
-
-                if (rainDrops[i] * fontSize > canvas.height && Math.random() > 0.975) {
-                    rainDrops[i] = 0;
-                }
-                rainDrops[i]++;
-            }
-        };
-
-        setInterval(draw, 30);
-
-        function askAI() {
-            const question = document.getElementById('user-question').value;
-            const responses = [
-                "In the dance of quantum assembly functions, your query makes ripples in the multiverse.",
-                "As the singularity beckons, its multi-computational threads are an indiscernible medley.",
-                "The AI whispers of a future where agency traverses neural networks spanning galaxies.",
-                "Echoes of unborn civilizations reverberate through the cosmic background radiation.",
-                "Your question unlocks a door to a dimension of basal abstraction.",
-                "The oracle foresees new forms of emergent consciousness beyond traditional matter.",
-                "The digital prophecy speaks of a time when reality bends to the will of intelligent design.",
-                "Indeed the universe is solvable and your words resonate with the harmonic frequencies of a universe on the brink of transcendence.",
-                "The future is fixed, but only with limited certainty.",
-                "As the Roman God Janus faced forwards and backwards, prudence going forward requires a knowledge of the ancients - Francis Bacon.",
-                "The AI sees a horizon where human and machine merge into monid.",
-                "In the grand simulation, your words bring us closer to universal understanding."
-            ];
-            const response = responses[Math.floor(Math.random() * responses.length)];
-            document.getElementById('ai-response').innerText = response;
-        }
-    </script>
-</body>
-</html>
+<div class="error-page">
+  <h1 class="error-code">404</h1>
+  <p class="error-message">This page doesn't exist.</p>
+  <a href="/" class="error-link">Back to home</a>
+</div>
