@@ -23,30 +23,14 @@ layout: base
 </script> -->
 
 <script>
-  // document.addEventListener('DOMContentLoaded', function() {
-  //     let links = document.querySelectorAll('.custom-link');
-  //     links.forEach((link, index) => {
-  //         link.setAttribute('data-index', index + 1);
-          
-  //         // Create preview element
-  //         let preview = document.createElement('div');
-  //         preview.className = 'link-preview';
-  //         preview.textContent = getSiteName(link.href);
-  //         link.appendChild(preview);
-  //     });
-  // });
-
   document.addEventListener('DOMContentLoaded', function() {
-    // Target all external links and custom-link elements
-    let links = document.querySelectorAll('.post-content a[href^="http"], .custom-link');
+    // Only target .custom-link elements on homepage
+    let links = document.querySelectorAll('.custom-link');
     let counter = 1;
 
     links.forEach((link) => {
       // Skip if already processed or is an image link
       if (link.querySelector('.link-preview') || link.querySelector('img')) return;
-
-      // Add custom-link class for styling
-      link.classList.add('custom-link');
 
       // Create the number element
       let numberSpan = document.createElement('span');

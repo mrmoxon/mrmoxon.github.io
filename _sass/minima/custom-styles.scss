@@ -2,6 +2,27 @@
 // MINIMALIST TYPOGRAPHY - Lora & Young Serif
 // ==========================================
 
+// Blog post content - narrower column
+article.post {
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .post-content {
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 1.5rem 0;
+    }
+
+    p:has(img) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
 // Base typography
 body {
   font-family: $base-font-family;
@@ -23,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Links - minimalist underline style
-a:not(.essay-card) {
+a:not(.essay-card):not(.custom-link) {
   color: var(--text-color);
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -132,24 +153,21 @@ a:not(.essay-card) {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background: #2d2d2d !important;
-  border: none;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
   border-radius: 4px;
   padding: 6px 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  visibility: hidden;
-  opacity: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: none;
   white-space: nowrap;
   font-size: 0.8rem;
-  color: #ffffff !important;
+  color: #333333;
   z-index: 1000;
   margin-top: 4px;
-  transition: opacity 0.1s ease, visibility 0.1s ease;
 }
 
 .custom-link:hover .link-preview {
-  visibility: visible;
-  opacity: 1;
+  display: block;
 }
 
 // Dark mode link-preview uses inverted colors
@@ -600,11 +618,17 @@ a:not(.essay-card) {
   gap: 1rem;
 }
 
-.post-title {
+// Post list title (essays page)
+.post-list .post-title {
   margin: 0;
   font-size: 2rem;
   text-align: left;
   flex: 1;
+}
+
+// Post header title (individual post page)
+.post-header .post-title {
+  text-align: center;
 }
 
 .post-meta {
@@ -1131,30 +1155,100 @@ a.essay-card:hover .essay-placeholder {
   }
 }
 
-// cite button - Minimalist
+// Post header meta styles
+.post-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.post-meta-above {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-category {
+  font-family: 'Spectral', Georgia, serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-color);
+  opacity: 0.7;
+  letter-spacing: 0.05em;
+}
+
+.post-date {
+  font-family: 'Spectral', Georgia, serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--text-color);
+  opacity: 0.5;
+}
+
+.post-header .cite-button {
+  margin-top: 0.75rem;
+}
+
+// cite button - Icon with tooltip
 .cite-button {
+  position: relative;
   background: transparent;
   border: none;
   color: var(--text-color);
+  opacity: 0.8;
   cursor: pointer;
-  font-family: inherit;
-  font-size: inherit;
-  padding: 0;
+  padding: 2px;
   margin: 0;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
   appearance: none;
   -webkit-appearance: none;
-  vertical-align: baseline;
-  line-height: inherit;
+  vertical-align: middle;
+  line-height: 1;
   display: inline-flex;
   align-items: center;
-  transition: opacity 0.2s ease;
+  justify-content: center;
+  transition: opacity 0.15s ease;
+
+  svg {
+    display: block;
+    transition: transform 0.15s ease;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active svg {
+    transform: scale(0.9);
+  }
+
+  &.copied svg {
+    color: #22c55e;
+    opacity: 1;
+  }
 }
 
-.cite-button:hover {
-  opacity: 0.6;
+.cite-tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  color: #333333;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  display: none;
+  z-index: 1000;
+  margin-top: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-family: $base-font-family;
+}
+
+.cite-button:hover .cite-tooltip {
+  display: block;
 }
 
 .cite-button:focus {
@@ -1164,6 +1258,19 @@ a.essay-card:hover .essay-placeholder {
 .cite-button:focus-visible {
   outline: 1px solid var(--text-color);
   outline-offset: 2px;
+}
+
+[data-theme="dark"] {
+  .cite-tooltip {
+    background: #2d2d2d;
+    border-color: #404040;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+
+  .cite-button.copied svg {
+    color: #4ade80;
+  }
 }
 
 
@@ -1506,8 +1613,9 @@ input:checked + .slider:before {
   }
 
   .link-preview {
-    background: #e8e8e8 !important;
-    color: #141414 !important;
+    background: #2d2d2d;
+    border-color: #404040;
+    color: #ffffff;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   }
 
@@ -2374,30 +2482,31 @@ html:not([data-theme="dark"]) .svg-icon.grey {
     bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background: #2d2d2d;
-    color: #fff;
+    background: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    color: #333333;
     padding: 6px 10px;
     border-radius: 4px;
     font-size: 0.75rem;
     white-space: nowrap;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.1s ease, visibility 0.1s ease;
+    display: none;
     z-index: 100;
     margin-bottom: 6px;
     pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
 
   &:hover::after {
-    opacity: 1;
-    visibility: visible;
+    display: block;
   }
 }
 
 // Dark mode tooltip
 [data-theme="dark"] .art-item::after {
-  background: #e8e8e8;
-  color: #141414;
+  background: #2d2d2d;
+  border-color: #404040;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 // Mobile: stack columns

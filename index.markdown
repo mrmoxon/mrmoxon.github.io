@@ -16,7 +16,6 @@ layout: page
   </ul>
 
   <h2 class="post-list-heading">[civilisation]</h2>
-  <p>Scroll through the full history of civilisation with my mapping software, civtex [Coming Soon].</p>
   <!-- <div class="civtex-preview-row">
     <div class="civtex-mock">
       <div class="mock-line"></div>
@@ -28,8 +27,7 @@ layout: page
       <p>An interactive timeline exploring technology, ideas, and the forces that shaped human history.</p>
     </div>
   </div> -->
-
-  <p class="background-text">The tools we build in the next few decades must balance the triple point of paleolithic emotions, medieval institutions, godlike technology, lest we lose control of civilisation.</p>
+  <p>The tools we build in the next few decades must balance the triple point of paleolithic emotions, medieval institutions, godlike technology, lest we lose control of civilisation.</p>
 
   <ul class="beliefs">
     <li>We should strive to build personal oracles, eager to share their knowledge with our species. Each of us deserves the <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">personal presidential cabinet</a>.</li>
@@ -38,6 +36,8 @@ layout: page
   </ul>
 
   <h2 class="post-list-heading">[art i love]</h2>
+  <p>This website is <a href="https://github.com/mrmoxon/" class="custom-link">open source</a>.</p>
+  
   <div class="art-items-single">
     <div class="art-item" data-title="New Atlantis — Francis Bacon">
       <img src="/assets/art/books/thumbs/new-atlantis.jpg" alt="New Atlantis" loading="lazy">
