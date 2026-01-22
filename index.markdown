@@ -4,7 +4,7 @@ layout: page
 
 <div class="central-column">
 
-  <p class="intro">I'm a researcher and software engineer from Bath, living in San Francisco, personalising intelligence and overseeing product at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>.</p>
+  <p class="intro">I'm Oscar, researcher and software engineer from Bath, living in San Francisco, personalising intelligence and overseeing product at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>.</p>
 
   <h2 class="post-list-heading">[writing]</h2>
   <p>I've been writing for a few years. Here are some of my favourite pieces:</p>
