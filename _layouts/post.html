@@ -114,14 +114,23 @@ layout: base
     });
   }
 
-  // Add link previews to custom links
+  // Add link previews to all external links in post content
   (function() {
-    let links = document.querySelectorAll('.custom-link');
-    links.forEach((link, index) => {
+    // Target all links in post content that go to external URLs
+    let links = document.querySelectorAll('.post-content a[href^="http"], .custom-link');
+    let counter = 1;
+
+    links.forEach((link) => {
+      // Skip if already processed or is an image link
+      if (link.querySelector('.link-preview') || link.querySelector('img')) return;
+
+      // Add custom-link class for styling
+      link.classList.add('custom-link');
+
       // Create the number element
       let numberSpan = document.createElement('span');
       numberSpan.className = 'custom-link-number';
-      numberSpan.textContent = index + 1;
+      numberSpan.textContent = counter++;
       link.appendChild(numberSpan);
 
       // Create preview element
