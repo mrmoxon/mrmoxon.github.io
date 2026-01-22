@@ -94,15 +94,15 @@ layout: base
     const title = document.querySelector('.post-title').innerText;
     const date = new Date("{{ page.date | date_to_xmlschema }}");
     const url = window.location.href;
-    
+
     const formattedDate = date.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
       day: 'numeric'
     });
-    
+
     const citation = `Moxon, Oscar. "${title}." Oscar Moxon, ${formattedDate}, ${url}.`;
-    
+
     navigator.clipboard.writeText(citation).then(() => {
       const button = document.querySelector('.cite-button');
       button.textContent = 'copied!';
@@ -113,4 +113,31 @@ layout: base
       console.error('Failed to copy citation:', err);
     });
   }
+
+  // Add link previews to custom links
+  (function() {
+    let links = document.querySelectorAll('.custom-link');
+    links.forEach((link, index) => {
+      // Create the number element
+      let numberSpan = document.createElement('span');
+      numberSpan.className = 'custom-link-number';
+      numberSpan.textContent = index + 1;
+      link.appendChild(numberSpan);
+
+      // Create preview element
+      let preview = document.createElement('div');
+      preview.className = 'link-preview';
+      preview.textContent = getSiteName(link.href);
+      link.appendChild(preview);
+    });
+
+    function getSiteName(url) {
+      try {
+        const hostname = new URL(url).hostname;
+        return hostname.replace(/^www\./, '');
+      } catch (e) {
+        return url;
+      }
+    }
+  })();
 </script>
