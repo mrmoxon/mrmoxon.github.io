@@ -88,9 +88,6 @@ layout: base
 </div>
 {% endif %}
 
-  <p class="newsletter-signup-text">Join my email list and get notified when I post!</p>
-  {% include convertkit.html %}
-
     </div><!-- end home-main -->
 
     {% if page.url == "/" %}
@@ -479,6 +476,31 @@ function updateCategoryButtons() {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
+  // Check for URL parameters
+  const urlParams = new URLSearchParams(window.location.search);
+
+  // Category filter from URL
+  const categoryParam = urlParams.get('category');
+  if (categoryParam && filterState.allCategories.includes(categoryParam.toLowerCase())) {
+    filterState.selectedCategories.clear();
+    filterState.selectedCategories.add(categoryParam.toLowerCase());
+    updateCategoryButtons();
+  }
+
+  // Hide toggle from URL
+  const hideParam = urlParams.get('hide');
+  if (hideParam === 'true') {
+    filterState.hideUnselected = true;
+    const hideBtn = document.querySelector('#hide-toggle .filter-btn');
+    if (hideBtn) hideBtn.classList.add('active');
+  }
+
+  // View mode from URL (takes precedence over stored preference)
+  const viewParam = urlParams.get('view');
+  if (viewParam === 'list' || viewParam === 'masonry') {
+    setViewMode(viewParam);
+  }
+
   // Apply initial filters (essays and mini selected by default)
   applyFilters();
 
