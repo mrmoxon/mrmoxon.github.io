@@ -53,7 +53,6 @@ Each layer of physical reality exhibits emergent properties that transcend its c
 This pattern extends upward through layers of increasing complexity with different properties appearing. Intelligent behaviour emerges from neural networks that individually exhibit no such behaviour (shown below). Social structures emerge from individual behaviors, giving rise to cities, nations, and global movements. Each new layer of complexity displays properties unobserved in its components. [[2]](#ref-2)
 
 ![The emergent behaviours exhibited by neural language models only appear after certain thresholds; each level hard-coded by some physical law that applies to the architecture and training regime.](/assets/scaling-laws-llms.png)
-<br>
 *For instance, the emergent intelligence exhibited by neural language models only appears at certain thresholds; each level hard-coded by some physical law that applies to the architecture and training regime. [[3]](#ref-3)*
 
 ### Elegance Over Entropy<a id="part-2"></a>
@@ -73,13 +72,9 @@ To illustrate synergy and complexity, we'll use a paper from 2007 called Picbree
 Interestingly, however, this isn't always the story. In (d), relationships discovered by users show intelligible complexity, with cars, sunsets, species, and planets forming under the same conditions as everything else, creating immense synergy and beauty. 
 
 ![Picbreeder entropy](/assets/picbreeder-1.png)
-<br>
-*(a and b): Process of selecting and evolving images is simple.
-<br>
-(c): Images become very complex with enough steps.*
+*(a and b): Process of selecting and evolving images is simple. (c): Images become very complex with enough steps.*
 
 ![Picbreeder synergy](/assets/picbreeder-2.png)
-<br>
 *(d): Emergent complexity (cars, species, planets) forming at the meso scales of evolution.*
 
 Three important observations: 
@@ -91,7 +86,6 @@ Three important observations:
 3. Intuitively, the "emergent complexity" we observe seems highest in the meso-stages of evolution (the images shown in (d) are only momentary snapshots of longer branches that eventually become disordered).
 
 ![Complexodynamics](/assets/complexodynamics.png){:style="width:70%;"}
-<br>
 *Dynamical systems generally exhibit emergent complexity in the meso-stages when things are changing fastest. Interestingly, entropy generally only ever increases, eventually tending towards homogeneity at equilibrium when the process settles. [[5]](#ref-5)*
 
 In the eyes of Professor Karl Friston, systems that persist over time must do more than just resist entropy --- they actively self-organise. At the heart of this self-organisation is what he calls the 'free energy principle': the idea that surviving systems naturally minimise uncertainty in their interactions with their environment. 
@@ -168,8 +162,7 @@ Take the Mandelbrot set, which is often used to illustrate the trade-off between
 Suppose, then, we zoomed in, capturing every new structure at every magnification. This effort would only be as useful as the number of pictures you take --- which would eventually take up all the memory available in a finite universe and still fail to capture the full nature of the system. 
 
 ![Mandelbrot](/assets/mandelbrot.png){:style="width:70%;"}
-<br>
-*Without capturing the dynamic nature of a Mandelbrot, any approach you used would be meaningfully deficient [[8]](#ref-8).* 
+*Without capturing the dynamic nature of a Mandelbrot, any approach you used would be meaningfully deficient [[8]](#ref-8).*
 
 Let's suppose instead that you could encode the recursive function of the Mandelbrot set into your program, so that now a far small computer program could reproduce this image in 100 or 1000 bytes. Now you would successfully upgrade your representation to one that would be able to inform both the image AND the fractal nature of the Mandelbrot set. 
 
@@ -247,7 +240,7 @@ How can one develop a multicomputational model to describe emergence?
 
 The answer lies in applying our understanding of how systems self-organise and minimise free-energy with respect to the lens of multicomputation. We'll use these branches, along with assembly theory to introduce a theoretical framework called MESA (Multicomputational Emergent Self-Assembly) to unify these ideas. 
 
-<p style="text-align: center;"><b>Free Energy</b></p>
+<p style="text-align: center; margin-top: 2rem;"><b>Free Energy</b></p>
 
 The free energy principle, first conceived by Hermann von Helmholtz and more recently by Karl Friston, provides the thermodynamic foundation. It states that any system maintaining its own organisation can be modeled using a Markov blanket: a statistical boundary that separates internal states from external influences.
 
@@ -290,10 +283,7 @@ Multicomputation provides the computational framework that complements the free 
 We can model the structure and behaviour of any complex system by its "tokens" and "events", where whole histories demonstrate how tokens are entangled. Any laws we observe emerge from this fundamental drive toward self-evidencing organisation, as they are the rules that characterise all of its emergent properties.
 
 ![markov-multicomputation-table](/assets/markov-multicomputation-table.png)
-<br>
-*(a) Markov blanket as centred around by free-energy theory, 
-<br>
-(b) Multicomputational 'events' and 'tokens' for nine fields.*
+*(a) Markov blanket as centred around by free-energy theory, (b) Multicomputational 'events' and 'tokens' for nine fields.*
 
 This framework makes several key properties of complex systems seem natural:
 

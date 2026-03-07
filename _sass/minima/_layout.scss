@@ -156,8 +156,14 @@ b {
       display: none;
     }
 
-    input ~ .trigger {
+    input ~ .trigger,
+    input:checked ~ .trigger {
       display: block;
+      position: static;
+      width: auto;
+      height: auto;
+      background-color: inherit;
+      z-index: auto;
     }
 
     .nav-item {

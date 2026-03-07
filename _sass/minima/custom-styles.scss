@@ -15,12 +15,37 @@ article.post {
       width: 100%;
       height: auto;
       display: block;
-      margin: 1.5rem 0;
+      margin: 1.5rem auto 0;
     }
 
+    // Image paragraphs: center content, collapse bottom margin
     p:has(img) {
       margin-left: 0;
       margin-right: 0;
+      margin-bottom: 0.8rem;
+      text-align: center;
+
+      // Let sized images (e.g. width:70%) center naturally
+      img {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    // Caption: italic text following an image (same <p> or next <p>)
+    p > img + em,
+    p:has(img) + p > em:only-child {
+      display: block;
+      font-size: 0.88em;
+      line-height: 1.5;
+      color: var(--link-color);
+      margin-top: 0.8rem;
+    }
+
+    // Spacing after caption paragraph
+    p:has(img + em),
+    p:has(img) + p:has(> em:only-child) {
+      margin-bottom: 2rem;
     }
   }
 }
@@ -1327,10 +1352,24 @@ b.bold-highlight {
     text-align: left !important;
   }
 
-  .post-title {
-    text-align: left !important;
-    margin: 0;
+  // Only center the post title on individual post pages, not list pages
+  article.post .post-title {
+    text-align: center !important;
+    margin: 0 0 1rem;
     font-size: 1.75rem;
+  }
+
+  // Left-align post titles on list/essays pages
+  .post-list .post-title,
+  .post-title-meta .post-title {
+    text-align: left !important;
+    font-size: 1.75rem;
+  }
+
+  .post-content h2,
+  .post-content h3,
+  .post-content h4 {
+    text-align: center;
   }
 
   .post-meta {
@@ -1353,8 +1392,9 @@ b.bold-highlight {
     font-size: 1.5rem;
   }
 
-  .post-list h2 {
-    text-align: center;
+  .post-list h2,
+  .post-list-heading {
+    text-align: left !important;
   }
 
   /* Ensure email signup form is fully visible */
@@ -1368,7 +1408,7 @@ b.bold-highlight {
     font-weight: normal !important;
     color: #333;
     line-height: 1.4;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -1513,6 +1553,13 @@ input:checked + .slider:before {
   z-index: 1;
 }
 
+/* Lock body scroll when mobile menu is open */
+@media screen and (max-width: 822px) {
+  body:has(#nav-trigger:checked) {
+    overflow: hidden;
+  }
+}
+
 /* Mobile full-screen menu adjustments */
 @media screen and (max-width: 768px) {
   .site-nav {
@@ -1528,10 +1575,22 @@ input:checked + .slider:before {
       z-index: 1002;
     }
 
-    .page-link {
-      text-align: center;
+    // Nav items in mobile overlay
+    .nav-item {
+      display: block;
       font-size: 1.5rem;
-      padding: 1rem 0;
+      font-family: $heading-font-family;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+
+    .page-link {
+      font-size: 1.5rem;
+      font-family: $heading-font-family;
+      text-align: center;
+      padding: 0;
+      display: inline;
+      text-decoration: none !important;
     }
 
     .theme-toggle-wrapper {
