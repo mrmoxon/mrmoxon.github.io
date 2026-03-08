@@ -32,6 +32,14 @@ article.post {
       }
     }
 
+    // Reduce br gap between image and caption
+    p:has(img) br {
+      display: block;
+      content: "";
+      margin-top: 0;
+      line-height: 0;
+    }
+
     // Caption: italic text following an image (same <p> or next <p>)
     p > img + em,
     p:has(img) + p > em:only-child {
@@ -46,6 +54,17 @@ article.post {
     p:has(img + em),
     p:has(img) + p:has(> em:only-child) {
       margin-bottom: 2rem;
+    }
+
+    // Explicit image caption class
+    .image-caption {
+      display: block;
+      font-size: 0.88em;
+      font-style: italic;
+      line-height: 1.5;
+      color: var(--brand-color);
+      text-align: center;
+      margin-top: 0.25rem;
     }
   }
 }
@@ -1582,6 +1601,7 @@ input:checked + .slider:before {
       font-family: $heading-font-family;
       text-align: center;
       padding: 0.5rem 0;
+      white-space: nowrap;
     }
 
     .page-link {
@@ -1714,247 +1734,255 @@ input:checked + .slider:before {
 }
 
 // Side Panel Styles
-.side-panel {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100vh;
-  width: 300px;
-  background-color: transparent;
-  padding: 20px;
-  z-index: 99;
-  transition: all 0.3s ease;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-top: 100px;
-  opacity: 1;
-  pointer-events: auto;
-  
-  // Ensure content is scrollable
-  display: flex;
-  flex-direction: column;
+// ==========================================
+// Blog TOC — Proportional Table of Contents
+// ==========================================
+
+// CSS variables for TOC accent colors
+:root {
+  --toc-accent: #647654;
+  --toc-track: rgba(0, 0, 0, 0.1);
+  --toc-dot: rgba(0, 0, 0, 0.15);
+  --toc-dot-h3: rgba(0, 0, 0, 0.12);
 }
 
-.side-panel.collapsed {
+[data-theme="dark"] {
+  --toc-accent: #8ba87a;
+  --toc-track: rgba(255, 255, 255, 0.12);
+  --toc-dot: rgba(255, 255, 255, 0.2);
+  --toc-dot-h3: rgba(255, 255, 255, 0.15);
+}
+
+// Sidebar — fixed left, visible ≥801px
+.blog-toc-sidebar {
+  position: fixed;
+  left: 2rem;
+  top: 100px;
+  bottom: 40px;
+  width: 220px;
+  z-index: 10;
+  font-family: $base-font-family;
+
+  @media (max-width: 800px) {
+    display: none !important;
+  }
+}
+
+// Collapse button
+.blog-toc-collapse {
+  position: absolute;
+  top: -20px;
+  left: -3px;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  white-space: nowrap;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: $base-font-family;
+  transition: opacity 0.2s ease;
+  text-decoration: none !important;
+
+  &:hover { opacity: 0.7; }
+}
+
+.blog-toc-chevron {
+  transition: transform 0.2s ease;
+}
+
+.blog-toc-time {
+  font-size: 0.7rem;
+}
+
+// Track container
+.blog-toc-track,
+.blog-toc-overlay-track {
+  position: relative;
+  height: 100%;
+  padding-left: 16px;
+}
+
+// Viewport thumb
+.blog-toc-thumb {
+  position: absolute;
+  left: 0;
+  width: 2px;
+  background: var(--toc-accent);
+  border-radius: 1px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+// Track segment (gray line between dots)
+.blog-toc-segment {
+  background: var(--toc-track);
+}
+
+// Dots
+.blog-toc-dot {
+  background: var(--toc-dot);
+  transition: background 0.2s ease;
+  z-index: 3;
+
+  &.filled {
+    background: var(--toc-accent);
+  }
+}
+
+.blog-toc-dot-h3 {
+  background: var(--toc-dot-h3);
+
+  &.filled {
+    background: var(--toc-accent);
+  }
+}
+
+// Labels (buttons)
+.blog-toc-label {
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: $base-font-family;
+  transition: opacity 0.4s ease, color 0.2s;
+  color: var(--text-color);
+  text-decoration: none !important;
+}
+
+.blog-toc-label-h2 {
+  font-size: 0.75rem;
+  line-height: 1.35;
+  font-weight: 500;
+  opacity: 0.55;
+
+  &.active {
+    color: var(--toc-accent);
+    font-weight: 600;
+    opacity: 1;
+  }
+
+  &:hover { opacity: 0.8; }
+}
+
+.blog-toc-label-h3 {
+  font-size: 0.7rem;
+  line-height: 1.3;
+  font-weight: 400;
+  opacity: 0.4;
+
+  &.active {
+    color: var(--toc-accent);
+    font-weight: 600;
+    opacity: 1;
+  }
+
+  &:hover { opacity: 0.7; }
+}
+
+// Shift article right when sidebar is visible (narrow-ish screens)
+@media (min-width: 801px) and (max-width: 1120px) {
+  article.post {
+    margin-left: 280px !important;
+    margin-right: auto !important;
+  }
+}
+
+// ── Overlay ──
+
+.blog-toc-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 150;
+  background: var(--background-color);
   opacity: 0;
   pointer-events: none;
-  visibility: hidden;
-}
+  transition: opacity 0.3s ease;
+  overflow: hidden;
 
-// Start collapsed by default on mobile
-@media screen and (max-width: 1400px) {
-  .side-panel {
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-  }
-  
-  .side-panel:not(.collapsed) {
+  &.open {
     opacity: 1;
     pointer-events: auto;
-    visibility: visible;
   }
 }
 
-.side-panel-content {
-  position: relative;
-  background-color: var(--background-color);
-  border-radius: 0;
-  padding: 20px;
-  width: 100%;
-  box-sizing: border-box;
-  
-  // Enable scrolling for content
-  max-height: calc(100vh - 120px);
-  overflow-y: auto;
-  
-  // Move scrollbar to left side
-  direction: rtl;
-  
-  // Container for actual content
-  > * {
-    direction: ltr; // Reset direction for content
-  }
+body.toc-overlay-open {
+  overflow: hidden;
 }
 
-// Menu Toggle Button
-.menu-toggle {
-  position: fixed;
-  left: 20px;
-  top: 80px;
-  background: var(--background-color);
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 4px;
-  z-index: 100;
-  transition: all 0.2s ease;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  width: 35px;
-  height: 35px;
-  justify-content: center;
-  
-  &:hover {
-    opacity: 0.8;
-  }
-  
-  span {
-    display: block;
-    width: 18px;
-    height: 2px;
-    background-color: var(--text-color);
-    transition: all 0.3s ease;
-    margin: 0 auto;
-  }
-  
-  &.active {
-    span:nth-child(1) {
-      transform: translateY(6px) rotate(45deg);
-    }
-    
-    span:nth-child(2) {
-      opacity: 0;
-    }
-    
-    span:nth-child(3) {
-      transform: translateY(-6px) rotate(-45deg);
-    }
-  }
-}
-
-// Dark mode adjustments
-[data-theme="dark"] {
-  .menu-toggle {
-    background-color: var(--background-color);
-    
-    span {
-      background-color: var(--text-color);
-    }
-  }
-  
-  // Dark mode mobile menu overlay
-  @media screen and (max-width: 1400px) {
-    .side-panel {
-      background-color: rgba(0, 0, 0, 0.7);
-    }
-    
-    .side-panel-content {
-      background-color: var(--background-color);
-    }
-  }
-}
-
-// Media query for smaller screens - make side panel work on mobile
-@media screen and (max-width: 1400px) {
-  .side-panel {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0;
-    padding-top: 60px;
-    z-index: 200;
-  }
-  
-  .side-panel-content {
-    width: 80%;
-    max-width: 350px;
-    margin: 0 auto;
-    margin-top: 20px;
-    background-color: var(--background-color);
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  }
-  
-  .menu-toggle {
-    z-index: 201;
-    left: auto;
-    right: 20px;
-    top: auto;
-    bottom: 20px;
-  }
-}
-
-.side-panel-toggle {
+.blog-toc-overlay-close {
   position: absolute;
-  right: -30px;
-  top: 10px;
-  background: var(--background-color);
+  top: 1.25rem;
+  right: 1.25rem;
+  background: none;
   border: none;
-  padding: 8px;
   cursor: pointer;
-  border-radius: 0 4px 4px 0;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
-}
-
-.side-panel-toggle svg {
-  width: 16px;
-  height: 16px;
-  fill: var(--text-color);
-}
-
-.side-panel-text h3 {
-  margin: 0 0 8px 0;
-  font-size: 1em;
+  padding: 0.5rem;
+  z-index: 2;
   color: var(--text-color);
-  font-weight: 500;
+  text-decoration: none !important;
 }
 
-.side-panel-menu {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.side-panel-menu-item {
-  display: block;
-  padding: 8px 0;
+.blog-toc-overlay-time {
+  position: absolute;
+  top: 80px;
+  left: 2.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  margin: 0 0 8px 16px;
   color: var(--text-color);
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+  white-space: nowrap;
+  font-family: $base-font-family;
+}
+
+.blog-toc-overlay-track {
+  position: absolute;
+  top: 110px;
+  left: 2.5rem;
+  bottom: 40px;
+  right: 2rem;
+  padding-left: 16px;
+  padding-top: 1rem;
+}
+
+// Mobile trigger button
+.blog-toc-trigger {
+  display: none;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 100;
+  background: var(--background-color);
+  color: var(--text-color);
+  border: 1.5px solid var(--border-color);
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-family: $base-font-family;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.4rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: opacity 0.2s ease;
-  font-size: 0.9em;
-  line-height: 1.4;
+  text-decoration: none !important;
 
-  &:hover {
-    opacity: 0.6;
+  &:hover { opacity: 0.7; }
+
+  @media (max-width: 800px) {
+    display: flex;
   }
-
-  &.active {
-    font-weight: 500;
-  }
-
-  &[style*="padding-left"] {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-}
-
-// Dark mode adjustments
-[data-theme="dark"] {
-  .side-panel-menu-item {
-    color: var(--text-color);
-
-    &:hover,
-    &.active {
-      opacity: 0.6;
-    }
-  }
-}
-
-// Scrollbar styling for the side panel content
-.side-panel-content::-webkit-scrollbar {
-  width: 6px;
-}
-
-.side-panel-content::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.side-panel-content::-webkit-scrollbar-thumb {
-  background-color: var(--border-color);
-  border-radius: 3px;
 }
 
 // Minimalist heading sizes
@@ -2159,6 +2187,17 @@ html:not([data-theme="dark"]) .svg-icon.grey {
 
 [data-theme="dark"] .footer-socials a {
   color: var(--text-color);
+}
+
+@media screen and (max-width: 768px) {
+  .footer-bottom {
+    padding: 0.75rem 1rem;
+  }
+
+  .footer-brand {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
 }
 
 // Home Layout - Two Column

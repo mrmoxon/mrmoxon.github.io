@@ -169,6 +169,7 @@ b {
     .nav-item {
       display: inline;
       margin-right: 20px;
+      white-space: nowrap;
 
       &:last-of-type {
         margin-right: 15px;
