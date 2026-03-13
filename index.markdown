@@ -60,6 +60,9 @@ layout: page
     <div class="art-item" data-title="Perfume — Patrick Süskind">
       <img src="/assets/art/books/thumbs/perfume.jpg" alt="Perfume" loading="lazy">
     </div>
+    <div class="art-item" data-title="Elbow">
+      <img src="/assets/art/thumbs/art-13.png" alt="Elbow" loading="lazy">
+    </div>
     <div class="art-item" data-title="Stalker">
       <img src="/assets/art/thumbs/art-5.jpg" alt="Stalker" loading="lazy">
     </div>
