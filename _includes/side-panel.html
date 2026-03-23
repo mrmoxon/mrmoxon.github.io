@@ -470,6 +470,18 @@ document.addEventListener('DOMContentLoaded', function() {
       thumbTop = Math.max(0, Math.min(100 - thumbHeight, scrollFrac * 100));
     }
 
+    // Slide sidebar up when footer comes into view (translate, not compress)
+    var footer = document.querySelector('.site-footer');
+    if (footer && sidebarEl) {
+      var footerTop = footer.getBoundingClientRect().top;
+      var overlap = window.innerHeight - footerTop;
+      if (overlap > 0) {
+        sidebarEl.style.transform = 'translateY(-' + overlap + 'px)';
+      } else {
+        sidebarEl.style.transform = '';
+      }
+    }
+
     if (sidebarRefs) {
       sidebarRefs.thumb.style.top = thumbTop + '%';
       sidebarRefs.thumb.style.height = thumbHeight + '%';
@@ -513,8 +525,10 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
       if (!header) return;
       var headerBottom = header.getBoundingClientRect().bottom;
+      var footerTop = document.querySelector('.site-footer');
+      var footerVisible = footerTop && footerTop.getBoundingClientRect().top < window.innerHeight;
       var navOpen = document.getElementById('nav-trigger').checked;
-      floatingBtn.classList.toggle('visible', headerBottom < 0 && !navOpen);
+      floatingBtn.classList.toggle('visible', headerBottom < 0 && !footerVisible && !navOpen);
     }, { passive: true });
 
     // Hide when nav opens
