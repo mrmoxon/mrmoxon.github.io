@@ -1580,7 +1580,7 @@ input:checked + .slider:before {
 }
 
 /* Mobile full-screen menu adjustments */
-@media screen and (max-width: 822px) {
+@media screen and (max-width: 1000px) {
   .site-nav {
     z-index: 1000;
 
@@ -1690,7 +1690,7 @@ input:checked + .slider:before {
 }
 
 // Hide TOC container and nav-top-row wrapper on desktop
-@media screen and (min-width: 823px) {
+@media screen and (min-width: 1001px) {
   .nav-toc-container {
     display: none !important;
   }
@@ -1881,14 +1881,14 @@ input:checked + .slider:before {
 
 // CSS variables for TOC accent colors
 :root {
-  --toc-accent: #647654;
+  --toc-accent: #a85d3f;
   --toc-track: rgba(0, 0, 0, 0.1);
   --toc-dot: rgba(0, 0, 0, 0.15);
   --toc-dot-h3: rgba(0, 0, 0, 0.12);
 }
 
 [data-theme="dark"] {
-  --toc-accent: #8ba87a;
+  --toc-accent: #c89b7b;
   --toc-track: rgba(255, 255, 255, 0.12);
   --toc-dot: rgba(255, 255, 255, 0.2);
   --toc-dot-h3: rgba(255, 255, 255, 0.15);
@@ -1968,7 +1968,7 @@ input:checked + .slider:before {
     pointer-events: auto;
   }
 
-  @media screen and (max-width: 822px) {
+  @media screen and (max-width: 1000px) {
     display: block;
   }
 }
@@ -2454,7 +2454,7 @@ html:not([data-theme="dark"]) .svg-icon.grey {
 .title-symbol {
   display: none;
 
-  @media screen and (min-width: 823px) {
+  @media screen and (min-width: 1001px) {
     display: inline;
   }
 }
