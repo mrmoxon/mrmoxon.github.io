@@ -6,7 +6,7 @@ layout: page
 
   <p class="intro">I'm Oscar, researcher and software engineer from Bath, living in San Francisco, personalising intelligence and overseeing product at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>.</p>
 
-  <h2 class="post-list-heading">[writing]</h2>
+  <h2 class="post-list-heading"><a href="/essays/#list" class="heading-link">[writing]</a></h2>
   <p>I've been writing for a few years. Here are some of my favourite pieces:</p>
 
   <ul class="favourite-essays">

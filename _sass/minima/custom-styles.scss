@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Links - minimalist underline style
-a:not(.essay-card):not(.custom-link) {
+a:not(.essay-card):not(.custom-link):not(.heading-link) {
   color: var(--text-color);
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -717,7 +717,7 @@ a:not(.essay-card):not(.custom-link) {
 }
 
 [data-theme="dark"] .excerpt-toggle {
-  color: #ffffff;
+  color: #e0e0e0;
   opacity: 0.8;
 
   &:hover {
@@ -1650,7 +1650,7 @@ input:checked + .slider:before {
   }
 
   // Dark mode links - sandy accent color
-  a:not(.essay-card):not(.custom-link) {
+  a:not(.essay-card):not(.custom-link):not(.heading-link) {
     color: var(--link-color);
 
     &:hover {
@@ -2349,6 +2349,26 @@ html:not([data-theme="dark"]) .svg-icon.grey {
   .intro {
     margin-bottom: 0;
   }
+}
+
+.heading-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:visited, &:active {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: #a85d3f;
+    text-decoration: none;
+  }
+}
+
+[data-theme="dark"] .heading-link:hover {
+  color: #c89b7b;
 }
 
 // Homepage favourite essays list
