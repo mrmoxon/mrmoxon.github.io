@@ -57,7 +57,7 @@ So what separates the should-be-avoided tinkering from the productive?
 
 Bad passion-building is distinctive: the [Notion founders](https://www.lennysnewsletter.com/p/inside-notion-ivan-zhao) spoke about how their first product was an indulgent, feature-rich undertaking built for themselves that didn't fare well with others. Only when they rebuilt the project around a smaller, more obvious wedge were they able to find traction and persist long enough to build a super-app people wanted. 
 
-At its worst, passion-building is procrastination disguised as innovation. It is the delusion that anything except user traction creates businesses, it is the myth that in order to compete with a billion-dollar juggernaut you must create something worth a billion dollars out of the box, or the belief that nine months spinning code [without anyone breaking your door](https://www.joelonsoftware.com/2006/04/11/the-development-abstraction-layer-2/) will result in great traction once you're finished. The reality is, being technical is not enough to build a great product.
+At its worst, passion-building is procrastination disguised as innovation. It is the delusion that anything except user traction creates businesses, it is the myth that in order to compete with a billion-dollar juggernaut you must create something worth a billion dollars out of the box, or the belief that nine months spinning code [without anyone breaking your door down](https://www.joelonsoftware.com/2006/04/11/the-development-abstraction-layer-2/) will result in great traction once you're finished. The reality is, being technical is not enough to build a great product.
 
 So what about those who succeed? 
 

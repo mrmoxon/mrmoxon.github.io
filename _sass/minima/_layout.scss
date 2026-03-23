@@ -24,7 +24,7 @@ b {
   margin-bottom: 0;
   float: left;
   position: relative;
-  z-index: 1002;
+  z-index: 999;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -79,6 +79,11 @@ b {
 
   input ~ .trigger {
     display: none;
+  }
+
+  // Hide original ± and site title when overlay is open — the overlay has its own
+  input:checked ~ label[for="nav-trigger"] {
+    display: none !important;
   }
 
   // Full-screen mobile menu
@@ -182,6 +187,14 @@ b {
       font-size: 1rem;
       font-family: $base-font-family;
       margin: 0;
+    }
+
+    .nav-top-row {
+      display: inline;
+    }
+
+    .nav-toc-container {
+      display: none;
     }
   }
 }

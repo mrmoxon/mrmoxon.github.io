@@ -1,5 +1,8 @@
 {% if page.layout == 'post' %}
 
+<!-- Floating ± button for narrow screens -->
+<label for="nav-trigger" class="floating-nav-trigger" id="floating-nav-trigger" aria-label="Open menu">±</label>
+
 <!-- Blog TOC Sidebar (desktop ≥1001px) -->
 <nav class="blog-toc-sidebar" id="blog-toc-sidebar" aria-label="Table of contents">
   <button class="blog-toc-collapse" id="blog-toc-collapse" aria-label="Toggle contents">
@@ -13,36 +16,18 @@
   </div>
 </nav>
 
-<!-- Blog TOC Overlay (mobile <1001px) -->
-<div class="blog-toc-overlay" id="blog-toc-overlay">
-  <button class="blog-toc-overlay-close" id="blog-toc-overlay-close" aria-label="Close">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
-    </svg>
-  </button>
-  <p class="blog-toc-overlay-time" id="blog-toc-overlay-time"></p>
-  <div class="blog-toc-overlay-track" id="blog-toc-overlay-track">
-    <div class="blog-toc-thumb" id="blog-toc-overlay-thumb"></div>
-  </div>
-</div>
-
-<!-- Mobile trigger -->
-<button class="blog-toc-trigger" id="blog-toc-trigger" aria-label="Table of contents">
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
-  </svg>
-  Contents
-</button>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var H2_DOT = 4, H3_DOT = 3, DOT_GAP = 6;
+  var H2_DOT = 4, H3_DOT = 4, DOT_GAP = 4;
   var LABEL_HEIGHT_PX = 22, LINE_HEIGHT_PX = 14;
+  var MERGE_THRESHOLD = 0.25;
+  var SCROLL_DETECTION_OFFSET = 160;
+  var SCROLL_TO_OFFSET = 20;
 
   var postContent = document.querySelector('.post-content');
   if (!postContent) return;
 
-  // Ensure post title has an ID for TOC linking
   var postTitle = document.querySelector('.post-title');
   if (postTitle && !postTitle.id) postTitle.id = 'post-title';
 
@@ -58,20 +43,19 @@ document.addEventListener('DOMContentLoaded', function() {
   var headingEls = Array.from(postContent.querySelectorAll('h2[id], h3[id]'));
   if (headingEls.length < 2) {
     document.getElementById('blog-toc-sidebar').style.display = 'none';
-    document.getElementById('blog-toc-trigger').style.display = 'none';
     return;
   }
+
+  // Include post title in the list for active-heading detection
+  var allTrackableEls = postTitle ? [postTitle].concat(headingEls) : headingEls;
 
   // Reading time
   var words = postContent.textContent.trim().split(/\s+/).length;
   var readingTime = Math.max(1, Math.ceil(words / 200));
   var timeEl = document.getElementById('blog-toc-time');
-  var overlayTimeEl = document.getElementById('blog-toc-overlay-time');
   if (timeEl) timeEl.textContent = readingTime + ' min read';
-  if (overlayTimeEl) overlayTimeEl.textContent = readingTime + ' min read';
 
-  // Determine hierarchy: if post has h2s, they're sections and h3s are children.
-  // If only h3s, they're all sections with no children.
+  // Determine hierarchy
   var hasH2 = headingEls.some(function(el) { return el.tagName === 'H2'; });
   var sectionTag = hasH2 ? 'H2' : 'H3';
 
@@ -85,11 +69,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (!hasH2) headings.forEach(function(h) { h.level = 2; });
 
-  // Group into sections, with post title as first entry
+  // Group into sections with post title as first entry
   function groupSections() {
     var sections = [], idx = 0;
 
-    // Add post title as the first section
     if (postTitle) {
       sections.push({
         h2: { level: 2, text: postTitle.textContent.trim(), id: postTitle.id },
@@ -109,12 +92,35 @@ document.addEventListener('DOMContentLoaded', function() {
     return sections;
   }
 
+  // Space children with forward AND backward passes to prevent overlap
   function spaceChildren(children, minGap) {
-    if (children.length <= 1) return children;
-    var out = children.map(function(c) { return { heading: c.heading, truePct: c.truePct, displayPct: c.displayPct }; });
+    if (children.length === 0) return children;
+    var out = children.map(function(c) {
+      return { heading: c.heading, truePct: c.truePct, displayPct: c.displayPct };
+    });
+
+    // Forward pass: enforce min gap from h2 (position 0) and between siblings
+    if (out[0].displayPct < minGap) out[0].displayPct = minGap;
     for (var i = 1; i < out.length; i++) {
-      if (out[i].displayPct - out[i - 1].displayPct < minGap)
-        out[i].displayPct = Math.min(0.95, out[i - 1].displayPct + minGap);
+      if (out[i].displayPct - out[i - 1].displayPct < minGap) {
+        out[i].displayPct = out[i - 1].displayPct + minGap;
+      }
+    }
+
+    // Backward pass: if last child overflows, pull everything back up
+    var maxEnd = 1 - minGap;
+    if (out[out.length - 1].displayPct > maxEnd) {
+      out[out.length - 1].displayPct = maxEnd;
+      for (var j = out.length - 2; j >= 0; j--) {
+        if (out[j + 1].displayPct - out[j].displayPct < minGap) {
+          out[j].displayPct = out[j + 1].displayPct - minGap;
+        }
+      }
+    }
+
+    // Clamp all to valid range
+    for (var k = 0; k < out.length; k++) {
+      out[k].displayPct = Math.max(0.05, Math.min(0.95, out[k].displayPct));
     }
     return out;
   }
@@ -124,53 +130,57 @@ document.addEventListener('DOMContentLoaded', function() {
   function computeLayout(rawSections, trackHeight) {
     var articleTop = articleEl.getBoundingClientRect().top + window.scrollY;
     var articleHeight = articleEl.getBoundingClientRect().height;
-    if (articleHeight === 0) return { sections: rawSections, rangeStart: 0, rangeEnd: 1 };
+    if (articleHeight === 0) return { sections: rawSections, totalWeight: 1 };
 
     var h2Els = rawSections.map(function(s) { return document.getElementById(s.h2.id); });
-    var rangeStart = 0;
+    var totalHeadings = rawSections.reduce(function(n, s) { return n + 1 + s.children.length; }, 0);
+    var h2LineCap = totalHeadings > 12 ? 1 : totalHeadings > 8 ? 2 : 4;
+    var h3LineCap = totalHeadings > 12 ? 1 : totalHeadings > 8 ? 1 : 3;
 
-    var totalSpan = 0;
     var spans = rawSections.map(function(s, i) {
       var startEl = h2Els[i], endEl = h2Els[i + 1];
-      // First section starts from article top (0), not from its heading
-      var sp = i === 0 ? 0 : (startEl ? (startEl.offsetTop - articleTop) / articleHeight : 0);
-      var ep = endEl ? (endEl.offsetTop - articleTop) / articleHeight : 1;
-      var span = Math.max(0.02, ep - sp);
-      totalSpan += span;
-      return span;
+      var startPos = i === 0 ? 0 : (startEl ? (startEl.offsetTop - articleTop) / articleHeight : 0);
+      var endPos = endEl ? (endEl.offsetTop - articleTop) / articleHeight : 1;
+      var span = Math.max(0.02, endPos - startPos);
+      return { startPos: startPos, endPos: endPos, span: span };
     });
 
+    // Use natural article proportions for weights
+    var weights = spans.map(function(sp) { return sp.span; });
+    var totalW = weights.reduce(function(s, w) { return s + w; }, 0);
+
     var weighted = rawSections.map(function(s, i) {
-      var startEl = h2Els[i];
-      var startPos = i === 0 ? 0 : (startEl ? (startEl.offsetTop - articleTop) / articleHeight : 0);
-      var sectionSpan = spans[i];
-      var sectionTrackPx = (sectionSpan / totalSpan) * trackHeight;
-      var minGap = sectionTrackPx > 0 ? LABEL_HEIGHT_PX / sectionTrackPx : 0.1;
+      var startPos = spans[i].startPos;
+      var sectionSpan = spans[i].span;
+      var sectionTrackPx = (weights[i] / totalW) * trackHeight;
 
       var childPos = s.children.map(function(child) {
         var el = document.getElementById(child.id);
         if (!el) return { heading: child, truePct: 0, displayPct: 0 };
         var pos = (el.offsetTop - articleTop) / articleHeight;
-        var pct = Math.max(0.05, Math.min(0.95, (pos - startPos) / sectionSpan));
+        var pct = Math.min(0.95, (pos - startPos) / sectionSpan);
         return { heading: child, truePct: pct, displayPct: pct };
       });
 
+      var minGap = sectionTrackPx > 0 ? LABEL_HEIGHT_PX / sectionTrackPx : 0.1;
       var spaced = spaceChildren(childPos, minGap);
+
+      // Compute max lines per label based on gap to next label
       var positions = [0].concat(spaced.map(function(c) { return c.displayPct; }), [1]);
       var h2Gap = positions[1] * sectionTrackPx;
-      var h2MaxLines = Math.max(1, Math.min(4, Math.floor(h2Gap / LINE_HEIGHT_PX)));
+      var h2MaxLines = Math.max(1, Math.min(h2LineCap, Math.floor(h2Gap / LINE_HEIGHT_PX)));
       var childMaxLines = spaced.map(function(_, ci) {
         var gap = (positions[ci + 2] - positions[ci + 1]) * sectionTrackPx;
-        return Math.max(1, Math.min(3, Math.floor(gap / LINE_HEIGHT_PX)));
+        return Math.max(1, Math.min(h3LineCap, Math.floor(gap / LINE_HEIGHT_PX)));
       });
 
       return {
         h2: s.h2, h2Index: s.h2Index, children: spaced,
-        weight: sectionSpan, h2MaxLines: h2MaxLines, childMaxLines: childMaxLines
+        weight: weights[i], h2MaxLines: h2MaxLines, childMaxLines: childMaxLines
       };
     });
 
-    return { sections: weighted, rangeStart: rangeStart, rangeEnd: 1, totalWeight: totalSpan };
+    return { sections: weighted, totalWeight: totalW };
   }
 
   function applyClamp(el, maxLines) {
@@ -186,15 +196,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  function scrollToHeading(id, closeOverlay) {
+  function scrollToHeading(id, closeNav) {
     var el = document.getElementById(id);
     if (!el) return;
-    var offset = window.innerWidth <= 1280 ? 64 : 24;
-    var y = el.getBoundingClientRect().top + window.scrollY - offset;
-    window.scrollTo({ top: y, behavior: 'smooth' });
-    if (closeOverlay) {
-      document.getElementById('blog-toc-overlay').classList.remove('open');
-      document.body.classList.remove('toc-overlay-open');
+    var y = el.offsetTop - SCROLL_TO_OFFSET;
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+    if (closeNav) {
+      // Uncheck the nav trigger to close the ± menu
+      var navTrigger = document.getElementById('nav-trigger');
+      if (navTrigger) navTrigger.checked = false;
     }
   }
 
@@ -219,24 +229,50 @@ document.addEventListener('DOMContentLoaded', function() {
       sectionEl.className = 'blog-toc-section';
       sectionEl.style.cssText = 'position:absolute;top:' + topPct + '%;left:0;width:100%;height:' + heightPct + '%;';
 
-      // Track segment
-      var segment = document.createElement('div');
-      segment.className = 'blog-toc-segment';
-      var segBottom = i < sections.length - 1 ? DOT_GAP : (H2_DOT / 2);
-      segment.style.cssText = 'position:absolute;left:0;top:' + (H2_DOT / 2 + DOT_GAP) + 'px;bottom:' + segBottom + 'px;width:2px;';
-      sectionEl.appendChild(segment);
+      // Track segments with gaps around h2 and h3 dots
+      var segStart = H2_DOT / 2 + DOT_GAP;
+      var segEndOffset = i < sections.length - 1 ? DOT_GAP : (H2_DOT / 2);
+      // Only include non-merged children for track segment gaps
+      var childPcts = section.children.filter(function(c) { return c.truePct >= MERGE_THRESHOLD; }).map(function(c) { return c.truePct; });
+
+      if (childPcts.length === 0) {
+        var seg = document.createElement('div');
+        seg.className = 'blog-toc-segment';
+        seg.style.cssText = 'position:absolute;left:0;top:' + segStart + 'px;bottom:' + segEndOffset + 'px;width:2px;';
+        sectionEl.appendChild(seg);
+      } else {
+        // First segment: h2 gap to first h3 dot
+        var seg0 = document.createElement('div');
+        seg0.className = 'blog-toc-segment';
+        seg0.style.cssText = 'position:absolute;left:0;top:' + segStart + 'px;bottom:calc(' + ((1 - childPcts[0]) * 100) + '% + ' + (H3_DOT / 2 + DOT_GAP) + 'px);width:2px;';
+        sectionEl.appendChild(seg0);
+
+        // Middle segments between h3 dots
+        for (var ci = 0; ci < childPcts.length - 1; ci++) {
+          var segMid = document.createElement('div');
+          segMid.className = 'blog-toc-segment';
+          segMid.style.cssText = 'position:absolute;left:0;top:calc(' + (childPcts[ci] * 100) + '% + ' + (H3_DOT / 2 + DOT_GAP) + 'px);bottom:calc(' + ((1 - childPcts[ci + 1]) * 100) + '% + ' + (H3_DOT / 2 + DOT_GAP) + 'px);width:2px;';
+          sectionEl.appendChild(segMid);
+        }
+
+        // Last segment: last h3 dot to bottom
+        var segLast = document.createElement('div');
+        segLast.className = 'blog-toc-segment';
+        segLast.style.cssText = 'position:absolute;left:0;top:calc(' + (childPcts[childPcts.length - 1] * 100) + '% + ' + (H3_DOT / 2 + DOT_GAP) + 'px);bottom:' + segEndOffset + 'px;width:2px;';
+        sectionEl.appendChild(segLast);
+      }
 
       // H2 dot
       var h2Dot = document.createElement('div');
       h2Dot.className = 'blog-toc-dot blog-toc-dot-h2';
-      h2Dot.style.cssText = 'position:absolute;left:' + (1 - H2_DOT / 2) + 'px;top:' + (-H2_DOT / 2) + 'px;width:' + H2_DOT + 'px;height:' + H2_DOT + 'px;border-radius:50%;';
+      h2Dot.style.cssText = 'position:absolute;left:' + (1 - H2_DOT / 2) + 'px;top:' + (-H2_DOT / 2 + 1) + 'px;width:' + H2_DOT + 'px;height:' + H2_DOT + 'px;border-radius:50%;';
       sectionEl.appendChild(h2Dot);
 
       // H2 label
       var h2Label = document.createElement('button');
       h2Label.className = 'blog-toc-label blog-toc-label-h2';
-      h2Label.textContent = section.h2Index + '. ' + section.h2.text;
-      h2Label.style.cssText = 'position:absolute;top:' + (-H2_DOT / 2) + 'px;left:16px;right:0;';
+      h2Label.textContent = section.h2.text;
+      h2Label.style.cssText = 'position:absolute;top:' + (-H2_DOT / 2 + 1) + 'px;left:' + (mode === 'overlay' ? '16' : '10') + 'px;right:0;transform:translateY(-7px);';
       applyClamp(h2Label, section.h2MaxLines);
       (function(id) {
         h2Label.addEventListener('click', function() { scrollToHeading(id, mode === 'overlay'); });
@@ -245,29 +281,61 @@ document.addEventListener('DOMContentLoaded', function() {
 
       var childRefs = [];
 
-      section.children.forEach(function(child, ci) {
-        // H3 dot
-        var h3Dot = document.createElement('div');
-        h3Dot.className = 'blog-toc-dot blog-toc-dot-h3';
-        h3Dot.style.cssText = 'position:absolute;left:' + (1 - H3_DOT / 2) + 'px;top:' + (child.truePct * 100) + '%;transform:translateY(-50%);width:' + H3_DOT + 'px;height:' + H3_DOT + 'px;border-radius:50%;';
-        sectionEl.appendChild(h3Dot);
+      // Collect merged IDs for this section (h3s very close to h2)
+      var mergedChildIds = [];
+      section.children.forEach(function(child) {
+        if (child.truePct < MERGE_THRESHOLD) mergedChildIds.push(child.heading.id);
+      });
 
-        // H3 label
+      section.children.forEach(function(child, ci) {
+        var merged = child.truePct < MERGE_THRESHOLD;
+
+        // H3 dot — skip if merged with h2 (back-to-back headings share one dot)
+        if (!merged) {
+          var h3Dot = document.createElement('div');
+          h3Dot.className = 'blog-toc-dot blog-toc-dot-h3';
+          h3Dot.style.cssText = 'position:absolute;left:' + (1 - H3_DOT / 2) + 'px;top:' + (child.truePct * 100) + '%;transform:translateY(-50%);width:' + H3_DOT + 'px;height:' + H3_DOT + 'px;border-radius:50%;';
+          sectionEl.appendChild(h3Dot);
+        }
+
+        // H3 label — always shown
         var h3Label = document.createElement('button');
         h3Label.className = 'blog-toc-label blog-toc-label-h3';
         h3Label.textContent = child.heading.text;
-        h3Label.style.cssText = 'position:absolute;top:' + (child.displayPct * 100) + '%;left:24px;right:0;';
+        h3Label.style.cssText = 'position:absolute;top:' + (child.displayPct * 100) + '%;left:' + (mode === 'overlay' ? '24' : '30') + 'px;right:0;transform:translateY(-6px);';
         applyClamp(h3Label, section.childMaxLines[ci] || 2);
-        (function(id) {
-          h3Label.addEventListener('click', function() { scrollToHeading(id, mode === 'overlay'); });
-        })(child.heading.id);
+        (function(id, isMerged, parentId) {
+          h3Label.addEventListener('click', function() {
+            scrollToHeading(isMerged ? parentId : id, mode === 'overlay');
+          });
+        })(child.heading.id, merged, section.h2.id);
         sectionEl.appendChild(h3Label);
 
-        childRefs.push({ dot: h3Dot, label: h3Label, id: child.heading.id, truePct: child.truePct });
+        childRefs.push({
+          dot: null, label: h3Label,
+          id: child.heading.id,
+          truePct: child.truePct,
+          merged: merged
+        });
+      });
+
+      // Fix dot references — we need to re-find the actual dot elements
+      // Rebuild childRefs dots properly
+      var dotEls = sectionEl.querySelectorAll('.blog-toc-dot-h3');
+      var dotIdx = 0;
+      childRefs.forEach(function(ref) {
+        if (!ref.merged && dotIdx < dotEls.length) {
+          ref.dot = dotEls[dotIdx];
+          dotIdx++;
+        }
       });
 
       container.appendChild(sectionEl);
-      refs.sections.push({ h2Dot: h2Dot, h2Label: h2Label, id: section.h2.id, topPct: topPct, heightPct: heightPct, children: childRefs });
+      refs.sections.push({
+        h2Dot: h2Dot, h2Label: h2Label, id: section.h2.id,
+        topPct: topPct, heightPct: heightPct,
+        children: childRefs, mergedChildIds: mergedChildIds
+      });
     });
 
     return refs;
@@ -275,9 +343,54 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // State
   var collapsed = false;
-  var sidebarRefs = null, overlayRefs = null;
-  var mapping = { rangeStart: 0, rangeEnd: 1 };
+  var sidebarRefs = null;
   var rawSections = groupSections();
+  var settled = false;
+
+  // Hide sidebar until settled
+  var sidebarEl = document.getElementById('blog-toc-sidebar');
+  sidebarEl.style.opacity = '0';
+  sidebarEl.style.transition = 'opacity 0.3s ease';
+
+  var overlayRefs = null;
+
+  function buildOverlayList() {
+    var container = document.getElementById('nav-toc-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    // Reading time
+    var timeP = document.createElement('p');
+    timeP.className = 'nav-toc-time';
+    timeP.textContent = readingTime + ' min read';
+    container.appendChild(timeP);
+
+    // Track wrapper (same style as sidebar)
+    var trackWrap = document.createElement('div');
+    trackWrap.className = 'blog-toc-track nav-toc-track';
+    trackWrap.style.cssText = 'position:relative;height:100%;padding-left:16px;';
+
+    var thumb = document.createElement('div');
+    thumb.className = 'blog-toc-thumb';
+    trackWrap.appendChild(thumb);
+
+    container.appendChild(trackWrap);
+
+    var trackHeight = trackWrap.clientHeight || 400;
+    var layout = computeLayout(rawSections, trackHeight);
+    overlayRefs = renderTrack(trackWrap, thumb, layout, 'overlay');
+
+    // Recompute after layout settles
+    setTimeout(function() {
+      trackHeight = trackWrap.clientHeight || 400;
+      layout = computeLayout(rawSections, trackHeight);
+      // Clear and re-render
+      Array.from(trackWrap.children).forEach(function(child) {
+        if (!child.classList.contains('blog-toc-thumb')) trackWrap.removeChild(child);
+      });
+      overlayRefs = renderTrack(trackWrap, thumb, layout, 'overlay');
+    }, 100);
+  }
 
   function rebuild() {
     var sidebarTrack = document.getElementById('blog-toc-track');
@@ -286,19 +399,11 @@ document.addEventListener('DOMContentLoaded', function() {
     var overlayThumb = document.getElementById('blog-toc-overlay-thumb');
 
     var sidebarHeight = sidebarTrack ? sidebarTrack.clientHeight : 600;
-    var overlayHeight = overlayTrack ? overlayTrack.clientHeight : 600;
 
     var layout = computeLayout(rawSections, sidebarHeight);
-    mapping.rangeStart = layout.rangeStart;
-    mapping.rangeEnd = layout.rangeEnd;
-    mapping.totalWeight = layout.totalWeight;
-
     if (sidebarTrack) sidebarRefs = renderTrack(sidebarTrack, sidebarThumb, layout, 'sidebar');
 
-    // Overlay uses its own track height
-    var overlayLayout = computeLayout(rawSections, overlayHeight);
-    if (overlayTrack) overlayRefs = renderTrack(overlayTrack, overlayThumb, overlayLayout, 'overlay');
-
+    buildOverlayList();
     updateLabelsVisibility();
     handleScroll();
   }
@@ -310,12 +415,13 @@ document.addEventListener('DOMContentLoaded', function() {
       s.h2Label.style.opacity = show ? '' : '0';
       s.h2Label.style.pointerEvents = show ? 'auto' : 'none';
       s.children.forEach(function(c) {
+        if (!c.label) return;
         c.label.style.opacity = show ? '' : '0';
         c.label.style.pointerEvents = show ? 'auto' : 'none';
       });
     });
-    var timeEl = document.getElementById('blog-toc-time');
-    if (timeEl) timeEl.style.display = collapsed ? 'none' : '';
+    var tEl = document.getElementById('blog-toc-time');
+    if (tEl) tEl.style.display = collapsed ? 'none' : '';
     var chevron = document.querySelector('.blog-toc-chevron');
     if (chevron) chevron.style.transform = collapsed ? 'rotate(-90deg)' : 'rotate(0deg)';
   }
@@ -323,52 +429,54 @@ document.addEventListener('DOMContentLoaded', function() {
   function updateActive(refs, activeId, thumbTop) {
     if (!refs) return;
     refs.sections.forEach(function(s) {
-      var isH2Active = activeId === s.id;
-      var dotFilled = thumbTop >= s.topPct;
+      // Merge: h2 is active if activeId matches h2 or any merged child
+      var mergedIds = [s.id].concat(s.mergedChildIds || []);
+      var mergedActive = mergedIds.indexOf(activeId) !== -1;
+      var dotFilled = thumbTop >= s.topPct - 0.3;
+
       s.h2Dot.classList.toggle('filled', dotFilled);
-      s.h2Label.classList.toggle('active', isH2Active);
+      s.h2Label.classList.toggle('active', mergedActive);
 
       s.children.forEach(function(c) {
-        var isChildActive = activeId === c.id;
-        var childDotFilled = thumbTop >= s.topPct + c.truePct * s.heightPct;
-        c.dot.classList.toggle('filled', childDotFilled);
-        c.label.classList.toggle('active', isChildActive);
+        var isChildActive = c.merged ? mergedActive : activeId === c.id;
+        if (c.dot) {
+          var childDotFilled = thumbTop >= s.topPct + c.truePct * s.heightPct - 0.3;
+          c.dot.classList.toggle('filled', childDotFilled);
+        }
+        if (c.label) c.label.classList.toggle('active', isChildActive);
       });
     });
   }
 
   var activeId = '';
   function handleScroll() {
-    var scrollPos = window.scrollY + 160;
+    var scrollPos = window.scrollY + SCROLL_DETECTION_OFFSET;
     var newActive = '';
-    for (var i = 0; i < headingEls.length; i++) {
-      if (headingEls[i].offsetTop <= scrollPos) newActive = headingEls[i].id;
+    for (var i = 0; i < allTrackableEls.length; i++) {
+      if (allTrackableEls[i].offsetTop <= scrollPos) newActive = allTrackableEls[i].id;
     }
     activeId = newActive;
 
-    // Thumb position
+    // Thumb position — linear article space
     var rect = articleEl.getBoundingClientRect();
     var aTop = rect.top + window.scrollY;
     var aHeight = rect.height;
     var thumbTop = 0, thumbHeight = 10;
 
     if (aHeight > 0) {
-      var rangeSpan = (mapping.rangeEnd - mapping.rangeStart) || 1;
       var vh = window.innerHeight;
-      thumbHeight = Math.min(100, Math.max(4, (vh / (aHeight * rangeSpan)) * 100));
-      var scrollFrac = (window.scrollY - aTop) / aHeight;
-      var tocFrac = (scrollFrac - mapping.rangeStart) / rangeSpan;
-      thumbTop = Math.max(0, Math.min(100 - thumbHeight, tocFrac * 100 + 0.4));
+      thumbHeight = Math.min(100, Math.max(4, (vh / aHeight) * 100));
+      var scrollFrac = (window.scrollY + SCROLL_TO_OFFSET - aTop) / aHeight;
+      thumbTop = Math.max(0, Math.min(100 - thumbHeight, scrollFrac * 100));
     }
 
-    // Update sidebar
     if (sidebarRefs) {
       sidebarRefs.thumb.style.top = thumbTop + '%';
       sidebarRefs.thumb.style.height = thumbHeight + '%';
       updateActive(sidebarRefs, activeId, thumbTop);
     }
 
-    // Update overlay
+    // Update overlay track
     if (overlayRefs) {
       overlayRefs.thumb.style.top = thumbTop + '%';
       overlayRefs.thumb.style.height = thumbHeight + '%';
@@ -382,26 +490,38 @@ document.addEventListener('DOMContentLoaded', function() {
     updateLabelsVisibility();
   });
 
-  // Overlay open/close
-  var trigger = document.getElementById('blog-toc-trigger');
-  var overlay = document.getElementById('blog-toc-overlay');
-  var overlayClose = document.getElementById('blog-toc-overlay-close');
-
-  trigger.addEventListener('click', function() {
-    overlay.classList.add('open');
-    document.body.classList.add('toc-overlay-open');
+  // Init — first compute, then settle after 500ms
+  requestAnimationFrame(function() {
+    rebuild();
+    handleScroll();
   });
 
-  overlayClose.addEventListener('click', function() {
-    overlay.classList.remove('open');
-    document.body.classList.remove('toc-overlay-open');
-  });
+  setTimeout(function() {
+    rebuild();
+    handleScroll();
+    settled = true;
+    sidebarEl.style.opacity = '1';
+  }, 500);
 
-  // Init
-  rebuild();
-  setTimeout(rebuild, 500);
   window.addEventListener('scroll', handleScroll, { passive: true });
   window.addEventListener('resize', rebuild);
+
+  // Show floating ± button when scrolled past header on narrow screens
+  var floatingBtn = document.getElementById('floating-nav-trigger');
+  if (floatingBtn) {
+    var header = document.querySelector('.site-header');
+    window.addEventListener('scroll', function() {
+      if (!header) return;
+      var headerBottom = header.getBoundingClientRect().bottom;
+      var navOpen = document.getElementById('nav-trigger').checked;
+      floatingBtn.classList.toggle('visible', headerBottom < 0 && !navOpen);
+    }, { passive: true });
+
+    // Hide when nav opens
+    document.getElementById('nav-trigger').addEventListener('change', function() {
+      if (this.checked) floatingBtn.classList.remove('visible');
+    });
+  }
 });
 </script>
 {% endif %}

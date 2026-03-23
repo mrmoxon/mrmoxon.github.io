@@ -14,23 +14,32 @@
         </label>
 
         <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <span class="nav-item">[<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>]</span>
-            {%- endif -%}
-          {%- endfor -%}
-
-          <span class="nav-item">[<a class="page-link" href="{{ '/CV.pdf' | relative_url }}" target="_blank">cv</a>]</span>
-
-          <div class="theme-toggle-wrapper">
-            <label class="theme-toggle" for="darkModeToggle">
-              <input type="checkbox" id="darkModeToggle" onclick="toggleDarkMode()" />
-              <span class="slider"></span>
+          <div class="nav-overlay-header">
+            <a class="site-title" href="{{ "/" | relative_url }}"><span class="title-symbol">± </span>{{ site.title | escape }}</a>
+            <label for="nav-trigger" class="nav-overlay-close" aria-label="Close menu">
+              <span>±</span>
             </label>
-            <script>document.getElementById('darkModeToggle').checked = localStorage.getItem('darkMode') === 'dark';</script>
+          </div>
+          <div class="nav-top-row">
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+              <span class="nav-item">[<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>]</span>
+              {%- endif -%}
+            {%- endfor -%}
+
+            <span class="nav-item">[<a class="page-link" href="{{ '/CV.pdf' | relative_url }}" target="_blank">cv</a>]</span>
+
+            <div class="theme-toggle-wrapper">
+              <label class="theme-toggle" for="darkModeToggle">
+                <input type="checkbox" id="darkModeToggle" onclick="toggleDarkMode()" />
+                <span class="slider"></span>
+              </label>
+              <script>document.getElementById('darkModeToggle').checked = localStorage.getItem('darkMode') === 'dark';</script>
+            </div>
           </div>
 
+          <div class="nav-toc-container" id="nav-toc-container"></div>
         </div>
       </nav>
     {%- endif -%}
