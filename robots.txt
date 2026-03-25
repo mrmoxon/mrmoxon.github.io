@@ -3,6 +3,9 @@ User-agent: Twitterbot
 Allow: /
 Sitemap: https://www.oscarmoxon.com/sitemap.xml
 
+# RSS Feed
+# https://www.oscarmoxon.com/feed.xml
+
 User-agent: Googlebot
 Allow: /
 Allow: /*.html$
