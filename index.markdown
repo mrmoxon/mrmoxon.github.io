@@ -4,39 +4,30 @@ layout: page
 
 <div class="central-column">
 
-  <p class="intro">I'm Oscar, researcher and software engineer from Bath, living in San Francisco, personalising intelligence and overseeing product at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>.</p>
+  <p class="intro">I'm Oscar, design engineer based in SF. I make complex systems usable.</p>
+  <div style="margin-top: 1rem;"></div>
+  <p class="intro">I'm a founding engineer at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>, where I lead product and design. Workshop is a neolab building private, personalised language models designed to democratise intelligence.</p>
 
   <h2 class="post-list-heading"><a href="/essays/#list" class="heading-link">[writing]</a></h2>
-  <p>I've been writing for a few years. Here are some of my favourite pieces:</p>
+  <p>Some pieces on augmenting what it means to be human.</p>
 
   <ul class="favourite-essays">
     <li><span class="essay-date">Nov '25,</span> <a href="/civilisation/2025/11/17/earrings.html">A Market of Whispering Earrings</a></li>
     <li><span class="essay-date">Jun '25,</span> <a href="/hierarchies/2025/06/27/clone.html">Build Your Exoskeleton</a></li>
+    <li><span class="essay-date">Feb '25,</span> <a href="/civilisation/2025/02/13/vibe.html">A Society of Rick Rubins</a></li>
     <li><span class="essay-date">Oct '24,</span> <a href="/hierarchies/2024/10/24/emergence.html">Understanding Emergence</a></li>
   </ul>
 
   <h2 class="post-list-heading">[civilisation]</h2>
-  <!-- <div class="civtex-preview-row">
-    <div class="civtex-mock">
-      <div class="mock-line"></div>
-      <div class="mock-line short"></div>
-      <div class="mock-line"></div>
-      <div class="mock-dot"></div>
-    </div>
-    <div class="civtex-description">
-      <p>An interactive timeline exploring technology, ideas, and the forces that shaped human history.</p>
-    </div>
-  </div> -->
-  <p>The tools we build in the next few decades must balance the triple point of paleolithic emotions, medieval institutions, godlike technology, lest we lose control of civilisation.</p>
-
+  <p>Good tools bridge paleolithic emotions, medieval institutions and godlike technology.</p>
+  
   <ul class="beliefs">
-    <li>We should strive to build personal oracles, eager to share their knowledge with our species. Each of us deserves the <a href="https://www.youtube.com/watch?v=lpvzs4xc7zA" class="custom-link">personal presidential cabinet</a>.</li>
-    <li>We are all healthier and happier in the future where we build better systems to minimise the loss between <a href="https://www.nature.com/articles/nrn2787" class="custom-link">expectation and reality</a> in the long-term, so we must choose what is worth creating.</li>
-    <li>The universe is young, and life on Earth is an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a>. What we build now may echo for a billion years.</li>
+    <li>The best tools <a href="https://www.reddit.com/r/askphilosophy/comments/bfjnoh/how_do_you_distinguish_between_readytohand/" class="custom-link">disappear into use</a>. The goal is AI that becomes part of thought, not adjacent to it.</li>
+    <li>Well-intentioned products <a href="https://arxiv.org/pdf/2201.06387" class="custom-link">minimise the gap</a> between a user's model and their environment.</li>
+    <li>Life on Earth is an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a>, land is <a href="https://www.cold-takes.com/this-cant-go-on/" class="custom-link">cheap</a>, and all problems are <a href="https://thedeepdish.org/book-review-the-beginning-of-infinity/" class="custom-link">soluble</a>.</li>
   </ul>
 
   <h2 class="post-list-heading">[art i love]</h2>
-  <p>This website is <a href="https://github.com/mrmoxon/" class="custom-link">open source</a>.</p>
   
   <div class="art-items-single">
     <div class="art-item" data-title="New Atlantis — Francis Bacon">
@@ -112,5 +103,8 @@ layout: page
       <img src="/assets/art/music/thumbs/freedom-for-the-stallion.jpg" alt="Freedom for the Stallion" loading="lazy">
     </div>
   </div>
+
+  <p>This website is <a href="https://github.com/mrmoxon/" class="custom-link">open source</a>.</p>
+
 
 </div>

@@ -33,6 +33,7 @@ group :jekyll_plugins do
 end
 
 gem 'faraday-retry'
+gem "csv"
 gem "webrick", "~> 1.7"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
