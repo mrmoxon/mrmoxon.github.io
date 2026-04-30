@@ -15,18 +15,20 @@ A collection of rabbit holes I've found particularly interesting because they ex
 2. a non-trivial selection gradient, and
 3. clues about some hidden universal assembly function.
 
+![Picbreeder figure](/assets/picbreeder-figure.png){:style="width:70%;"}
+
 ## Picbreeder
 
 *Added: 30 April 2026*
 
-Picbreeder (Secretan, Stanley et al., 2011) is a website where users breed images via aesthetic selection alone -- pick whichever child looks most interesting, no objective specified. Lineages converge on recognisable forms (skulls, butterflies, cars) in 50-100 generations, but the intermediate phenotypes look nothing like the destination: in Stanley's canonical case, the eyes of an evolved alien face became the wheels of a car. Woolley & Stanley (2014) then made the deception sharp -- 20 attempts x 30,000 generations directly optimising for the Skull image couldn't reproduce what users hit in 74 generations. Open-ended novelty selection finds structure that goal-directed search demonstrably cannot.
+Picbreeder is a deceptively simple [website](https://nbenko1.github.io/#/evolve){:target="_blank" rel="noopener noreferrer"} that lets users 'breed' emergent complexity by applying simple covolutions in-series, collectively mapping the space of all possible patterns of a small feedforward neural net. The CPPN (a Compositional Pattern Producing Network) uses basic activations like sine, gaussian, and sigmoid that combine to produce recognisable forms like planets, butterflies, cars and mosques in 50–100 generations, before collapsing into high-entropy homogeneity as the process matures.
 
 <details markdown="1">
 <summary>Resources</summary>
 
-- Secretan et al. (2011), [*Picbreeder: A case study in collaborative evolutionary exploration of design space*](https://direct.mit.edu/evco/article/19/3/373/1349/)
-- Woolley & Stanley (2014), [*Exploring promising stepping stones by combining novelty search with interactive evolution*](https://arxiv.org/abs/1207.6682)
+- Secretan et al. (2011), [*Picbreeder: A case study in collaborative evolutionary exploration of design space*](https://direct.mit.edu/evco/article/19/3/373/1349/){:target="_blank" rel="noopener noreferrer"}
+- Woolley & Stanley (2014), [*Exploring promising stepping stones by combining novelty search with interactive evolution*](https://arxiv.org/abs/1207.6682){:target="_blank" rel="noopener noreferrer"}
 - Lehman & Stanley (2015), *Why Greatness Cannot Be Planned: The Myth of the Objective*
-- Stanley (2007), [*Compositional pattern producing networks*](https://link.springer.com/article/10.1007/s10710-007-9028-8)
+- Stanley (2007), [*Compositional pattern producing networks*](https://link.springer.com/article/10.1007/s10710-007-9028-8){:target="_blank" rel="noopener noreferrer"}
 
 </details>
