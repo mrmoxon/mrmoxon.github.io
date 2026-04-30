@@ -17,6 +17,7 @@ layout: page
     <li><span class="essay-date">Feb '25,</span> <a href="/civilisation/2025/02/13/vibe.html">A Society of Rick Rubins</a></li>
     <li><span class="essay-date">Oct '24,</span> <a href="/hierarchies/2024/10/24/emergence.html">Understanding Emergence</a></li>
   </ul>
+  <p class="background-text">I am building a list of interesting phenomena: <a href="/emergent-phenomena/" class="custom-link">Tractable Emergence</a>.</p>
 
   <h2 class="post-list-heading">[civilisation]</h2>
   <p>Good tools bridge paleolithic emotions, medieval institutions and godlike technology.</p>

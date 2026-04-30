@@ -10,11 +10,11 @@ image: /assets/rickrubin.png
 description: "The roadmap to a society of Rick Rubins."
 ---
 
-The founder of Fog Creek Software once wrote, *"Your first priority as the manager of a software team is building the development abstraction layer."* In a software team, if a programmer is wrestling with a broken chair, is irritated by the heat and a loud office, the abstraction has, in Joel Spolsky's words, "sprung a leak."
+The founder of Fog Creek Software once wrote, *"Your first priority as the manager of a software team is building the development abstraction layer."* In a software team, if a programmer is wrestling with a broken chair or is irritated by the heat and a loud office, the abstraction has, in Joel Spolsky's words, "sprung a leak."
 
 ### The Abstraction Layer
 
-But this principle extends far beyond software development [[1]](#ref-1). *Everyone* deserves an abstraction layer, and arguably, the companies with the *fewest* resources need them most desperately. In other words: employees should be able to focus entirely on what they were hired for. Developers shouldn't be debugging the office HVAC system, and operations shouldn't be battling a patchwork of specialised applications or a one-size-fits-all ERP that fits no one particularly well.
+This principle extends far beyond software development [[1]](#ref-1). *Everyone* deserves an abstraction layer, and arguably, the companies with the *fewest* resources need them most desperately. In other words: employees should be able to do their best work. Developers shouldn't be debugging the office HVAC system, operators shouldn't be stapling spreadsheets by hand, and nobody should be forced to use an ERP that the world moved on and forgot about.
 
 What does the abstraction layer look like, outside the world of a software team?
 

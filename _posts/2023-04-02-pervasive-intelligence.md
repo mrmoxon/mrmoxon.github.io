@@ -152,7 +152,7 @@ Data renewal is important, to keep algorithms moving with the times. If all data
 
 ### Emergent functionality
 
-Unintended latent capabilities may surface during deployment or a product’s lifecycle, potentially causing social harm. Real-life human feedback (RLHF), as employed by GPT and Microsoft Bing, is currently the best defence against such risks, according to Sam Altman, but requires the storage and processing of data, causing Italian policymakers to opt-out [[11]](#ref-11).
+Unintended latent capabilities may surface during deployment or a product’s lifecycle, potentially causing social harm. Reinforcement Learning with Human Feedback (RLHF), as employed by GPT and Microsoft Bing, is currently the best defence against such risks, according to Sam Altman, but requires the storage and processing of data, causing Italian policymakers to opt-out [[11]](#ref-11).
 
 ### Deception
 
