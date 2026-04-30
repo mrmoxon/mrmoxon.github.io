@@ -7,19 +7,21 @@ study: false
 mini: true
 favourite: 0
 permalink: /emergent-phenomena/
+excerpt: "A collection of rabbit holes I've found particularly interesting because they exhibit: (1) generative structure, (2) a non-trivial selection gradient, and (3) clues about some hidden universal assembly function."
 ---
 
-A collection of rabbit holes I've found particularly interesting because they exhibit:
+A collection of rabbit holes that hint at universal assembly functions. Each entry exhibits:
 
-1. generative structure,
-2. a non-trivial selection gradient, and
-3. clues about some hidden universal assembly function.
+1. a compressible generator (small rule-set relative to output expressivity),
+2. a structure-generating gradient that selects for something of interest, and
+3. a signature that recurs across substrates.
 
 ![Picbreeder figure](/assets/picbreeder-figure.png){:style="width:70%;"}
 
 ## Picbreeder
 
 *Added: 30 April 2026*
+{: .entry-added-date }
 
 Picbreeder is a deceptively simple [website](https://nbenko1.github.io/#/evolve){:target="_blank" rel="noopener noreferrer"} that lets users 'breed' emergent complexity by applying simple covolutions in-series, collectively mapping the space of all possible patterns of a small feedforward neural net. The CPPN (a Compositional Pattern Producing Network) uses basic activations like sine, gaussian, and sigmoid that combine to produce recognisable forms like planets, butterflies, cars and mosques in 50–100 generations, before collapsing into high-entropy homogeneity as the process matures.
 

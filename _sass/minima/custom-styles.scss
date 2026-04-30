@@ -66,6 +66,14 @@ article.post {
       text-align: center;
       margin-top: 0.25rem;
     }
+
+    h2:has(+ .entry-added-date) {
+      margin-bottom: 0.25rem;
+    }
+
+    .entry-added-date {
+      margin-top: 0;
+    }
   }
 }
 
@@ -1388,6 +1396,10 @@ b.bold-highlight {
   .post-content h2,
   .post-content h3,
   .post-content h4 {
+    text-align: center;
+  }
+
+  article.post .post-content .entry-added-date {
     text-align: center;
   }
 
