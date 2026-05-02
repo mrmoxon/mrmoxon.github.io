@@ -48,7 +48,12 @@ layout: base
 
   function getSiteName(url) {
     try {
-      const hostname = new URL(url).hostname;
+      const parsedUrl = new URL(url);
+      if (parsedUrl.protocol === 'mailto:') {
+        return decodeURIComponent(parsedUrl.pathname);
+      }
+
+      const hostname = parsedUrl.hostname;
       return hostname.replace(/^www\./, '');
     } catch (e) {
       return url;

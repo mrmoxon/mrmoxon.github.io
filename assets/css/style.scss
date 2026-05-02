@@ -11,13 +11,6 @@
   transition: filter 0.3s ease;
 }
 
-// White in dark mode
-@media (prefers-color-scheme: dark) {
-  .social-links img {
-    filter: brightness(0) invert(1);
-  }
-}
-
 [data-theme="dark"] .social-links img {
   filter: brightness(0) invert(1);
 }

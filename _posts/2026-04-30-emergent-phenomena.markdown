@@ -7,14 +7,35 @@ study: false
 mini: true
 favourite: 0
 permalink: /emergent-phenomena/
-excerpt: "A collection of rabbit holes I've found particularly interesting because they exhibit: (1) generative structure, (2) a non-trivial selection gradient, and (3) clues about some hidden universal assembly function."
+excerpt: "A collection of studies I've found particularly interesting because they exhibit: (1) generative structure, (2) a non-trivial selection gradient, and (3) clues about some hidden universal assembly function."
 ---
 
-A collection of rabbit holes that hint at universal assembly functions. Each entry exhibits:
+A collection of studies that hint at universal assembly functions. Each entry exhibits:
 
-1. a compressible generator (small rule-set relative to output expressivity),
-2. a structure-generating gradient that selects for something of interest, and
-3. a signature that recurs across substrates.
+1. a simple generator that creates rich outputs,
+2. a gradient that selects for interesting structure, and
+3. a pattern that might generalise to other substrates.
+
+Someone ought to do what Conway did for cellular automata (and what AlphaFold did for protein folding) for all disciplines: develop new replicating mediums for civilisation to discover useful expressions within.
+
+![Cellular automata](/assets/cellular-automata.png){:style="width:70%;"}
+
+## Conway's Game of Life
+
+*Added: 2 May 2026*
+{: .entry-added-date }
+
+A 2-state, grid-based cellular automaton following the "B3/S23" ruleset where a dead cell awakens if it has three live neighbours, and a live cell persists if it has two or three live neighbours. Still lifes, oscillators, spaceships (the glider), guns, puffers, and eaters characterfully emerge. Selected by Conway while combing the 262,144 possible rules in the basic Moore neighbourhood as the simplest rule satisfying the three criteria: (1) no obvious unbounded growth, (2) no obvious extinction, and (3) hard-to-predict long-term behavior.
+
+<details markdown="1">
+<summary>Resources</summary>
+
+- Gardner (1970), *Mathematical Games: The fantastic combinations of John Conway's new solitaire game "Life"*
+- LifeWiki, [*Conway's Game of Life*](https://conwaylife.com/wiki/Conway%27s_Game_of_Life){:target="_blank" rel="noopener noreferrer"}
+- LifeWiki, [*Life-like cellular automaton*](https://conwaylife.com/wiki/Life-like_cellular_automaton){:target="_blank" rel="noopener noreferrer"}
+- Scholarpedia, [*Game of Life*](https://www.scholarpedia.org/article/Game_of_Life){:target="_blank" rel="noopener noreferrer"}
+
+</details>
 
 ![Picbreeder figure](/assets/picbreeder-figure.png){:style="width:70%;"}
 

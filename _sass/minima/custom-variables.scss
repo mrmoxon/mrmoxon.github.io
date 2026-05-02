@@ -34,7 +34,22 @@ $dark-site-title: #e8e8e8;
 $dark-bullet: #e8e8e8;
 
 :root {
-  // Light mode defaults
+  // Dark mode defaults
+  --background-color: #{$dark-background};
+  --text-color: #{$dark-text};
+  --link-color: #{$dark-link};
+  --border-color: #{$dark-border};
+  --code-background: #{$dark-code-background};
+  --blockquote-color: #{$dark-blockquote};
+  --brand-color: #{$dark-brand};
+  --recent-essays-bg: #{$dark-recent-essays-bg};
+  --recent-essays-border: #{$dark-recent-essays-border};
+  --site-title-color: #{$dark-site-title};
+  --bullet-color: #{$dark-bullet};
+  --profile-frame-color: rgba(200, 155, 123, 0.28);
+}
+
+[data-theme="light"] {
   --background-color: #{$light-background};
   --text-color: #{$light-text};
   --link-color: #{$light-link};
@@ -46,6 +61,7 @@ $dark-bullet: #e8e8e8;
   --recent-essays-border: #{$light-recent-essays-border};
   --site-title-color: #{$light-site-title};
   --bullet-color: #{$light-bullet};
+  --profile-frame-color: rgba(168, 93, 63, 0.18);
 }
 
 [data-theme="dark"] {
@@ -60,6 +76,7 @@ $dark-bullet: #e8e8e8;
   --recent-essays-border: #{$dark-recent-essays-border};
   --site-title-color: #{$dark-site-title};
   --bullet-color: #{$dark-bullet};
+  --profile-frame-color: rgba(200, 155, 123, 0.28);
 }
 
 // Update existing variables to use CSS custom properties

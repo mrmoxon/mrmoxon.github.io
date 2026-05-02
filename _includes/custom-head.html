@@ -40,7 +40,7 @@
 
 <!-- Dark mode toggle -->
 <script>
-  // Check for saved dark mode preference, otherwise use system preference
+  // Check for saved dark mode preference, otherwise default to dark mode
   (function() {
     var saved = localStorage.getItem('darkMode');
     var theme;
@@ -48,7 +48,7 @@
     if (saved === 'dark' || saved === 'light') {
       theme = saved;
     } else {
-      theme = 'light'; // Default to light mode
+      theme = 'dark';
     }
 
     // Apply theme immediately to prevent flash

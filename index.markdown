@@ -4,12 +4,15 @@ layout: page
 
 <div class="central-column">
 
-  <p class="intro">I'm Oscar, design engineer based in SF. I make complex systems usable.</p>
-  <div style="margin-top: 1rem;"></div>
-  <p class="intro">I'm a founding engineer at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>, where I lead product and design. Workshop is a neolab building private, personalised language models designed to democratise intelligence.</p>
+  <div class="homepage-profile">
+    <img src="/assets/pfp.jpeg" alt="Oscar Moxon" loading="eager">
+  </div>
+
+  <p class="intro">I'm Oscar. I head up product design at <a href="https://www.primeintellect.ai/" class="custom-link">Prime Intellect</a>, where we're building the open intelligence stack for continual learning. Previously I was the founding engineer and product lead at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>, a neolab building user-aligned models to democratise intelligence, acquired in April 2026 by <a href="https://thinkingmachines.ai/" class="custom-link">Thinking Machines Lab</a>. I am working to dramatically extend human agency through the use of technology.</p>
+  <p class="intro intro-contact">I'm based in San Francisco, originally from Bath, England. Get in touch with <a href="mailto:oscar@oscarmoxon.com" class="custom-link">me</a>.</p>
 
   <h2 class="post-list-heading"><a href="/essays/#list" class="heading-link">[writing]</a></h2>
-  <p>Some pieces on augmenting what it means to be human.</p>
+  <p>Some of my pieces on augmenting what it means to be human.</p>
 
   <ul class="favourite-essays">
     <li><span class="essay-date">Nov '25,</span> <a href="/civilisation/2025/11/17/earrings.html">A Market of Whispering Earrings</a></li>
@@ -17,15 +20,16 @@ layout: page
     <li><span class="essay-date">Feb '25,</span> <a href="/civilisation/2025/02/13/vibe.html">A Society of Rick Rubins</a></li>
     <li><span class="essay-date">Oct '24,</span> <a href="/hierarchies/2024/10/24/emergence.html">Understanding Emergence</a></li>
   </ul>
-  <p class="background-text">I am building a list of interesting phenomena: <a href="/emergent-phenomena/" class="custom-link">Tractable Emergence</a>.</p>
+  <p class="background-text">I am currently building a list of interesting phenomena: <a href="/emergent-phenomena/" class="custom-link">Tractable Emergence</a>.</p>
 
-  <h2 class="post-list-heading">[civilisation]</h2>
-  <p>Good tools bridge paleolithic emotions, medieval institutions and godlike technology.</p>
+  <h2 class="post-list-heading">[thoughts on civilisation]</h2>
+  <p class="civilisation-lead">We should attempt to steer humanity towards generative futures.</p>
   
   <ul class="beliefs">
+    <li>Good tools bridge paleolithic emotions, medieval institutions and godlike technology.</li>
     <li>The best tools <a href="https://www.reddit.com/r/askphilosophy/comments/bfjnoh/how_do_you_distinguish_between_readytohand/" class="custom-link">disappear into use</a>. The goal is AI that becomes part of thought, not adjacent to it.</li>
     <li>Well-intentioned products <a href="https://arxiv.org/pdf/2201.06387" class="custom-link">minimise the gap</a> between a user's model and their environment.</li>
-    <li>Life on Earth is an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a>, land is <a href="https://www.cold-takes.com/this-cant-go-on/" class="custom-link">cheap</a>, and all problems are <a href="https://thedeepdish.org/book-review-the-beginning-of-infinity/" class="custom-link">soluble</a>.</li>
+    <li>Life on Earth is an <a href="https://grabbyaliens.com/" class="custom-link">outlier</a>, land is <a href="https://www.cold-takes.com/this-cant-go-on/" class="custom-link">cheap</a>, we are still early, and all problems are <a href="https://thedeepdish.org/book-review-the-beginning-of-infinity/" class="custom-link">soluble</a>.</li>
   </ul>
 
   <h2 class="post-list-heading">[art i love]</h2>

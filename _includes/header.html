@@ -35,7 +35,7 @@
                 <input type="checkbox" id="darkModeToggle" onclick="toggleDarkMode()" />
                 <span class="slider"></span>
               </label>
-              <script>document.getElementById('darkModeToggle').checked = localStorage.getItem('darkMode') === 'dark';</script>
+              <script>document.getElementById('darkModeToggle').checked = (localStorage.getItem('darkMode') || window.__initialTheme || 'dark') === 'dark';</script>
             </div>
           </div>
 
