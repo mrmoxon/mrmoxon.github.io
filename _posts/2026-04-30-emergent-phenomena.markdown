@@ -45,7 +45,7 @@ Broadly, I've broken these studies into four camps:
 
 ![Particle Life](/assets/particle-life.png){:style="width:70%;"}
 
-Particle Life sets a few particle types loose in continuous space and lets each pair of types attract or repel through an asymmetric interaction matrix. The interesting thing is not any one force law, but how small matrices decompress into flocking, membranes, swarms, orbiting clusters, and metastable little ecologies. Najarro's implementation makes the medium inspectable: particle count, types, environments, initial conditions, physics, and the matrix can all be varied, while experiment mode searches over configurations using MAP-Elites archives. The selection pressure is persistence and structure under simple local attraction and repulsion, with the user or search loop deciding which particle worlds are worth preserving.
+Particle Life is closer to Von Neumann's original automata than GoL, and it functions in 3D space. Small matrices decompress into flocking, membranes, swarms, orbiting clusters, and metastable little ecologies. The re-sampling mechanic lets the observer switch vacuum state, which may be something humanity can do, too: [x.com/tsarnick/status/1872766467529437685](https://x.com/tsarnick/status/1872766467529437685?s=20){:target="_blank" rel="noopener noreferrer"}.
 
 <details markdown="1">
 <summary>Resources</summary>
