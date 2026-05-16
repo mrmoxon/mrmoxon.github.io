@@ -38,6 +38,30 @@ Broadly, I've broken these studies into four camps:
 
 <section class="emergence-entry" data-camp="computational-media" markdown="1">
 
+## Particle Life
+
+*Added: 16 May 2026*
+{: .entry-added-date }
+
+![Particle Life](/assets/particle-life.png){:style="width:70%;"}
+
+Particle Life sets a few particle types loose in continuous space and lets each pair of types attract or repel through an asymmetric interaction matrix. The interesting thing is not any one force law, but how small matrices decompress into flocking, membranes, swarms, orbiting clusters, and metastable little ecologies. Najarro's implementation makes the medium inspectable: particle count, types, environments, initial conditions, physics, and the matrix can all be varied, while experiment mode searches over configurations using MAP-Elites archives. The selection pressure is persistence and structure under simple local attraction and repulsion, with the user or search loop deciding which particle worlds are worth preserving.
+
+<details markdown="1">
+<summary>Resources</summary>
+
+- Najarro, [*Particle Life*](https://najarro.science/pl/){:target="_blank" rel="noopener noreferrer"}
+- Ventrella, [*Clusters*](https://www.ventrella.com/Clusters/){:target="_blank" rel="noopener noreferrer"}
+- ciphrd, [*Atomic Clusters: A Molecular Particle-Based Simulation*](https://ciphrd.com/articles/atomic-clusters-a-molecular-particle-based-simulation/){:target="_blank" rel="noopener noreferrer"}
+- Mohr, [*Particle Life*](https://www.youtube.com/watch?v=p4YirERTVF0){:target="_blank" rel="noopener noreferrer"}
+- Lisitsa, [*Particle Life simulation in browser using WebGPU*](https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html){:target="_blank" rel="noopener noreferrer"}
+
+</details>
+
+</section>
+
+<section class="emergence-entry" data-camp="computational-media" markdown="1">
+
 ## Hypergraphs (2020)
 
 *Added: 3 May 2026*
