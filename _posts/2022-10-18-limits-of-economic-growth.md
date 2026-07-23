@@ -2,7 +2,7 @@
 layout: post
 title:  "Limits of Economic Growth"
 date:   2022-10-18 05:39:31 +0000
-categories: economics
+categories: civilisation
 study: false
 mini: true
 favourite: 5.5

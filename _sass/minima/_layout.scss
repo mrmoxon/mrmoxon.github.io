@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $border-color-03;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -51,55 +50,63 @@ b {
   text-align: right;
   z-index: 100;
 
-  .nav-trigger {
-    display: none;
-  }
-
   .menu-icon {
-    float: right;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    text-align: center;
-    z-index: 1002;
+    display: block;
+    width: auto;
+    height: auto;
+    font-family: $base-font-family;
     font-size: 1.8rem;
     font-weight: 300;
+    line-height: 1;
     color: var(--text-color);
-    font-family: $base-font-family;
   }
 
-  label[for="nav-trigger"] {
-    display: block;
-    float: right;
+  .nav-menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 36px;
     height: 36px;
+    padding: 0;
+    color: var(--text-color);
+    background: transparent;
+    border: 0;
+    border-radius: 4px;
     z-index: 1002;
-    cursor: pointer;
+
+    &:hover {
+      background: color-mix(in srgb, currentColor 8%, transparent);
+    }
+
+    &:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
   }
 
-  input ~ .trigger {
+  .trigger {
     display: none;
   }
 
-  // Hide original ± and site title when overlay is open — the overlay has its own
-  input:checked ~ label[for="nav-trigger"] {
-    display: none !important;
-  }
-
-  // Full-screen mobile menu
-  input:checked ~ .trigger {
+  // Edge-to-edge mobile menu layer.
+  .trigger.is-open {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: stretch;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100vw;
+    inset: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
     height: 100vh;
+    height: 100dvh;
+    max-height: none;
+    overflow: hidden;
+    right: 0;
     background-color: var(--background-color);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
     z-index: 1001;
     padding: 0;
     margin: 0;
@@ -153,7 +160,7 @@ b {
     border: none;
     background-color: inherit;
 
-    label[for="nav-trigger"] {
+    .nav-menu-button {
       display: none;
     }
 
@@ -161,13 +168,19 @@ b {
       display: none;
     }
 
-    input ~ .trigger,
-    input:checked ~ .trigger {
+    .trigger,
+    .trigger.is-open {
       display: block;
       position: static;
       width: auto;
       height: auto;
+      max-height: none;
+      overflow: visible;
       background-color: inherit;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0;
       z-index: auto;
     }
 
@@ -213,7 +226,8 @@ b {
     }
   }
 
-  .menu-icon {
+  .menu-icon,
+  .nav-menu-button {
     color: #c89b7b;
   }
 }

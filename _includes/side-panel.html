@@ -1,7 +1,15 @@
 {% if page.layout == 'post' %}
 
-<!-- Floating ± button for narrow screens -->
-<label for="nav-trigger" class="floating-nav-trigger" id="floating-nav-trigger" aria-label="Open menu">±</label>
+<!-- Floating menu button for narrow screens -->
+<button
+  type="button"
+  class="floating-nav-trigger"
+  id="floating-nav-trigger"
+  aria-label="Open menu"
+  aria-expanded="false"
+  aria-controls="site-menu">
+  <span aria-hidden="true">±</span>
+</button>
 
 <!-- Blog TOC Sidebar (desktop ≥1001px) -->
 <nav class="blog-toc-sidebar" id="blog-toc-sidebar" aria-label="Table of contents">
@@ -202,9 +210,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var y = el.offsetTop - SCROLL_TO_OFFSET;
     window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
     if (closeNav) {
-      // Uncheck the nav trigger to close the ± menu
-      var navTrigger = document.getElementById('nav-trigger');
-      if (navTrigger) navTrigger.checked = false;
+      if (window.closeSiteNav) window.closeSiteNav(false);
     }
   }
 
@@ -352,12 +358,13 @@ document.addEventListener('DOMContentLoaded', function() {
   sidebarEl.style.opacity = '0';
   sidebarEl.style.transition = 'opacity 0.3s ease';
 
-  var overlayRefs = null;
+  var overlayButtons = [];
 
   function buildOverlayList() {
     var container = document.getElementById('nav-toc-container');
     if (!container) return;
     container.innerHTML = '';
+    overlayButtons = [];
 
     // Reading time
     var timeP = document.createElement('p');
@@ -365,38 +372,35 @@ document.addEventListener('DOMContentLoaded', function() {
     timeP.textContent = readingTime + ' min read';
     container.appendChild(timeP);
 
-    // Track wrapper (same style as sidebar)
-    var trackWrap = document.createElement('div');
-    trackWrap.className = 'blog-toc-track nav-toc-track';
-    trackWrap.style.cssText = 'position:relative;height:100%;padding-left:16px;';
+    var list = document.createElement('div');
+    list.className = 'nav-toc-list';
 
-    var thumb = document.createElement('div');
-    thumb.className = 'blog-toc-thumb';
-    trackWrap.appendChild(thumb);
-
-    container.appendChild(trackWrap);
-
-    var trackHeight = trackWrap.clientHeight || 400;
-    var layout = computeLayout(rawSections, trackHeight);
-    overlayRefs = renderTrack(trackWrap, thumb, layout, 'overlay');
-
-    // Recompute after layout settles
-    setTimeout(function() {
-      trackHeight = trackWrap.clientHeight || 400;
-      layout = computeLayout(rawSections, trackHeight);
-      // Clear and re-render
-      Array.from(trackWrap.children).forEach(function(child) {
-        if (!child.classList.contains('blog-toc-thumb')) trackWrap.removeChild(child);
+    function addItem(heading, level) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'nav-toc-list-item nav-toc-list-item-' + level;
+      button.textContent = heading.text;
+      button.dataset.target = heading.id;
+      button.addEventListener('click', function() {
+        scrollToHeading(heading.id, true);
       });
-      overlayRefs = renderTrack(trackWrap, thumb, layout, 'overlay');
-    }, 100);
+      list.appendChild(button);
+      overlayButtons.push(button);
+    }
+
+    rawSections.forEach(function(section) {
+      addItem(section.h2, 'h2');
+      section.children.forEach(function(child) {
+        addItem(child.heading, 'h3');
+      });
+    });
+
+    container.appendChild(list);
   }
 
   function rebuild() {
     var sidebarTrack = document.getElementById('blog-toc-track');
-    var overlayTrack = document.getElementById('blog-toc-overlay-track');
     var sidebarThumb = document.getElementById('blog-toc-thumb');
-    var overlayThumb = document.getElementById('blog-toc-overlay-thumb');
 
     var sidebarHeight = sidebarTrack ? sidebarTrack.clientHeight : 600;
 
@@ -488,12 +492,9 @@ document.addEventListener('DOMContentLoaded', function() {
       updateActive(sidebarRefs, activeId, thumbTop);
     }
 
-    // Update overlay track
-    if (overlayRefs) {
-      overlayRefs.thumb.style.top = thumbTop + '%';
-      overlayRefs.thumb.style.height = thumbHeight + '%';
-      updateActive(overlayRefs, activeId, thumbTop);
-    }
+    overlayButtons.forEach(function(button) {
+      button.classList.toggle('active', button.dataset.target === activeId);
+    });
   }
 
   // Collapse toggle
@@ -527,14 +528,11 @@ document.addEventListener('DOMContentLoaded', function() {
       var headerBottom = header.getBoundingClientRect().bottom;
       var footerTop = document.querySelector('.site-footer');
       var footerVisible = footerTop && footerTop.getBoundingClientRect().top < window.innerHeight;
-      var navOpen = document.getElementById('nav-trigger').checked;
+      var menuButton = document.getElementById('nav-menu-button');
+      var navOpen = menuButton && menuButton.getAttribute('aria-expanded') === 'true';
       floatingBtn.classList.toggle('visible', headerBottom < 0 && !footerVisible && !navOpen);
     }, { passive: true });
 
-    // Hide when nav opens
-    document.getElementById('nav-trigger').addEventListener('change', function() {
-      if (this.checked) floatingBtn.classList.remove('visible');
-    });
   }
 });
 </script>

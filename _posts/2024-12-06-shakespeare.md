@@ -7,24 +7,22 @@ study: false
 mini: true
 favourite: 6
 image: /assets/bacon-shakespeare.png
-description: "A repository of evidence that "William Shake-speare" was instead the literary arm of Francis Bacon and his writing practice."
+description: 'A repository of evidence that "William Shake-speare" was instead the literary arm of Francis Bacon and his writing practice.'
 ---
 
 A repository of evidence that “William Shake-speare” was instead the literary arm of Francis Bacon and his writing practice.
 
-> Francis Bacon (1561–1626)  
-
-> Shakespeare works: anonymous (1591–1598); named (1598–1623)  
-
-> William Shakspur of Stratford-upon-Avon (1564–1616)
+- Francis Bacon (1561–1626)
+- Shakespeare works: anonymous (1591–1598); named (1598–1623)
+- William Shakspur of Stratford-upon-Avon (1564–1616)
 
 ## Argument One: William Shakspur Never Wrote A Thing
 
-The reason there are authorship theories is because the historical evidence linking 38 masterpieces to William Shakspur man from Stratford-upon-Avon is powerfully sparse, and Shakespeare's biographies are unusually contrived.
+From the Anti-Stratfordian standpoint, authorship theories exist because the historical evidence linking 38 masterpieces to William Shakspur, a man from Stratford-upon-Avon, is powerfully sparse, and Shakespeare's biographies are unusually contrived.
 
 ### The Missing Evidence
 
-Biographies are traditionally based on records of existence: private letters, manuscripts, diaries, ownership deeds, administrations, other people's accounts. In one study, of the 23 next-most-well-known writers in London in the 1590s and 1600s, records exist that describe each of them as writers, plus, handwritten material survived for 15 of them, receipts of payment for writing services exist for 14 of them, private letters exist for 13 of them, and 11 have original manuscripts of their work still intact. Shakespeare has none of these. [1]
+Biographies are traditionally based on records of existence: private letters, manuscripts, diaries, ownership deeds, administrations, other people's accounts. In one study, of the 24 next-most-well-known writers in London in the 1590s and 1600s, records exist that describe each of them as writers, plus, handwritten literary material survived for 15 of them, evidence of payment for writing exists for 14 of them, letters survive for 14 of them, and 11 have original manuscripts of their work still intact. Shakespeare has none of these.<sup><a href="#ref-1">[1]</a></sup>
 
 For reference, *Voltaire*, a playwright who lived in the same century, left 20,000 private letters upon his death. Even Ben Jonson, the next most influential writer from the time, cited by historians as Shakespeare's closest friend and eye witness, left hundreds of private letters, receipts of payment of writing, original manuscripts, handwritten material, and miscellaneous records with reference to his profession.
 
@@ -161,14 +159,20 @@ The book also had a highly unusual structure — with its frame narrative, unrel
 
 ---
 
+<div class="bibliography-section" markdown="1">
+
 # Bibliography
 
-[1] ![Reference 1](/assets/bacon-shakespare-1.png)
+[1]<a id="ref-1"></a> Joel Dias-Porter, ["An Enquiry into the Authorship of the Works of William Shakespeare"](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/diasporter.pdf) (2003), pp. 5–6.
 
-["One study on 1600 poets and playwrights."](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/diasporter.pdf)
+Dias-Porter reproduces a comparative table from Diana Price's *Shakespeare's Unorthodox Biography* (Greenwood Press, 2001). It compares William Shakspere with 24 other writers of the same era across five kinds of surviving literary documentation: letters, evidence of payment for writing, original manuscripts, miscellaneous records identifying the subject as a writer, and handwritten material concerning literary matters. Every comparison writer has evidence in at least one category; Shakspere is the only entry marked with none in all five.
+
+![Comparison of surviving literary documentation for William Shakspere and 24 contemporary writers](/assets/bacon-shakespare-1.png)
 
 ---
 
 ![Shakespeare and Francis Bacon - Grok and Gimp.](/assets/bacon-shakespeare.png)
 <br>
-*Shakespeare and Francis Bacon with Grok assist*
+*A rather haunting image of Shakespeare and Bacon made with Grok and Photoshop*
+
+</div>

@@ -39,6 +39,7 @@ layout: base
       <button class="filter-btn" data-filter="brains">brains</button>
       <button class="filter-btn" data-filter="hierarchies">hierarchies</button>
       <button class="filter-btn" data-filter="longevity">longevity</button>
+      <button class="filter-btn" data-filter="market-failure">market failure</button>
     </div>
     <div class="filter-buttons" id="hide-toggle">
       <button class="filter-btn" data-hide="true">hide</button>
@@ -263,7 +264,7 @@ const filterState = {
   selectedCategories: new Set(['all']),
   currentSort: 'newest',
   hideUnselected: false,
-  allCategories: ['civilisation', 'brains', 'hierarchies', 'longevity'],
+  allCategories: ['civilisation', 'brains', 'hierarchies', 'longevity', 'market-failure'],
   allTypes: ['essay', 'mini', 'study']
 };
 

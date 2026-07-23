@@ -38,24 +38,37 @@
 <meta name="twitter:image:height" content="600" />
 {% endif %}
 
-<!-- Dark mode toggle -->
+<!-- Theme toggle -->
 <script>
-  // Check for saved dark mode preference, otherwise default to dark mode
+  // Use a saved preference when present; otherwise follow the system theme.
   (function() {
     var saved = localStorage.getItem('darkMode');
-    var theme;
-
-    if (saved === 'dark' || saved === 'light') {
-      theme = saved;
-    } else {
-      theme = 'dark';
-    }
+    var systemTheme = window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light';
+    var theme = saved === 'dark' || saved === 'light' ? saved : systemTheme;
 
     // Apply theme immediately to prevent flash
     document.documentElement.setAttribute('data-theme', theme);
 
     // Store the theme for use in DOMContentLoaded
     window.__initialTheme = theme;
+
+    // Keep following system changes until the visitor makes a manual choice.
+    if (window.matchMedia) {
+      var systemThemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      systemThemeQuery.addEventListener('change', function(event) {
+        if (localStorage.getItem('darkMode') !== null) return;
+
+        var updatedTheme = event.matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', updatedTheme);
+        window.__initialTheme = updatedTheme;
+
+        var checkbox = document.getElementById('darkModeToggle');
+        if (checkbox) checkbox.checked = event.matches;
+      });
+    }
   })();
 
   // Set initial checkbox state after DOM loads

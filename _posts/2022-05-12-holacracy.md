@@ -7,7 +7,7 @@ study: true
 mini: false
 favourite: 5
 image: /assets/zappos.png
-description: "Analysis of Holacracy and leadership through the lens of Tony Hsieh and the "Zappos family" in the growth and success of online retailer Zappos."
+description: 'Analysis of Holacracy and leadership through the lens of Tony Hsieh and the "Zappos family" in the growth and success of online retailer Zappos.'
 # featured: false
 # recommended: false
 ---

@@ -9,7 +9,7 @@ layout: base
     <div class="post-meta-row">
       {%- if page.categories -%}
         {%- assign cat = page.categories | first | downcase -%}
-        <a href="/essays/?category={{ cat }}&view=list&hide=true" class="post-category" itemprop="articleSection">{{ page.categories | first }}</a>
+        <a href="/essays/?category={{ cat }}&view=list&hide=true" class="post-category" itemprop="articleSection">{{ page.categories | first | replace: "-", " " }}</a>
         <span class="meta-separator">·</span>
       {%- endif -%}
       <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">

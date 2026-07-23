@@ -2,7 +2,7 @@
 layout: post
 title:  "Post-Mortem Of The Mini-Budget"
 date:   2022-10-12 05:39:31 +0000
-categories: economics
+categories: market-failure
 study: false
 mini: true
 favourite: 5
