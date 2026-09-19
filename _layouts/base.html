@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
 
-  <body>
-    {%- include side-panel.html -%}
-
-    {%- include header.html -%}
+  <body class="{% if page.url == '/' %}personal-home{% else %}personal-page{% endif %}">
+    <header class="simple-header">
+      <h1 class="personal-name"><a href="{{ '/' | relative_url }}">Oscar Moxon</a></h1>
+      {% if page.url == '/' %}
+      <a class="header-page-link" href="{{ '/writing/' | relative_url }}">Writing</a>
+      {% elsif page.layout != 'post' %}
+      <a class="header-page-link" href="{{ '/' | relative_url }}">About</a>
+      {% endif %}
+    </header>
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">

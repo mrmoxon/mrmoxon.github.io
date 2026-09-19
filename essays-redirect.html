@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /essays/
+sitemap: false
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Writing</title>
+  <link rel="canonical" href="{{ '/writing/' | absolute_url }}">
+  <script>
+    const target = new URL({{ '/writing/' | relative_url | jsonify }}, location.origin);
+    const params = new URLSearchParams(location.search);
+    if (params.has('category')) target.searchParams.set('category', params.get('category'));
+    if (['#grid', '#masonry'].includes(location.hash) || ['grid', 'masonry'].includes(params.get('view'))) target.hash = 'grid';
+    location.replace(target.href);
+  </script>
+  <noscript><meta http-equiv="refresh" content="0;url={{ '/writing/' | relative_url }}"></noscript>
+</head>
+<body><a href="{{ '/writing/' | relative_url }}">Writing</a></body>
+</html>

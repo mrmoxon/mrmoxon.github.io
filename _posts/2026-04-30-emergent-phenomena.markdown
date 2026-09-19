@@ -7,6 +7,7 @@ study: false
 mini: true
 favourite: 0
 permalink: /emergent-phenomena/
+standalone: true
 excerpt: "A collection of studies I've found particularly interesting because they exhibit: (1) generative structure, (2) a non-trivial selection gradient, and (3) clues about some hidden universal assembly function."
 ---
 

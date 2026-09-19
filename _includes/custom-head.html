@@ -73,6 +73,9 @@
 
   // Set initial checkbox state after DOM loads
   window.addEventListener('DOMContentLoaded', function() {
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() { document.documentElement.classList.add('theme-ready'); });
+    });
     var checkbox = document.getElementById('darkModeToggle');
     if (checkbox) {
       checkbox.checked = window.__initialTheme === 'dark';
@@ -81,7 +84,8 @@
 
   function toggleDarkMode() {
     var checkbox = document.getElementById('darkModeToggle');
-    var newTheme = checkbox.checked ? 'dark' : 'light';
+    var isDark = checkbox ? checkbox.checked : document.documentElement.dataset.theme !== 'dark';
+    var newTheme = isDark ? 'dark' : 'light';
 
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('darkMode', newTheme);

@@ -8,31 +8,39 @@ layout: base
   <div class="home-layout">
     <div class="home-main">
 
-  {%- assign all_posts = site.posts -%}
+  {%- assign all_posts = site.posts | where_exp: "post", "post.standalone != true" -%}
 
 <!-- Section for Writing -->
 {%- if all_posts.size > 0 -%}
 <div class="section-header">
-  <h2 class="post-list-heading">[writing]</h2>
-  <button class="view-toggle" onclick="toggleView()" aria-label="Toggle view">
-    ▣
+  <nav class="personal-tabs writing-filter-tabs" role="tablist" aria-label="Writing filters">
+    <button type="button" role="tab" id="writing-filter-tab" aria-controls="writing-filter-panel" aria-selected="true">Writing</button>
+    <button type="button" role="tab" id="categories-filter-tab" aria-controls="categories-filter-panel" aria-selected="false" tabindex="-1">Categories</button>
+  </nav>
+  <div class="writing-view-controls">
+  <button class="view-toggle" onclick="toggleView()" aria-label="Switch to grid view" title="Switch to grid view" data-view="list">
+    <!-- Lucide layout-grid and menu, ISC license. -->
+    <svg class="view-grid-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1" /><rect x="14" y="3" width="7" height="7" rx="1" /><rect x="3" y="14" width="7" height="7" rx="1" /><rect x="14" y="14" width="7" height="7" rx="1" /></svg>
+    <svg class="view-list-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13" /><circle cx="3" cy="6" r="1" fill="currentColor" stroke="none" /><circle cx="3" cy="12" r="1" fill="currentColor" stroke="none" /><circle cx="3" cy="18" r="1" fill="currentColor" stroke="none" /></svg>
   </button>
+  </div>
 </div>
 
 <!-- Filter and Sort Controls -->
 <div class="essay-filters">
-  <div class="filter-row">
+  <div class="filter-row" id="writing-filter-panel" role="tabpanel" aria-labelledby="writing-filter-tab">
     <div class="filter-buttons" id="type-filters">
-      <button class="filter-btn active" data-type="essay">essays</button>
-      <button class="filter-btn active" data-type="mini">mini</button>
-      <button class="filter-btn" data-type="study">studies</button>
+      <button class="filter-btn" data-type="all" aria-pressed="false">all</button>
+      <button class="filter-btn active" data-type="essay" aria-pressed="true">writing</button>
+      <button class="filter-btn active" data-type="mini" aria-pressed="true">mini</button>
+      <button class="filter-btn" data-type="study" aria-pressed="false">studies</button>
     </div>
     <div class="filter-buttons" id="sort-buttons">
-      <button class="filter-btn active" data-sort="newest">newest</button>
-      <button class="filter-btn" data-sort="favourite">favourites</button>
+      <button class="filter-btn active" data-sort="newest">latest</button>
+      <button class="filter-btn" data-sort="favourite">recommended</button>
     </div>
   </div>
-  <div class="filter-row">
+  <div class="filter-row" id="categories-filter-panel" role="tabpanel" aria-labelledby="categories-filter-tab" hidden>
     <div class="filter-buttons" id="category-filters">
       <button class="filter-btn active" data-filter="all">all</button>
       <button class="filter-btn" data-filter="civilisation">civilisation</button>
@@ -40,9 +48,6 @@ layout: base
       <button class="filter-btn" data-filter="hierarchies">hierarchies</button>
       <button class="filter-btn" data-filter="longevity">longevity</button>
       <button class="filter-btn" data-filter="market-failure">market failure</button>
-    </div>
-    <div class="filter-buttons" id="hide-toggle">
-      <button class="filter-btn" data-hide="true">hide</button>
     </div>
   </div>
 </div>
@@ -64,7 +69,7 @@ layout: base
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
         <div class="post-meta-wrapper">
-          <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
+          <button class="post-meta excerpt-date" type="button" aria-expanded="false" title="Toggle description">{{ post.date | date: "%b %Y" }}</button>
           <button class="excerpt-toggle" aria-label="Show excerpt" aria-expanded="false">
             <svg class="toggle-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="horizontal" d="M2 7H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
@@ -129,141 +134,13 @@ layout: base
   {%- endfor -%}
 </template>
 
-<!-- Initialize React component -->
-<!-- <script>
-  function getColumnHeight(column) {
-    return Array.from(column.children).reduce((height, child) => {
-      return height + child.offsetHeight + 24; // 24px is the gap (1.5rem)
-    }, 0);
-  }
-  
-  function arrangeCards() {
-    const template = document.getElementById('essay-card-template');
-    const leftColumn = document.getElementById('left-column');
-    const rightColumn = document.getElementById('right-column');
-    
-    // Clear columns
-    leftColumn.innerHTML = '';
-    rightColumn.innerHTML = '';
-    
-    // Get all cards and convert template content to actual elements
-    const tempContainer = document.createElement('div');
-    tempContainer.innerHTML = template.innerHTML;
-    const cards = Array.from(tempContainer.children);
-    
-    // Sort cards by date (most recent first)
-    cards.sort((a, b) => {
-      return parseInt(b.dataset.date) - parseInt(a.dataset.date);
-    });
-    
-    // Place each card
-    cards.forEach((card, index) => {
-      const cardClone = card.cloneNode(true);
-      
-      if (index === 0) {
-        // First card always goes in left column
-        leftColumn.appendChild(cardClone);
-      } else if (index === 1) {
-        // Second card always goes in right column
-        rightColumn.appendChild(cardClone);
-      } else {
-        // Get current heights including gaps
-        const leftHeight = getColumnHeight(leftColumn);
-        const rightHeight = getColumnHeight(rightColumn);
-        
-        // Add to shorter column
-        if (leftHeight <= rightHeight) {
-          leftColumn.appendChild(cardClone);
-        } else {
-          rightColumn.appendChild(cardClone);
-        }
-      }
-    });
-  }
-  
-  // Run after images load and initial render
-  function initializeGrid() {
-    if (!document.getElementById('essays-grid').classList.contains('hidden')) {
-      arrangeCards();
-    }
-  }
-  
-  document.addEventListener('DOMContentLoaded', () => {
-    initializeGrid();
-    
-    // Watch for image loads
-    const images = document.querySelectorAll('#essays-grid img');
-    let loadedImages = 0;
-    
-    images.forEach(img => {
-      if (img.complete) {
-        loadedImages++;
-      } else {
-        img.addEventListener('load', () => {
-          loadedImages++;
-          if (loadedImages === images.length) {
-            arrangeCards();
-          }
-        });
-      }
-    });
-  });
-  
-  // Handle resize events
-  let resizeTimer;
-  window.addEventListener('resize', () => {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(() => {
-      if (!document.getElementById('essays-grid').classList.contains('hidden')) {
-        arrangeCards();
-      }
-    }, 100);
-  });
-  
-  // Toggle view function
-  function toggleView() {
-    const list = document.getElementById('essays-list');
-    const grid = document.getElementById('essays-grid');
-    const button = document.querySelector('.view-toggle');
-    
-    if (list.classList.contains('hidden')) {
-      list.classList.remove('hidden');
-      grid.classList.add('hidden');
-      button.textContent = '▣';
-    } else {
-      list.classList.add('hidden');
-      grid.classList.remove('hidden');
-      button.textContent = '▤';
-      arrangeCards();
-    }
-    
-    localStorage.setItem('essayViewMode', list.classList.contains('hidden') ? 'grid' : 'list');
-  }
-  
-  // Initialize view based on stored preference
-  document.addEventListener('DOMContentLoaded', function() {
-    const storedView = localStorage.getItem('essayViewMode');
-    if (storedView === 'grid') {
-      const list = document.getElementById('essays-list');
-      const grid = document.getElementById('essays-grid');
-      const button = document.querySelector('.view-toggle');
-      
-      list.classList.add('hidden');
-      grid.classList.remove('hidden');
-      button.textContent = '▤';
-      arrangeCards();
-    }
-  });
-  </script>
-   -->
-
 <script>
+
 // Global filter state
 const filterState = {
   selectedTypes: new Set(['essay', 'mini']),
-  selectedCategories: new Set(['all']),
+  selectedCategories: new Set(['civilisation', 'brains', 'hierarchies', 'longevity', 'market-failure']),
   currentSort: 'newest',
-  hideUnselected: false,
   allCategories: ['civilisation', 'brains', 'hierarchies', 'longevity', 'market-failure'],
   allTypes: ['essay', 'mini', 'study']
 };
@@ -277,8 +154,6 @@ function getColumnHeight(column) {
 
 // Sort function shared by list and grid
 function sortItems(items) {
-  const showAll = filterState.selectedCategories.has('all');
-
   // Primary sort
   items.sort((a, b) => {
     if (filterState.currentSort === 'favourite') {
@@ -291,25 +166,6 @@ function sortItems(items) {
     }
   });
 
-  // Category priority sort
-  if (!showAll) {
-    items.sort((a, b) => {
-      const aMatch = filterState.selectedCategories.has(a.dataset.category);
-      const bMatch = filterState.selectedCategories.has(b.dataset.category);
-      if (aMatch && !bMatch) return -1;
-      if (!aMatch && bMatch) return 1;
-
-      if (filterState.currentSort === 'favourite') {
-        const favA = parseFloat(a.dataset.favourite) || 0;
-        const favB = parseFloat(b.dataset.favourite) || 0;
-        if (favA !== favB) return favB - favA;
-        return parseInt(b.dataset.date) - parseInt(a.dataset.date);
-      } else {
-        return parseInt(b.dataset.date) - parseInt(a.dataset.date);
-      }
-    });
-  }
-
   return items;
 }
 
@@ -320,7 +176,7 @@ function shouldDimByType(item) {
 
 // Check if item should be dimmed (category filter)
 function shouldDim(item) {
-  const showAll = filterState.selectedCategories.has('all');
+  const showAll = filterState.allCategories.every(category => filterState.selectedCategories.has(category));
   return !showAll && !filterState.selectedCategories.has(item.dataset.category);
 }
 
@@ -352,14 +208,9 @@ function arrangeCards() {
   cards.forEach((card, index) => {
     const shouldFilter = shouldDimByType(card) || shouldDim(card);
 
-    // If hide mode is active and item should be filtered, skip it entirely
-    if (filterState.hideUnselected && shouldFilter) {
-      return;
-    }
-
     const cardClone = card.cloneNode(true);
 
-    // Apply dimming for type or category (only when not hiding)
+    // Keep every card in place and dim unselected items.
     if (shouldFilter) {
       cardClone.classList.add('dimmed');
     }
@@ -394,18 +245,8 @@ function applyListFilters() {
 
     const shouldFilter = shouldDimByType(post) || shouldDim(post);
 
-    if (filterState.hideUnselected && shouldFilter) {
-      // Hide mode: completely hide unselected items
-      post.classList.add('hidden');
-      post.classList.remove('dimmed');
-    } else if (shouldFilter) {
-      // Dim mode: show but dimmed
-      post.classList.remove('hidden');
-      post.classList.add('dimmed');
-    } else {
-      post.classList.remove('hidden');
-      post.classList.remove('dimmed');
-    }
+    post.classList.remove('hidden');
+    post.classList.toggle('dimmed', shouldFilter);
   });
 }
 
@@ -414,30 +255,40 @@ function applyFilters() {
   applyListFilters();
   const grid = document.getElementById('essays-grid');
   if (grid && !grid.classList.contains('hidden')) {
-    arrangeCards();
+    grid.querySelectorAll('.essay-card').forEach(card => {
+      card.classList.toggle('dimmed', shouldDimByType(card) || shouldDim(card));
+    });
   }
 }
 
 // Set view mode
-function setViewMode(mode) {
+function setViewMode(mode, updateUrl = true) {
+  mode = mode === 'grid' || mode === 'masonry' ? 'masonry' : 'list';
+  document.documentElement.classList.toggle('writing-grid', mode === 'masonry');
   const list = document.getElementById('essays-list');
   const grid = document.getElementById('essays-grid');
   const button = document.querySelector('.view-toggle');
+  button.dataset.view = mode;
+  const label = mode === 'masonry' ? 'Switch to list view' : 'Switch to grid view';
+  button.setAttribute('aria-label', label);
+  button.title = label;
 
   if (mode === 'masonry') {
     list.classList.add('hidden');
     grid.classList.remove('hidden');
-    button.textContent = '▤';
     arrangeCards();
-    window.location.hash = 'masonry';
   } else {
     list.classList.remove('hidden');
     grid.classList.add('hidden');
-    button.textContent = '▣';
-    window.location.hash = 'list';
   }
 
-  localStorage.setItem('essayViewMode', mode);
+  if (updateUrl) {
+    const url = new URL(location.href);
+    url.hash = mode === 'masonry' ? 'grid' : '';
+    url.searchParams.delete('view');
+    url.searchParams.delete('hide');
+    history.replaceState(history.state, '', url);
+  }
 }
 
 // Toggle view function
@@ -450,9 +301,7 @@ function toggleView() {
 // Handle URL hash changes
 function handleHashChange() {
   const hash = window.location.hash.slice(1);
-  if (hash === 'masonry' || hash === 'list') {
-    setViewMode(hash);
-  }
+  setViewMode(hash === 'grid' || hash === 'masonry' ? 'masonry' : 'list');
 }
 
 // Update category button states
@@ -460,24 +309,39 @@ function updateCategoryButtons() {
   const categoryFilters = document.querySelectorAll('#category-filters .filter-btn');
   const allIndividualSelected = filterState.allCategories.every(cat => filterState.selectedCategories.has(cat));
 
-  if (allIndividualSelected && !filterState.selectedCategories.has('all')) {
-    filterState.selectedCategories.clear();
-    filterState.selectedCategories.add('all');
-  }
-
   categoryFilters.forEach(btn => {
     const filter = btn.dataset.filter;
-    if (filterState.selectedCategories.has(filter)) {
-      btn.classList.add('active');
-    } else {
-      btn.classList.remove('active');
-    }
+    const selected = filter === 'all' ? allIndividualSelected : filterState.selectedCategories.has(filter);
+    btn.classList.toggle('active', selected);
+    btn.setAttribute('aria-pressed', String(selected));
   });
 }
 
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
   // Check for URL parameters
+  const filterTabs = Array.from(document.querySelectorAll('.writing-filter-tabs [role="tab"]'));
+  function selectFilterTab(tab) {
+    filterTabs.forEach(item => {
+      const selected = item === tab;
+      item.setAttribute('aria-selected', String(selected));
+      item.tabIndex = selected ? 0 : -1;
+      document.getElementById(item.getAttribute('aria-controls')).hidden = !selected;
+    });
+  }
+  filterTabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => selectFilterTab(tab));
+    tab.addEventListener('keydown', event => {
+      let next;
+      if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') next = 1 - index;
+      if (event.key === 'Home') next = 0;
+      if (event.key === 'End') next = filterTabs.length - 1;
+      if (next === undefined) return;
+      event.preventDefault();
+      selectFilterTab(filterTabs[next]);
+      filterTabs[next].focus();
+    });
+  });
   const urlParams = new URLSearchParams(window.location.search);
 
   // Category filter from URL
@@ -485,59 +349,30 @@ document.addEventListener('DOMContentLoaded', function() {
   if (categoryParam && filterState.allCategories.includes(categoryParam.toLowerCase())) {
     filterState.selectedCategories.clear();
     filterState.selectedCategories.add(categoryParam.toLowerCase());
-    updateCategoryButtons();
+    selectFilterTab(document.getElementById('categories-filter-tab'));
   }
+  updateCategoryButtons();
 
-  // Hide toggle from URL
-  const hideParam = urlParams.get('hide');
-  if (hideParam === 'true') {
-    filterState.hideUnselected = true;
-    const hideBtn = document.querySelector('#hide-toggle .filter-btn');
-    if (hideBtn) hideBtn.classList.add('active');
-  }
-
-  // View mode from URL (takes precedence over stored preference)
-  const viewParam = urlParams.get('view');
-  if (viewParam === 'list' || viewParam === 'masonry') {
-    setViewMode(viewParam);
+  // Retire old hide links without changing category or view preferences.
+  if (urlParams.has('hide')) {
+    const url = new URL(window.location.href);
+    url.searchParams.delete('hide');
+    history.replaceState(history.state, '', url);
   }
 
   // Apply initial filters (essays and mini selected by default)
   applyFilters();
 
-  // View mode initialization
+  // The URL is the only view preference; a plain /writing/ always opens the list.
   const hash = window.location.hash.slice(1);
-  if (hash === 'masonry' || hash === 'list') {
-    setViewMode(hash);
-  } else {
-    const storedView = localStorage.getItem('essayViewMode');
-    // Handle legacy 'grid' value
-    if (storedView === 'grid') {
-      setViewMode('masonry');
-    } else if (storedView) {
-      setViewMode(storedView);
-    }
-  }
-
-  // Image load handling for grid
-  const images = document.querySelectorAll('#essays-grid img');
-  let loadedImages = 0;
-  images.forEach(img => {
-    if (img.complete) {
-      loadedImages++;
-    } else {
-      img.addEventListener('load', () => {
-        loadedImages++;
-        if (loadedImages === images.length) {
-          arrangeCards();
-        }
-      });
-    }
-  });
+  const viewParam = urlParams.get('view');
+  setViewMode(hash === 'grid' || hash === 'masonry' || (!hash && ['grid', 'masonry'].includes(viewParam)) ? 'masonry' : 'list');
 
   // Excerpt toggle functionality
-  const toggleButtons = document.querySelectorAll('.excerpt-toggle');
+  const toggleButtons = document.querySelectorAll('.post-item .excerpt-toggle');
   toggleButtons.forEach(button => {
+    const date = button.closest('.post-item').querySelector('.excerpt-date');
+    date.addEventListener('click', function () { button.click(); });
     button.addEventListener('click', function(e) {
       e.preventDefault();
       e.stopPropagation();
@@ -547,6 +382,7 @@ document.addEventListener('DOMContentLoaded', function() {
       this.setAttribute('aria-expanded', !isExpanded);
       dropdown.classList.toggle('expanded');
       this.setAttribute('aria-label', isExpanded ? 'Show excerpt' : 'Hide excerpt');
+      date.setAttribute('aria-expanded', String(!isExpanded));
     });
   });
 
@@ -556,17 +392,22 @@ document.addEventListener('DOMContentLoaded', function() {
     btn.addEventListener('click', function() {
       const type = this.dataset.type;
 
-      if (filterState.selectedTypes.has(type)) {
-        // Don't allow deselecting if it's the last one
-        if (filterState.selectedTypes.size > 1) {
-          filterState.selectedTypes.delete(type);
-          this.classList.remove('active');
-        }
+      if (type === 'all') {
+        const allSelected = filterState.allTypes.every(value => filterState.selectedTypes.has(value));
+        filterState.selectedTypes = new Set(allSelected ? [] : filterState.allTypes);
+      } else if (filterState.selectedTypes.has(type)) {
+        filterState.selectedTypes.delete(type);
       } else {
         filterState.selectedTypes.add(type);
-        this.classList.add('active');
       }
 
+      typeFilters.forEach(button => {
+        const selected = button.dataset.type === 'all'
+          ? filterState.allTypes.every(value => filterState.selectedTypes.has(value))
+          : filterState.selectedTypes.has(button.dataset.type);
+        button.classList.toggle('active', selected);
+        button.setAttribute('aria-pressed', String(selected));
+      });
       applyFilters();
     });
   });
@@ -578,22 +419,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const filter = this.dataset.filter;
 
       if (filter === 'all') {
-        filterState.selectedCategories.clear();
-        filterState.selectedCategories.add('all');
+        const allSelected = filterState.allCategories.every(category => filterState.selectedCategories.has(category));
+        filterState.selectedCategories = new Set(allSelected ? [] : filterState.allCategories);
+      } else if (filterState.selectedCategories.has(filter)) {
+        filterState.selectedCategories.delete(filter);
       } else {
-        if (filterState.selectedCategories.has('all')) {
-          filterState.selectedCategories.clear();
-          filterState.selectedCategories.add(filter);
-        } else {
-          if (filterState.selectedCategories.has(filter)) {
-            filterState.selectedCategories.delete(filter);
-            if (filterState.selectedCategories.size === 0) {
-              filterState.selectedCategories.add('all');
-            }
-          } else {
-            filterState.selectedCategories.add(filter);
-          }
-        }
+        filterState.selectedCategories.add(filter);
       }
 
       updateCategoryButtons();
@@ -608,19 +439,11 @@ document.addEventListener('DOMContentLoaded', function() {
       sortButtons.forEach(b => b.classList.remove('active'));
       this.classList.add('active');
       filterState.currentSort = this.dataset.sort;
+      if (!document.getElementById('essays-grid').classList.contains('hidden')) arrangeCards();
       applyFilters();
     });
   });
 
-  // Hide toggle click handler
-  const hideToggle = document.querySelector('#hide-toggle .filter-btn');
-  if (hideToggle) {
-    hideToggle.addEventListener('click', function() {
-      filterState.hideUnselected = !filterState.hideUnselected;
-      this.classList.toggle('active', filterState.hideUnselected);
-      applyFilters();
-    });
-  }
 });
 
 // Handle resize events

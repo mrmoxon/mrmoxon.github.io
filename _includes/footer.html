@@ -1,14 +1,21 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-headshot">
-      <img src="{{ '/assets/art/home/image copy.png' | relative_url }}" alt="Oscar Moxon" class="headshot-light">
-      <img src="{{ '/assets/art/home/image.png' | relative_url }}" alt="Oscar Moxon" class="headshot-dark">
+      <img src="{{ '/assets/art/home/skyline-light.webp' | relative_url }}" width="4617" height="2064" decoding="async" alt="ASCII skyline of classical domes, a column, and ancient ruins" class="headshot-light">
+      <img src="{{ '/assets/art/home/skyline-dark.webp' | relative_url }}" width="4617" height="2064" decoding="async" alt="" class="headshot-dark">
     </div>
     <div class="footer-bottom">
       <div class="footer-socials">
-        <a href="/" aria-label="Home">
-          <img src="{{ '/assets/pfp.jpeg' | relative_url }}" alt="Oscar Moxon" class="footer-profile-icon">
-        </a>
+        <button class="footer-theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+          <!-- Lucide sun and moon, ISC license. -->
+          <svg class="theme-sun" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" />
+          </svg>
+          <svg class="theme-moon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.25 6.25 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+          </svg>
+        </button>
         <a href="https://twitter.com/oscarmoxon" target="_blank" aria-label="Twitter">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
@@ -34,3 +41,4 @@
     </div>
   </div>
 </footer>
+<script src="{{ '/assets/js/footer-theme.js' | relative_url }}" defer></script>
