@@ -251,7 +251,9 @@ This is how we build a superintelligent system that cures aging and disease, end
 
 ---
 
-## References
+<a id="references"></a>
+
+## Footnotes
 
 [1]<a id="ref-1"></a> 
 

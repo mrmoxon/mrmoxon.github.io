@@ -7,6 +7,7 @@ study: false
 mini: true
 favourite: 0
 permalink: /emergent-phenomena/
+standalone: true
 excerpt: "A collection of studies I've found particularly interesting because they exhibit: (1) generative structure, (2) a non-trivial selection gradient, and (3) clues about some hidden universal assembly function."
 ---
 
@@ -184,7 +185,8 @@ A 2-state, grid-based cellular automaton following the "B3/S23" ruleset where a 
     var buttons = Array.from(filterContainer.querySelectorAll('[data-camp-filter]'));
     var entries = Array.from(document.querySelectorAll('.emergence-entry'));
     var emptyState = document.getElementById('emergence-empty');
-    var selected = new Set(['all']);
+    var allCamps = buttons.map(function(button) { return button.getAttribute('data-camp-filter'); }).filter(function(camp) { return camp !== 'all'; });
+    var selected = new Set(allCamps);
     var campLabels = {
       'simple-solvers': 'simple solvers',
       'learned-solvers': 'learned solvers',
@@ -247,18 +249,13 @@ A 2-state, grid-based cellular automaton following the "B3/S23" ruleset where a 
       applyFilters();
     }
 
-    function activateAll() {
-      selected.clear();
-      selected.add('all');
-      buttons.forEach(function(button) {
-        button.classList.add('active');
-      });
-    }
-
     function updateButtons() {
+      var allSelected = allCamps.every(function(camp) { return selected.has(camp); });
       buttons.forEach(function(button) {
         var filter = button.getAttribute('data-camp-filter');
-        button.classList.toggle('active', selected.has('all') || selected.has(filter));
+        var active = filter === 'all' ? allSelected : selected.has(filter);
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-pressed', String(active));
       });
     }
 
@@ -266,7 +263,7 @@ A 2-state, grid-based cellular automaton following the "B3/S23" ruleset where a 
       var visibleCount = 0;
       entries.forEach(function(entry) {
         var camp = entry.getAttribute('data-camp');
-        var visible = selected.has('all') || selected.has(camp);
+        var visible = selected.has(camp);
         entry.hidden = !visible;
         if (visible) visibleCount += 1;
       });
@@ -276,7 +273,7 @@ A 2-state, grid-based cellular automaton following the "B3/S23" ruleset where a 
       }
     }
 
-    activateAll();
+    updateButtons();
     applyFilters();
 
     buttons.forEach(function(button) {
@@ -284,15 +281,10 @@ A 2-state, grid-based cellular automaton following the "B3/S23" ruleset where a 
         var filter = button.getAttribute('data-camp-filter');
 
         if (filter === 'all') {
-          activateAll();
-        } else if (selected.has('all')) {
-          selected.clear();
-          selected.add(filter);
+          var allSelected = allCamps.every(function(camp) { return selected.has(camp); });
+          selected = new Set(allSelected ? [] : allCamps);
         } else if (selected.has(filter)) {
           selected.delete(filter);
-          if (selected.size === 0) {
-            selected.add('all');
-          }
         } else {
           selected.add(filter);
         }

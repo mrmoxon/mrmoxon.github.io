@@ -7,6 +7,9 @@ study: false
 mini: true
 favourite: 5.5
 description: "Conversation with Dr Michael Hatcher, Dr Serhiy Stepanchuk, Dr Alex Mennuni at University of Southampton."
+redirect_from:
+  - /civilisation/2022/10/17/limits-of-economic-growth.html
+  - /civilisation/2022/10/18/limits-of-economic-growth.html
 ---
 
 Minutes from my discussion with Dr Michael Hatcher, Dr Serhiy Stepanchuk, Dr Alex Mennuni. These are my minutes; so, my interpretation of the ideas discussed, and my paraphrasing.

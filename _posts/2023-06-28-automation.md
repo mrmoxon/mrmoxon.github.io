@@ -9,6 +9,9 @@ favourite: 5.5
 featured: false
 recommended: false
 description: "Developing better models to understand the impact of machine learning and robotics on the workforce."
+redirect_from:
+  - /civilisation/2023/06/27/automation.html
+  - /civilisation/2023/06/28/automation.html
 ---
 
 {% include pdf-embed.html pdf_path="/assets/threat-of-automation.pdf" pdf_title="Download Automation Report" %}

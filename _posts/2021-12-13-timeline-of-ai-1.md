@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A Timeline for Artificial Intelligence"
+slug: timeline-of-ai
 date: 2021-12-13 18:39:31 +0000
 categories: civilisation
 study: false
@@ -13,6 +14,9 @@ sitemap:
   lastmod: 2024-11-01
   priority: 0.8
   changefreq: 'monthly'
+redirect_from:
+  - /timeline-of-ai-1.html
+  - /civilisation/2021/12/13/timeline-of-ai-1.html
 ---
 
 The following essay covers machine learning from its infant days to full self-driving. I intend to crystallise how and why computers have developed in the way they have, and why future machines will be far more advanced. 
@@ -63,7 +67,7 @@ The McCulloch & Pitts neuron model has been unchanged in the 90 years since its 
 
 - A single inhibitory input i; if it is on, the neuron cannot fire. 
 
-- A threshold value Θ. If the sum of its inputs is larger than this critical value, the neuron fires. Otherwise, it stays at rest. [1] 
+- A threshold value Θ. If the sum of its inputs is larger than this critical value, the neuron fires. Otherwise, it stays at rest. [[1]](#ref-1) 
 
 Given the input x = [ x₁, x₂, x₃, …, xₙ ]ᵀ, the inhibitory input i and the threshold Θ, the output y is computed as follows: 
 
@@ -97,7 +101,7 @@ In the field of sub-symbolic intelligence, notable work was achieved by Frank Ro
 
 ![rosenblatt](/assets/rosenblatt.webp){:style="width:70%;"}
 <br>
-*Figure 4. Frank Rosenblatt and the Mark 1 Perceptron machine, the first implementation of the perceptron algorithm. [2]*
+*Figure 4. Frank Rosenblatt and the Mark 1 Perceptron machine, the first implementation of the perceptron algorithm. [[2]](#ref-2)*
 
 Rosenblatt believed an array of perceptrons could tell apart cats from dogs, but this was an overestimation. Perceptrons are only capable of telling apart cats from dogs in far more sophisticated networks than what he suggested. "Training sets" are datasets that can enable a neural network's parameters to interpret new inputs usefully. Labelling data enables positive and negative examples to be enlisted, teaching a network what is right and what is wrong. No scalable method for training a network was developed for another three decades. 
 
@@ -105,11 +109,11 @@ Rosenblatt believed an array of perceptrons could tell apart cats from dogs, but
 
 In 1967, the 'nearest neighbour' algorithm was written, allowing computers to use very basic pattern recognition. The networking algorithm was similar to Dijkstra's 1956 algorithm and could be used by travelling salesmen to map a route most efficiently from input cities, for example. 
 
-The origin of deep learning networks began with Ivakhenko and Lapa (1965) publishing the first general, working training algorithm for supervised feed-forward neural networks. Ivakhenko went on to theorise a deep network with 8 layers trained by 'Group Method of Data Handling' in 1971, a practice which would become popular in the new millennium. [3] 
+The origin of deep learning networks began with Ivakhenko and Lapa (1965) publishing the first general, working training algorithm for supervised feed-forward neural networks. Ivakhenko went on to theorise a deep network with 8 layers trained by 'Group Method of Data Handling' in 1971, a practice which would become popular in the new millennium. [[3]](#ref-3) 
 
 Minsky and Papert's 1969 book 'Perceptrons' ruthlessly questioned the capabilities of a single perceptron layer and paved the way for Multilayer Perceptron neural networks (or MLPs). The issue was, however, that training MLPs was extremely difficult. Back-propagation was not scalably-functional yet and essentially did not exist in hardware, only as mathematical theory. 
 
-The rivalry between Rosenblatt and Minsky was born from their school years when they were just one year apart. A New Scientist article from the time wrote "During the late 1950s and early 1960s, much to the enjoyment of those in the audience, Rosenblatt and Minsky debated on the floors of scientific conferences the value of biologically inspired computation, Rosenblatt arguing that his neural networks could do almost anything and Minsky countering that they could do little." [4]  
+The rivalry between Rosenblatt and Minsky was born from their school years when they were just one year apart. A New Scientist article from the time wrote "During the late 1950s and early 1960s, much to the enjoyment of those in the audience, Rosenblatt and Minsky debated on the floors of scientific conferences the value of biologically inspired computation, Rosenblatt arguing that his neural networks could do almost anything and Minsky countering that they could do little." [[4]](#ref-4)  
 
 The 'first AI winter' followed 1969.
 
@@ -129,11 +133,11 @@ Backpropagation, theoretically, would enable nodes to adjust their weights to tr
 
 A multi-layer perceptron neural network was proposed by Kunihiko Fukushima in 1975, and called the 'cognitron'. This neural network was to be compiled of perceptron layers, where each perceptron outputs to every perceptron in the next layer, vastly increasing the potential of a system versus what came before. The depth of perceptron layers in a system determines its ability to compute complexity. Nuances in Fukushima's 1975 system, however, meant that its ability for pattern recognition was not so high; he recognised that the system was dependent upon the position of the incident stimulus patterns in such a way that it could not learn or be trained reliably. 
 
-Fukushima continued his work on this and in 1980 published a paper on the 'neocognitron', which was a more sophisticated system now considered to be the original deep convolutional neural network. Several supervised and unsupervised learning algorithms were proposed by Fukushima to train the parameters of a deep neocognitron in a useful way, but no suggestion stood the test of time. It was Werbos' backpropagation that ostensibly 'held the torch' for the supervised training of neural networks. [5]
+Fukushima continued his work on this and in 1980 published a paper on the 'neocognitron', which was a more sophisticated system now considered to be the original deep convolutional neural network. Several supervised and unsupervised learning algorithms were proposed by Fukushima to train the parameters of a deep neocognitron in a useful way, but no suggestion stood the test of time. It was Werbos' backpropagation that ostensibly 'held the torch' for the supervised training of neural networks. [[5]](#ref-5)
 
 ### 1980s
 
-Gerald Dejong introduces the Explanation Based Learning system (EBL), where a computer analyses training data and creates a general rule it can follow by discarding unimportant data. This method was effective, but only in limited cases. Combinatoric explosion again makes this symbolic system ineffective at more general tasks. Without a strong case for training neural networks, the next 'AI winter' set in around 1983, though work continued, particularly in Europe. Some argue that this second AI winter lasted well into the 2000s. [6] 
+Gerald Dejong introduces the Explanation Based Learning system (EBL), where a computer analyses training data and creates a general rule it can follow by discarding unimportant data. This method was effective, but only in limited cases. Combinatoric explosion again makes this symbolic system ineffective at more general tasks. Without a strong case for training neural networks, the next 'AI winter' set in around 1983, though work continued, particularly in Europe. Some argue that this second AI winter lasted well into the 2000s. [[6]](#ref-6) 
 
 In 1986, Geoffrey Hinton and colleagues showed that backpropagation could usefully train neural networks. Following this, French scientist Yann LeCun proposed what has become the modern form of the backpropagation learning algorithm for his 1987 thesis. Yann LeCun proposed that convolutional neural networks (ConvNets or CNNs) paired with back propagation held the solution to many of the problems that fell victim to combinatoric explosion previously. 
 
@@ -159,13 +163,13 @@ Checkers requires calculating the best of 7 possible moves ahead on average. Che
 
 In 1996, IBM's Deep Blue algorithm plays Garry Kasparov, the world champion, at chess. Kasparov won 4-2. One year later, Deep Blue would win the rematch (3 1/2) - (2 1/2); a year before Kurzweil's upper-bound prediction. The match has been seen as symbolically significant: humanity's widely-known intellectual champions could be beaten by a machine. 
 
-The win lead to a large amount of controversy over one move where Deep Blue made a sacrifice that seemed to hint at a long-term strategy. The move stunned Kasparov, who had bragged that he would never lose to a machine. Kasparov blamed his defeat on this move, which, fifteen years later, was admitted to be the result of a bug in Deep Blue's software. Fascinatingly, the symmetry of this match would return two decades later. [7] 
+The win lead to a large amount of controversy over one move where Deep Blue made a sacrifice that seemed to hint at a long-term strategy. The move stunned Kasparov, who had bragged that he would never lose to a machine. Kasparov blamed his defeat on this move, which, fifteen years later, was admitted to be the result of a bug in Deep Blue's software. Fascinatingly, the symmetry of this match would return two decades later. [[7]](#ref-7) 
 
 ![Deep Blue](/assets/deep-blue.webp){:style="width:70%;"}
 <br>
 *Figure 6. Kasparov vs. Deep Blue, 1997.*
 
-The meter stick for artificial intelligence thereafter grew longer, with the media and scientists alike pointing to 'Go' as the next challenge, and real measure of general intelligence. This moving of goalposts was noted by researchers; John McCarthy had historically observed that "As soon as it works, no one calls it AI anymore," and in the words of by Claude Shannon, "A machine defeating a human at chess may further restrict our concept of thinking; we'd dismiss the accomplishment over time." [8] 
+The meter stick for artificial intelligence thereafter grew longer, with the media and scientists alike pointing to 'Go' as the next challenge, and real measure of general intelligence. This moving of goalposts was noted by researchers; John McCarthy had historically observed that "As soon as it works, no one calls it AI anymore," and in the words of by Claude Shannon, "A machine defeating a human at chess may further restrict our concept of thinking; we'd dismiss the accomplishment over time." [[8]](#ref-8) 
 
 The New York Times predicted in 1997 that Go was over 100 years away from being won by a machine. Go was not only more vast (250 average possible moves, or 7x more computationally advanced than chess), but also far more strategically complex. Hardware improvements would be needed for the improved computational power, and software improvements would be needed for the increased mathematical complexity. These stages of hype and discrediting can again be attributed to combinatorial explosion; the changing of a few parameters make magnitudes more complexity.  
 
@@ -185,7 +189,7 @@ ImageNet was the first breakthrough in quality data availability that backpropag
 
 In 2010, the first ImageNet Large Scale Visual Recognition Challenge (ILSVRC) took place, with the winning machine (of 35 competitors) having a top-five accuracy of 71.8% (top-five accuracy refers to the odds of any of five guesses per image being accurate). Human level, for reference, is between 94.9 and 98% accuracy in image recognition for the same giant database. 
 
-It should be noted that both top-five accuracy and the human level reference are highly contentious statistics; top-five accuracy is considered a significant dumbing down of intelligence; a machine shown a simple image of a bus might guess "duck, balloon, bike, human, bus" and get a tick, despite its apparent blindness. The human level accuracy of 94.9% was by a Google researcher who did not write down five answers for each image, was mostly comparing dog-breeds, and who reportedly suffered from boredom and tiredness while tagging 1500 different images in a short period of days. 98% accuracy is the level proposed by Melanie Mitchell, in response to the issues of Google's widely-cited reference level. [9]  
+It should be noted that both top-five accuracy and the human level reference are highly contentious statistics; top-five accuracy is considered a significant dumbing down of intelligence; a machine shown a simple image of a bus might guess "duck, balloon, bike, human, bus" and get a tick, despite its apparent blindness. The human level accuracy of 94.9% was by a Google researcher who did not write down five answers for each image, was mostly comparing dog-breeds, and who reportedly suffered from boredom and tiredness while tagging 1500 different images in a short period of days. 98% accuracy is the level proposed by Melanie Mitchell, in response to the issues of Google's widely-cited reference level. [[9]](#ref-9)  
 
 In 2011, the winning machine had 25.8% top-five error. Competing machines were not convolutional neural nets, but various methods, including support vector algorithms. Then in 2012, AlexNet (a CNN) stunned the world with just 16.4% top-five error. This jump was done in part by scaling the hidden layers on the neural net (and subsequently scaling up energy requirements and complexity). AlexNet had 8 layers and 60 million weights. 
 
@@ -261,7 +265,7 @@ This realm of severely super-human performance is awry to say the least. A machi
 <br>
 *Figure 11. Super-human intelligence is near-impossible to measure, but this is a demonstration of the level DeepMind achieved with Go.*
 
-In 2017, Google's Transformations made designing deep neural network architectures less resource-intensive. Additionally, the release of Tensorflow, PyTorch, VastAI, Keras and Flux.jl give wide public access to advanced machine learning tools. [10] 
+In 2017, Google's Transformations made designing deep neural network architectures less resource-intensive. Additionally, the release of Tensorflow, PyTorch, VastAI, Keras and Flux.jl give wide public access to advanced machine learning tools. [[10]](#ref-10) 
 
 That same year, 48% of Chinese venture capital went to AI startups. China published 6x more patents than the US in deep learning. The Chinese government announced in July that it planned to reach the level of the US in AI by 2020 and become the world leader within 12 years. Voice assistants were rolled out as chatbots, with Google assistant phonecalls. Amazon Echo, Google Home, and Bixby were said to expect connection with all smart home products and LG made all of its appliances WiFi-enabled. 
 
@@ -273,7 +277,7 @@ Long before the turn of the decade, investment has been pouring into machine lea
 
 In 2020, DeepMind announced MuZero, an algorithm capable of mastering Go, chess, shogi and Atari without needing to be told the rules thanks to its ability to 'look-ahead' in unknown environments. This was a major instalment to DeepMind's sequence of unsupervised algorithms capable of learning on their own.  
 
-That same year, OpenAI showcased GPT-3, an auto-regressive natural-language-processing neural network, which, seeded with a few sentences, can generate impressively accurate text matching the style and content of the initial few lines. GPT-3's capacity to generate synthetic propaganda lead to its labelling as the world's 'most dangerous' algorithm by the Independent. This political danger threat is similar to that posed by deepfakes. [11]  
+That same year, OpenAI showcased GPT-3, an auto-regressive natural-language-processing neural network, which, seeded with a few sentences, can generate impressively accurate text matching the style and content of the initial few lines. GPT-3's capacity to generate synthetic propaganda lead to its labelling as the world's 'most dangerous' algorithm by the Independent. This political danger threat is similar to that posed by deepfakes. [[11]](#ref-11)  
 
 In 2021, Facebook developed SEER (Self-SupERvised), a billion-paramter self-supervised computer vision model. It can learn from images without the need of labelling, tested on Instagram images. This is an early example of a flexible, accurate and adaptable neural net advanced enough for real-world usage.  
 
@@ -313,42 +317,44 @@ And for a deep-learning centric breakdown, this is excellent by Juergen Schmidhu
 
 ---
 
-# References
+<a id="references"></a>
 
-[1] - A great breakdown of McCulloch and Pitts' function is available here.
+# Footnotes
+
+[1]<a id="ref-1"></a> A great breakdown of McCulloch and Pitts' function is available here.
 
 
-[2] - The Mark 1 perceptron was used for image recognition. It was connected to a camera with 20×20 cadmium sulfide photocells to make a 400-pixel image. The main visible feature is the patch panel that set different combinations of input features, which is what you can see in the picture. To the right, arrays of potentiometers would then implement the adaptive weights. Read the journal article here: https://link.springer.com/book/9780387310732.
+[2]<a id="ref-2"></a> The Mark 1 perceptron was used for image recognition. It was connected to a camera with 20×20 cadmium sulfide photocells to make a 400-pixel image. The main visible feature is the patch panel that set different combinations of input features, which is what you can see in the picture. To the right, arrays of potentiometers would then implement the adaptive weights. Read the journal article here: https://link.springer.com/book/9780387310732.
 
 
 Rosenblatt's paper: Rosenblatt, F. : Principles of neurodynamics. Washington, D.C. : Spartan Books 1962.
 
 
-[3] - A.G. Ivakhnenko's paper: (1971). Polynomial theory of complex systems. IEEE Transactions on Systems, Man and Cybernetics, (4):364–378.
+[3]<a id="ref-3"></a> A.G. Ivakhnenko's paper: (1971). Polynomial theory of complex systems. IEEE Transactions on Systems, Man and Cybernetics, (4):364–378.
 
 
-[4] - For versions of this story, look here and here. 
+[4]<a id="ref-4"></a> For versions of this story, look here and here. 
 
 
-[5] - https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf
+[5]<a id="ref-5"></a> https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf
 
 
 Fukushima published this in a cybernetics journal, incidentally. "Cognitron: a self-organizing multilayered neural network" Cybernetics 20, 121-136 (1975). See here.
 
 
-[6] - Fast Company's timeline on AI history here.
+[6]<a id="ref-6"></a> Fast Company's timeline on AI history here.
 
 
-[7] - Read about the bug in Deep Blue's software on the Wired archive.
+[7]<a id="ref-7"></a> Read about the bug in Deep Blue's software on the Wired archive.
 
 
-[8] - In 2016, Kasparov noted that you can buy a chess engine for a typical laptop that could beat Deep Blue quite easily. He also admitted that he had a lot more respect now for the team behind Deep Blue, his "beef" was with IBM.
+[8]<a id="ref-8"></a> In 2016, Kasparov noted that you can buy a chess engine for a typical laptop that could beat Deep Blue quite easily. He also admitted that he had a lot more respect now for the team behind Deep Blue, his "beef" was with IBM.
 
 
-[9] - Find the low human estimate under section 6.4 of this paper. It is widely cited, despite its obscurity. 
+[9]<a id="ref-9"></a> Find the low human estimate under section 6.4 of this paper. It is widely cited, despite its obscurity. 
 
 
-[10] - Check the impact on legendary Arxiv... https://arxiv.org/abs/1707.04873.
+[10]<a id="ref-10"></a> Check the impact on legendary Arxiv... https://arxiv.org/abs/1707.04873.
 
 
-[11] - The Most Dangerous Algorithm in the World! The Independent. 
+[11]<a id="ref-11"></a> The Most Dangerous Algorithm in the World! The Independent. 

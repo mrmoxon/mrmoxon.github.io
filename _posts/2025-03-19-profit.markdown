@@ -8,6 +8,8 @@ mini: false
 favourite: 5
 image: /assets/cascade.png
 description: "Profit-maximising algorithms create resource foundations that enable power-maximising systems, which will develop the complexity necessary for emergence beyond civilisation."
+redirect_from:
+  - /civilisation/2025/03/19/profit.html
 ---
 
 When will we see the first truly autonomous profit-maximising algorithms? As we approach an era where artificial intelligence can clone professional expertise across industries, the question of algorithmic entrepreneurship becomes increasingly relevant.
@@ -19,13 +21,13 @@ When will we see the first truly autonomous profit-maximising algorithms? As we 
 </div>
 
 ## <a id="part-1"></a>Part I: Perfect Profit
-Technology companies are cloning the domain expertise of professionals in industries like law, finance, marketing, transport and medicine [[1]](#ref-1). PhD theses are being accelerated with Co-Scientist and approached outright with Deep Research [[2]](#ref-2).
+Technology companies are cloning the domain expertise of professionals in industries like law, finance, marketing, transport and medicine. [[1]](#ref-1) PhD theses are being accelerated with Co-Scientist and approached outright with Deep Research. [[2]](#ref-2)
 
 Imagine you are tasked to design a benchmark that, if solved, would enable perfect value creation. 
 
 Schumpeter's "creative destruction" describes the process by which new innovations destroy established enterprises and business models. Historically, this change has occured over [generations](https://www.globalpapermoney.com/s-p-releases-list-of-86-companies-in-the-s-p-500-since-1957-cms-1023). With reasoning models, there is scope to accelerate this process and better [internalise](https://en.wikipedia.org/wiki/Internalization_theory) the burden consumers pay when innovation is slow.
 
-In theory, the marginal cost of production in competitive industries falls over time until consumers can take the cost of any good for granted. We've seen this play out with the real price of goods from supermarkets [[3]](#ref-3), the real cost of energy from solar [[4]](#ref-4), the real cost of computing [[5]](#ref-5), and the real cost of transport [[6]](#ref-6). This pattern suggests that in sufficiently free markets, declining costs should occur universally. even for property markets with new builds stabilising prices.
+In theory, the marginal cost of production in competitive industries falls over time until consumers can take the cost of any good for granted. We've seen this play out with the real price of goods from supermarkets [[3]](#ref-3), the real cost of energy from solar [[4]](#ref-4), the real cost of computing [[5]](#ref-5), and the real cost of transport. [[6]](#ref-6) This pattern suggests that in sufficiently free markets, declining costs should occur universally. even for property markets with new builds stabilising prices.
 
 The key factor enabling this universal trend is the presence of competitive market conditions that allow natural cost efficiencies to develop and prices to adjust accordingly over time. The freer markets can be, the faster we can enter a world of material abundance.
 
@@ -72,7 +74,7 @@ Early autonomous versions of this loop will materialise in the next couple years
 ## <a id="part-2"></a>Part II: Perfect Power
 To truly design a benchmark symbolising "value creation", we must move beyond traditional metrics like profit or efficiency.
 
-If profit-maximising algorithms focus on efficiency in existing markets, power-maximising systems seek to expand the domain of what can be controlled and optimised. By operating at the scale of markets, these algorithms could exhibit superlinear scaling. Growing companies experience declining efficiency in line with Metcalf's Law. Markets, cities, and civilisation each demonstrate superlinear scaling, where output grows faster than input [[11]](#ref-11).
+If profit-maximising algorithms focus on efficiency in existing markets, power-maximising systems seek to expand the domain of what can be controlled and optimised. By operating at the scale of markets, these algorithms could exhibit superlinear scaling. Growing companies experience declining efficiency in line with Metcalf's Law. Markets, cities, and civilisation each demonstrate superlinear scaling, where output grows faster than input. [[11]](#ref-11)
 
 Algorithms operating at civilisation scale would harness these superlinear effects, creating unprecedented abundance. This shift is implied by what Richard Brautigan envisioned in ["All Watched Over by Machines of Loving Grace"](https://allpoetry.com/All-Watched-Over-By-Machines-Of-Loving-Grace)—systems that liberate humans from scarcity constraints (while also being aligned enough to never weaponise our trust).
 
@@ -96,7 +98,7 @@ Companies have historically trampled the line of moral acceptability: slave ente
 
 ### A Pure-Tech Race Condition
 
-Whoever builds a self-improving system first may lock in compound advantages, ensuring their system improves faster than all future competitors [[12]](#ref-12). This creates powerful incentives to develop increasingly autonomous economic algorithms that converge on purer and more unstable technology in race conditions.
+Whoever builds a self-improving system first may lock in compound advantages, ensuring their system improves faster than all future competitors. [[12]](#ref-12) This creates powerful incentives to develop increasingly autonomous economic algorithms that converge on purer and more unstable technology in race conditions.
 
 These algorithms will naturally outcompete legacy bureaucracy, accelerating the shift towards pure efficiency. If this race cannot be controlled, we risk losing control of our destiny. For this reason, autonomous organisations must be considered within the scope of AI Safety Research, and we should anticipate "self-driving startups" becoming an academic field of study.
 
@@ -152,7 +154,9 @@ The most profitable algorithm builds the foundation. The most powerful algorithm
 
 ---
 
-# Bibliography
+<a id="bibliography"></a>
+
+# Footnotes
 
 [1]<a id="ref-1"></a> Domain expertise cloning examples: [Casetext](https://www.ycombinator.com/companies/casetext) for law, [AI Invest](https://www.ainvest.com/) for finance, [Copy.ai](https://www.copy.ai/) for marketing, [Waymo](https://waymo.com/) for transport, and [K Health](https://khealth.com/) for medicine.
 

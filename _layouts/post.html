@@ -4,29 +4,27 @@ layout: base
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
-    {%- assign date_format = "%B %-d, %Y" -%}
+    {%- assign date_format = "%-d %b %Y" -%}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <div class="post-meta-row">
-      {%- if page.categories -%}
+      {%- if page.categories.size > 0 -%}
         {%- assign cat = page.categories | first | downcase -%}
-        <a href="/essays/?category={{ cat }}&view=list&hide=true" class="post-category" itemprop="articleSection">{{ page.categories | first | replace: "-", " " }}</a>
+        <a href="{{ '/writing/' | relative_url }}?category={{ cat | url_encode }}" class="post-category" itemprop="articleSection">{{ page.categories | first | replace: "-", " " }}</a>
         <span class="meta-separator">·</span>
       {%- endif -%}
-      <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" title="{{ page.date | date: '%B %-d, %Y' }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
       </time>
-      <span class="meta-separator">·</span>
-      <button onclick="copyCitation()" class="cite-button" aria-label="Cite">
-        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"/>
-        </svg>
-        <span class="cite-text">Cite</span>
-      </button>
     </div>
   </header>
 
+  <div class="essay-reading">
+  <aside class="essay-contents" hidden>
+    <nav aria-label="Essay contents"><span class="contents-label">Contents</span><ol></ol></nav>
+  </aside>
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+  </div>
   </div>
 
   {%- if site.disqus.shortname -%}
@@ -35,6 +33,7 @@ layout: base
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+<script src="{{ '/assets/js/essay-margins.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
@@ -56,30 +55,4 @@ layout: base
     });
   });
 
-  function copyCitation() {
-    const title = document.querySelector('.post-title').innerText;
-    const date = new Date("{{ page.date | date_to_xmlschema }}");
-    const url = window.location.href;
-
-    const formattedDate = date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    });
-
-    const citation = `Moxon, Oscar. "${title}." Oscar Moxon, ${formattedDate}, ${url}.`;
-
-    navigator.clipboard.writeText(citation).then(() => {
-      const citeText = document.querySelector('.cite-text');
-      const button = document.querySelector('.cite-button');
-      citeText.textContent = 'Copied!';
-      button.classList.add('copied');
-      setTimeout(() => {
-        citeText.textContent = 'Cite';
-        button.classList.remove('copied');
-      }, 2000);
-    }).catch(err => {
-      console.error('Failed to copy citation:', err);
-    });
-  }
 </script>

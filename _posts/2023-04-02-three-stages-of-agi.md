@@ -10,9 +10,12 @@ featured: false
 recommended: false
 image: /assets/hollowing.webp
 description: "Stage One: AGI Tools, Stage Two: AGI Emergence, Stage Three: Later Generations of AGI and the post-intelligence explosion."
+redirect_from:
+  - /civilisation/2023/04/01/three-stages-of-agi.html
+  - /civilisation/2023/04/02/three-stages-of-agi.html
 ---
 
-This is the second part of my [Pervasive Machines series](/civilisation/2023/04/01/pervasive-intelligence.html).
+This is the second part of my [Pervasive Machines series](/pervasive-intelligence.html).
 
 ---
 
@@ -34,14 +37,14 @@ As with all ground-breaking technologies, the adoption of AI will significantly 
 
 ![Job Polarisation](/assets/hollowing.webp){:style="width:80%;"}
 <br>
-*Figure 6: Job polarisation over time. For more: [Credit](https://medium.com/@oscarmoxon/the-threat-of-automation-an-economic-perspective-fd26f716b5db)*
+*Job polarisation over time. [More](https://medium.com/@oscarmoxon/the-threat-of-automation-an-economic-perspective-fd26f716b5db).*
 
 Although these tools may not conform to a universally accepted definition of “AGI,” they will display broad intelligence by leveraging vast amounts of data and training. This stage will constitute the wave of innovations under the “Generative Pre-trained Transformer” (GPT) umbrella and lay the groundwork for the next stages of AGI development.
 
 ## Stage Two: How “True AGI” Arises<a id="part-3"></a>
 Truly building AGI necessitates breakthroughs in machine learning that allow algorithms to learn from discovery and adapt to new situations with flexibility and generalizability.
 
-According to Altman, AGI refers to a system capable of driving the cutting edge of technological advancement. In his conversation with Lex Fridman, Altman suggested that while LLMs may play a role in AGI’s development, they will not exhibit general intelligence on their own. Noam Chomsky also argues that pattern recognition systems like GPT-4, while adept at language, lack the flexibility and true creativity found in the full spectrum of human cognition [[13]](#ref-13).
+According to Altman, AGI refers to a system capable of driving the cutting edge of technological advancement. In his conversation with Lex Fridman, Altman suggested that while LLMs may play a role in AGI’s development, they will not exhibit general intelligence on their own. Noam Chomsky also argues that pattern recognition systems like GPT-4, while adept at language, lack the flexibility and true creativity found in the full spectrum of human cognition. [[13]](#ref-13)
 
 At some point, research will enable persistent training during inference, perhaps as a composite of advanced reinforcement learning techniques (see Geoff Hinton’s Forward-Forward Pass). The most sophisticated AGI tools will conduct studies requiring human-like creativity and problem-solving abilities when instructed. Shortly after, we can expect the singularity.
 
@@ -63,13 +66,13 @@ To forecast the long-term advantages of AGI over human cognition, we can study t
 
 Human intelligence can be attributed entirely to our biological evolution. Various forms of intelligence are displayed throughout the Darwinian evolutionary tree, with humans being one of the organic intelligences that utilize neurons as our core computational elements.
 
-But outside of the evolutionary path, inorganic agents may induce intelligence using transistors (silicon-based), qubits (quantum computing), or even strands of DNA (molecular computing). It is possible that anything capable of forming logic gates can be utilized for computation, and thus give rise to intelligence [[15]](#ref-15).
+But outside of the evolutionary path, inorganic agents may induce intelligence using transistors (silicon-based), qubits (quantum computing), or even strands of DNA (molecular computing). It is possible that anything capable of forming logic gates can be utilized for computation, and thus give rise to intelligence. [[15]](#ref-15)
 
 ![Composite](/assets/composite.webp){:style="width:95%;"}
 <br>
-*Figure 8. The Path to Composite Intelligence. [Credit](https://www.researchgate.net/figure/Evolution-of-intelligence-Biological-or-organic-intelligence-and-machine-or-inorganic_fig1_225616435)*
+*The Path to Composite Intelligence. [More](https://www.researchgate.net/figure/Evolution-of-intelligence-Biological-or-organic-intelligence-and-machine-or-inorganic_fig1_225616435).*
 
-High-end silicon-based supercomputers have long surpassed the computational capacity of the human brain, and at current rates, we can expect desktop computers to house similar power by 2042 [[16]](#ref-16). However, neurons are just one of many hyperparameters holding us back in the race for cognition. Others include:
+High-end silicon-based supercomputers have long surpassed the computational capacity of the human brain, and at current rates, we can expect desktop computers to house similar power by 2042. [[16]](#ref-16) However, neurons are just one of many hyperparameters holding us back in the race for cognition. Others include:
 
 ### I. Signal speed
 
@@ -87,7 +90,7 @@ Furthermore, general intelligence in the brain (human “G-factor”) is fixed f
 
 ![Connectome](/assets/connectome.webp){:style="width:95%;"}
 <br>
-*Figure 9. The Connectome: a nerve map of the neural connections in the human (thanks, Emilija). [Credit](https://commons.wikimedia.org/wiki/File:The_Human_Connectome.png).*
+*The Connectome: a nerve map of the neural connections in the human (thanks, Emilija). [More](https://commons.wikimedia.org/wiki/File:The_Human_Connectome.png).*
 
 ## Trans-Humanism (Staying Alive)<a id="part-6"></a>
 So, the question arises: Can we remain relevant by upgrading our self-agency without sacrificing our sense of identity?
@@ -100,26 +103,26 @@ To adapt to more efficient workflows, the human brain could benefit from support
 
 Brain-computer interfaces (BCIs) and neural implants are essential in bridging the gap between human cognition and AGI systems, and are the strongest bet for cognitive advancements.
 
-Invasive research companies include Neuralink; aiming to develop high-bandwidth, minimally invasive interfaces that enable seamless communication between humans and machines and enhance cognitive capabilities. One of Neuralink’s notable achievements includes implanting a chip in a monkey’s brain, allowing it to play video games using its thoughts [[17]](#ref-17). BrainGate focuses on creating neural interfaces for individuals with paralysis, enabling them to control external devices with their thoughts.
+Invasive research companies include Neuralink; aiming to develop high-bandwidth, minimally invasive interfaces that enable seamless communication between humans and machines and enhance cognitive capabilities. One of Neuralink’s notable achievements includes implanting a chip in a monkey’s brain, allowing it to play video games using its thoughts. [[17]](#ref-17) BrainGate focuses on creating neural interfaces for individuals with paralysis, enabling them to control external devices with their thoughts.
 
-Full brain scans involve mapping and digitizing the human brain, preserving its neural structure and functions. This process would enable a complete replication of an individual’s cognitive abilities, memories, and personality, creating a digital copy of their mind [[17]](#ref-17).
+Full brain scans involve mapping and digitizing the human brain, preserving its neural structure and functions. This process would enable a complete replication of an individual’s cognitive abilities, memories, and personality, creating a digital copy of their mind. [[17]](#ref-17)
 
 The development of AGI has the potential to put the world into its final chapter. To minimise the coarseness of this filter, humans must take responsible measures against the technology, before we deploy something that causes serious harm. The call for a moratorium serves as a good wakeup call, and should be supported. In the long run, I remain hopeful that there exists technology that can push out the hyperparameters of the brain, in order to allow us to keep up to speed with our own creation.
 
 ---
 
-# References
+<a id="references"></a>
 
-[13]<a id="ref-13"></a> Noam Chomsky on AI and other things: https://www.youtube.com/watch?v=7uHGlfeCBbE.
+# Footnotes
 
-[14]<a id="ref-14"></a> The second of the Four Futures: https://sites.evergreen.edu/politicalshakespeares/wp-content/uploads/sites/226/2015/12/Frase-Rentism.pdf.
+[13]<a id="ref-13"></a> [Noam Chomsky on AI and other things](https://www.youtube.com/watch?v=7uHGlfeCBbE).
 
-[15]<a id="ref-15"></a> https://www.lesswrong.com/posts/yuzDFq5CoeMaRZuF2/simulation-hypothesis-and-substrate-independence-of-mental.
+[14]<a id="ref-14"></a> [Rentism, the second of the Four Futures](https://sites.evergreen.edu/politicalshakespeares/wp-content/uploads/sites/226/2015/12/Frase-Rentism.pdf).
 
-[16]<a id="ref-16"></a> https://www.oscarmoxon.com/post/a-brief-history-of-technological-history.
+[15]<a id="ref-15"></a> [Simulation hypothesis and substrate independence](https://www.lesswrong.com/posts/yuzDFq5CoeMaRZuF2/simulation-hypothesis-and-substrate-independence-of-mental).
 
-[17]<a id="ref-17"></a> Researchers like Dr. Kenneth Hayworth at the Howard Hughes Medical Institute have been working on brain preservation techniques such as plastination, which could potentially allow for high-resolution scanning and digitization of neural tissue (source: https://www.brainpreservation.org/team/dr-kenneth-hayworth/).
+[16]<a id="ref-16"></a> [A Brief History of Technology](/a-brief-history-of-technology.html).
+
+[17]<a id="ref-17"></a> Researchers like [Dr. Kenneth Hayworth](https://www.brainpreservation.org/team/dr-kenneth-hayworth/) at the Howard Hughes Medical Institute have been working on brain preservation techniques such as plastination, which could potentially allow for high-resolution scanning and digitization of neural tissue.
 
 [Visionaries]: Read Ray Kurzweil’s forecasts for AI here. Listen to OpenAI CEO Sam Altman talk to Lex Fridman here and Demis Hassabis of DeepMind here.
-
-

@@ -7,6 +7,9 @@ study: false
 mini: true
 favourite: 7
 description: "As we abstract away from the baseline from a cultural and technological point of view, we can expect new worlds of 'hyper-horror' to emerge."
+redirect_from:
+  - /brains/2024/05/12/horror.html
+  - /brains/2024/09/12/horror.html
 ---
 
 ## New Mediums of Freak
@@ -41,7 +44,9 @@ PLEASE MOHAMMED JUST [WAKE UP](https://www.youtube.com/watch?v=Qklvh5Cp_Bs)!
 
 ---
 
-# References
+<a id="references"></a>
+
+# Footnotes
 
 [1]<a id="ref-1"></a>
 
@@ -58,5 +63,3 @@ PLEASE MOHAMMED JUST [WAKE UP](https://www.youtube.com/watch?v=Qklvh5Cp_Bs)!
 ## Other references
 
 Modern [Reddit tier list](https://www.reddit.com/r/Scarymovies/comments/150ov4e/horror_movies_tierlist_ranked_by_how_disturbing/) of what is considered the pinnacle of shared scare in 2024.
-
-![Horror Genres](/assets/horror-genres.png)

@@ -8,6 +8,10 @@ mini: true
 favourite: 6
 image: /assets/bacon-shakespeare.png
 description: 'A repository of evidence that "William Shake-speare" was instead the literary arm of Francis Bacon and his writing practice.'
+redirect_from:
+  - /market-failure/2024/06/06/shakespeare.html
+  - /market-failure/2024/12/06/on-bacon-writing-shakespeare.html
+  - /market-failure/2024/12/06/shakespeare.html
 ---
 
 A repository of evidence that “William Shake-speare” was instead the literary arm of Francis Bacon and his writing practice.
@@ -171,8 +175,5 @@ Dias-Porter reproduces a comparative table from Diana Price's *Shakespeare's Uno
 
 ---
 
-![Shakespeare and Francis Bacon - Grok and Gimp.](/assets/bacon-shakespeare.png)
-<br>
-*A rather haunting image of Shakespeare and Bacon made with Grok and Photoshop*
 
 </div>

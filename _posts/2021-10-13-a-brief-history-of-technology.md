@@ -11,6 +11,10 @@ featured: false
 recommended: false
 show_notice: true
 description: "Exploration of the common narrative about the history of invention, the acceleration of technological innovation, and the driving force behind unprecedented growth in the 21st century."
+redirect_from:
+  - /civilisation/2021/10/13/a-brief-history-of-technology.html
+  - /civilisation/2021/10/18/a-brief-history-of-technology.html
+  - /civilisation/2021/10/19/a-brief-history-of-technology.html
 ---
 
 Exploration of the common narrative about the history of invention, the acceleration of technological innovation, and the driving force behind unprecedented growth in the 21st century.
@@ -132,24 +136,26 @@ While this range appears to put at least some distance between the average worke
 
 ---
 
-# References
+<a id="references"></a>
 
-[1]<a id="ref-1"></a> - Yes, Zacharias Janssen and even Francis Bacon had no idea what a PhD was, PhDs have been around for 180 years. Which means no deep quality research was ever produced before 1870... right? [Here's the article](https://futureoflife.org/guest-post/90-of-all-the-scientists-that-ever-lived-are-alive-today/?cn-reloaded=1). 
+# Footnotes
 
-[2]<a id="ref-2"></a> - The details about Zacharias Janssen's inventions are awry, but he's also said to have made the first telescope. Regardless, he (and possibly his neighbour) had quite the legacy. 
+[1]<a id="ref-1"></a> Yes, Zacharias Janssen and even Francis Bacon had no idea what a PhD was, PhDs have been around for 180 years. Which means no deep quality research was ever produced before 1870... right? [Here's the article](https://futureoflife.org/guest-post/90-of-all-the-scientists-that-ever-lived-are-alive-today/?cn-reloaded=1). 
 
-[3]<a id="ref-3"></a> - Is the Gutenberg press the OG of 'process inventions'? Other contenders include Fire, the Wheel, and the Compass. And maybe sliced bread (coming in late in 1929). 
+[2]<a id="ref-2"></a> The details about Zacharias Janssen's inventions are awry, but he's also said to have made the first telescope. Regardless, he (and possibly his neighbour) had quite the legacy. 
+
+[3]<a id="ref-3"></a> Is the Gutenberg press the OG of 'process inventions'? Other contenders include Fire, the Wheel, and the Compass. And maybe sliced bread (coming in late in 1929). 
 
 [Here's](https://eh.net/eha/wp-content/uploads/2013/11/dittmarb.pdf) an in-depth article on its impact.
 
 And here's a [top 10](https://www.livescience.com/33749-top-10-inventions-changed-world.html) of what's happened since.
 
-[4]<a id="ref-4"></a> - For insight into those new basic materials, new energy sources, first factories and exactly what inventions in transport and communication I'm alluding to, the source is [here](https://www.britannica.com/event/Industrial-Revolution).
+[4]<a id="ref-4"></a> For insight into those new basic materials, new energy sources, first factories and exactly what inventions in transport and communication I'm alluding to, the source is [here](https://www.britannica.com/event/Industrial-Revolution).
 
 The power loom did to weavers what the [car did to horses](https://en.wikipedia.org/wiki/Power_loom).
 
-[5]<a id="ref-5"></a> - For more animal-related comparisons, you can find his other studies [here](https://www.thekurzweillibrary.com/the-coming-merging-of-mind-and-machine).
+[5]<a id="ref-5"></a> For more animal-related comparisons, you can find his other studies [here](https://www.thekurzweillibrary.com/the-coming-merging-of-mind-and-machine).
 
-[6]<a id="ref-6"></a> - MIPS are not directly comparable to FLOPS, but their empirical relationship is approximately MFLOPS = 2.3 x MIPS^0.89, according to Sandberg and Bostrom (2008). So these are my converted figures. Their paper is included below. 
+[6]<a id="ref-6"></a> MIPS are not directly comparable to FLOPS, but their empirical relationship is approximately MFLOPS = 2.3 x MIPS^0.89, according to Sandberg and Bostrom (2008). So these are my converted figures. Their paper is included below. 
 
-[7]<a id="ref-7"></a> - [Whole Brain Emulation: A Roadmap](https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf)
+[7]<a id="ref-7"></a> [Whole Brain Emulation: A Roadmap](https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf)

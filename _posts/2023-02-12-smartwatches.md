@@ -9,6 +9,10 @@ favourite: 4.5
 featured: false
 recommended: false
 description: "An antitrust analysis of Google's $2.1B Fitbit acquisition and its implications for consumer choice in the wearables market."
+redirect_from:
+  - /market-failure/2022/11/07/smartwatches.html
+  - /market-failure/2022/11/08/smartwatches.html
+  - /market-failure/2023/02/12/smartwatches.html
 ---
 
 {% include pdf-embed.html pdf_path="/assets/digital-platforms.pdf" pdf_title="Download Digital Platforms Report" %}

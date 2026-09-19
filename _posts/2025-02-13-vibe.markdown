@@ -8,13 +8,15 @@ mini: false
 favourite: 9
 image: /assets/rickrubin.png
 description: "The roadmap to a society of Rick Rubins."
+redirect_from:
+  - /civilisation/2025/02/13/vibe.html
 ---
 
 The founder of Fog Creek Software once wrote, *"Your first priority as the manager of a software team is building the development abstraction layer."* In a software team, if a programmer is wrestling with a broken chair or is irritated by the heat and a loud office, the abstraction has, in Joel Spolsky's words, "sprung a leak."
 
 ### The Abstraction Layer
 
-This principle extends far beyond software development [[1]](#ref-1). *Everyone* deserves an abstraction layer, and arguably, the companies with the *fewest* resources need them most desperately. In other words: employees should be able to do their best work. Developers shouldn't be debugging the office HVAC system, operators shouldn't be stapling spreadsheets by hand, and nobody should be forced to use an ERP that the world moved on and forgot about.
+This principle extends far beyond software development. [[1]](#ref-1) *Everyone* deserves an abstraction layer, and arguably, the companies with the *fewest* resources need them most desperately. In other words: employees should be able to do their best work. Developers shouldn't be debugging the office HVAC system, operators shouldn't be stapling spreadsheets by hand, and nobody should be forced to use an ERP that the world moved on and forgot about.
 
 What does the abstraction layer look like, outside the world of a software team?
 
@@ -58,3 +60,4 @@ The first true one-person billion-dollar startup will be built in this way. It w
 [1]<a id="ref-1"></a> Computer science is typically where movements in the workforce originate. The whole industry is a good bellweather for what is coming for the rest of the economy. 
 
 ![alt text](/assets/rickrubin.png)
+*A Society of Rick Rubins*

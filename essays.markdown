@@ -1,5 +1,5 @@
 ---
 layout: home
 title: "writing"
-permalink: /essays/
+permalink: /writing/
 ---

@@ -40,6 +40,7 @@ plugins:
   - jekyll-seo-tag
   - simple-jekyll-search
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # RSS Feed settings
 feed:
@@ -55,6 +56,7 @@ feed:
 # their entries' file path in the `include:` list.
 
 exclude:
+  - scripts/
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
@@ -76,6 +78,7 @@ defaults:
       sitemap: true
       layout: post
       author: Oscar Moxon
+      permalink: /:title.html
 
 kramdown:
   auto_ids: true

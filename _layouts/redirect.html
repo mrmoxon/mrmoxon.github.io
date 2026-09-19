@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting</title>
+  <link rel="canonical" href="{{ page.redirect.to }}">
+  <meta name="robots" content="noindex">
+  <script>
+    const target = new URL({{ page.redirect.to | jsonify }}, location.href);
+    target.search = location.search;
+    target.hash = location.hash;
+    location.replace(target.pathname + target.search + target.hash);
+  </script>
+  <noscript><meta http-equiv="refresh" content="0;url={{ page.redirect.to | remove_first: site.url }}"></noscript>
+</head>
+<body><a href="{{ page.redirect.to | remove_first: site.url }}">Continue to the article</a></body>
+</html>

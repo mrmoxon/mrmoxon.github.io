@@ -8,6 +8,8 @@ mini: false
 favourite: 10
 image: /assets/picbreeder-2.png
 description: "Combining Wolfram and Friston's frameworks to better characterise the idea of a universal assembly function. Proposal of MESA Theory: multi-computational self-assembly theory with respect to the free energy principle."
+redirect_from:
+  - /hierarchies/2024/10/24/emergence.html
 ---
 
 This work began as a study of the phenomena captured beautifully by the notion of "emergence" and developed into an elegant theory of the physics of self-organisation. It combines Wolfram and Friston's mathematical frameworks with complexity theory to better characterise the idea of a "universal assembly function". I am in the process of collecting concrete examples in the companion essay, [Tractable Emergence](/emergent-phenomena/).
@@ -50,7 +52,7 @@ Emergence describes the creation of new behaviours that seem to transcend the su
 
 Each layer of physical reality exhibits emergent properties that transcend its constituent parts, in a type of hierarchy known as [holarchy](https://en.wikipedia.org/wiki/Holon_(philosophy)). The same reality we evolved in is primed for this emergence, with all of our most basic physical laws emerging from simpler foundations. Gravity emerges as the geometric consequence of mass-energy's influence on spacetime, while time emerges simply as the direction in which disorder increases, giving rise to our experienced flow from past to future.
 
-This pattern extends upward through layers of increasing complexity with different properties appearing. Intelligent behaviour emerges from neural networks that individually exhibit no such behaviour (shown below). Social structures emerge from individual behaviors, giving rise to cities, nations, and global movements. Each new layer of complexity displays properties unobserved in its components. [[2]](#ref-2)
+This pattern extends upward through layers of increasing complexity with different properties appearing. Intelligent behaviour emerges from neural networks that individually exhibit no such behaviour ([fig. 1](#essay-figure-1)). Social structures emerge from individual behaviors, giving rise to cities, nations, and global movements. Each new layer of complexity displays properties unobserved in its components. [[2]](#ref-2)
 
 ![The emergent behaviours exhibited by neural language models only appear after certain thresholds; each level hard-coded by some physical law that applies to the architecture and training regime.](/assets/scaling-laws-llms.png)
 *For instance, the emergent intelligence exhibited by neural language models only appears at certain thresholds; each level hard-coded by some physical law that applies to the architecture and training regime. [[3]](#ref-3)*
@@ -67,23 +69,23 @@ In the eyes of complexity theory, all objects hold a mixture of:
 
 Daniel Schmachtenberger describes synergistic relationships as "[more elegantly ordered complexity](https://www.youtube.com/watch?app=desktop&v=eh7qvXfGQho)", which is the universe self-selecting for (1) increasing diversity, coupled with (2) more synergistic combinations across that diversity. In this sense, evolution is not merely about the traditional notion of 'survival', but about the creation of ever more interconnected systems that favour new properties of greater sophistication.
 
-To illustrate synergy and complexity, we'll use a paper from 2007 called Picbreeder. Users who visited the website could evolve pictures by applying sine, sigmoid, linear or gaussian convolutions on an image. As branches are evolved, they become explicitly more complex (there is no ability to devolve the images), and this reliably adds complexity with every step (c). 
+To illustrate synergy and complexity, we'll use a paper from 2007 called Picbreeder. Users who visited the website could evolve pictures by applying sine, sigmoid, linear or gaussian convolutions on an image. As branches are evolved, they become explicitly more complex (there is no ability to devolve the images), and this reliably adds complexity with every step ([fig. 2](#essay-figure-2), c).
 
-Interestingly, however, this isn't always the story. In (d), relationships discovered by users show intelligible complexity, with cars, sunsets, species, and planets forming under the same conditions as everything else, creating immense synergy and beauty. 
+Interestingly, however, this isn't always the story. In [fig. 3](#essay-figure-3), relationships discovered by users show intelligible complexity, with cars, sunsets, species, and planets forming under the same conditions as everything else, creating immense synergy and beauty.
 
 ![Picbreeder entropy](/assets/picbreeder-1.png)
 *(a and b): Process of selecting and evolving images is simple. (c): Images become very complex with enough steps.*
 
 ![Picbreeder synergy](/assets/picbreeder-2.png)
-*(d): Emergent complexity (cars, species, planets) forming at the meso scales of evolution.*
+*Emergent complexity (cars, species, planets) forming at the meso scales of evolution.*
 
 Three important observations: 
 
-1. Evolution in Picbreeder is one-directional; the states that can evolve into, e.g., cars, will not evolve into more simple states using the same functions applied. This is known as 'divergency', and seems to be a property of the material universe we inhabit [[4]](#ref-4). 
+1. Evolution in Picbreeder is one-directional; the states that can evolve into, e.g., cars, will not evolve into more simple states using the same functions applied. This is known as 'divergency', and seems to be a property of the material universe we inhabit. [[4]](#ref-4) 
 
 2. Later-states are not obviously predictable; when one tries to produce a car, one will struggle to achieve this without trial and error. In other words, mastering Picbreeder is very hard.
 
-3. Intuitively, the "emergent complexity" we observe seems highest in the meso-stages of evolution (the images shown in (d) are only momentary snapshots of longer branches that eventually become disordered).
+3. Intuitively, the "emergent complexity" we observe seems highest in the meso-stages of evolution ([fig. 4](#essay-figure-4)); the images shown in [fig. 3](#essay-figure-3) are only momentary snapshots of longer branches that eventually become disordered.
 
 ![Complexodynamics](/assets/complexodynamics.png){:style="width:70%;"}
 *Dynamical systems generally exhibit emergent complexity in the meso-stages when things are changing fastest. Interestingly, entropy generally only ever increases, eventually tending towards homogeneity at equilibrium when the process settles. [[5]](#ref-5)*
@@ -137,7 +139,7 @@ The scientific process parses unknown dynamics into a language humans can make p
 
 Gravity and biological diversity were strongly emergent properties, understood only intuitively until Einstein and Darwin, who would each make predictions long before they could be tested by gravitational wave telescopes or protein sequencing. Even off the back of the discovery of DNA, protein folding would remain largely misunderstood until 2020, where with computer assistance, we went from understanding around 17% of human protein structures (just 4,000 structures) to well over 200 million structures across 1 million species: a 1000-fold update in the field. 
 
-The same goes for artificial intelligence, which did not harness emergent behaviour like deep learning until the inception of AlexNet. Sutton's [Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) seems to be a universal governing principle for any problem that requires searching through dynamical systems in order to learn them [[7]](#ref-7).
+The same goes for artificial intelligence, which did not harness emergent behaviour like deep learning until the inception of AlexNet. Sutton's [Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) seems to be a universal governing principle for any problem that requires searching through dynamical systems in order to learn them. [[7]](#ref-7)
 
 Our relationship with learning machines appears to offer new life for science by passing on the bulk of the computational burden to our silicon counterparts, allowing us to stretch what humanity can learn. These machines 'solve' problems in ways that no single human mind would have the capacity to compute, which allows us to build technology to better service our needs. 
 
@@ -157,12 +159,12 @@ For the rest of this essay, I will focus on the language we use to describe dyna
 
 What matters when it comes to language and what are we missing when we fail to interpret dynamical systems?
 
-Take the Mandelbrot set, which is often used to illustrate the trade-off between static languages and computation. We often communicate these fractals in image form, like the one below. Storing the 24-bit colour of each pixel in this image would require 23 million bytes, but an image would be useless at capturing the dynamic nature of the set unless you could zoom in infinitely. 
+Take the Mandelbrot set, which is often used to illustrate the trade-off between static languages and computation. We often communicate these fractals in image form ([fig. 5](#essay-figure-5)). Storing the 24-bit colour of each pixel in this image would require 23 million bytes, but an image would be useless at capturing the dynamic nature of the set unless you could zoom in infinitely.
 
 Suppose, then, we zoomed in, capturing every new structure at every magnification. This effort would only be as useful as the number of pictures you take --- which would eventually take up all the memory available in a finite universe and still fail to capture the full nature of the system. 
 
 ![Mandelbrot](/assets/mandelbrot.png){:style="width:70%;"}
-*Without capturing the dynamic nature of a Mandelbrot, any approach you used would be meaningfully deficient [[8]](#ref-8).*
+*Without capturing the dynamic nature of a Mandelbrot, any approach you used would be meaningfully deficient. [[8]](#ref-8)*
 
 Let's suppose instead that you could encode the recursive function of the Mandelbrot set into your program, so that now a far small computer program could reproduce this image in 100 or 1000 bytes. Now you would successfully upgrade your representation to one that would be able to inform both the image AND the fractal nature of the Mandelbrot set. 
 
@@ -186,23 +188,26 @@ The answer to this lies in what we might call "computational compression": findi
 
 In Stephen Wolfram's 2002 book "A New Kind of Science," he proposed describing the universe as a network of interconnected points where the 'laws of physics' emerge from the rules that update the connections in this network (more on this shortly). This forms part of what he calls "Rulial Space": the abstract hyperobject of all possible rules that could govern such a system. This object would be 'computable', meaning an update rule could be found that describes all transformations that occur within the known universe. 
 
-A graph-wise demonstration of this is performed below, where each new transformation has the same condition applied to it, recursively. A set of rules will propagate ad infinitum and create ever-larger structures. Wolfram then runs this for the below computation 1000 times and discovers an emergent, cone-like geometry. 
+A graph-wise demonstration of this appears in [fig. 6](#essay-figure-6), where each new transformation has the same condition applied to it, recursively. A set of rules will propagate ad infinitum and create ever-larger structures. Wolfram then runs this computation 1000 times and discovers an emergent, cone-like geometry.
 
 ![cone computation](/assets/cone-computation.png){:style="width:70%;"}
+*Repeated application of a simple rewriting rule produces a cone-like geometry.*
 
-A slightly different rule produces even more curious behaviour, and a whole taxonomy of 'species' can be observed when many rules are activated in parallel.
+A slightly different rule produces even more curious behaviour, and a whole taxonomy of 'species' can be observed when many rules are activated in parallel ([fig. 7](#essay-figure-7)).
 
 ![3D cone computation](/assets/3d-cone-computation.png){:style="width:90%;"}
+*A different rule produces a netted cone after 2,000 generations. Other rules give rise to a diverse family of structures.*
 
 Wolfram has long proposed using discrete graphs to describe the universe. Until 2020, his graph-based theory was met with scepticism by physicists due to its incompatibility with Einstein's theories of general relativity, which violated some spacetime symmetries like Lorentz-invariance. However, Wolfram has more recently described Rulial Space as a hypergraph, meaning the links have no physical length and can link multiple points simultaneously. This approach is compatible with Lorentz-invariance, similar to how Rafael Sorkin discretised spacetime within "Causal Sets" while preserving its essential properties. [[9]](#ref-9)
 
 ### Multicomputation<a id="part-7"></a>
 
-Unlike regular computation which follows a single thread through time, multicomputation supports multiple interwoven threads of time, which would better characterise emergence in the physical universe. 
+Unlike regular computation which follows a single thread through time, multicomputation supports multiple interwoven threads of time, which would better characterise emergence in the physical universe ([fig. 8](#essay-figure-8)).
 
 Now the story becomes: observers like us "parse" their relative multiway system when they make observations. This creates different possible reference frames that must be "computationally bounded", meaning they can't require unlimited computation to construct. These reducible 'slices' force certain generic laws to persist, and these laws end up being analogous to physics concepts like general relativity and quantum mechanics.
 
 ![Science-paradigms](/assets/science-paradigms.png)
+*Wolfram's 'four paradigms' of science, distinguished by how they represent change, time, and the observer.*
 
 At the moment, the way Wolfram describes the discrete nature of the universe is by referring to the axiomatic "carriers of state" that persist between events as "tokens". These tokens are parsed by events that perform transformations on the present hyperstate. Each token can be uniquely identified by its connected nodes, and these evolve as events occur. 
 
@@ -282,7 +287,7 @@ Multicomputation provides the computational framework that complements the free 
 
 We can model the structure and behaviour of any complex system by its "tokens" and "events", where whole histories demonstrate how tokens are entangled. Any laws we observe emerge from this fundamental drive toward self-evidencing organisation, as they are the rules that characterise all of its emergent properties.
 
-![markov-multicomputation-table](/assets/markov-multicomputation-table.png)
+![Markov blanket and multicomputational events and tokens](/assets/markov-multicomputation-table.png){:data-layout="margin"}
 *(a) Markov blanket as centred around by free-energy theory, (b) Multicomputational 'events' and 'tokens' for nine fields.*
 
 This framework makes several key properties of complex systems seem natural:
@@ -373,7 +378,9 @@ The challenge ahead lies not in describing what has emerged, but in predicting w
 
 ---
 
-# References
+<a id="references"></a>
+
+# Footnotes
 
 [1]<a id="ref-1"></a> The Ascent of Man (in more detail):
 
