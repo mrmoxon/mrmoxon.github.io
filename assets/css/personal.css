@@ -156,6 +156,8 @@ iframe, embed { max-width: 100%; }
 .margin-art.figure-highlight { outline: 1px solid var(--link); outline-offset: 6px; }
 .margin-art img { display: block; height: auto; }
 @media (min-width: 1280px) {
+  /* Keep paragraph margins inside the height measured for margin figures. */
+  .h-entry .post-content { display: flow-root; }
   .essay-contents { display: block; position: absolute; right: calc(100% + 48px); top: 0; bottom: 0; width: min(200px, var(--margin-width)); }
   .essay-contents nav { position: sticky; top: 32px; max-height: calc(100vh - 64px); overflow-y: auto; scrollbar-width: thin; font-size: 12px; line-height: 1.5; }
   .contents-label { display: block; margin-bottom: 10px; color: var(--muted); }
