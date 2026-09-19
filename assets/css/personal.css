@@ -36,6 +36,8 @@ iframe, embed { max-width: 100%; }
 [hidden], .hidden { display: none !important; }
 .personal-name { margin: 0; font-size: 16px; font-weight: 500; }
 .personal-name a { color: inherit; }
+.personal-home .central-column { font-size: 13px; }
+.personal-home .personal-name { font-size: 15px; }
 .contact-links { margin: 16px 0 30px; }
 .contact-links a { font-size: inherit; }
 .contact-separator { margin: 0 3px; color: var(--ink); font-weight: 500; }
@@ -123,7 +125,17 @@ iframe, embed { max-width: 100%; }
 .h-entry .post-content h2 { font-size: 19px; }
 .h-entry .post-content h3 { font-size: 16px; }
 .essay-reading { position: relative; --figure-gap: 40px; --margin-width: min(320px, calc((100vw - 664px) / 2 - 48px)); }
-.essay-contents, .essay-contents[hidden] { display: none; }
+.essay-contents { margin-bottom: 24px; font-size: 13px; line-height: 1.5; }
+.essay-contents[hidden] { display: none; }
+.contents-label { display: flex; align-items: center; gap: 6px; list-style: none; color: var(--muted); cursor: pointer; }
+.contents-label::-webkit-details-marker { display: none; }
+.contents-chevron { flex-shrink: 0; }
+.contents-disclosure[open] .contents-chevron { transform: rotate(90deg); }
+.contents-disclosure[open] > .contents-label { margin-bottom: 10px; }
+.essay-contents ol { list-style: none; margin: 0; padding: 0; }
+.essay-contents li { margin-bottom: 10px; }
+.essay-contents a { color: var(--muted); display: block; }
+.essay-contents a:hover, .essay-contents a[aria-current] { color: var(--ink); }
 .h-entry .post-content hr { border-color: var(--ink); }
 .post-content :is(h1, h2, h3, [id]) { scroll-margin-top: 32px; }
 .essay-figure { position: relative; margin: 24px 0; }
@@ -155,19 +167,23 @@ iframe, embed { max-width: 100%; }
 .figure-reference { font-size: inherit; white-space: nowrap; }
 .margin-art.figure-highlight { outline: 1px solid var(--link); outline-offset: 6px; }
 .margin-art img { display: block; height: auto; }
-@media (min-width: 1280px) {
+@media (min-width: 900px) and (max-width: 1279px) {
+  .personal-page:has(.h-entry) { width: calc(100% - 304px); margin-left: max(24px, calc((100vw - 960px) / 2)); margin-right: 0; }
+  .personal-page:has(.h-entry) .site-footer { position: relative; width: 616px; left: calc(50vw - 332px - max(24px, calc((100vw - 960px) / 2))); }
+  .essay-reading { --figure-gap: 32px; --margin-width: 240px; }
+}
+@media (min-width: 900px) {
   /* Keep paragraph margins inside the height measured for margin figures. */
   .h-entry .post-content { display: flow-root; }
-  .essay-contents { display: block; position: absolute; right: calc(100% + 48px); top: 0; bottom: 0; width: min(200px, var(--margin-width)); }
-  .essay-contents nav { position: sticky; top: 32px; max-height: calc(100vh - 64px); overflow-y: auto; scrollbar-width: thin; font-size: 12px; line-height: 1.5; }
-  .contents-label { display: block; margin-bottom: 10px; color: var(--muted); }
-  .essay-contents ol { list-style: none; margin: 0; padding: 0; }
-  .essay-contents li { margin-bottom: 10px; }
-  .essay-contents a { color: var(--muted); display: block; }
-  .essay-contents a:hover, .essay-contents a[aria-current] { color: var(--ink); }
   .essay-figure { margin: 0; height: 0; }
   .margin-art { position: absolute; left: calc(100% + var(--figure-gap)); top: var(--figure-offset, 0px); width: var(--margin-width); }
   .margin-art img { width: 100% !important; max-width: 100%; }
+}
+@media (min-width: 1280px) {
+  .essay-contents { display: block; position: absolute; right: calc(100% + 48px); top: 0; bottom: 0; width: min(200px, var(--margin-width)); }
+  .contents-disclosure { position: sticky; top: 32px; max-height: calc(100vh - 64px); overflow-y: auto; scrollbar-width: thin; font-size: 12px; line-height: 1.5; }
+  .contents-label { display: block; cursor: default; }
+  .contents-chevron { display: none; }
 }
 .post-meta-row, .post-meta-wrapper { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 11px; }
 .post-header .post-meta-row { flex-wrap: wrap; gap: 8px 10px; font-size: 13px; line-height: 24px; }

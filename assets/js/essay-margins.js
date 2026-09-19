@@ -3,7 +3,17 @@
   if (!content) return;
   const contents = document.querySelector('.essay-contents');
   const headings = Array.from(content.querySelectorAll('h1, h2, h3'));
-  const wide = window.matchMedia('(min-width: 1280px)');
+  const wide = window.matchMedia('(min-width: 900px)');
+  const sidebar = window.matchMedia('(min-width: 1280px)');
+  const disclosure = contents.querySelector('details');
+  function updateDisclosure() {
+    disclosure.open = sidebar.matches;
+  }
+  disclosure.querySelector('summary').addEventListener('click', event => {
+    if (sidebar.matches) event.preventDefault();
+  });
+  sidebar.addEventListener('change', updateDisclosure);
+  updateDisclosure();
   const figures = [];
 
   let imageDialog;
