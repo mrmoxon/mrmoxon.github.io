@@ -126,14 +126,14 @@ Up next, I plan to study how damage can be not just prevented, but reversed.
 
 # Notes
 
-[1]<a id="ref-1"></a> - Interestingly, older stories are known to us. The Pyramid Texts date back to c. 2400-2300 BC. The Enmerkar and Lugabanda poems are datable to the Third Dynasty of Ur. The Australian Aborigine Dreamtime stories, passed down orally, may be traceable up to 10,000 years ago. 
+[1]<a id="ref-1"></a> Interestingly, older stories are known to us. The Pyramid Texts date back to c. 2400-2300 BC. The Enmerkar and Lugabanda poems are datable to the Third Dynasty of Ur. The Australian Aborigine Dreamtime stories, passed down orally, may be traceable up to 10,000 years ago. 
 
-[2]<a id="ref-2"></a> - The time between creation and the Flood was 1,656 years. In that time, only six generations had passed. After the Flood, the downward trend continued, shortening each successive generation; Noah's children died at 400-500 years old, Abraham died at 175, Moses died at 120.
+[2]<a id="ref-2"></a> The time between creation and the Flood was 1,656 years. In that time, only six generations had passed. After the Flood, the downward trend continued, shortening each successive generation; Noah's children died at 400-500 years old, Abraham died at 175, Moses died at 120.
 
-[3]<a id="ref-3"></a> - Okay, the Spanish Flu is an exception, but it puts into perspective how deadly historic "flu seasons" have been. Nowadays 0.0052% of the world population dies from flu each year. See [statistics on the Spanish Flu](https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history). 
+[3]<a id="ref-3"></a> Okay, the Spanish Flu is an exception, but it puts into perspective how deadly historic "flu seasons" have been. Nowadays 0.0052% of the world population dies from flu each year. See [statistics on the Spanish Flu](https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history). 
 
-[4]<a id="ref-4"></a> - Only one person in history verifiably lived to over 120 years old. This was Jeanne Calment, born in 1875. We should call her the first "hypercentenarian."
+[4]<a id="ref-4"></a> Only one person in history verifiably lived to over 120 years old. This was Jeanne Calment, born in 1875. We should call her the first "hypercentenarian."
 
 Also, odd fact but -- Sarah Knauss, oldest American ever, died just one day before the 21st century. 
 
-[5]<a id="ref-5"></a> - For relevant statistics on aging, read more [at the Dementia Statistics Hub](https://www.dementiastatistics.org/statistics/deaths-due-to-dementia/).
+[5]<a id="ref-5"></a> For relevant statistics on aging, read more [at the Dementia Statistics Hub](https://www.dementiastatistics.org/statistics/deaths-due-to-dementia/).

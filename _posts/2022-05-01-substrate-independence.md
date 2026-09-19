@@ -122,25 +122,27 @@ The reality is, some time in the distant future, it may be time to upload. That 
 
 ---
 
-# References
+<a id="references"></a>
 
-[1]<a id="ref-1"></a> - 8 different types of eye? Let me check that out!  
+# Footnotes
 
-[2]<a id="ref-2"></a> - Alan Turing's ground-breaking paper on computational logic is accessible here. 
+[1]<a id="ref-1"></a> 8 different types of eye? Let me check that out!  
 
-[3]<a id="ref-3"></a> - 
+[2]<a id="ref-2"></a> Alan Turing's ground-breaking paper on computational logic is accessible here. 
+
+[3]<a id="ref-3"></a> 
 If a conscious human mind is merely a complex system of electrochemical reactions and a conscious algorithm is merely a complex system of electrical current, then a complex system of kinetically charged particles, such as a thundercloud, could also be conscious.
 
 On a larger scale, the biosphere is a complex, regulating system of energy so complex that it is teeming with conscious agents. Who is to say that the biosphere itself is not conscious? Arguably, Earth has a metabolism, a biosphere that self-repairs, and an ability to yield human astronauts, Teslas, and city light. Those three components fit the definition of life we used so convincingly before. Lovelock's Gaia hypothesis is still of contention 50 years later. [[7]](#ref-7)
 
 Pushing scale to the limit, stars, solar systems, and galaxy clusters are all vastly more complex systems arbitrarily, and thus too could theoretically be waking. To prove this theory wrong, we will need to determine what it is exactly that guarantees consciousness and what prevents it. 
 
-[4]<a id="ref-4"></a> - Max Tegmark talks more about this in this article.
+[4]<a id="ref-4"></a> Max Tegmark talks more about this in this article.
 
 Imagine two programmers are jointly hunting a bug in their code, they are probably not conceptualising the computational architecture, but the software, variables, and the outcome of their button-inputs. The computations behind the code could be done with integrated circuits, vacuum tubes, relays, or electromechanical boards and the programmers wouldn't even know without opening it up. [[5]](#ref-5)
 
-[5]<a id="ref-5"></a> - For the journey to a bizarre, transcendent state of mind, start here: https://tim.blog/2022/04/13/donald-hoffman/ and continue here: https://www.youtube.com/watch?v=oYp5XuGYqqY.
+[5]<a id="ref-5"></a> For the journey to a bizarre, transcendent state of mind, start here: https://tim.blog/2022/04/13/donald-hoffman/ and continue here: https://www.youtube.com/watch?v=oYp5XuGYqqY.
 
-[6]<a id="ref-6"></a> - 'Suitcase word' - coined by Marvin Minsky, one of the 'Big 4' Artificial Intelligence pioneers of the 60s. 
+[6]<a id="ref-6"></a> 'Suitcase word' - coined by Marvin Minsky, one of the 'Big 4' Artificial Intelligence pioneers of the 60s. 
 
-[7]<a id="ref-7"></a> - Lovelock's 'Gaia Hypothesis' is frequently cited as a prophetic view of the world and the world we find ourselves making. The new revision of the theory also focuses on humans developing hyperintelligence. It's available here.
+[7]<a id="ref-7"></a> Lovelock's 'Gaia Hypothesis' is frequently cited as a prophetic view of the world and the world we find ourselves making. The new revision of the theory also focuses on humans developing hyperintelligence. It's available here.

@@ -225,3 +225,4 @@ Zappos, (2019) Your Role as Lead Link. Available at: https://hatch.apps.zappos.c
 also see Zappos, (2019) Zappos's 20th Birthday. Available at: https://www.zappos.com/about/stories/zappos-20th-birthday (Accessed:9 January 2022).
 
 ![Zappos](/assets/zappos.png)
+*Holacracy at Zappos*

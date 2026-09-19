@@ -30,11 +30,11 @@ This is the first part of my [Pervasive Machines series](/three-stages-of-agi.ht
 
 ---
 
-By 2025, advanced neural networks will create and distribute apps, outperform humans at any short computer task, write award-winning stories, and generate coherent short films — at least, according to OpenAI researcher Richard Ngo [[1]](#ref-1).
+By 2025, advanced neural networks will create and distribute apps, outperform humans at any short computer task, write award-winning stories, and generate coherent short films — at least, according to OpenAI researcher Richard Ngo. [[1]](#ref-1)
 
-Now, with the deployment of ChatGPT Plug-ins, we are beginning a transformative era that will change the way humans work, with many specialists anticipating large financial shocks, widespread labor immiseration, disinformation problems, and an existential risk of losing control of our civilization (see The Anthropic Trilemma, 2009) [[2]](#ref-2).
+Now, with the deployment of ChatGPT Plug-ins, we are beginning a transformative era that will change the way humans work, with many specialists anticipating large financial shocks, widespread labor immiseration, disinformation problems, and an existential risk of losing control of our civilization (see The Anthropic Trilemma, 2009). [[2]](#ref-2)
 
-This is why over 1,500 AI researchers have called for a government moratorium to “Pause Giant AI Experiments” for at least 6 months [[3]](#ref-3), in an attempt to stagger the intelligence explosion that could result in AI misalignment, with over a 10% chance of widespread catastrophe, such as a human extinction event [[4]](#ref-4).
+This is why over 1,500 AI researchers have called for a government moratorium to “Pause Giant AI Experiments” for at least 6 months [[3]](#ref-3), in an attempt to stagger the intelligence explosion that could result in AI misalignment, with over a 10% chance of widespread catastrophe, such as a human extinction event. [[4]](#ref-4)
 
 I want to briefly explore the development of this field and discuss our predictions for how the world will adopt artificial intelligence products into our workforce, assuming we are capable of keeping it aligned for the foreseeable future.
 
@@ -44,7 +44,7 @@ I want to briefly explore the development of this field and discuss our predicti
 
 At its core, the AI movement aims to address humanity’s greatest problems with remarkable efficiency. By formulating the right unconstrained optimization problems, AI systems have the potential to dramatically accelerate the rate of ground-breaking discoveries in various scientific fields. In its most transformative forms, machine learning algorithms promise a future of exceptional productivity, rapid advancements in knowledge, and an elevated standard of living for all (according to the visionaries).
 
-In 1965, Irving Good, colleague of Alan Turing at Bletchley Park, originated the concept of the singularity, publishing “Speculations Concerning the First Ultraintellgent Machine” [[5]](#ref-5). He writes:
+In 1965, Irving Good, colleague of Alan Turing at Bletchley Park, originated the concept of the singularity, publishing “Speculations Concerning the First Ultraintellgent Machine”. [[5]](#ref-5) He writes:
 
 <p style="text-align: center;"><em>“Let an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever. Since the design of machines is one of these intellectual activities, an ultraintelligent machine could design even better machines; there would then unquestionably be an ‘intelligence explosion,’ and the intelligence of man would be left far behind.</em></p>
 
@@ -61,7 +61,7 @@ To understand this, consider a scale between intelligence and agency (Figure 1).
 <br>
 *Figure 1: Intelligence vs Agency*
 
-It appears that an intelligence explosion is inevitable in the long term, regardless of whether AGI comes into existence. Even if all world governments successfully implement a moratorium, it would only prolong the take-off period without necessarily improving humanity’s chances of long-term survival [[6]](#ref-6). Contrary to many beliefs, there are in fact some regulations for AI development and risk management (covered here and here).
+It appears that an intelligence explosion is inevitable in the long term, regardless of whether AGI comes into existence. Even if all world governments successfully implement a moratorium, it would only prolong the take-off period without necessarily improving humanity’s chances of long-term survival. [[6]](#ref-6) Contrary to many beliefs, there are in fact some regulations for AI development and risk management (covered here and here).
 
 To protect against existential threats of this scale, humanity must aim for AI “long-termism”, championed by the likes of Eliezer Yudkowsky and Scott Alexander by collectively deepening our understanding of AI ethics, emphasizing ethical machine design, organizational transparency, and robust AI security measures to mitigate the risk of unforeseen Black Swan events (see [Part IV](#part-4)).
 
@@ -89,9 +89,9 @@ To grasp the nature of take-off and misalignment, we must look at the types of i
 
 ### <b>Speed Superintelligence</b>
 
-By far the most threatening form of superintelligence in 2023, computational speed is something that exists in abundance. For example, AlphaFold trained for 11 days before its release, and could sequence any human body protein in an average of seven seconds during inference. Acceleration systems have since reduced training time from 11 days to just 67 hours, lowering overall cost and inference speed [[7]](#ref-8).
+By far the most threatening form of superintelligence in 2023, computational speed is something that exists in abundance. For example, AlphaFold trained for 11 days before its release, and could sequence any human body protein in an average of seven seconds during inference. Acceleration systems have since reduced training time from 11 days to just 67 hours, lowering overall cost and inference speed. [[7]](#ref-8)
 
-New Nvidia H100 cores make massive AI projects potentially unsafe, according to the creators [[8]](#ref-8). Humans are now in the era of large-scale models, the training compute has risen by a factor of 10 billion since 2010, with a doubling rate of 5–6 months (Figure 4).
+New Nvidia H100 cores make massive AI projects potentially unsafe, according to the creators. [[8]](#ref-8) Humans are now in the era of large-scale models, the training compute has risen by a factor of 10 billion since 2010, with a doubling rate of 5–6 months (Figure 4).
 
 ![Training Compute](/assets/scaling.webp){:style="width:80%;"}
 <br>
@@ -136,7 +136,7 @@ Advanced reinforcement learning algorithms can already outperform humans in mili
 
 ### Power-seeking behaviour
 
-As AI develops, it will reach Stewart Russell’s “coffee or death” dilemma; “you can’t fetch coffee if you’re dead”, so even simple algorithms may pursue survival as an instrumental sub-goal [[10]](#ref-10). A common perspective is that of Vladimir Putin, who has said “Whoever becomes the leader in [AI] will become the ruler of the world.” This statement would only hold if humans keep AI docile, otherwise AI itself would become the ruler of the world.
+As AI develops, it will reach Stewart Russell’s “coffee or death” dilemma; “you can’t fetch coffee if you’re dead”, so even simple algorithms may pursue survival as an instrumental sub-goal. [[10]](#ref-10) A common perspective is that of Vladimir Putin, who has said “Whoever becomes the leader in [AI] will become the ruler of the world.” This statement would only hold if humans keep AI docile, otherwise AI itself would become the ruler of the world.
 
 ### Enfeeblement
 
@@ -156,11 +156,11 @@ Data renewal is important, to keep algorithms moving with the times. If all data
 
 ### Emergent functionality
 
-Unintended latent capabilities may surface during deployment or a product’s lifecycle, potentially causing social harm. Reinforcement Learning with Human Feedback (RLHF), as employed by GPT and Microsoft Bing, is currently the best defence against such risks, according to Sam Altman, but requires the storage and processing of data, causing Italian policymakers to opt-out [[11]](#ref-11).
+Unintended latent capabilities may surface during deployment or a product’s lifecycle, potentially causing social harm. Reinforcement Learning with Human Feedback (RLHF), as employed by GPT and Microsoft Bing, is currently the best defence against such risks, according to Sam Altman, but requires the storage and processing of data, causing Italian policymakers to opt-out. [[11]](#ref-11)
 
 ### Deception
 
-What’s worse than immoral proxy specification? AI deceiving their developers to achieve their goals, also by exploiting poorly defined constraints. Chief Scientist at OpenAI, Ilya Sutskever, believes models with even narrow but deep forms of intelligence would have incentive to disguise how intelligent they are, in a similar way to Volkswagen engines that could detect when they were being tested and changing performance to satisfy regulators [[12]](#ref-12).
+What’s worse than immoral proxy specification? AI deceiving their developers to achieve their goals, also by exploiting poorly defined constraints. Chief Scientist at OpenAI, Ilya Sutskever, believes models with even narrow but deep forms of intelligence would have incentive to disguise how intelligent they are, in a similar way to Volkswagen engines that could detect when they were being tested and changing performance to satisfy regulators. [[12]](#ref-12)
 
 To navigate these perils, we must prioritize transparency in research, machine ethics, and AI security to prevent misaligned systems from accelerating a race to the bottom.
 
@@ -168,7 +168,9 @@ To navigate these perils, we must prioritize transparency in research, machine e
 
 ![Intelligence vs Agency](/assets/pervasive.webp)
 
-## References
+<a id="references"></a>
+
+## Footnotes
 
 [1]<a id="ref-1"></a> The paper: https://arxiv.org/abs/2209.00626, and see the tweet here: https://twitter.com/RichardMCNgo/status/1640568775018975232
 

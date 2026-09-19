@@ -175,8 +175,5 @@ Dias-Porter reproduces a comparative table from Diana Price's *Shakespeare's Uno
 
 ---
 
-![Shakespeare and Francis Bacon - Grok and Gimp.](/assets/bacon-shakespeare.png)
-<br>
-*A rather haunting image of Shakespeare and Bacon made with Grok and Photoshop*
 
 </div>

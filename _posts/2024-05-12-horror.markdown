@@ -44,7 +44,9 @@ PLEASE MOHAMMED JUST [WAKE UP](https://www.youtube.com/watch?v=Qklvh5Cp_Bs)!
 
 ---
 
-# References
+<a id="references"></a>
+
+# Footnotes
 
 [1]<a id="ref-1"></a>
 
@@ -61,5 +63,3 @@ PLEASE MOHAMMED JUST [WAKE UP](https://www.youtube.com/watch?v=Qklvh5Cp_Bs)!
 ## Other references
 
 Modern [Reddit tier list](https://www.reddit.com/r/Scarymovies/comments/150ov4e/horror_movies_tierlist_ranked_by_how_disturbing/) of what is considered the pinnacle of shared scare in 2024.
-
-![Horror Genres](/assets/horror-genres.png)

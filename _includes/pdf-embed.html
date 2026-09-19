@@ -42,10 +42,17 @@ async function renderPDF(pdfPath) {
             textLayerDiv.className = 'textLayer';
             textLayerDiv.style.width = `${viewport.width}px`;
             textLayerDiv.style.height = `${viewport.height}px`;
+            textLayerDiv.style.setProperty('--scale-factor', viewport.scale);
+            pageDiv.style.aspectRatio = `${viewport.width} / ${viewport.height}`;
+            const fitTextLayer = () => {
+                textLayerDiv.style.transform = `scale(${pageDiv.clientWidth / viewport.width})`;
+            };
             
             pageDiv.appendChild(canvas);
             pageDiv.appendChild(textLayerDiv);
             container.appendChild(pageDiv);
+            fitTextLayer();
+            new ResizeObserver(fitTextLayer).observe(pageDiv);
 
             // Render PDF page to canvas
             await page.render({
@@ -55,12 +62,12 @@ async function renderPDF(pdfPath) {
 
             // Render text layer
             const textContent = await page.getTextContent();
-            pdfjsLib.renderTextLayer({
-                textContent: textContent,
+            await pdfjsLib.renderTextLayer({
+                textContentSource: textContent,
                 container: textLayerDiv,
                 viewport: viewport,
                 textDivs: []
-            });
+            }).promise;
         }
     } catch (error) {
         console.error('Error rendering PDF:', error);

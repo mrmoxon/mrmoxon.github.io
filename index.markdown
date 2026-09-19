@@ -10,8 +10,8 @@ layout: page
   {% include contact-links.html %}
 
   <nav class="personal-tabs" aria-label="Explore" role="tablist">
-    <button type="button" role="tab" id="tab-writing" aria-controls="panel-writing" aria-selected="true">Writing</button>
-    <button type="button" role="tab" id="tab-art" aria-controls="panel-art" aria-selected="false" tabindex="-1">Great Art</button>
+    <button type="button" role="tab" id="tab-writing" aria-controls="panel-writing" aria-selected="true">Essays</button>
+    <button type="button" role="tab" id="tab-art" aria-controls="panel-art" aria-selected="false" tabindex="-1">Art I Love</button>
   </nav>
 
   <div class="home-tab-panels">
@@ -30,7 +30,7 @@ layout: page
   </section>
 
   <section id="panel-art" role="tabpanel" aria-labelledby="tab-art" hidden>
-  <div class="art-strip" tabindex="0" role="region" aria-label="Great Art">
+  <div class="art-strip" tabindex="0" role="region" aria-label="Art I Love">
   
   <div class="art-items-single">
     <div class="art-item" data-title="New Atlantis — Francis Bacon">

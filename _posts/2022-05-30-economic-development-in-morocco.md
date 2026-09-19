@@ -117,6 +117,7 @@ Assuming equality of opportunity, a 1% increase in women completing secondary ed
 Output and output growth are functions of capital (K), human capital (H), labour (L), and technology (A), determined by the augmented production function;
 
 ![function](/assets/production-function.webp){:style="width: 40%;"}
+*The augmented production function relates output to physical capital, human capital, labour, and technology.*
 
 The level of human capital contributes as much as 15% of African growth; double the level of Europe and North America, meaning investment offers greater than normal returns (Wahba, J., 2022). 
 
@@ -135,6 +136,7 @@ For policy makers, achieving the maximum social rate of return to any educationa
 In financing educational policy, high rates of return are found through investment in girls’ education (Patrinos, H., 2016). Providing financial support for women taking courses in higher education;
 
 ![graph](/assets/function-2.webp){:style="width: 25%;"}
+*Returns to education: the earnings gain relative to the years of study and the combined cost of forgone earnings and tuition.*
 
 Where mean earnings of a primary-educated female worker is (y1), returns to investment in education for women (r) can be achieved by: increasing the mean earnings of tertiary educated women (y2↑), one solution would be to offer grants to companies with zero gender pay gap and fair ratio workforces; improving class attainment levels to reduce the number of years of schooling it takes to achieve higher education (s↓), one solution would be to offer higher pay for graduate teachers and professors; and reducing the annual cost of staying in higher education (c1↓), one solution would be to offer student loans and scholarships, particularly for women (Wahba, J., 2022).
 
@@ -163,6 +165,7 @@ According to Massey et al. (1993) motivations are primarily (1) Relative depriva
 The most identified reason for rural-urban migration is for better jobs and wages, greater job security and diversified job opportunities, being 33% of all migrants’ main motivations (APN, 1995; Haden, M., 2020). The Harris-Todaro (1970) model gives insight into the income motivation, with M = rate of rural-migration, Wu being expected urban wage, and Wr being rural wage.
 
 ![function](/assets/function-3.webp){:style="width:30%;"}
+*The Harris-Todaro model expresses rural-urban migration as a function of the gap between expected urban and rural wages.*
 
 Rural-urban migration will continue as long as M > 0, where  Morocco has M = f(3032-2390); (approx. 642). Urban and rural wages are calculated as: 0.907 (unemployment rate) multiplied by minimum wage and the average agricultural wage, respectively (minimum-wage.org, 2022; World Bank, 2021a; GLWC, 2022). The rural labour market has a higher rate of unemployment (14.5%) than the urban market (9.3%) (Lall et al., 2019; World Bank, 2022d). 
 

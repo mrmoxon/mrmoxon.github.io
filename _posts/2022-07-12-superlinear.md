@@ -19,7 +19,7 @@ Understanding the nuances of strong, accelerating trends in technology that can 
 
 ## I. The Speed Up of History
  
-Human progress has been moving faster and faster as the scientific field compounds; the "fast history" discussed by Clayton Christensen in 1997 is fast becoming an understatement. This principle is the "Law of Accelerating Returns" [[1]](#ref-1).
+Human progress has been moving faster and faster as the scientific field compounds; the "fast history" discussed by Clayton Christensen in 1997 is fast becoming an understatement. This principle is the "Law of Accelerating Returns". [[1]](#ref-1)
  
 According to Ray Kurzweil, the progress of the entire 20th century would have happened in only 20 years at the rate of advancement in the new millennium. In other words, the rate of progress at the end of the 20th century was five times faster than the average. This rate has only continued to accelerate. It took just 14 years to achieve another 20th-century's-worth of growth, and another 20th-century's-worth of progress between 2014 and 2021. Put plainly, history speeds up. 
  
@@ -61,9 +61,9 @@ In the case of the aeronautics industry, the S-curve arguably peaked with the re
  
 ## III. The Death of Moore's Law
  
-Another important example of the S-curve is transistor density, a waymark of exponential progress that has functioned as the time pacer of technology since 1961. Gordon Moore's "wild extrapolation" that transistor density would "double every year" in 1965 has stayed mostly true until the last decade [[4]](#ref-4).
+Another important example of the S-curve is transistor density, a waymark of exponential progress that has functioned as the time pacer of technology since 1961. Gordon Moore's "wild extrapolation" that transistor density would "double every year" in 1965 has stayed mostly true until the last decade. [[4]](#ref-4)
  
-Transistor scaling and miniaturization (specifically of MOSFET compact transistor microchips) known as "Dennard's scaling" were the driving force behind Moore's Law since the 70s. Other factors are the exponential increase in die sizes and a decrease in defective densities (meaning semiconductor manufacturers could work with larger areas without losing reduction yields). Finer minimum dimensions have also enabled more effective circuit architectures [[5]](#ref-5).
+Transistor scaling and miniaturization (specifically of MOSFET compact transistor microchips) known as "Dennard's scaling" were the driving force behind Moore's Law since the 70s. Other factors are the exponential increase in die sizes and a decrease in defective densities (meaning semiconductor manufacturers could work with larger areas without losing reduction yields). Finer minimum dimensions have also enabled more effective circuit architectures. [[5]](#ref-5)
  
 Since 1965, when transistors cost $10 each, computing power has increased by 550 million times. In 1971, the first CPU cost $60 and had 2,300 transistors. In 2022 the Apple M1 GPU has 114 billion transistors, selling for around £2k in a MacBook Pro. Dennard scaling ended in the mid-2000s, which lead to a shift of focus from semiconductor scaling to more software improvements that could achieve an effective rate of increase in-line with or greater than Moore's law. 
 
@@ -125,7 +125,9 @@ This will be the subject of my next essay.
 
 ---
 
-# References
+<a id="references"></a>
+
+# Footnotes
 
 [1]<a id="ref-1"></a> Ray Kurzweil - The Law of Accelerating Returns. Read more [here](https://www.kurzweilai.net/the-law-of-accelerating-returns).
 

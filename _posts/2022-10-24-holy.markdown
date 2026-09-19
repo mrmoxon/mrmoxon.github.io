@@ -37,7 +37,7 @@ Supervised learning, the method of training an algorithm with externally-generat
  
 The 2017 successor algorithm, "AlphaGo Zero", was not given any human data, instead it was trained against versions of itself in a simulated environment. In just three days (or three "blocks") of training time, AlphaGo Zero won against the version that beat Lee Sedol, winning one hundred games to nil. After 40 days of self-play, it exceeded the state of the art. 
  
-AlphaGo Zero was semi-supervised, meaning it used some labelled data but also generated its own datasets from its play in a simulated environment. Its successor, AlphaZero, applied this semi-supervised technique to chess and shogi and beat AlphaGo Zero in mere hours of training against itself with a new and improved computational architecture (covered [here](essay/timeline-of-AI)). 
+AlphaGo Zero was semi-supervised, meaning it used some labelled data but also generated its own datasets from its play in a simulated environment. Its successor, AlphaZero, applied this semi-supervised technique to chess and shogi and beat AlphaGo Zero in mere hours of training against itself with a new and improved computational architecture (covered [here](/timeline-of-ai.html)).
  
 A year later, DeepMind developed MuZero as an unsupervised (or more appropriately, "self-supervised") algorithm, capable of beating every previous champion without even being taught the rules or using any labelled data at all. By processing everything in its environment, it could adapt and master environments with unknown dynamics. This is the behaviour an infinitely scalable AI model will perform with far fewer limits.
 
@@ -148,17 +148,17 @@ The impact of our gods will be absolute; bolstering growth in some industries an
 
 # Notes
 
-[1]<a id="ref-1"></a> - Find the OpenAI blogpost [here](https://openai.com/research/better-language-models).
+[1]<a id="ref-1"></a> Find the OpenAI blogpost [here](https://openai.com/research/better-language-models).
 
-[2]<a id="ref-2"></a> - Kie Jie played AlphaGo after Lee Sedol. His comments are super interesting... Give it a watch [here](https://www.youtube.com/watch?v=UHU8lCctC-Q). 
+[2]<a id="ref-2"></a> Kie Jie played AlphaGo after Lee Sedol. His comments are super interesting... Give it a watch [here](https://www.youtube.com/watch?v=UHU8lCctC-Q). 
 
-[3]<a id="ref-3"></a> - Listen to Demis discuss this at this timestamp [here](https://open.spotify.com/episode/1zcT7fUeArhjU8J7weCzvG).
+[3]<a id="ref-3"></a> Listen to Demis discuss this at this timestamp [here](https://open.spotify.com/episode/1zcT7fUeArhjU8J7weCzvG).
 
-[4]<a id="ref-4"></a> - Yep, you can find archives of entertaining, shocking, and sometimes worrying content online... :/
+[4]<a id="ref-4"></a> Yep, you can find archives of entertaining, shocking, and sometimes worrying content online... :/
 
 Demis gives context to this figure on biologists [here](https://open.spotify.com/episode/1zcT7fUeArhjU8J7weCzvG).
 
-[5]<a id="ref-5"></a> - Discussions about the singularity are common, but Kurzweil's is an original voice:
+[5]<a id="ref-5"></a> Discussions about the singularity are common, but Kurzweil's is an original voice:
 
 Kurzweil's "The Singularity is Near" synopsis [here](https://en.wikipedia.org/wiki/The_Singularity_Is_Near).
 
@@ -166,6 +166,6 @@ A similar [article](https://www.thekurzweillibrary.com/futurism-ray-kurzweil-cla
 
 And a great TED talk of course... [here](https://www.ted.com/talks/ray_kurzweil_a_university_for_the_coming_singularity). 
 
-[6]<a id="ref-6"></a> - Read Irving Good's 1965 paper [here](https://www.scinapse.io/papers/1586718744).
+[6]<a id="ref-6"></a> Read Irving Good's 1965 paper [here](https://www.scinapse.io/papers/1586718744).
 
-[7]<a id="ref-7"></a> - More on John von Neumann's original use of the term "singularity" can be found [here](https://arxiv.org/ftp/arxiv/papers/1907/1907.03841.pdf).
+[7]<a id="ref-7"></a> More on John von Neumann's original use of the term "singularity" can be found [here](https://arxiv.org/ftp/arxiv/papers/1907/1907.03841.pdf).

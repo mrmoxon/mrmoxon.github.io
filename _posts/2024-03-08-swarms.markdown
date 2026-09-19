@@ -16,6 +16,7 @@ redirect_from:
 Shedding some light on how we're using LLMs, and where we're going.
 
 ![Overview](/assets/title-1.webp)
+*From improved retrieval in Claude 2.1 to specialised agent clusters for research, law, policy, healthcare, and corporate strategy.*
 
 ---
 
@@ -56,7 +57,7 @@ In March of last year, self-reflection was proposed to give models an instinct f
 
 The most recent technique, Tree-of-Thought, offers more nuance to CoT; instead of following a linear train of thoughts, researchers encouraged the model to construct a branching tree of interconnected ideas, before applying heuristic search to test paths until convergence. [[3]](#ref-3)
 
-Only in the last few months have we uncovered a strong explanation of why these models behave the way they do. In November, Stanford researchers showed that prompting models to 'think step-by-step' is literally causing the model to draw relationships between variables that might not have been directly connected in the training data. For a more detailed explanation, see [[6]](#ref-6).
+Only in the last few months have we uncovered a strong explanation of why these models behave the way they do. In November, Stanford researchers showed that prompting models to 'think step-by-step' is literally causing the model to draw relationships between variables that might not have been directly connected in the training data. For a more detailed explanation, see. [[6]](#ref-6)
 
 This means methods like Tree-of-Thought are particularly useful for overcoming the "reversal curse" [[6]](#ref-6) because they allow the models to evaluate the validity of both forward and reverse relationships within a single reasoning tree. Therefore, given enough intermediary steps, any hypothesis may be conditionally deducible from sets of variables within well-trained language models; a natural language universal approximation theorem.
 
@@ -67,7 +68,7 @@ Given this understanding of how language models deliberate, lets imagine the pot
 
 In much the same way as humans, debate can break language models out of their echo chamber and expose them to better solutions to a problem. Groups can, under certain conditions, facilitate more innovation than lone agents are capable of.
 
-Evidence suggests that groups generate a collective intelligence factor, which best describes a group's performance on a wide variety of tasks. Woolley et al. (2010) call this property 'c factor', and they claim that among humans, this isn't strongly correlated with either the average or maximum individual intelligence of group members. Rather, it is better predicted by the group's equality of contribution, diversity, and agreeableness. I have deconstructed how these apply to LLMs here [[7]](#ref-7).
+Evidence suggests that groups generate a collective intelligence factor, which best describes a group's performance on a wide variety of tasks. Woolley et al. (2010) call this property 'c factor', and they claim that among humans, this isn't strongly correlated with either the average or maximum individual intelligence of group members. Rather, it is better predicted by the group's equality of contribution, diversity, and agreeableness. I have deconstructed how these apply to LLMs here. [[7]](#ref-7)
 
 Debates focused on science and policy should aim to find novel solutions that diverge from conventional methods and open up better ways of thinking, as these global minima are more efficient than local-minima in the long-run. There are many barriers to this in human systems; social conventions and bias, status seeking, time constraints, bureaucracy, illness, and mood.
 
@@ -106,7 +107,9 @@ Thus, we approach an age where AI empowers both the collective and the individua
 
 ---
 
-# References
+<a id="references"></a>
+
+# Footnotes
 
 [1]<a id="ref-1"></a> Greg Kamradt's inital [tweet](https://twitter.com/GregKamradt/status/1727018183608193393).
 
