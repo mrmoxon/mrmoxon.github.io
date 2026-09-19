@@ -13,6 +13,8 @@ sitemap:
   lastmod: 2024-11-01
   priority: 0.8
   changefreq: 'monthly'
+redirect_from:
+  - /civilisation/2021/12/13/timeline-of-ai-1.html
 ---
 
 The following essay covers machine learning from its infant days to full self-driving. I intend to crystallise how and why computers have developed in the way they have, and why future machines will be far more advanced. 

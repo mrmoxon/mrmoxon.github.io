@@ -8,6 +8,8 @@ mini: false
 favourite: 9
 image: /assets/rickrubin.png
 description: "The roadmap to a society of Rick Rubins."
+redirect_from:
+  - /civilisation/2025/02/13/vibe.html
 ---
 
 The founder of Fog Creek Software once wrote, *"Your first priority as the manager of a software team is building the development abstraction layer."* In a software team, if a programmer is wrestling with a broken chair or is irritated by the heat and a loud office, the abstraction has, in Joel Spolsky's words, "sprung a leak."

@@ -7,6 +7,9 @@ study: false
 mini: true
 favourite: 5
 description: "Talk by Professors Hatcher, Stepanchuk, Gall and Mennuni at University of Southampton after Liz Truss mini-budget."
+redirect_from:
+  - /market-failure/2022/10/11/mini-budget.html
+  - /market-failure/2022/10/12/mini-budget.html
 ---
 
 <i>Discussants: Dr Alessandro Mennuni, Dr Michael Hatcher, Dr Serhiy Stepanchuk, Dr Thomas Gall. Distinguished Professors of Economics specialising in Fiscal Policy, Monetary Economics, Endogenous Growth Theory, and Public Economics, respectively.</i>

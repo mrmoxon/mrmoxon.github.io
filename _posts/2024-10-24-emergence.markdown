@@ -8,6 +8,8 @@ mini: false
 favourite: 10
 image: /assets/picbreeder-2.png
 description: "Combining Wolfram and Friston's frameworks to better characterise the idea of a universal assembly function. Proposal of MESA Theory: multi-computational self-assembly theory with respect to the free energy principle."
+redirect_from:
+  - /hierarchies/2024/10/24/emergence.html
 ---
 
 This work began as a study of the phenomena captured beautifully by the notion of "emergence" and developed into an elegant theory of the physics of self-organisation. It combines Wolfram and Friston's mathematical frameworks with complexity theory to better characterise the idea of a "universal assembly function". I am in the process of collecting concrete examples in the companion essay, [Tractable Emergence](/emergent-phenomena/).

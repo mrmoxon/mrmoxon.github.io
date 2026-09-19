@@ -8,6 +8,9 @@ mini: false
 favourite: 7.5
 image: /assets/title-1.webp
 description: "New context-space reasoning will affect the way we conduct research and define 'reasoning'."
+redirect_from:
+  - /civilisation/2024/02/09/swarms.html
+  - /civilisation/2024/03/08/swarms.html
 ---
 
 Shedding some light on how we're using LLMs, and where we're going.

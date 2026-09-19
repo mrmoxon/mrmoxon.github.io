@@ -10,6 +10,9 @@ image: /assets/zappos.png
 description: 'Analysis of Holacracy and leadership through the lens of Tony Hsieh and the "Zappos family" in the growth and success of online retailer Zappos.'
 # featured: false
 # recommended: false
+redirect_from:
+  - /hierarchies/2022/05/11/holacracy.html
+  - /hierarchies/2022/05/12/holacracy.html
 ---
 
 This essay analyses Holacracy and leadership through the lens of Tony Hsieh and the "Zappos family" in the growth and success of online retailer Zappos. The first two sections focus on the Zappos timeline, the change process leading to Holacracy, and the development of organisational culture over this period. The final two sections focus on the role of leadership and management in Holacracy, and how teams form and function within a complex organisation.

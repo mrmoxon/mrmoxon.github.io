@@ -74,7 +74,7 @@ Part of this equation depends on advanced physics engines and tools for simulati
 
 Sinclair's [Lifespan](https://en.wikipedia.org/wiki/Lifespan:_Why_We_Age_%E2%80%93_and_Why_We_Don%27t_Have_To) and [de Grey](https://en.wikipedia.org/wiki/Aubrey_de_Grey). New [induced pluripotent stem cell](https://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#:~:text=iPSCs%20are%20typically%20derived%20by,%2C%20Sox2%2C%20Klf4%20and%20cMyc.)
 
-[The War on Death](https://www.oscarmoxon.com/longevity/2022/06/30/war-on-death.html)
+[The War on Death](https://www.oscarmoxon.com/war-on-death.html)
 
 --- 
 

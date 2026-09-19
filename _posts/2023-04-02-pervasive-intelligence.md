@@ -10,9 +10,13 @@ image: /assets/agency.webp
 featured: false
 recommended: false
 description: "Analysing short timelines: By 2025, advanced neural networks will create and distribute apps, outperform humans at any short computer task, and generate coherent short films."
+redirect_from:
+  - /civilisation/2023/03/31/pervasive-intelligence.html
+  - /civilisation/2023/04/01/pervasive-intelligence.html
+  - /civilisation/2023/04/02/pervasive-intelligence.html
 ---
 
-This is the first part of my [Pervasive Machines series](/civilisation/2023/04/02/three-stages-of-agi.html).
+This is the first part of my [Pervasive Machines series](/three-stages-of-agi.html).
 
 <!-- Contents
 

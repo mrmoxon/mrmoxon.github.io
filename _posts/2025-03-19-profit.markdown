@@ -8,6 +8,8 @@ mini: false
 favourite: 5
 image: /assets/cascade.png
 description: "Profit-maximising algorithms create resource foundations that enable power-maximising systems, which will develop the complexity necessary for emergence beyond civilisation."
+redirect_from:
+  - /civilisation/2025/03/19/profit.html
 ---
 
 When will we see the first truly autonomous profit-maximising algorithms? As we approach an era where artificial intelligence can clone professional expertise across industries, the question of algorithmic entrepreneurship becomes increasingly relevant.

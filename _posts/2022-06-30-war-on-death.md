@@ -8,6 +8,8 @@ mini: false
 favourite: 5
 image: /assets/gilgamesh.webp
 description: "Exploring the history of longevity in mythology, Death 1.0 and 2.0, 'The Spinning Vinyl' of aging, 'hypercentinarians', and how we hope to eliminate non-communicable disease."
+redirect_from:
+  - /longevity/2022/06/30/war-on-death.html
 ---
 
 Technology will give us the Fountain of Youth. Exploring the history of longevity in mythology, how we can categorise death by its two eras, "The Spinning Vinyl" of aging, "hypercentinarians", and how we hope to eliminate non-communicable disease.

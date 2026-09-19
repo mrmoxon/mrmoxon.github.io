@@ -8,6 +8,8 @@ mini: false
 favourite: 5
 image:
 description: "A survey of Moroccan economics on the world stage by comparison of the developments, challenges, and avenues for policy change that stand to alleviate historical demographic problems."
+redirect_from:
+  - /economics/2022/05/30/economic-development-in-morocco.html
 ---
 
 A survey of Moroccan economics on the world stage by comparison of the developments, challenges, and avenues for policy change that stand to alleviate historical demographic problems as Morocco becomes a global trade partner and figurehead of the Arab world. Cover: Marrakesh Medina Jemaa el-Fnaa, twilight.

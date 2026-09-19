@@ -10,6 +10,9 @@ favourite: 6
 image: /assets/finches.png
 featured: false
 recommended: false
+redirect_from:
+  - /brains/2022/04/30/substrate-independence.html
+  - /brains/2022/05/01/substrate-independence.html
 ---
 Exploring the reductionist stories of life and consciousness, the origin of living organisms, fitness and natural selection, substrate-independent phenomena, and what all this means for us as a species. 
 
@@ -140,4 +143,4 @@ Imagine two programmers are jointly hunting a bug in their code, they are probab
 
 [6]<a id="ref-6"></a> - 'Suitcase word' - coined by Marvin Minsky, one of the 'Big 4' Artificial Intelligence pioneers of the 60s. 
 
-[7]<a id="ref-7"></a> - Lovelock's 'Gaia Hypothesis' is frequently cited as a prophetic view of the world and the world we find ourselves making. The new revision of the theory also focuses on humans developing hyperintelligence. It's available here. 
+[7]<a id="ref-7"></a> - Lovelock's 'Gaia Hypothesis' is frequently cited as a prophetic view of the world and the world we find ourselves making. The new revision of the theory also focuses on humans developing hyperintelligence. It's available here.

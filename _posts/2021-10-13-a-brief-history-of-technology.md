@@ -11,6 +11,10 @@ featured: false
 recommended: false
 show_notice: true
 description: "Exploration of the common narrative about the history of invention, the acceleration of technological innovation, and the driving force behind unprecedented growth in the 21st century."
+redirect_from:
+  - /civilisation/2021/10/13/a-brief-history-of-technology.html
+  - /civilisation/2021/10/18/a-brief-history-of-technology.html
+  - /civilisation/2021/10/19/a-brief-history-of-technology.html
 ---
 
 Exploration of the common narrative about the history of invention, the acceleration of technological innovation, and the driving force behind unprecedented growth in the 21st century.

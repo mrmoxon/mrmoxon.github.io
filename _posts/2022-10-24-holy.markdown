@@ -10,6 +10,9 @@ image: /assets/fusion.png
 featured: false
 recommended: true
 description: "On the concepts of an infinite rate of innovation, the 'most dangerous algoritm' in the world, the new gods Homo Sapiens, and the tools we can use to automate learning entirely."
+redirect_from:
+  - /civilisation/2022/10/23/holy.html
+  - /civilisation/2022/10/24/holy.html
 ---
 
 On the concepts of an infinite rate of innovation, the "most dangerous algoritm" in the world, the new gods of Homo Sapiens, and the tools we can use to automate learning entirely.

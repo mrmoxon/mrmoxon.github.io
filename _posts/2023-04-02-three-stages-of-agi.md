@@ -10,9 +10,12 @@ featured: false
 recommended: false
 image: /assets/hollowing.webp
 description: "Stage One: AGI Tools, Stage Two: AGI Emergence, Stage Three: Later Generations of AGI and the post-intelligence explosion."
+redirect_from:
+  - /civilisation/2023/04/01/three-stages-of-agi.html
+  - /civilisation/2023/04/02/three-stages-of-agi.html
 ---
 
-This is the second part of my [Pervasive Machines series](/civilisation/2023/04/01/pervasive-intelligence.html).
+This is the second part of my [Pervasive Machines series](/pervasive-intelligence.html).
 
 ---
 
@@ -121,5 +124,4 @@ The development of AGI has the potential to put the world into its final chapter
 [17]<a id="ref-17"></a> Researchers like Dr. Kenneth Hayworth at the Howard Hughes Medical Institute have been working on brain preservation techniques such as plastination, which could potentially allow for high-resolution scanning and digitization of neural tissue (source: https://www.brainpreservation.org/team/dr-kenneth-hayworth/).
 
 [Visionaries]: Read Ray Kurzweil’s forecasts for AI here. Listen to OpenAI CEO Sam Altman talk to Lex Fridman here and Demis Hassabis of DeepMind here.
-
 

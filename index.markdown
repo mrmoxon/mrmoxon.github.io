@@ -19,10 +19,10 @@ layout: page
   <p>Some of my pieces on augmenting what it means to be human.</p>
 
   <ul class="favourite-essays">
-    <li><span class="essay-date">Nov '25,</span> <a href="/civilisation/2025/11/17/earrings.html">A Market of Whispering Earrings</a></li>
-    <li><span class="essay-date">Jun '25,</span> <a href="/hierarchies/2025/06/27/clone.html">Build Your Exoskeleton</a></li>
-    <li><span class="essay-date">Feb '25,</span> <a href="/civilisation/2025/02/13/vibe.html">A Society of Rick Rubins</a></li>
-    <li><span class="essay-date">Oct '24,</span> <a href="/hierarchies/2024/10/24/emergence.html">Understanding Emergence</a></li>
+    <li><span class="essay-date">Nov '25,</span> <a href="/earrings.html">A Market of Whispering Earrings</a></li>
+    <li><span class="essay-date">Jun '25,</span> <a href="/clone.html">Build Your Exoskeleton</a></li>
+    <li><span class="essay-date">Feb '25,</span> <a href="/vibe.html">A Society of Rick Rubins</a></li>
+    <li><span class="essay-date">Oct '24,</span> <a href="/emergence.html">Understanding Emergence</a></li>
   </ul>
   <p class="background-text">I am currently building a list of <a href="/emergent-phenomena/" class="custom-link">tractable emergence experiments</a>.</p>
 

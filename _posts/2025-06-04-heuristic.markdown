@@ -8,6 +8,9 @@ mini: false
 favourite: 5
 image: /assets/heuristics.png
 description: "How to develop predictive models that outperform your competition."
+redirect_from:
+  - /hierarchies/2025/06/04/heuristic.html
+  - /hierarchies/2025/06/07/heuristic.html
 ---
 
 All jobs are exposed to natural selection; at work, if you do not evolve, you are doomed to be replaced by the intern, by the market, by new technology, or all three. But some jobs are far more exposed to creative disruption than others, and the champions of these professions exhibit a pattern worth studying. 

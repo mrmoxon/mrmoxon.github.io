@@ -8,6 +8,9 @@ mini: false
 favourite: 5.5
 image: /assets/superlinears.webp
 description: "Exploring the nuances of strong, accelerating trends in technology; compounding growth effects and making predictions in the age of the post-singularity."
+redirect_from:
+  - /civilisation/2022/07/11/superlinear.html
+  - /civilisation/2022/07/12/superlinear.html
 ---
 
 Understanding the nuances of strong, accelerating trends in technology that can be fed back into themselves is the reccuring theme of this blog. I find the implications of these trends to be the strongest axioms for making predictions about the future of our civilisation. 
