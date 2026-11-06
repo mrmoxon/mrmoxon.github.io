@@ -7,11 +7,10 @@ study: false
 mini: true
 ongoing: true
 favourite: 0
-permalink: /egg-and-simulation/
-description: "An ongoing list of references that treat simulated lives as a desirable state."
+description: "Theodicies for a simulated world: stories and essays about why a made life might be worth living."
 ---
 
-An ongoing list of references that treat simulated lives as a desirable state.
+Theodicies for a simulated world: stories and essays about why a made life might be worth living.
 
 - <a href="https://www.galactanet.com/oneoff/theegg_mod.html" class="custom-link">The Egg</a>, by Andy Weir
 - <a href="https://www.sevenstories.com/blogs/102-excerpt-the-book-of-martha-a-nbsp-short-story-from-nbsp-bloodchild" class="custom-link">The Book of Martha</a>, by Octavia Butler

@@ -8,7 +8,7 @@ layout: base
   <div class="home-layout">
     <div class="home-main">
 
-  {%- assign all_posts = site.posts | where_exp: "post", "post.standalone != true" -%}
+  {%- assign all_posts = site.posts -%}
 
 <!-- Section for Writing -->
 {%- if all_posts.size > 0 -%}
@@ -62,7 +62,7 @@ layout: base
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
         <div class="post-meta-wrapper">
-          <button class="post-meta excerpt-date" type="button" aria-expanded="false" title="Toggle description">{% if post.ongoing %}ongoing{% else %}{{ post.date | date: "%b %Y" }}{% endif %}</button>
+          <button class="post-meta excerpt-date" type="button" aria-expanded="false" title="Toggle description">{{ post.date | date: "%b %Y" }}</button>
           <button class="excerpt-toggle" aria-label="Show excerpt" aria-expanded="false">
             <svg class="toggle-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="horizontal" d="M2 7H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>

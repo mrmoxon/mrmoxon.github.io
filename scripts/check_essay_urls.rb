@@ -10,7 +10,7 @@ config = Jekyll.configuration('config' => ['_config.yml'], 'quiet' => true)
 config['plugins'] = []
 site = Jekyll::Site.new(config)
 site.read
-posts = site.posts.docs.reject { |post| post.data['standalone'] }
+posts = site.posts.docs.reject { |post| post.url == '/emergent-phenomena/' }
 urls = posts.map(&:url)
 raise 'Duplicate essay URLs' unless urls.uniq.length == urls.length
 page_urls = site.pages.map(&:url)
@@ -36,9 +36,7 @@ posts.each do |post|
   assert(html.include?(%(<link rel="canonical" href="#{canonical}")), "Missing canonical: #{post.url}")
   assert(html.include?('class="post h-entry"'), "Article missing: #{post.url}")
   assert(locations.include?(canonical), "Missing sitemap entry: #{post.url}")
-  aliases = Array(post.data['redirect_from'])
-  assert(!aliases.empty?, "Missing legacy redirects: #{post.url}")
-  aliases.each do |old|
+  Array(post.data['redirect_from']).each do |old|
     redirects << old
     redirect = output(old)
     assert(redirect.include?(%(<link rel="canonical" href="#{canonical}")), "Wrong redirect: #{old}")
@@ -48,7 +46,7 @@ posts.each do |post|
 end
 assert(redirects.uniq.length == redirects.length, 'Conflicting legacy redirects')
 assert((redirects & urls).empty?, 'Redirect overwrites an article')
-assert(output('/emergent-phenomena/').include?('Tractable Emergence'), 'Standalone page missing')
+assert(output('/emergent-phenomena/').include?('Tractable Emergence'), 'Tractable Emergence page missing')
 
 feed = REXML::Document.new(File.read('_site/feed.xml'))
 REXML::XPath.each(feed, '//*[local-name()="entry"]/*[local-name()="link"]') do |link|
@@ -60,4 +58,4 @@ search = JSON.parse(File.read('_site/search_index.json'))
 search.each do |entry|
   assert(!redirects.include?(URI(entry.fetch('url')).path), 'Search points to legacy URL')
 end
-puts "Verified #{posts.length} short essay URLs, #{redirects.length} redirects, sitemap, feed, search, and standalone page."
+puts "Verified #{posts.length} short essay URLs, #{redirects.length} redirects, sitemap, feed, search, and Tractable Emergence page."

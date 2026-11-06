@@ -7,8 +7,8 @@ study: false
 mini: true
 favourite: 0
 permalink: /emergent-phenomena/
-standalone: true
-excerpt: "A collection of studies I've found particularly interesting because they exhibit: (1) generative structure, (2) a non-trivial selection gradient, and (3) clues about some hidden universal assembly function."
+ongoing: true
+excerpt: "A collection of studies I've found interesting because they exhibit: (1) generative structure, (2) a non-trivial selection gradient, and (3) clues about some hidden universal assembly function."
 ---
 
 <!-- We have come to our senses in an enormous universe with immense expressive capabilities. By developing media (mathematics, formal logic, computation, evolutionary search) we can better model our reality and adapt to it. Our defining search is for pockets of computational tractability where structure is rich enough for us to extract durable patterns.  -->
