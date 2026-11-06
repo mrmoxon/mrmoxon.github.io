@@ -12,6 +12,10 @@ layout: base
         <a href="{{ '/writing/' | relative_url }}?category={{ cat | url_encode }}" class="post-category" itemprop="articleSection">{{ page.categories | first | replace: "-", " " }}</a>
         <span class="meta-separator">·</span>
       {%- endif -%}
+      {%- if page.ongoing -%}
+        <span class="post-ongoing">ongoing</span>
+        <span class="meta-separator">·</span>
+      {%- endif -%}
       <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" title="{{ page.date | date: '%B %-d, %Y' }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
       </time>
