@@ -5,7 +5,8 @@ layout: page
 <div class="central-column">
 
   <p class="intro">I work on augmenting human agency with technology in San Francisco.</p>
-  <p class="intro">At <a href="https://www.primeintellect.ai/" class="custom-link">Prime Intellect</a>, we're building the open superintelligence stack: everything the frontier labs keep behind closed doors, made available to anyone. Previously I was the founding engineer and product lead at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>, building personalised models for everyone, and acquired by <a href="https://thinkingmachines.ai/" class="custom-link">Thinking Machines Lab</a> in 2026.</p>
+  <p class="intro">At <a href="https://www.primeintellect.ai/" class="custom-link">Prime Intellect</a>, I work on the open superintelligence stack so that anyone can train and improve models, not just the big labs.</p>
+  <p class="intro">Previously I was the founding engineer and product lead at <a href="https://workshoplabs.ai/" class="custom-link">Workshop Labs</a>, building personalised models for everyone, and acquired by <a href="https://thinkingmachines.ai/" class="custom-link">Thinking Machines Lab</a> in 2026.</p>
 
   {% include contact-links.html %}
 
