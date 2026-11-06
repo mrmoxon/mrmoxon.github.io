@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Egg and The Simulation"
+title:  "Simulating Eggs"
 date:   2026-11-06 00:00:00 +0000
 categories: brains
 study: false
