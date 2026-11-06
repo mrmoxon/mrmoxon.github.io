@@ -7,11 +7,12 @@ study: false
 mini: true
 ongoing: true
 favourite: 0
-description: "On the optimal act of creation: if you could build any world for a mind to live in, what should you build?"
+description: "On the act of creating realities within our reality, and what worlds we might choose to experience, given this power."
 ---
 
-On the optimal act of creation: if you could build any world for a mind to live in, what should you build?
+On the act of creating realities within our reality, and what worlds we might choose to experience, given this power.
 
 - <a href="https://www.galactanet.com/oneoff/theegg_mod.html" class="custom-link">The Egg</a>, by Andy Weir
 - <a href="https://www.sevenstories.com/blogs/102-excerpt-the-book-of-martha-a-nbsp-short-story-from-nbsp-bloodchild" class="custom-link">The Book of Martha</a>, by Octavia Butler
 - <a href="https://slatestarcodex.com/2015/03/15/answer-to-job/" class="custom-link">Answer to Job</a>, by Scott Alexander (Slate Star Codex)
+- <a href="https://en.wikipedia.org/wiki/Culture_series" class="custom-link">The Culture</a>, by Iain M. Banks: Infinite Fun Space in <em>Excession</em>, and virtual afterlives in <em>Surface Detail</em>
