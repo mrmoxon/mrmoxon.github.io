@@ -93,7 +93,7 @@ iframe, embed { max-width: 100%; }
 .footer-inner { display: flex; flex-direction: column; gap: 0; }
 .footer-headshot { width: 100vw; position: relative; left: 50%; margin-left: -50vw; }
 .footer-headshot img { width: 100%; height: auto; }
-.footer-headshot .headshot-light { display: block; filter: brightness(1.03); }
+.footer-headshot .headshot-light { display: block; filter: brightness(1.03); opacity: calc(1 - var(--theme-progress)); }
 .footer-headshot .headshot-dark { display: block; position: absolute; inset: 0; opacity: var(--theme-progress); pointer-events: none; }
 @media (prefers-reduced-motion: reduce) {
   :root, .footer-headshot .headshot-dark { transition: none; }
