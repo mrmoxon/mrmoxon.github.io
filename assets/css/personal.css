@@ -212,6 +212,12 @@ iframe, embed { max-width: 100%; }
 .excerpt-date:hover { color: var(--ink); }
 .custom-link-number, .link-preview { display: none; }
 .dropdown-toggle { border: 0; background: none; padding: 0; text-align: left; }
+.emergence-entry-camp-label { display: block; margin: -4px 0 2px; border: 0; background: none; padding: 0; color: var(--muted); font-size: 12px; text-decoration: underline; text-underline-offset: 4px; }
+.emergence-entry-camp-label:hover { color: var(--ink); }
+.entry-added-date { color: var(--muted); font-size: 12px; }
+.entry-added-date em { font-style: normal; }
+.emergence-entry summary { color: var(--muted); font-size: 13px; cursor: pointer; }
+.emergence-entry summary:hover { color: var(--ink); }
 @media (max-width: 600px) {
   body { margin-top: 36px; padding: 0 22px; }
   .post-title-meta { gap: 10px; }
